@@ -1,4 +1,7 @@
 <?php $this->view("./components/Header"); ?>
+<style>
+.error-search:after {position: fixed;left: 600px;top: 0;bottom: 0;width: 30rem;background: rgba(255,255,255,.25);box-sizing: border-box;z-index: -1;content: '';}
+</style>
 <body class="ember-application">
 <?php $this->view("./components/Nav"); ?>
                 <div id="library-content" class="container ">
@@ -13,13 +16,11 @@
                                         <?php $this->view("./components/Logo"); ?>
                                     </div>
                                 </div>
-                                <div class="subjects-search-container <?=((isset($_GET['search_data_is_found_on_api'])?'complete':''))?>">
+                                <div class="subjects-search-container clone_result">
                                     <h3 class="subjects-search-sub-head">Find Journal By Title, Subject, or ISSN</h3>
                                     <div id="ember637" class="search-pane-container __bd7a3 subjects ember-view">
-                                        <ul role="dialog" class="search-pane">
-                                            <?php if(isset($_GET['search_data_is_found_on_api'])):?>
-                                            <?php $this->view("components/apiHeader")?>
-                                            <?php endif;?>
+                                        <ul role="dialog" class="search-pane complete">
+                                            <div id="search_result"></div>
                                             <li class="search-field-container" data-ember-action="" data-ember-action-640="640" data-ember-action-641="641">
                                                 <div id="ember644" class="search-field __991a0 ember-view">
                                                     <input aria-label="Find Journal By Title, Subject, or ISSN" placeholder="Find Journal By Title, Subject, or ISSN" type="text" autocomplete="off" title="Find Journal By Title, Subject, or ISSN" id="ember650" class="hero-search ember-text-field ember-view">

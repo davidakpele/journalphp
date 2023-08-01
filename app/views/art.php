@@ -77,7 +77,7 @@
                             <ul class="bookshelf">
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8270" class="ember-view"><a
-                                            href="/libraries/603/journals/267555?sort=title" id="ember8271"
+                                            href="/journals/libraries/search/267555?sort=title" id="ember8271"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8272" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -93,7 +93,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8273" class="ember-view"><a
-                                            href="/libraries/603/journals/33246?sort=title" id="ember8274"
+                                            href="/journals/libraries/search/33246?sort=title" id="ember8274"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8275" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -108,7 +108,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8276" class="ember-view"><a
-                                            href="/libraries/603/journals/123236?sort=title" id="ember8277"
+                                            href="/journals/libraries/search/123236?sort=title" id="ember8277"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8278" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -125,7 +125,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8279" class="ember-view"><a
-                                            href="/libraries/603/journals/10663?sort=title" id="ember8280"
+                                            href="/journals/libraries/search/10663?sort=title" id="ember8280"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8281" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -141,7 +141,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8282" class="ember-view"><a
-                                            href="/libraries/603/journals/37440?sort=title" id="ember8283"
+                                            href="/journals/libraries/search/37440?sort=title" id="ember8283"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8284" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -155,7 +155,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8285" class="ember-view"><a
-                                            href="/libraries/603/journals/44563?sort=title" id="ember8286"
+                                            href="/journals/libraries/search/44563?sort=title" id="ember8286"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8287" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -172,7 +172,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8288" class="ember-view"><a
-                                            href="/libraries/603/journals/123945?sort=title" id="ember8289"
+                                            href="/journals/libraries/search/123945?sort=title" id="ember8289"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8290" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -186,7 +186,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8291" class="ember-view"><a
-                                            href="/libraries/603/journals/262378?sort=title" id="ember8292"
+                                            href="/journals/libraries/search/262378?sort=title" id="ember8292"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8293" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -203,7 +203,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8294" class="ember-view"><a
-                                            href="/libraries/603/journals/41008?sort=title" id="ember8295"
+                                            href="/journals/libraries/search/41008?sort=title" id="ember8295"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8296" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -220,7 +220,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8297" class="ember-view"><a
-                                            href="/libraries/603/journals/217801?sort=title" id="ember8298"
+                                            href="/journals/libraries/search/217801?sort=title" id="ember8298"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8299" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -237,7 +237,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8300" class="ember-view"><a
-                                            href="/libraries/603/journals/1354?sort=title" id="ember8301"
+                                            href="/journals/libraries/search/1354?sort=title" id="ember8301"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8302" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -253,7 +253,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8303" class="ember-view"><a
-                                            href="/libraries/603/journals/339513?sort=title" id="ember8304"
+                                            href="/journals/libraries/search/339513?sort=title" id="ember8304"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8305" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -267,7 +267,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8306" class="ember-view"><a
-                                            href="/libraries/603/journals/41145?sort=title" id="ember8307"
+                                            href="/journals/libraries/search/41145?sort=title" id="ember8307"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8308" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -282,7 +282,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8309" class="ember-view"><a
-                                            href="/libraries/603/journals/399846?sort=title" id="ember8310"
+                                            href="/journals/libraries/search/399846?sort=title" id="ember8310"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8311" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -297,7 +297,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8312" class="ember-view"><a
-                                            href="/libraries/603/journals/34600?sort=title" id="ember8313"
+                                            href="/journals/libraries/search/34600?sort=title" id="ember8313"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8314" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -314,7 +314,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8315" class="ember-view"><a
-                                            href="/libraries/603/journals/15692?sort=title" id="ember8316"
+                                            href="/journals/libraries/search/15692?sort=title" id="ember8316"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8317" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -329,7 +329,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8318" class="ember-view"><a
-                                            href="/libraries/603/journals/41232?sort=title" id="ember8319"
+                                            href="/journals/libraries/search/41232?sort=title" id="ember8319"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8320" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -344,7 +344,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8321" class="ember-view"><a
-                                            href="/libraries/603/journals/307150?sort=title" id="ember8322"
+                                            href="/journals/libraries/search/307150?sort=title" id="ember8322"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8323" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -359,7 +359,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8324" class="ember-view"><a
-                                            href="/libraries/603/journals/34610?sort=title" id="ember8325"
+                                            href="/journals/libraries/search/34610?sort=title" id="ember8325"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8326" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -376,7 +376,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8327" class="ember-view"><a
-                                            href="/libraries/603/journals/124017?sort=title" id="ember8328"
+                                            href="/journals/libraries/search/124017?sort=title" id="ember8328"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8329" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -392,7 +392,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8330" class="ember-view"><a
-                                            href="/libraries/603/journals/388732?sort=title" id="ember8331"
+                                            href="/journals/libraries/search/388732?sort=title" id="ember8331"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8332" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -406,7 +406,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8333" class="ember-view"><a
-                                            href="/libraries/603/journals/41325?sort=title" id="ember8334"
+                                            href="/journals/libraries/search/41325?sort=title" id="ember8334"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8335" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -423,7 +423,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8336" class="ember-view"><a
-                                            href="/libraries/603/journals/307388?sort=title" id="ember8337"
+                                            href="/journals/libraries/search/307388?sort=title" id="ember8337"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8338" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -438,7 +438,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8339" class="ember-view"><a
-                                            href="/libraries/603/journals/380637?sort=title" id="ember8340"
+                                            href="/journals/libraries/search/380637?sort=title" id="ember8340"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8341" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -455,7 +455,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8342" class="ember-view"><a
-                                            href="/libraries/603/journals/375811?sort=title" id="ember8343"
+                                            href="/journals/libraries/search/375811?sort=title" id="ember8343"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8344" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -472,7 +472,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8345" class="ember-view"><a
-                                            href="/libraries/603/journals/41368?sort=title" id="ember8346"
+                                            href="/journals/libraries/search/41368?sort=title" id="ember8346"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8347" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -489,7 +489,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8348" class="ember-view"><a
-                                            href="/libraries/603/journals/145547?sort=title" id="ember8349"
+                                            href="/journals/libraries/search/145547?sort=title" id="ember8349"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8350" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -506,7 +506,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8351" class="ember-view"><a
-                                            href="/libraries/603/journals/41387?sort=title" id="ember8352"
+                                            href="/journals/libraries/search/41387?sort=title" id="ember8352"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8353" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -523,7 +523,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8354" class="ember-view"><a
-                                            href="/libraries/603/journals/41382?sort=title" id="ember8355"
+                                            href="/journals/libraries/search/41382?sort=title" id="ember8355"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8356" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -540,7 +540,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8357" class="ember-view"><a
-                                            href="/libraries/603/journals/296261?sort=title" id="ember8358"
+                                            href="/journals/libraries/search/296261?sort=title" id="ember8358"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8359" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -557,7 +557,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8360" class="ember-view"><a
-                                            href="/libraries/603/journals/10542?sort=title" id="ember8361"
+                                            href="/journals/libraries/search/10542?sort=title" id="ember8361"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8362" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -571,7 +571,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8363" class="ember-view"><a
-                                            href="/libraries/603/journals/41510?sort=title" id="ember8364"
+                                            href="/journals/libraries/search/41510?sort=title" id="ember8364"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8365" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -585,7 +585,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8366" class="ember-view"><a
-                                            href="/libraries/603/journals/41703?sort=title" id="ember8367"
+                                            href="/journals/libraries/search/41703?sort=title" id="ember8367"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8368" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -602,7 +602,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8369" class="ember-view"><a
-                                            href="/libraries/603/journals/399774?sort=title" id="ember8370"
+                                            href="/journals/libraries/search/399774?sort=title" id="ember8370"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8371" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -616,7 +616,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8372" class="ember-view"><a
-                                            href="/libraries/603/journals/41977?sort=title" id="ember8373"
+                                            href="/journals/libraries/search/41977?sort=title" id="ember8373"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8374" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -631,7 +631,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8375" class="ember-view"><a
-                                            href="/libraries/603/journals/39956?sort=title" id="ember8376"
+                                            href="/journals/libraries/search/39956?sort=title" id="ember8376"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8377" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -647,7 +647,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8378" class="ember-view"><a
-                                            href="/libraries/603/journals/17762?sort=title" id="ember8379"
+                                            href="/journals/libraries/search/17762?sort=title" id="ember8379"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8380" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -664,7 +664,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8381" class="ember-view"><a
-                                            href="/libraries/603/journals/9526?sort=title" id="ember8382"
+                                            href="/journals/libraries/search/9526?sort=title" id="ember8382"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8383" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -680,7 +680,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8384" class="ember-view"><a
-                                            href="/libraries/603/journals/32168?sort=title" id="ember8385"
+                                            href="/journals/libraries/search/32168?sort=title" id="ember8385"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8386" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -694,7 +694,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8387" class="ember-view"><a
-                                            href="/libraries/603/journals/9785?sort=title" id="ember8388"
+                                            href="/journals/libraries/search/9785?sort=title" id="ember8388"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8389" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -709,7 +709,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8390" class="ember-view"><a
-                                            href="/libraries/603/journals/398509?sort=title" id="ember8391"
+                                            href="/journals/libraries/search/398509?sort=title" id="ember8391"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8392" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -726,7 +726,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8393" class="ember-view"><a
-                                            href="/libraries/603/journals/9801?sort=title" id="ember8394"
+                                            href="/journals/libraries/search/9801?sort=title" id="ember8394"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8395" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -742,7 +742,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8396" class="ember-view"><a
-                                            href="/libraries/603/journals/41953?sort=title" id="ember8397"
+                                            href="/journals/libraries/search/41953?sort=title" id="ember8397"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8398" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -757,7 +757,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8399" class="ember-view"><a
-                                            href="/libraries/603/journals/17236?sort=title" id="ember8400"
+                                            href="/journals/libraries/search/17236?sort=title" id="ember8400"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8401" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -772,7 +772,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8402" class="ember-view"><a
-                                            href="/libraries/603/journals/10819?sort=title" id="ember8403"
+                                            href="/journals/libraries/search/10819?sort=title" id="ember8403"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8404" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -788,7 +788,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8405" class="ember-view"><a
-                                            href="/libraries/603/journals/41971?sort=title" id="ember8406"
+                                            href="/journals/libraries/search/41971?sort=title" id="ember8406"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8407" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -805,7 +805,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8408" class="ember-view"><a
-                                            href="/libraries/603/journals/33445?sort=title" id="ember8409"
+                                            href="/journals/libraries/search/33445?sort=title" id="ember8409"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8410" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -822,7 +822,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8411" class="ember-view"><a
-                                            href="/libraries/603/journals/42008?sort=title" id="ember8412"
+                                            href="/journals/libraries/search/42008?sort=title" id="ember8412"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8413" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -836,7 +836,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8414" class="ember-view"><a
-                                            href="/libraries/603/journals/48028?sort=title" id="ember8415"
+                                            href="/journals/libraries/search/48028?sort=title" id="ember8415"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8416" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -853,7 +853,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8417" class="ember-view"><a
-                                            href="/libraries/603/journals/93167?sort=title" id="ember8418"
+                                            href="/journals/libraries/search/93167?sort=title" id="ember8418"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8419" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -870,7 +870,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8420" class="ember-view"><a
-                                            href="/libraries/603/journals/428102?sort=title" id="ember8421"
+                                            href="/journals/libraries/search/428102?sort=title" id="ember8421"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8422" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -887,7 +887,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8423" class="ember-view"><a
-                                            href="/libraries/603/journals/369356?sort=title" id="ember8424"
+                                            href="/journals/libraries/search/369356?sort=title" id="ember8424"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8425" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -904,7 +904,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8426" class="ember-view"><a
-                                            href="/libraries/603/journals/42258?sort=title" id="ember8427"
+                                            href="/journals/libraries/search/42258?sort=title" id="ember8427"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8428" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -921,7 +921,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8429" class="ember-view"><a
-                                            href="/libraries/603/journals/139497?sort=title" id="ember8430"
+                                            href="/journals/libraries/search/139497?sort=title" id="ember8430"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8431" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -935,7 +935,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8432" class="ember-view"><a
-                                            href="/libraries/603/journals/299726?sort=title" id="ember8433"
+                                            href="/journals/libraries/search/299726?sort=title" id="ember8433"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8434" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -949,7 +949,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8435" class="ember-view"><a
-                                            href="/libraries/603/journals/431492?sort=title" id="ember8436"
+                                            href="/journals/libraries/search/431492?sort=title" id="ember8436"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8437" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -965,7 +965,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8438" class="ember-view"><a
-                                            href="/libraries/603/journals/194991?sort=title" id="ember8439"
+                                            href="/journals/libraries/search/194991?sort=title" id="ember8439"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8440" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -979,7 +979,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8441" class="ember-view"><a
-                                            href="/libraries/603/journals/99165?sort=title" id="ember8442"
+                                            href="/journals/libraries/search/99165?sort=title" id="ember8442"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8443" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -993,7 +993,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8444" class="ember-view"><a
-                                            href="/libraries/603/journals/42421?sort=title" id="ember8445"
+                                            href="/journals/libraries/search/42421?sort=title" id="ember8445"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8446" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1009,7 +1009,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8447" class="ember-view"><a
-                                            href="/libraries/603/journals/42427?sort=title" id="ember8448"
+                                            href="/journals/libraries/search/42427?sort=title" id="ember8448"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8449" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1026,7 +1026,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8450" class="ember-view"><a
-                                            href="/libraries/603/journals/42723?sort=title" id="ember8451"
+                                            href="/journals/libraries/search/42723?sort=title" id="ember8451"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8452" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1043,7 +1043,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8453" class="ember-view"><a
-                                            href="/libraries/603/journals/42733?sort=title" id="ember8454"
+                                            href="/journals/libraries/search/42733?sort=title" id="ember8454"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8455" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1057,7 +1057,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8456" class="ember-view"><a
-                                            href="/libraries/603/journals/303397?sort=title" id="ember8457"
+                                            href="/journals/libraries/search/303397?sort=title" id="ember8457"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8458" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1071,7 +1071,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8459" class="ember-view"><a
-                                            href="/libraries/603/journals/99194?sort=title" id="ember8460"
+                                            href="/journals/libraries/search/99194?sort=title" id="ember8460"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8461" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1088,7 +1088,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8462" class="ember-view"><a
-                                            href="/libraries/603/journals/42741?sort=title" id="ember8463"
+                                            href="/journals/libraries/search/42741?sort=title" id="ember8463"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8464" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1104,7 +1104,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8465" class="ember-view"><a
-                                            href="/libraries/603/journals/42766?sort=title" id="ember8466"
+                                            href="/journals/libraries/search/42766?sort=title" id="ember8466"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8467" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1119,7 +1119,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8468" class="ember-view"><a
-                                            href="/libraries/603/journals/42778?sort=title" id="ember8469"
+                                            href="/journals/libraries/search/42778?sort=title" id="ember8469"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8470" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1133,7 +1133,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8471" class="ember-view"><a
-                                            href="/libraries/603/journals/42826?sort=title" id="ember8472"
+                                            href="/journals/libraries/search/42826?sort=title" id="ember8472"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8473" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1148,7 +1148,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8474" class="ember-view"><a
-                                            href="/libraries/603/journals/33312?sort=title" id="ember8475"
+                                            href="/journals/libraries/search/33312?sort=title" id="ember8475"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8476" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1162,7 +1162,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8477" class="ember-view"><a
-                                            href="/libraries/603/journals/10812?sort=title" id="ember8478"
+                                            href="/journals/libraries/search/10812?sort=title" id="ember8478"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8479" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1178,7 +1178,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8480" class="ember-view"><a
-                                            href="/libraries/603/journals/10408?sort=title" id="ember8481"
+                                            href="/journals/libraries/search/10408?sort=title" id="ember8481"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8482" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1194,7 +1194,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8483" class="ember-view"><a
-                                            href="/libraries/603/journals/33457?sort=title" id="ember8484"
+                                            href="/journals/libraries/search/33457?sort=title" id="ember8484"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8485" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1210,7 +1210,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8486" class="ember-view"><a
-                                            href="/libraries/603/journals/18256?sort=title" id="ember8487"
+                                            href="/journals/libraries/search/18256?sort=title" id="ember8487"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8488" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1226,7 +1226,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8489" class="ember-view"><a
-                                            href="/libraries/603/journals/18257?sort=title" id="ember8490"
+                                            href="/journals/libraries/search/18257?sort=title" id="ember8490"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8491" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1241,7 +1241,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8492" class="ember-view"><a
-                                            href="/libraries/603/journals/33456?sort=title" id="ember8493"
+                                            href="/journals/libraries/search/33456?sort=title" id="ember8493"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8494" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1256,7 +1256,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8495" class="ember-view"><a
-                                            href="/libraries/603/journals/10730?sort=title" id="ember8496"
+                                            href="/journals/libraries/search/10730?sort=title" id="ember8496"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8497" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1273,7 +1273,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8498" class="ember-view"><a
-                                            href="/libraries/603/journals/18258?sort=title" id="ember8499"
+                                            href="/journals/libraries/search/18258?sort=title" id="ember8499"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8500" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1288,7 +1288,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8501" class="ember-view"><a
-                                            href="/libraries/603/journals/43230?sort=title" id="ember8502"
+                                            href="/journals/libraries/search/43230?sort=title" id="ember8502"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8503" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1304,7 +1304,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8504" class="ember-view"><a
-                                            href="/libraries/603/journals/43336?sort=title" id="ember8505"
+                                            href="/journals/libraries/search/43336?sort=title" id="ember8505"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8506" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1321,7 +1321,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8507" class="ember-view"><a
-                                            href="/libraries/603/journals/43364?sort=title" id="ember8508"
+                                            href="/journals/libraries/search/43364?sort=title" id="ember8508"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8509" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1335,7 +1335,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8510" class="ember-view"><a
-                                            href="/libraries/603/journals/37483?sort=title" id="ember8511"
+                                            href="/journals/libraries/search/37483?sort=title" id="ember8511"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8512" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1350,7 +1350,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8513" class="ember-view"><a
-                                            href="/libraries/603/journals/43418?sort=title" id="ember8514"
+                                            href="/journals/libraries/search/43418?sort=title" id="ember8514"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8515" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1366,7 +1366,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8516" class="ember-view"><a
-                                            href="/libraries/603/journals/369287?sort=title" id="ember8517"
+                                            href="/journals/libraries/search/369287?sort=title" id="ember8517"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8518" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1383,7 +1383,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8519" class="ember-view"><a
-                                            href="/libraries/603/journals/43426?sort=title" id="ember8520"
+                                            href="/journals/libraries/search/43426?sort=title" id="ember8520"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8521" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1400,7 +1400,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8522" class="ember-view"><a
-                                            href="/libraries/603/journals/244722?sort=title" id="ember8523"
+                                            href="/journals/libraries/search/244722?sort=title" id="ember8523"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8524" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1414,7 +1414,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8525" class="ember-view"><a
-                                            href="/libraries/603/journals/284270?sort=title" id="ember8526"
+                                            href="/journals/libraries/search/284270?sort=title" id="ember8526"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8527" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1431,7 +1431,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8528" class="ember-view"><a
-                                            href="/libraries/603/journals/43501?sort=title" id="ember8529"
+                                            href="/journals/libraries/search/43501?sort=title" id="ember8529"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8530" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1445,7 +1445,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8531" class="ember-view"><a
-                                            href="/libraries/603/journals/17003?sort=title" id="ember8532"
+                                            href="/journals/libraries/search/17003?sort=title" id="ember8532"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8533" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1459,7 +1459,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8534" class="ember-view"><a
-                                            href="/libraries/603/journals/99272?sort=title" id="ember8535"
+                                            href="/journals/libraries/search/99272?sort=title" id="ember8535"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8536" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1473,7 +1473,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8537" class="ember-view"><a
-                                            href="/libraries/603/journals/32613?sort=title" id="ember8538"
+                                            href="/journals/libraries/search/32613?sort=title" id="ember8538"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8539" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1490,7 +1490,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8540" class="ember-view"><a
-                                            href="/libraries/603/journals/398543?sort=title" id="ember8541"
+                                            href="/journals/libraries/search/398543?sort=title" id="ember8541"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8542" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1505,7 +1505,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8543" class="ember-view"><a
-                                            href="/libraries/603/journals/355712?sort=title" id="ember8544"
+                                            href="/journals/libraries/search/355712?sort=title" id="ember8544"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8545" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1522,7 +1522,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8546" class="ember-view"><a
-                                            href="/libraries/603/journals/123985?sort=title" id="ember8547"
+                                            href="/journals/libraries/search/123985?sort=title" id="ember8547"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8548" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1539,7 +1539,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8549" class="ember-view"><a
-                                            href="/libraries/603/journals/40447?sort=title" id="ember8550"
+                                            href="/journals/libraries/search/40447?sort=title" id="ember8550"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8551" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1555,7 +1555,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8552" class="ember-view"><a
-                                            href="/libraries/603/journals/33681?sort=title" id="ember8553"
+                                            href="/journals/libraries/search/33681?sort=title" id="ember8553"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8554" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1572,7 +1572,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8555" class="ember-view"><a
-                                            href="/libraries/603/journals/175802?sort=title" id="ember8556"
+                                            href="/journals/libraries/search/175802?sort=title" id="ember8556"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8557" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1589,7 +1589,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8558" class="ember-view"><a
-                                            href="/libraries/603/journals/310462?sort=title" id="ember8559"
+                                            href="/journals/libraries/search/310462?sort=title" id="ember8559"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8560" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1605,7 +1605,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8561" class="ember-view"><a
-                                            href="/libraries/603/journals/16864?sort=title" id="ember8562"
+                                            href="/journals/libraries/search/16864?sort=title" id="ember8562"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8563" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1620,7 +1620,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8564" class="ember-view"><a
-                                            href="/libraries/603/journals/20837?sort=title" id="ember8565"
+                                            href="/journals/libraries/search/20837?sort=title" id="ember8565"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8566" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1637,7 +1637,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8567" class="ember-view"><a
-                                            href="/libraries/603/journals/17611?sort=title" id="ember8568"
+                                            href="/journals/libraries/search/17611?sort=title" id="ember8568"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8569" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1654,7 +1654,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8570" class="ember-view"><a
-                                            href="/libraries/603/journals/426525?sort=title" id="ember8571"
+                                            href="/journals/libraries/search/426525?sort=title" id="ember8571"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8572" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1671,7 +1671,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8573" class="ember-view"><a
-                                            href="/libraries/603/journals/32636?sort=title" id="ember8574"
+                                            href="/journals/libraries/search/32636?sort=title" id="ember8574"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8575" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1687,7 +1687,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8576" class="ember-view"><a
-                                            href="/libraries/603/journals/33370?sort=title" id="ember8577"
+                                            href="/journals/libraries/search/33370?sort=title" id="ember8577"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8578" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1702,7 +1702,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8579" class="ember-view"><a
-                                            href="/libraries/603/journals/44462?sort=title" id="ember8580"
+                                            href="/journals/libraries/search/44462?sort=title" id="ember8580"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8581" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1716,7 +1716,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8582" class="ember-view"><a
-                                            href="/libraries/603/journals/40218?sort=title" id="ember8583"
+                                            href="/journals/libraries/search/40218?sort=title" id="ember8583"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8584" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1731,7 +1731,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8585" class="ember-view"><a
-                                            href="/libraries/603/journals/39805?sort=title" id="ember8586"
+                                            href="/journals/libraries/search/39805?sort=title" id="ember8586"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8587" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1745,7 +1745,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8588" class="ember-view"><a
-                                            href="/libraries/603/journals/125634?sort=title" id="ember8589"
+                                            href="/journals/libraries/search/125634?sort=title" id="ember8589"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8590" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1762,7 +1762,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8591" class="ember-view"><a
-                                            href="/libraries/603/journals/37476?sort=title" id="ember8592"
+                                            href="/journals/libraries/search/37476?sort=title" id="ember8592"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8593" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1778,7 +1778,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8594" class="ember-view"><a
-                                            href="/libraries/603/journals/44509?sort=title" id="ember8595"
+                                            href="/journals/libraries/search/44509?sort=title" id="ember8595"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8596" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1794,7 +1794,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8597" class="ember-view"><a
-                                            href="/libraries/603/journals/44529?sort=title" id="ember8598"
+                                            href="/journals/libraries/search/44529?sort=title" id="ember8598"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8599" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1810,7 +1810,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8600" class="ember-view"><a
-                                            href="/libraries/603/journals/40731?sort=title" id="ember8601"
+                                            href="/journals/libraries/search/40731?sort=title" id="ember8601"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8602" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1825,7 +1825,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8603" class="ember-view"><a
-                                            href="/libraries/603/journals/442278?sort=title" id="ember8604"
+                                            href="/journals/libraries/search/442278?sort=title" id="ember8604"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8605" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1842,7 +1842,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8606" class="ember-view"><a
-                                            href="/libraries/603/journals/10911?sort=title" id="ember8607"
+                                            href="/journals/libraries/search/10911?sort=title" id="ember8607"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8608" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1858,7 +1858,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8609" class="ember-view"><a
-                                            href="/libraries/603/journals/427416?sort=title" id="ember8610"
+                                            href="/journals/libraries/search/427416?sort=title" id="ember8610"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8611" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1873,7 +1873,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8612" class="ember-view"><a
-                                            href="/libraries/603/journals/310364?sort=title" id="ember8613"
+                                            href="/journals/libraries/search/310364?sort=title" id="ember8613"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8614" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1889,7 +1889,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8615" class="ember-view"><a
-                                            href="/libraries/603/journals/9897?sort=title" id="ember8616"
+                                            href="/journals/libraries/search/9897?sort=title" id="ember8616"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8617" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1903,7 +1903,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8618" class="ember-view"><a
-                                            href="/libraries/603/journals/44715?sort=title" id="ember8619"
+                                            href="/journals/libraries/search/44715?sort=title" id="ember8619"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8620" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1917,7 +1917,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8621" class="ember-view"><a
-                                            href="/libraries/603/journals/9845?sort=title" id="ember8622"
+                                            href="/journals/libraries/search/9845?sort=title" id="ember8622"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8623" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1932,7 +1932,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8624" class="ember-view"><a
-                                            href="/libraries/603/journals/44723?sort=title" id="ember8625"
+                                            href="/journals/libraries/search/44723?sort=title" id="ember8625"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8626" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1946,7 +1946,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8627" class="ember-view"><a
-                                            href="/libraries/603/journals/44740?sort=title" id="ember8628"
+                                            href="/journals/libraries/search/44740?sort=title" id="ember8628"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8629" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1961,7 +1961,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8630" class="ember-view"><a
-                                            href="/libraries/603/journals/32546?sort=title" id="ember8631"
+                                            href="/journals/libraries/search/32546?sort=title" id="ember8631"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8632" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1978,7 +1978,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8633" class="ember-view"><a
-                                            href="/libraries/603/journals/44748?sort=title" id="ember8634"
+                                            href="/journals/libraries/search/44748?sort=title" id="ember8634"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8635" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -1994,7 +1994,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8636" class="ember-view"><a
-                                            href="/libraries/603/journals/19437?sort=title" id="ember8637"
+                                            href="/journals/libraries/search/19437?sort=title" id="ember8637"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8638" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2010,7 +2010,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8639" class="ember-view"><a
-                                            href="/libraries/603/journals/12705?sort=title" id="ember8640"
+                                            href="/journals/libraries/search/12705?sort=title" id="ember8640"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8641" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2026,7 +2026,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8642" class="ember-view"><a
-                                            href="/libraries/603/journals/38805?sort=title" id="ember8643"
+                                            href="/journals/libraries/search/38805?sort=title" id="ember8643"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8644" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2042,7 +2042,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8645" class="ember-view"><a
-                                            href="/libraries/603/journals/37946?sort=title" id="ember8646"
+                                            href="/journals/libraries/search/37946?sort=title" id="ember8646"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8647" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2058,7 +2058,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8648" class="ember-view"><a
-                                            href="/libraries/603/journals/44786?sort=title" id="ember8649"
+                                            href="/journals/libraries/search/44786?sort=title" id="ember8649"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8650" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2074,7 +2074,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8651" class="ember-view"><a
-                                            href="/libraries/603/journals/17856?sort=title" id="ember8652"
+                                            href="/journals/libraries/search/17856?sort=title" id="ember8652"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8653" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2090,7 +2090,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8654" class="ember-view"><a
-                                            href="/libraries/603/journals/17724?sort=title" id="ember8655"
+                                            href="/journals/libraries/search/17724?sort=title" id="ember8655"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8656" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2106,7 +2106,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8657" class="ember-view"><a
-                                            href="/libraries/603/journals/442866?sort=title" id="ember8658"
+                                            href="/journals/libraries/search/442866?sort=title" id="ember8658"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8659" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2120,7 +2120,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8660" class="ember-view"><a
-                                            href="/libraries/603/journals/44799?sort=title" id="ember8661"
+                                            href="/journals/libraries/search/44799?sort=title" id="ember8661"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8662" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2137,7 +2137,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8663" class="ember-view"><a
-                                            href="/libraries/603/journals/157757?sort=title" id="ember8664"
+                                            href="/journals/libraries/search/157757?sort=title" id="ember8664"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8665" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2153,7 +2153,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8666" class="ember-view"><a
-                                            href="/libraries/603/journals/175628?sort=title" id="ember8667"
+                                            href="/journals/libraries/search/175628?sort=title" id="ember8667"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8668" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2170,7 +2170,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8669" class="ember-view"><a
-                                            href="/libraries/603/journals/441390?sort=title" id="ember8670"
+                                            href="/journals/libraries/search/441390?sort=title" id="ember8670"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8671" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2187,7 +2187,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8672" class="ember-view"><a
-                                            href="/libraries/603/journals/32630?sort=title" id="ember8673"
+                                            href="/journals/libraries/search/32630?sort=title" id="ember8673"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8674" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2204,7 +2204,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8675" class="ember-view"><a
-                                            href="/libraries/603/journals/36189?sort=title" id="ember8676"
+                                            href="/journals/libraries/search/36189?sort=title" id="ember8676"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8677" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2221,7 +2221,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8678" class="ember-view"><a
-                                            href="/libraries/603/journals/44877?sort=title" id="ember8679"
+                                            href="/journals/libraries/search/44877?sort=title" id="ember8679"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8680" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2237,7 +2237,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8681" class="ember-view"><a
-                                            href="/libraries/603/journals/10664?sort=title" id="ember8682"
+                                            href="/journals/libraries/search/10664?sort=title" id="ember8682"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8683" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2253,7 +2253,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8684" class="ember-view"><a
-                                            href="/libraries/603/journals/37486?sort=title" id="ember8685"
+                                            href="/journals/libraries/search/37486?sort=title" id="ember8685"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8686" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2269,7 +2269,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8687" class="ember-view"><a
-                                            href="/libraries/603/journals/192025?sort=title" id="ember8688"
+                                            href="/journals/libraries/search/192025?sort=title" id="ember8688"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8689" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2285,7 +2285,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8690" class="ember-view"><a
-                                            href="/libraries/603/journals/374941?sort=title" id="ember8691"
+                                            href="/journals/libraries/search/374941?sort=title" id="ember8691"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8692" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2302,7 +2302,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8693" class="ember-view"><a
-                                            href="/libraries/603/journals/45270?sort=title" id="ember8694"
+                                            href="/journals/libraries/search/45270?sort=title" id="ember8694"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8695" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2318,7 +2318,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8696" class="ember-view"><a
-                                            href="/libraries/603/journals/246840?sort=title" id="ember8697"
+                                            href="/journals/libraries/search/246840?sort=title" id="ember8697"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8698" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2335,7 +2335,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8699" class="ember-view"><a
-                                            href="/libraries/603/journals/10795?sort=title" id="ember8700"
+                                            href="/journals/libraries/search/10795?sort=title" id="ember8700"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8701" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2349,7 +2349,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8702" class="ember-view"><a
-                                            href="/libraries/603/journals/145780?sort=title" id="ember8703"
+                                            href="/journals/libraries/search/145780?sort=title" id="ember8703"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8704" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2365,7 +2365,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8705" class="ember-view"><a
-                                            href="/libraries/603/journals/45019?sort=title" id="ember8706"
+                                            href="/journals/libraries/search/45019?sort=title" id="ember8706"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8707" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2382,7 +2382,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8708" class="ember-view"><a
-                                            href="/libraries/603/journals/10891?sort=title" id="ember8709"
+                                            href="/journals/libraries/search/10891?sort=title" id="ember8709"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8710" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2399,7 +2399,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8711" class="ember-view"><a
-                                            href="/libraries/603/journals/10848?sort=title" id="ember8712"
+                                            href="/journals/libraries/search/10848?sort=title" id="ember8712"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8713" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2416,7 +2416,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8714" class="ember-view"><a
-                                            href="/libraries/603/journals/147403?sort=title" id="ember8715"
+                                            href="/journals/libraries/search/147403?sort=title" id="ember8715"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8716" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2433,7 +2433,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8717" class="ember-view"><a
-                                            href="/libraries/603/journals/19024?sort=title" id="ember8718"
+                                            href="/journals/libraries/search/19024?sort=title" id="ember8718"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8719" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2450,7 +2450,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8720" class="ember-view"><a
-                                            href="/libraries/603/journals/37468?sort=title" id="ember8721"
+                                            href="/journals/libraries/search/37468?sort=title" id="ember8721"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8722" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2466,7 +2466,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8723" class="ember-view"><a
-                                            href="/libraries/603/journals/147638?sort=title" id="ember8724"
+                                            href="/journals/libraries/search/147638?sort=title" id="ember8724"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8725" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2481,7 +2481,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8726" class="ember-view"><a
-                                            href="/libraries/603/journals/435973?sort=title" id="ember8727"
+                                            href="/journals/libraries/search/435973?sort=title" id="ember8727"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8728" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2496,7 +2496,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8729" class="ember-view"><a
-                                            href="/libraries/603/journals/45143?sort=title" id="ember8730"
+                                            href="/journals/libraries/search/45143?sort=title" id="ember8730"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8731" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2512,7 +2512,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8732" class="ember-view"><a
-                                            href="/libraries/603/journals/45164?sort=title" id="ember8733"
+                                            href="/journals/libraries/search/45164?sort=title" id="ember8733"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8734" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2526,7 +2526,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8735" class="ember-view"><a
-                                            href="/libraries/603/journals/45168?sort=title" id="ember8736"
+                                            href="/journals/libraries/search/45168?sort=title" id="ember8736"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8737" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2541,7 +2541,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8738" class="ember-view"><a
-                                            href="/libraries/603/journals/45166?sort=title" id="ember8739"
+                                            href="/journals/libraries/search/45166?sort=title" id="ember8739"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8740" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2556,7 +2556,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8741" class="ember-view"><a
-                                            href="/libraries/603/journals/177212?sort=title" id="ember8742"
+                                            href="/journals/libraries/search/177212?sort=title" id="ember8742"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8743" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2572,7 +2572,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8744" class="ember-view"><a
-                                            href="/libraries/603/journals/37424?sort=title" id="ember8745"
+                                            href="/journals/libraries/search/37424?sort=title" id="ember8745"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8746" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2588,7 +2588,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8747" class="ember-view"><a
-                                            href="/libraries/603/journals/38714?sort=title" id="ember8748"
+                                            href="/journals/libraries/search/38714?sort=title" id="ember8748"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8749" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2603,7 +2603,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8750" class="ember-view"><a
-                                            href="/libraries/603/journals/45207?sort=title" id="ember8751"
+                                            href="/journals/libraries/search/45207?sort=title" id="ember8751"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8752" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2618,7 +2618,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8753" class="ember-view"><a
-                                            href="/libraries/603/journals/6615?sort=title" id="ember8754"
+                                            href="/journals/libraries/search/6615?sort=title" id="ember8754"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8755" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2632,7 +2632,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8756" class="ember-view"><a
-                                            href="/libraries/603/journals/301412?sort=title" id="ember8757"
+                                            href="/journals/libraries/search/301412?sort=title" id="ember8757"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8758" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2648,7 +2648,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8759" class="ember-view"><a
-                                            href="/libraries/603/journals/35953?sort=title" id="ember8760"
+                                            href="/journals/libraries/search/35953?sort=title" id="ember8760"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8761" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2663,7 +2663,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8762" class="ember-view"><a
-                                            href="/libraries/603/journals/38715?sort=title" id="ember8763"
+                                            href="/journals/libraries/search/38715?sort=title" id="ember8763"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8764" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2677,7 +2677,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8765" class="ember-view"><a
-                                            href="/libraries/603/journals/271795?sort=title" id="ember8766"
+                                            href="/journals/libraries/search/271795?sort=title" id="ember8766"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8767" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2691,7 +2691,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8768" class="ember-view"><a
-                                            href="/libraries/603/journals/45264?sort=title" id="ember8769"
+                                            href="/journals/libraries/search/45264?sort=title" id="ember8769"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8770" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2707,7 +2707,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8771" class="ember-view"><a
-                                            href="/libraries/603/journals/335168?sort=title" id="ember8772"
+                                            href="/journals/libraries/search/335168?sort=title" id="ember8772"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8773" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2721,7 +2721,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8774" class="ember-view"><a
-                                            href="/libraries/603/journals/99437?sort=title" id="ember8775"
+                                            href="/journals/libraries/search/99437?sort=title" id="ember8775"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8776" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2737,7 +2737,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8777" class="ember-view"><a
-                                            href="/libraries/603/journals/10917?sort=title" id="ember8778"
+                                            href="/journals/libraries/search/10917?sort=title" id="ember8778"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8779" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2751,7 +2751,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8780" class="ember-view"><a
-                                            href="/libraries/603/journals/106224?sort=title" id="ember8781"
+                                            href="/journals/libraries/search/106224?sort=title" id="ember8781"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8782" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2765,7 +2765,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8783" class="ember-view"><a
-                                            href="/libraries/603/journals/17676?sort=title" id="ember8784"
+                                            href="/journals/libraries/search/17676?sort=title" id="ember8784"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8785" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2779,7 +2779,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8786" class="ember-view"><a
-                                            href="/libraries/603/journals/32171?sort=title" id="ember8787"
+                                            href="/journals/libraries/search/32171?sort=title" id="ember8787"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8788" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2793,7 +2793,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8789" class="ember-view"><a
-                                            href="/libraries/603/journals/37191?sort=title" id="ember8790"
+                                            href="/journals/libraries/search/37191?sort=title" id="ember8790"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8791" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2807,7 +2807,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8792" class="ember-view"><a
-                                            href="/libraries/603/journals/17868?sort=title" id="ember8793"
+                                            href="/journals/libraries/search/17868?sort=title" id="ember8793"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8794" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2822,7 +2822,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8795" class="ember-view"><a
-                                            href="/libraries/603/journals/99438?sort=title" id="ember8796"
+                                            href="/journals/libraries/search/99438?sort=title" id="ember8796"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8797" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2837,7 +2837,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8798" class="ember-view"><a
-                                            href="/libraries/603/journals/17596?sort=title" id="ember8799"
+                                            href="/journals/libraries/search/17596?sort=title" id="ember8799"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8800" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2853,7 +2853,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8801" class="ember-view"><a
-                                            href="/libraries/603/journals/2784?sort=title" id="ember8802"
+                                            href="/journals/libraries/search/2784?sort=title" id="ember8802"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8803" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2869,7 +2869,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8804" class="ember-view"><a
-                                            href="/libraries/603/journals/288953?sort=title" id="ember8805"
+                                            href="/journals/libraries/search/288953?sort=title" id="ember8805"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8806" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2886,7 +2886,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8807" class="ember-view"><a
-                                            href="/libraries/603/journals/45354?sort=title" id="ember8808"
+                                            href="/journals/libraries/search/45354?sort=title" id="ember8808"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8809" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2900,7 +2900,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8810" class="ember-view"><a
-                                            href="/libraries/603/journals/45416?sort=title" id="ember8811"
+                                            href="/journals/libraries/search/45416?sort=title" id="ember8811"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8812" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2917,7 +2917,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8813" class="ember-view"><a
-                                            href="/libraries/603/journals/36574?sort=title" id="ember8814"
+                                            href="/journals/libraries/search/36574?sort=title" id="ember8814"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8815" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2931,7 +2931,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8816" class="ember-view"><a
-                                            href="/libraries/603/journals/45441?sort=title" id="ember8817"
+                                            href="/journals/libraries/search/45441?sort=title" id="ember8817"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8818" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2948,7 +2948,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8819" class="ember-view"><a
-                                            href="/libraries/603/journals/10834?sort=title" id="ember8820"
+                                            href="/journals/libraries/search/10834?sort=title" id="ember8820"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8821" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2962,7 +2962,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8822" class="ember-view"><a
-                                            href="/libraries/603/journals/10751?sort=title" id="ember8823"
+                                            href="/journals/libraries/search/10751?sort=title" id="ember8823"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8824" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2978,7 +2978,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8825" class="ember-view"><a
-                                            href="/libraries/603/journals/391922?sort=title" id="ember8826"
+                                            href="/journals/libraries/search/391922?sort=title" id="ember8826"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8827" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -2995,7 +2995,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8828" class="ember-view"><a
-                                            href="/libraries/603/journals/231313?sort=title" id="ember8829"
+                                            href="/journals/libraries/search/231313?sort=title" id="ember8829"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8830" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3009,7 +3009,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8831" class="ember-view"><a
-                                            href="/libraries/603/journals/17472?sort=title" id="ember8832"
+                                            href="/journals/libraries/search/17472?sort=title" id="ember8832"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8833" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3024,7 +3024,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8834" class="ember-view"><a
-                                            href="/libraries/603/journals/45697?sort=title" id="ember8835"
+                                            href="/journals/libraries/search/45697?sort=title" id="ember8835"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8836" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3038,7 +3038,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8837" class="ember-view"><a
-                                            href="/libraries/603/journals/395068?sort=title" id="ember8838"
+                                            href="/journals/libraries/search/395068?sort=title" id="ember8838"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8839" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3052,7 +3052,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8840" class="ember-view"><a
-                                            href="/libraries/603/journals/45840?sort=title" id="ember8841"
+                                            href="/journals/libraries/search/45840?sort=title" id="ember8841"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8842" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3069,7 +3069,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8843" class="ember-view"><a
-                                            href="/libraries/603/journals/45861?sort=title" id="ember8844"
+                                            href="/journals/libraries/search/45861?sort=title" id="ember8844"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8845" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3085,7 +3085,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8846" class="ember-view"><a
-                                            href="/libraries/603/journals/38783?sort=title" id="ember8847"
+                                            href="/journals/libraries/search/38783?sort=title" id="ember8847"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8848" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3102,7 +3102,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8849" class="ember-view"><a
-                                            href="/libraries/603/journals/33405?sort=title" id="ember8850"
+                                            href="/journals/libraries/search/33405?sort=title" id="ember8850"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8851" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3117,7 +3117,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8852" class="ember-view"><a
-                                            href="/libraries/603/journals/45974?sort=title" id="ember8853"
+                                            href="/journals/libraries/search/45974?sort=title" id="ember8853"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8854" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3131,7 +3131,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8855" class="ember-view"><a
-                                            href="/libraries/603/journals/10671?sort=title" id="ember8856"
+                                            href="/journals/libraries/search/10671?sort=title" id="ember8856"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8857" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3148,7 +3148,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8858" class="ember-view"><a
-                                            href="/libraries/603/journals/175036?sort=title" id="ember8859"
+                                            href="/journals/libraries/search/175036?sort=title" id="ember8859"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8860" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3162,7 +3162,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8861" class="ember-view"><a
-                                            href="/libraries/603/journals/46181?sort=title" id="ember8862"
+                                            href="/journals/libraries/search/46181?sort=title" id="ember8862"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8863" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3176,7 +3176,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8864" class="ember-view"><a
-                                            href="/libraries/603/journals/46193?sort=title" id="ember8865"
+                                            href="/journals/libraries/search/46193?sort=title" id="ember8865"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8866" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3192,7 +3192,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8867" class="ember-view"><a
-                                            href="/libraries/603/journals/321469?sort=title" id="ember8868"
+                                            href="/journals/libraries/search/321469?sort=title" id="ember8868"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8869" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3209,7 +3209,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8870" class="ember-view"><a
-                                            href="/libraries/603/journals/309279?sort=title" id="ember8871"
+                                            href="/journals/libraries/search/309279?sort=title" id="ember8871"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8872" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3223,7 +3223,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8873" class="ember-view"><a
-                                            href="/libraries/603/journals/46228?sort=title" id="ember8874"
+                                            href="/journals/libraries/search/46228?sort=title" id="ember8874"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8875" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3240,7 +3240,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8876" class="ember-view"><a
-                                            href="/libraries/603/journals/46303?sort=title" id="ember8877"
+                                            href="/journals/libraries/search/46303?sort=title" id="ember8877"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8878" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3254,7 +3254,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8879" class="ember-view"><a
-                                            href="/libraries/603/journals/154658?sort=title" id="ember8880"
+                                            href="/journals/libraries/search/154658?sort=title" id="ember8880"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8881" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3271,7 +3271,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8882" class="ember-view"><a
-                                            href="/libraries/603/journals/40292?sort=title" id="ember8883"
+                                            href="/journals/libraries/search/40292?sort=title" id="ember8883"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8884" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3288,7 +3288,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8885" class="ember-view"><a
-                                            href="/libraries/603/journals/12550?sort=title" id="ember8886"
+                                            href="/journals/libraries/search/12550?sort=title" id="ember8886"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8887" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3302,7 +3302,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8888" class="ember-view"><a
-                                            href="/libraries/603/journals/46537?sort=title" id="ember8889"
+                                            href="/journals/libraries/search/46537?sort=title" id="ember8889"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8890" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3319,7 +3319,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8891" class="ember-view"><a
-                                            href="/libraries/603/journals/32626?sort=title" id="ember8892"
+                                            href="/journals/libraries/search/32626?sort=title" id="ember8892"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8893" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3336,7 +3336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8894" class="ember-view"><a
-                                            href="/libraries/603/journals/46640?sort=title" id="ember8895"
+                                            href="/journals/libraries/search/46640?sort=title" id="ember8895"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8896" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3353,7 +3353,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8897" class="ember-view"><a
-                                            href="/libraries/603/journals/38803?sort=title" id="ember8898"
+                                            href="/journals/libraries/search/38803?sort=title" id="ember8898"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8899" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3368,7 +3368,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8900" class="ember-view"><a
-                                            href="/libraries/603/journals/343585?sort=title" id="ember8901"
+                                            href="/journals/libraries/search/343585?sort=title" id="ember8901"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8902" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3385,7 +3385,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8903" class="ember-view"><a
-                                            href="/libraries/603/journals/318368?sort=title" id="ember8904"
+                                            href="/journals/libraries/search/318368?sort=title" id="ember8904"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8905" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3402,7 +3402,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8906" class="ember-view"><a
-                                            href="/libraries/603/journals/445479?sort=title" id="ember8907"
+                                            href="/journals/libraries/search/445479?sort=title" id="ember8907"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8908" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3419,7 +3419,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8909" class="ember-view"><a
-                                            href="/libraries/603/journals/46898?sort=title" id="ember8910"
+                                            href="/journals/libraries/search/46898?sort=title" id="ember8910"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8911" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3435,7 +3435,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8912" class="ember-view"><a
-                                            href="/libraries/603/journals/10747?sort=title" id="ember8913"
+                                            href="/journals/libraries/search/10747?sort=title" id="ember8913"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8914" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3449,7 +3449,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8915" class="ember-view"><a
-                                            href="/libraries/603/journals/47141?sort=title" id="ember8916"
+                                            href="/journals/libraries/search/47141?sort=title" id="ember8916"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8917" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3465,7 +3465,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8918" class="ember-view"><a
-                                            href="/libraries/603/journals/33383?sort=title" id="ember8919"
+                                            href="/journals/libraries/search/33383?sort=title" id="ember8919"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8920" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3479,7 +3479,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8921" class="ember-view"><a
-                                            href="/libraries/603/journals/47180?sort=title" id="ember8922"
+                                            href="/journals/libraries/search/47180?sort=title" id="ember8922"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8923" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3495,7 +3495,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8924" class="ember-view"><a
-                                            href="/libraries/603/journals/33395?sort=title" id="ember8925"
+                                            href="/journals/libraries/search/33395?sort=title" id="ember8925"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8926" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3510,7 +3510,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8927" class="ember-view"><a
-                                            href="/libraries/603/journals/36359?sort=title" id="ember8928"
+                                            href="/journals/libraries/search/36359?sort=title" id="ember8928"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8929" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3525,7 +3525,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8930" class="ember-view"><a
-                                            href="/libraries/603/journals/33462?sort=title" id="ember8931"
+                                            href="/journals/libraries/search/33462?sort=title" id="ember8931"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8932" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3541,7 +3541,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8933" class="ember-view"><a
-                                            href="/libraries/603/journals/136053?sort=title" id="ember8934"
+                                            href="/journals/libraries/search/136053?sort=title" id="ember8934"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8935" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3557,7 +3557,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8936" class="ember-view"><a
-                                            href="/libraries/603/journals/136066?sort=title" id="ember8937"
+                                            href="/journals/libraries/search/136066?sort=title" id="ember8937"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8938" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3573,7 +3573,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8939" class="ember-view"><a
-                                            href="/libraries/603/journals/10936?sort=title" id="ember8940"
+                                            href="/journals/libraries/search/10936?sort=title" id="ember8940"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8941" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3590,7 +3590,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8942" class="ember-view"><a
-                                            href="/libraries/603/journals/18259?sort=title" id="ember8943"
+                                            href="/journals/libraries/search/18259?sort=title" id="ember8943"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8944" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3604,7 +3604,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8945" class="ember-view"><a
-                                            href="/libraries/603/journals/9770?sort=title" id="ember8946"
+                                            href="/journals/libraries/search/9770?sort=title" id="ember8946"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8947" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3621,7 +3621,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8948" class="ember-view"><a
-                                            href="/libraries/603/journals/19643?sort=title" id="ember8949"
+                                            href="/journals/libraries/search/19643?sort=title" id="ember8949"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8950" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3635,7 +3635,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8951" class="ember-view"><a
-                                            href="/libraries/603/journals/10369?sort=title" id="ember8952"
+                                            href="/journals/libraries/search/10369?sort=title" id="ember8952"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8953" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3651,7 +3651,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8954" class="ember-view"><a
-                                            href="/libraries/603/journals/19028?sort=title" id="ember8955"
+                                            href="/journals/libraries/search/19028?sort=title" id="ember8955"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8956" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3667,7 +3667,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8957" class="ember-view"><a
-                                            href="/libraries/603/journals/162367?sort=title" id="ember8958"
+                                            href="/journals/libraries/search/162367?sort=title" id="ember8958"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8959" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3683,7 +3683,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8960" class="ember-view"><a
-                                            href="/libraries/603/journals/36369?sort=title" id="ember8961"
+                                            href="/journals/libraries/search/36369?sort=title" id="ember8961"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8962" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3698,7 +3698,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8963" class="ember-view"><a
-                                            href="/libraries/603/journals/47850?sort=title" id="ember8964"
+                                            href="/journals/libraries/search/47850?sort=title" id="ember8964"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8965" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3715,7 +3715,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8966" class="ember-view"><a
-                                            href="/libraries/603/journals/351677?sort=title" id="ember8967"
+                                            href="/journals/libraries/search/351677?sort=title" id="ember8967"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8968" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3729,7 +3729,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8969" class="ember-view"><a
-                                            href="/libraries/603/journals/47869?sort=title" id="ember8970"
+                                            href="/journals/libraries/search/47869?sort=title" id="ember8970"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8971" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3746,7 +3746,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8972" class="ember-view"><a
-                                            href="/libraries/603/journals/175428?sort=title" id="ember8973"
+                                            href="/journals/libraries/search/175428?sort=title" id="ember8973"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8974" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3762,7 +3762,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8975" class="ember-view"><a
-                                            href="/libraries/603/journals/15646?sort=title" id="ember8976"
+                                            href="/journals/libraries/search/15646?sort=title" id="ember8976"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8977" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3779,7 +3779,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8978" class="ember-view"><a
-                                            href="/libraries/603/journals/411077?sort=title" id="ember8979"
+                                            href="/journals/libraries/search/411077?sort=title" id="ember8979"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8980" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3795,7 +3795,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8981" class="ember-view"><a
-                                            href="/libraries/603/journals/33478?sort=title" id="ember8982"
+                                            href="/journals/libraries/search/33478?sort=title" id="ember8982"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8983" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3812,7 +3812,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8984" class="ember-view"><a
-                                            href="/libraries/603/journals/34717?sort=title" id="ember8985"
+                                            href="/journals/libraries/search/34717?sort=title" id="ember8985"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8986" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3827,7 +3827,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8987" class="ember-view"><a
-                                            href="/libraries/603/journals/423005?sort=title" id="ember8988"
+                                            href="/journals/libraries/search/423005?sort=title" id="ember8988"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8989" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3842,7 +3842,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8990" class="ember-view"><a
-                                            href="/libraries/603/journals/48657?sort=title" id="ember8991"
+                                            href="/journals/libraries/search/48657?sort=title" id="ember8991"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8992" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3857,7 +3857,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8993" class="ember-view"><a
-                                            href="/libraries/603/journals/92498?sort=title" id="ember8994"
+                                            href="/journals/libraries/search/92498?sort=title" id="ember8994"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8995" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3874,7 +3874,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8996" class="ember-view"><a
-                                            href="/libraries/603/journals/38770?sort=title" id="ember8997"
+                                            href="/journals/libraries/search/38770?sort=title" id="ember8997"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember8998" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3890,7 +3890,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8999" class="ember-view"><a
-                                            href="/libraries/603/journals/92501?sort=title" id="ember9000"
+                                            href="/journals/libraries/search/92501?sort=title" id="ember9000"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9001" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3907,7 +3907,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9002" class="ember-view"><a
-                                            href="/libraries/603/journals/17181?sort=title" id="ember9003"
+                                            href="/journals/libraries/search/17181?sort=title" id="ember9003"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9004" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3923,7 +3923,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9005" class="ember-view"><a
-                                            href="/libraries/603/journals/300851?sort=title" id="ember9006"
+                                            href="/journals/libraries/search/300851?sort=title" id="ember9006"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9007" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3939,7 +3939,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9008" class="ember-view"><a
-                                            href="/libraries/603/journals/10837?sort=title" id="ember9009"
+                                            href="/journals/libraries/search/10837?sort=title" id="ember9009"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9010" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3956,7 +3956,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9011" class="ember-view"><a
-                                            href="/libraries/603/journals/51089?sort=title" id="ember9012"
+                                            href="/journals/libraries/search/51089?sort=title" id="ember9012"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9013" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3973,7 +3973,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9014" class="ember-view"><a
-                                            href="/libraries/603/journals/10938?sort=title" id="ember9015"
+                                            href="/journals/libraries/search/10938?sort=title" id="ember9015"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9016" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -3989,7 +3989,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9017" class="ember-view"><a
-                                            href="/libraries/603/journals/33469?sort=title" id="ember9018"
+                                            href="/journals/libraries/search/33469?sort=title" id="ember9018"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9019" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4006,7 +4006,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9020" class="ember-view"><a
-                                            href="/libraries/603/journals/99935?sort=title" id="ember9021"
+                                            href="/journals/libraries/search/99935?sort=title" id="ember9021"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9022" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4023,7 +4023,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9023" class="ember-view"><a
-                                            href="/libraries/603/journals/2591?sort=title" id="ember9024"
+                                            href="/journals/libraries/search/2591?sort=title" id="ember9024"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9025" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4040,7 +4040,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9026" class="ember-view"><a
-                                            href="/libraries/603/journals/295597?sort=title" id="ember9027"
+                                            href="/journals/libraries/search/295597?sort=title" id="ember9027"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9028" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4057,7 +4057,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9029" class="ember-view"><a
-                                            href="/libraries/603/journals/436151?sort=title" id="ember9030"
+                                            href="/journals/libraries/search/436151?sort=title" id="ember9030"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9031" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4072,7 +4072,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9032" class="ember-view"><a
-                                            href="/libraries/603/journals/9792?sort=title" id="ember9033"
+                                            href="/journals/libraries/search/9792?sort=title" id="ember9033"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9034" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4089,7 +4089,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9035" class="ember-view"><a
-                                            href="/libraries/603/journals/38773?sort=title" id="ember9036"
+                                            href="/journals/libraries/search/38773?sort=title" id="ember9036"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9037" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4104,7 +4104,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9038" class="ember-view"><a
-                                            href="/libraries/603/journals/36385?sort=title" id="ember9039"
+                                            href="/journals/libraries/search/36385?sort=title" id="ember9039"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9040" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4120,7 +4120,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9041" class="ember-view"><a
-                                            href="/libraries/603/journals/32627?sort=title" id="ember9042"
+                                            href="/journals/libraries/search/32627?sort=title" id="ember9042"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9043" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4136,7 +4136,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9044" class="ember-view"><a
-                                            href="/libraries/603/journals/267878?sort=title" id="ember9045"
+                                            href="/journals/libraries/search/267878?sort=title" id="ember9045"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9046" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4152,7 +4152,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9047" class="ember-view"><a
-                                            href="/libraries/603/journals/76429?sort=title" id="ember9048"
+                                            href="/journals/libraries/search/76429?sort=title" id="ember9048"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9049" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4169,7 +4169,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9050" class="ember-view"><a
-                                            href="/libraries/603/journals/49333?sort=title" id="ember9051"
+                                            href="/journals/libraries/search/49333?sort=title" id="ember9051"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9052" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4185,7 +4185,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9053" class="ember-view"><a
-                                            href="/libraries/603/journals/288948?sort=title" id="ember9054"
+                                            href="/journals/libraries/search/288948?sort=title" id="ember9054"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9055" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4201,7 +4201,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9056" class="ember-view"><a
-                                            href="/libraries/603/journals/49352?sort=title" id="ember9057"
+                                            href="/journals/libraries/search/49352?sort=title" id="ember9057"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9058" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4216,7 +4216,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9059" class="ember-view"><a
-                                            href="/libraries/603/journals/49392?sort=title" id="ember9060"
+                                            href="/journals/libraries/search/49392?sort=title" id="ember9060"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9061" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4232,7 +4232,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9062" class="ember-view"><a
-                                            href="/libraries/603/journals/49385?sort=title" id="ember9063"
+                                            href="/journals/libraries/search/49385?sort=title" id="ember9063"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9064" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4248,7 +4248,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9065" class="ember-view"><a
-                                            href="/libraries/603/journals/49439?sort=title" id="ember9066"
+                                            href="/journals/libraries/search/49439?sort=title" id="ember9066"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9067" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4265,7 +4265,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9068" class="ember-view"><a
-                                            href="/libraries/603/journals/49470?sort=title" id="ember9069"
+                                            href="/journals/libraries/search/49470?sort=title" id="ember9069"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9070" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4282,7 +4282,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9071" class="ember-view"><a
-                                            href="/libraries/603/journals/49584?sort=title" id="ember9072"
+                                            href="/journals/libraries/search/49584?sort=title" id="ember9072"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9073" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4299,7 +4299,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9074" class="ember-view"><a
-                                            href="/libraries/603/journals/10779?sort=title" id="ember9075"
+                                            href="/journals/libraries/search/10779?sort=title" id="ember9075"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9076" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4313,7 +4313,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9077" class="ember-view"><a
-                                            href="/libraries/603/journals/109887?sort=title" id="ember9078"
+                                            href="/journals/libraries/search/109887?sort=title" id="ember9078"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9079" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4330,7 +4330,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9080" class="ember-view"><a
-                                            href="/libraries/603/journals/20864?sort=title" id="ember9081"
+                                            href="/journals/libraries/search/20864?sort=title" id="ember9081"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9082" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4346,7 +4346,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9083" class="ember-view"><a
-                                            href="/libraries/603/journals/18981?sort=title" id="ember9084"
+                                            href="/journals/libraries/search/18981?sort=title" id="ember9084"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9085" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4362,7 +4362,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9086" class="ember-view"><a
-                                            href="/libraries/603/journals/10371?sort=title" id="ember9087"
+                                            href="/journals/libraries/search/10371?sort=title" id="ember9087"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9088" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4378,7 +4378,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9089" class="ember-view"><a
-                                            href="/libraries/603/journals/18261?sort=title" id="ember9090"
+                                            href="/journals/libraries/search/18261?sort=title" id="ember9090"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9091" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4395,7 +4395,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9092" class="ember-view"><a
-                                            href="/libraries/603/journals/365012?sort=title" id="ember9093"
+                                            href="/journals/libraries/search/365012?sort=title" id="ember9093"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9094" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4411,7 +4411,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9095" class="ember-view"><a
-                                            href="/libraries/603/journals/177545?sort=title" id="ember9096"
+                                            href="/journals/libraries/search/177545?sort=title" id="ember9096"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9097" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4428,7 +4428,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9098" class="ember-view"><a
-                                            href="/libraries/603/journals/38756?sort=title" id="ember9099"
+                                            href="/journals/libraries/search/38756?sort=title" id="ember9099"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9100" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4444,7 +4444,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9101" class="ember-view"><a
-                                            href="/libraries/603/journals/9766?sort=title" id="ember9102"
+                                            href="/journals/libraries/search/9766?sort=title" id="ember9102"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9103" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4460,7 +4460,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9104" class="ember-view"><a
-                                            href="/libraries/603/journals/50048?sort=title" id="ember9105"
+                                            href="/journals/libraries/search/50048?sort=title" id="ember9105"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9106" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4477,7 +4477,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9107" class="ember-view"><a
-                                            href="/libraries/603/journals/306821?sort=title" id="ember9108"
+                                            href="/journals/libraries/search/306821?sort=title" id="ember9108"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9109" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4493,7 +4493,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9110" class="ember-view"><a
-                                            href="/libraries/603/journals/136123?sort=title" id="ember9111"
+                                            href="/journals/libraries/search/136123?sort=title" id="ember9111"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9112" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4507,7 +4507,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9113" class="ember-view"><a
-                                            href="/libraries/603/journals/10920?sort=title" id="ember9114"
+                                            href="/journals/libraries/search/10920?sort=title" id="ember9114"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9115" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4522,7 +4522,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9116" class="ember-view"><a
-                                            href="/libraries/603/journals/50191?sort=title" id="ember9117"
+                                            href="/journals/libraries/search/50191?sort=title" id="ember9117"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9118" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4539,7 +4539,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9119" class="ember-view"><a
-                                            href="/libraries/603/journals/50240?sort=title" id="ember9120"
+                                            href="/journals/libraries/search/50240?sort=title" id="ember9120"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9121" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4555,7 +4555,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9122" class="ember-view"><a
-                                            href="/libraries/603/journals/39700?sort=title" id="ember9123"
+                                            href="/journals/libraries/search/39700?sort=title" id="ember9123"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9124" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4572,7 +4572,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9125" class="ember-view"><a
-                                            href="/libraries/603/journals/125016?sort=title" id="ember9126"
+                                            href="/journals/libraries/search/125016?sort=title" id="ember9126"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9127" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4587,7 +4587,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9128" class="ember-view"><a
-                                            href="/libraries/603/journals/35020?sort=title" id="ember9129"
+                                            href="/journals/libraries/search/35020?sort=title" id="ember9129"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9130" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4601,7 +4601,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9131" class="ember-view"><a
-                                            href="/libraries/603/journals/50349?sort=title" id="ember9132"
+                                            href="/journals/libraries/search/50349?sort=title" id="ember9132"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9133" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4618,7 +4618,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9134" class="ember-view"><a
-                                            href="/libraries/603/journals/444413?sort=title" id="ember9135"
+                                            href="/journals/libraries/search/444413?sort=title" id="ember9135"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9136" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4635,7 +4635,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9137" class="ember-view"><a
-                                            href="/libraries/603/journals/50478?sort=title" id="ember9138"
+                                            href="/journals/libraries/search/50478?sort=title" id="ember9138"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9139" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4649,7 +4649,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9140" class="ember-view"><a
-                                            href="/libraries/603/journals/50480?sort=title" id="ember9141"
+                                            href="/journals/libraries/search/50480?sort=title" id="ember9141"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9142" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4665,7 +4665,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9143" class="ember-view"><a
-                                            href="/libraries/603/journals/33327?sort=title" id="ember9144"
+                                            href="/journals/libraries/search/33327?sort=title" id="ember9144"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9145" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4680,7 +4680,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9146" class="ember-view"><a
-                                            href="/libraries/603/journals/10796?sort=title" id="ember9147"
+                                            href="/journals/libraries/search/10796?sort=title" id="ember9147"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9148" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4696,7 +4696,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9149" class="ember-view"><a
-                                            href="/libraries/603/journals/10813?sort=title" id="ember9150"
+                                            href="/journals/libraries/search/10813?sort=title" id="ember9150"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9151" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4713,7 +4713,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9152" class="ember-view"><a
-                                            href="/libraries/603/journals/477634?sort=title" id="ember9153"
+                                            href="/journals/libraries/search/477634?sort=title" id="ember9153"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9154" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4730,7 +4730,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9155" class="ember-view"><a
-                                            href="/libraries/603/journals/50885?sort=title" id="ember9156"
+                                            href="/journals/libraries/search/50885?sort=title" id="ember9156"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9157" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4746,7 +4746,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9158" class="ember-view"><a
-                                            href="/libraries/603/journals/36492?sort=title" id="ember9159"
+                                            href="/journals/libraries/search/36492?sort=title" id="ember9159"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9160" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4760,7 +4760,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9161" class="ember-view"><a
-                                            href="/libraries/603/journals/135357?sort=title" id="ember9162"
+                                            href="/journals/libraries/search/135357?sort=title" id="ember9162"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9163" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4777,7 +4777,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9164" class="ember-view"><a
-                                            href="/libraries/603/journals/218909?sort=title" id="ember9165"
+                                            href="/journals/libraries/search/218909?sort=title" id="ember9165"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9166" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4793,7 +4793,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9167" class="ember-view"><a
-                                            href="/libraries/603/journals/113641?sort=title" id="ember9168"
+                                            href="/journals/libraries/search/113641?sort=title" id="ember9168"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9169" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4808,7 +4808,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9170" class="ember-view"><a
-                                            href="/libraries/603/journals/51172?sort=title" id="ember9171"
+                                            href="/journals/libraries/search/51172?sort=title" id="ember9171"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9172" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4822,7 +4822,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9173" class="ember-view"><a
-                                            href="/libraries/603/journals/10790?sort=title" id="ember9174"
+                                            href="/journals/libraries/search/10790?sort=title" id="ember9174"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9175" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4837,7 +4837,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9176" class="ember-view"><a
-                                            href="/libraries/603/journals/51233?sort=title" id="ember9177"
+                                            href="/journals/libraries/search/51233?sort=title" id="ember9177"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9178" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4853,7 +4853,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9179" class="ember-view"><a
-                                            href="/libraries/603/journals/37366?sort=title" id="ember9180"
+                                            href="/journals/libraries/search/37366?sort=title" id="ember9180"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9181" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4869,7 +4869,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9182" class="ember-view"><a
-                                            href="/libraries/603/journals/398793?sort=title" id="ember9183"
+                                            href="/journals/libraries/search/398793?sort=title" id="ember9183"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9184" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4883,7 +4883,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9185" class="ember-view"><a
-                                            href="/libraries/603/journals/406898?sort=title" id="ember9186"
+                                            href="/journals/libraries/search/406898?sort=title" id="ember9186"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9187" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4900,7 +4900,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9188" class="ember-view"><a
-                                            href="/libraries/603/journals/33248?sort=title" id="ember9189"
+                                            href="/journals/libraries/search/33248?sort=title" id="ember9189"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9190" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4915,7 +4915,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9191" class="ember-view"><a
-                                            href="/libraries/603/journals/51365?sort=title" id="ember9192"
+                                            href="/journals/libraries/search/51365?sort=title" id="ember9192"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9193" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4930,7 +4930,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9194" class="ember-view"><a
-                                            href="/libraries/603/journals/33296?sort=title" id="ember9195"
+                                            href="/journals/libraries/search/33296?sort=title" id="ember9195"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9196" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4945,7 +4945,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9197" class="ember-view"><a
-                                            href="/libraries/603/journals/19184?sort=title" id="ember9198"
+                                            href="/journals/libraries/search/19184?sort=title" id="ember9198"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9199" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4961,7 +4961,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9200" class="ember-view"><a
-                                            href="/libraries/603/journals/10567?sort=title" id="ember9201"
+                                            href="/journals/libraries/search/10567?sort=title" id="ember9201"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9202" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4977,7 +4977,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9203" class="ember-view"><a
-                                            href="/libraries/603/journals/19186?sort=title" id="ember9204"
+                                            href="/journals/libraries/search/19186?sort=title" id="ember9204"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9205" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -4993,7 +4993,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9206" class="ember-view"><a
-                                            href="/libraries/603/journals/10839?sort=title" id="ember9207"
+                                            href="/journals/libraries/search/10839?sort=title" id="ember9207"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9208" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5008,7 +5008,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9209" class="ember-view"><a
-                                            href="/libraries/603/journals/51514?sort=title" id="ember9210"
+                                            href="/journals/libraries/search/51514?sort=title" id="ember9210"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9211" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5022,7 +5022,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9212" class="ember-view"><a
-                                            href="/libraries/603/journals/36589?sort=title" id="ember9213"
+                                            href="/journals/libraries/search/36589?sort=title" id="ember9213"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9214" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5037,7 +5037,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9215" class="ember-view"><a
-                                            href="/libraries/603/journals/142698?sort=title" id="ember9216"
+                                            href="/journals/libraries/search/142698?sort=title" id="ember9216"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9217" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5054,7 +5054,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9218" class="ember-view"><a
-                                            href="/libraries/603/journals/51623?sort=title" id="ember9219"
+                                            href="/journals/libraries/search/51623?sort=title" id="ember9219"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9220" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5070,7 +5070,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9221" class="ember-view"><a
-                                            href="/libraries/603/journals/51559?sort=title" id="ember9222"
+                                            href="/journals/libraries/search/51559?sort=title" id="ember9222"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9223" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5084,7 +5084,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9224" class="ember-view"><a
-                                            href="/libraries/603/journals/440260?sort=title" id="ember9225"
+                                            href="/journals/libraries/search/440260?sort=title" id="ember9225"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9226" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5100,7 +5100,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9227" class="ember-view"><a
-                                            href="/libraries/603/journals/51694?sort=title" id="ember9228"
+                                            href="/journals/libraries/search/51694?sort=title" id="ember9228"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9229" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5117,7 +5117,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9230" class="ember-view"><a
-                                            href="/libraries/603/journals/10732?sort=title" id="ember9231"
+                                            href="/journals/libraries/search/10732?sort=title" id="ember9231"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9232" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5132,7 +5132,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9233" class="ember-view"><a
-                                            href="/libraries/603/journals/51725?sort=title" id="ember9234"
+                                            href="/journals/libraries/search/51725?sort=title" id="ember9234"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9235" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5146,7 +5146,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9236" class="ember-view"><a
-                                            href="/libraries/603/journals/17145?sort=title" id="ember9237"
+                                            href="/journals/libraries/search/17145?sort=title" id="ember9237"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9238" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5162,7 +5162,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9239" class="ember-view"><a
-                                            href="/libraries/603/journals/12484?sort=title" id="ember9240"
+                                            href="/journals/libraries/search/12484?sort=title" id="ember9240"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9241" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5178,7 +5178,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9242" class="ember-view"><a
-                                            href="/libraries/603/journals/35021?sort=title" id="ember9243"
+                                            href="/journals/libraries/search/35021?sort=title" id="ember9243"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9244" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5193,7 +5193,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9245" class="ember-view"><a
-                                            href="/libraries/603/journals/51875?sort=title" id="ember9246"
+                                            href="/journals/libraries/search/51875?sort=title" id="ember9246"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9247" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5208,7 +5208,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9248" class="ember-view"><a
-                                            href="/libraries/603/journals/37949?sort=title" id="ember9249"
+                                            href="/journals/libraries/search/37949?sort=title" id="ember9249"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9250" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5225,7 +5225,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9251" class="ember-view"><a
-                                            href="/libraries/603/journals/18260?sort=title" id="ember9252"
+                                            href="/journals/libraries/search/18260?sort=title" id="ember9252"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9253" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5240,7 +5240,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9254" class="ember-view"><a
-                                            href="/libraries/603/journals/336415?sort=title" id="ember9255"
+                                            href="/journals/libraries/search/336415?sort=title" id="ember9255"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9256" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5257,7 +5257,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9257" class="ember-view"><a
-                                            href="/libraries/603/journals/10841?sort=title" id="ember9258"
+                                            href="/journals/libraries/search/10841?sort=title" id="ember9258"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9259" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5272,7 +5272,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9260" class="ember-view"><a
-                                            href="/libraries/603/journals/36346?sort=title" id="ember9261"
+                                            href="/journals/libraries/search/36346?sort=title" id="ember9261"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9262" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5288,7 +5288,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9263" class="ember-view"><a
-                                            href="/libraries/603/journals/38799?sort=title" id="ember9264"
+                                            href="/journals/libraries/search/38799?sort=title" id="ember9264"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9265" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5304,7 +5304,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9266" class="ember-view"><a
-                                            href="/libraries/603/journals/271611?sort=title" id="ember9267"
+                                            href="/journals/libraries/search/271611?sort=title" id="ember9267"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9268" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5321,7 +5321,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9269" class="ember-view"><a
-                                            href="/libraries/603/journals/10892?sort=title" id="ember9270"
+                                            href="/journals/libraries/search/10892?sort=title" id="ember9270"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9271" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5336,7 +5336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9272" class="ember-view"><a
-                                            href="/libraries/603/journals/18284?sort=title" id="ember9273"
+                                            href="/journals/libraries/search/18284?sort=title" id="ember9273"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9274" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5352,7 +5352,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9275" class="ember-view"><a
-                                            href="/libraries/603/journals/322146?sort=title" id="ember9276"
+                                            href="/journals/libraries/search/322146?sort=title" id="ember9276"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9277" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5369,7 +5369,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9278" class="ember-view"><a
-                                            href="/libraries/603/journals/33326?sort=title" id="ember9279"
+                                            href="/journals/libraries/search/33326?sort=title" id="ember9279"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9280" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5385,7 +5385,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9281" class="ember-view"><a
-                                            href="/libraries/603/journals/147958?sort=title" id="ember9282"
+                                            href="/journals/libraries/search/147958?sort=title" id="ember9282"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9283" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5402,7 +5402,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9284" class="ember-view"><a
-                                            href="/libraries/603/journals/110242?sort=title" id="ember9285"
+                                            href="/journals/libraries/search/110242?sort=title" id="ember9285"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9286" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5418,7 +5418,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9287" class="ember-view"><a
-                                            href="/libraries/603/journals/52261?sort=title" id="ember9288"
+                                            href="/journals/libraries/search/52261?sort=title" id="ember9288"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9289" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5434,7 +5434,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9290" class="ember-view"><a
-                                            href="/libraries/603/journals/32140?sort=title" id="ember9291"
+                                            href="/journals/libraries/search/32140?sort=title" id="ember9291"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9292" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5450,7 +5450,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9293" class="ember-view"><a
-                                            href="/libraries/603/journals/52235?sort=title" id="ember9294"
+                                            href="/journals/libraries/search/52235?sort=title" id="ember9294"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9295" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5467,7 +5467,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9296" class="ember-view"><a
-                                            href="/libraries/603/journals/118728?sort=title" id="ember9297"
+                                            href="/journals/libraries/search/118728?sort=title" id="ember9297"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9298" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5482,7 +5482,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9299" class="ember-view"><a
-                                            href="/libraries/603/journals/158658?sort=title" id="ember9300"
+                                            href="/journals/libraries/search/158658?sort=title" id="ember9300"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9301" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5498,7 +5498,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9302" class="ember-view"><a
-                                            href="/libraries/603/journals/10778?sort=title" id="ember9303"
+                                            href="/journals/libraries/search/10778?sort=title" id="ember9303"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9304" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5513,7 +5513,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9305" class="ember-view"><a
-                                            href="/libraries/603/journals/148268?sort=title" id="ember9306"
+                                            href="/journals/libraries/search/148268?sort=title" id="ember9306"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9307" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5530,7 +5530,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9308" class="ember-view"><a
-                                            href="/libraries/603/journals/10895?sort=title" id="ember9309"
+                                            href="/journals/libraries/search/10895?sort=title" id="ember9309"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9310" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5544,7 +5544,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9311" class="ember-view"><a
-                                            href="/libraries/603/journals/123840?sort=title" id="ember9312"
+                                            href="/journals/libraries/search/123840?sort=title" id="ember9312"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9313" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5560,7 +5560,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9314" class="ember-view"><a
-                                            href="/libraries/603/journals/36410?sort=title" id="ember9315"
+                                            href="/journals/libraries/search/36410?sort=title" id="ember9315"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9316" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5577,7 +5577,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9317" class="ember-view"><a
-                                            href="/libraries/603/journals/15771?sort=title" id="ember9318"
+                                            href="/journals/libraries/search/15771?sort=title" id="ember9318"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9319" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5592,7 +5592,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9320" class="ember-view"><a
-                                            href="/libraries/603/journals/10908?sort=title" id="ember9321"
+                                            href="/journals/libraries/search/10908?sort=title" id="ember9321"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9322" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5609,7 +5609,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9323" class="ember-view"><a
-                                            href="/libraries/603/journals/39680?sort=title" id="ember9324"
+                                            href="/journals/libraries/search/39680?sort=title" id="ember9324"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9325" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5626,7 +5626,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9326" class="ember-view"><a
-                                            href="/libraries/603/journals/10753?sort=title" id="ember9327"
+                                            href="/journals/libraries/search/10753?sort=title" id="ember9327"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9328" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5642,7 +5642,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9329" class="ember-view"><a
-                                            href="/libraries/603/journals/16373?sort=title" id="ember9330"
+                                            href="/journals/libraries/search/16373?sort=title" id="ember9330"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9331" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5658,7 +5658,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9332" class="ember-view"><a
-                                            href="/libraries/603/journals/16357?sort=title" id="ember9333"
+                                            href="/journals/libraries/search/16357?sort=title" id="ember9333"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9334" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5674,7 +5674,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9335" class="ember-view"><a
-                                            href="/libraries/603/journals/10548?sort=title" id="ember9336"
+                                            href="/journals/libraries/search/10548?sort=title" id="ember9336"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9337" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5690,7 +5690,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9338" class="ember-view"><a
-                                            href="/libraries/603/journals/52704?sort=title" id="ember9339"
+                                            href="/journals/libraries/search/52704?sort=title" id="ember9339"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9340" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5704,7 +5704,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9341" class="ember-view"><a
-                                            href="/libraries/603/journals/52715?sort=title" id="ember9342"
+                                            href="/journals/libraries/search/52715?sort=title" id="ember9342"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9343" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5720,7 +5720,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9344" class="ember-view"><a
-                                            href="/libraries/603/journals/219041?sort=title" id="ember9345"
+                                            href="/journals/libraries/search/219041?sort=title" id="ember9345"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9346" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5736,7 +5736,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9347" class="ember-view"><a
-                                            href="/libraries/603/journals/40226?sort=title" id="ember9348"
+                                            href="/journals/libraries/search/40226?sort=title" id="ember9348"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9349" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5750,7 +5750,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9350" class="ember-view"><a
-                                            href="/libraries/603/journals/158758?sort=title" id="ember9351"
+                                            href="/journals/libraries/search/158758?sort=title" id="ember9351"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9352" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5765,7 +5765,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9353" class="ember-view"><a
-                                            href="/libraries/603/journals/52821?sort=title" id="ember9354"
+                                            href="/journals/libraries/search/52821?sort=title" id="ember9354"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9355" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5781,7 +5781,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9356" class="ember-view"><a
-                                            href="/libraries/603/journals/10928?sort=title" id="ember9357"
+                                            href="/journals/libraries/search/10928?sort=title" id="ember9357"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9358" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5798,7 +5798,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9359" class="ember-view"><a
-                                            href="/libraries/603/journals/36396?sort=title" id="ember9360"
+                                            href="/journals/libraries/search/36396?sort=title" id="ember9360"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9361" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5812,7 +5812,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9362" class="ember-view"><a
-                                            href="/libraries/603/journals/148744?sort=title" id="ember9363"
+                                            href="/journals/libraries/search/148744?sort=title" id="ember9363"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9364" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5826,7 +5826,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9365" class="ember-view"><a
-                                            href="/libraries/603/journals/10794?sort=title" id="ember9366"
+                                            href="/journals/libraries/search/10794?sort=title" id="ember9366"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9367" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5842,7 +5842,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9368" class="ember-view"><a
-                                            href="/libraries/603/journals/194262?sort=title" id="ember9369"
+                                            href="/journals/libraries/search/194262?sort=title" id="ember9369"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9370" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5859,7 +5859,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9371" class="ember-view"><a
-                                            href="/libraries/603/journals/166862?sort=title" id="ember9372"
+                                            href="/journals/libraries/search/166862?sort=title" id="ember9372"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9373" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5875,7 +5875,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9374" class="ember-view"><a
-                                            href="/libraries/603/journals/388508?sort=title" id="ember9375"
+                                            href="/journals/libraries/search/388508?sort=title" id="ember9375"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9376" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5891,7 +5891,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9377" class="ember-view"><a
-                                            href="/libraries/603/journals/33301?sort=title" id="ember9378"
+                                            href="/journals/libraries/search/33301?sort=title" id="ember9378"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9379" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5906,7 +5906,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9380" class="ember-view"><a
-                                            href="/libraries/603/journals/4456?sort=title" id="ember9381"
+                                            href="/journals/libraries/search/4456?sort=title" id="ember9381"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9382" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5921,7 +5921,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9383" class="ember-view"><a
-                                            href="/libraries/603/journals/36590?sort=title" id="ember9384"
+                                            href="/journals/libraries/search/36590?sort=title" id="ember9384"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9385" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5937,7 +5937,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9386" class="ember-view"><a
-                                            href="/libraries/603/journals/39878?sort=title" id="ember9387"
+                                            href="/journals/libraries/search/39878?sort=title" id="ember9387"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9388" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5952,7 +5952,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9389" class="ember-view"><a
-                                            href="/libraries/603/journals/10767?sort=title" id="ember9390"
+                                            href="/journals/libraries/search/10767?sort=title" id="ember9390"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9391" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5966,7 +5966,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9392" class="ember-view"><a
-                                            href="/libraries/603/journals/315129?sort=title" id="ember9393"
+                                            href="/journals/libraries/search/315129?sort=title" id="ember9393"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9394" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5980,7 +5980,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9395" class="ember-view"><a
-                                            href="/libraries/603/journals/17578?sort=title" id="ember9396"
+                                            href="/journals/libraries/search/17578?sort=title" id="ember9396"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9397" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -5997,7 +5997,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9398" class="ember-view"><a
-                                            href="/libraries/603/journals/117935?sort=title" id="ember9399"
+                                            href="/journals/libraries/search/117935?sort=title" id="ember9399"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9400" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6012,7 +6012,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9401" class="ember-view"><a
-                                            href="/libraries/603/journals/482686?sort=title" id="ember9402"
+                                            href="/journals/libraries/search/482686?sort=title" id="ember9402"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9403" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6029,7 +6029,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9404" class="ember-view"><a
-                                            href="/libraries/603/journals/53860?sort=title" id="ember9405"
+                                            href="/journals/libraries/search/53860?sort=title" id="ember9405"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9406" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6046,7 +6046,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9407" class="ember-view"><a
-                                            href="/libraries/603/journals/136257?sort=title" id="ember9408"
+                                            href="/journals/libraries/search/136257?sort=title" id="ember9408"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9409" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6062,7 +6062,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9410" class="ember-view"><a
-                                            href="/libraries/603/journals/53882?sort=title" id="ember9411"
+                                            href="/journals/libraries/search/53882?sort=title" id="ember9411"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9412" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6078,7 +6078,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9413" class="ember-view"><a
-                                            href="/libraries/603/journals/260488?sort=title" id="ember9414"
+                                            href="/journals/libraries/search/260488?sort=title" id="ember9414"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9415" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6094,7 +6094,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9416" class="ember-view"><a
-                                            href="/libraries/603/journals/53893?sort=title" id="ember9417"
+                                            href="/journals/libraries/search/53893?sort=title" id="ember9417"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9418" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6110,7 +6110,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9419" class="ember-view"><a
-                                            href="/libraries/603/journals/63507?sort=title" id="ember9420"
+                                            href="/journals/libraries/search/63507?sort=title" id="ember9420"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9421" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6127,7 +6127,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9422" class="ember-view"><a
-                                            href="/libraries/603/journals/53910?sort=title" id="ember9423"
+                                            href="/journals/libraries/search/53910?sort=title" id="ember9423"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9424" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6142,7 +6142,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9425" class="ember-view"><a
-                                            href="/libraries/603/journals/53931?sort=title" id="ember9426"
+                                            href="/journals/libraries/search/53931?sort=title" id="ember9426"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9427" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6159,7 +6159,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9428" class="ember-view"><a
-                                            href="/libraries/603/journals/53952?sort=title" id="ember9429"
+                                            href="/journals/libraries/search/53952?sort=title" id="ember9429"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9430" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6174,7 +6174,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9431" class="ember-view"><a
-                                            href="/libraries/603/journals/53956?sort=title" id="ember9432"
+                                            href="/journals/libraries/search/53956?sort=title" id="ember9432"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9433" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6190,7 +6190,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9434" class="ember-view"><a
-                                            href="/libraries/603/journals/33477?sort=title" id="ember9435"
+                                            href="/journals/libraries/search/33477?sort=title" id="ember9435"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9436" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6205,7 +6205,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9437" class="ember-view"><a
-                                            href="/libraries/603/journals/53966?sort=title" id="ember9438"
+                                            href="/journals/libraries/search/53966?sort=title" id="ember9438"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9439" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6220,7 +6220,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9440" class="ember-view"><a
-                                            href="/libraries/603/journals/106932?sort=title" id="ember9441"
+                                            href="/journals/libraries/search/106932?sort=title" id="ember9441"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9442" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6236,7 +6236,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9443" class="ember-view"><a
-                                            href="/libraries/603/journals/17053?sort=title" id="ember9444"
+                                            href="/journals/libraries/search/17053?sort=title" id="ember9444"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9445" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6251,7 +6251,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9446" class="ember-view"><a
-                                            href="/libraries/603/journals/3240?sort=title" id="ember9447"
+                                            href="/journals/libraries/search/3240?sort=title" id="ember9447"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9448" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6268,7 +6268,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9449" class="ember-view"><a
-                                            href="/libraries/603/journals/53963?sort=title" id="ember9450"
+                                            href="/journals/libraries/search/53963?sort=title" id="ember9450"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9451" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6284,7 +6284,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9452" class="ember-view"><a
-                                            href="/libraries/603/journals/16682?sort=title" id="ember9453"
+                                            href="/journals/libraries/search/16682?sort=title" id="ember9453"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9454" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6299,7 +6299,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9455" class="ember-view"><a
-                                            href="/libraries/603/journals/143518?sort=title" id="ember9456"
+                                            href="/journals/libraries/search/143518?sort=title" id="ember9456"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9457" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6316,7 +6316,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9458" class="ember-view"><a
-                                            href="/libraries/603/journals/53970?sort=title" id="ember9459"
+                                            href="/journals/libraries/search/53970?sort=title" id="ember9459"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9460" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6333,7 +6333,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9461" class="ember-view"><a
-                                            href="/libraries/603/journals/231470?sort=title" id="ember9462"
+                                            href="/journals/libraries/search/231470?sort=title" id="ember9462"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9463" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6349,7 +6349,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9464" class="ember-view"><a
-                                            href="/libraries/603/journals/16401?sort=title" id="ember9465"
+                                            href="/journals/libraries/search/16401?sort=title" id="ember9465"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9466" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6365,7 +6365,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9467" class="ember-view"><a
-                                            href="/libraries/603/journals/15569?sort=title" id="ember9468"
+                                            href="/journals/libraries/search/15569?sort=title" id="ember9468"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9469" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6381,7 +6381,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9470" class="ember-view"><a
-                                            href="/libraries/603/journals/394130?sort=title" id="ember9471"
+                                            href="/journals/libraries/search/394130?sort=title" id="ember9471"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9472" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6396,7 +6396,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9473" class="ember-view"><a
-                                            href="/libraries/603/journals/2478?sort=title" id="ember9474"
+                                            href="/journals/libraries/search/2478?sort=title" id="ember9474"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9475" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6412,7 +6412,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9476" class="ember-view"><a
-                                            href="/libraries/603/journals/54060?sort=title" id="ember9477"
+                                            href="/journals/libraries/search/54060?sort=title" id="ember9477"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9478" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6427,7 +6427,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9479" class="ember-view"><a
-                                            href="/libraries/603/journals/15752?sort=title" id="ember9480"
+                                            href="/journals/libraries/search/15752?sort=title" id="ember9480"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9481" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6442,7 +6442,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9482" class="ember-view"><a
-                                            href="/libraries/603/journals/32163?sort=title" id="ember9483"
+                                            href="/journals/libraries/search/32163?sort=title" id="ember9483"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9484" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6456,7 +6456,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9485" class="ember-view"><a
-                                            href="/libraries/603/journals/17261?sort=title" id="ember9486"
+                                            href="/journals/libraries/search/17261?sort=title" id="ember9486"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9487" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6471,7 +6471,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9488" class="ember-view"><a
-                                            href="/libraries/603/journals/54488?sort=title" id="ember9489"
+                                            href="/journals/libraries/search/54488?sort=title" id="ember9489"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9490" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6487,7 +6487,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9491" class="ember-view"><a
-                                            href="/libraries/603/journals/38794?sort=title" id="ember9492"
+                                            href="/journals/libraries/search/38794?sort=title" id="ember9492"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9493" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6502,7 +6502,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9494" class="ember-view"><a
-                                            href="/libraries/603/journals/19436?sort=title" id="ember9495"
+                                            href="/journals/libraries/search/19436?sort=title" id="ember9495"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9496" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6518,7 +6518,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9497" class="ember-view"><a
-                                            href="/libraries/603/journals/54496?sort=title" id="ember9498"
+                                            href="/journals/libraries/search/54496?sort=title" id="ember9498"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9499" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6532,7 +6532,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9500" class="ember-view"><a
-                                            href="/libraries/603/journals/125683?sort=title" id="ember9501"
+                                            href="/journals/libraries/search/125683?sort=title" id="ember9501"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9502" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6547,7 +6547,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9503" class="ember-view"><a
-                                            href="/libraries/603/journals/54509?sort=title" id="ember9504"
+                                            href="/journals/libraries/search/54509?sort=title" id="ember9504"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9505" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6563,7 +6563,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9506" class="ember-view"><a
-                                            href="/libraries/603/journals/54514?sort=title" id="ember9507"
+                                            href="/journals/libraries/search/54514?sort=title" id="ember9507"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9508" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6577,7 +6577,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9509" class="ember-view"><a
-                                            href="/libraries/603/journals/54604?sort=title" id="ember9510"
+                                            href="/journals/libraries/search/54604?sort=title" id="ember9510"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9511" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6592,7 +6592,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9512" class="ember-view"><a
-                                            href="/libraries/603/journals/380744?sort=title" id="ember9513"
+                                            href="/journals/libraries/search/380744?sort=title" id="ember9513"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9514" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6609,7 +6609,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9515" class="ember-view"><a
-                                            href="/libraries/603/journals/35952?sort=title" id="ember9516"
+                                            href="/journals/libraries/search/35952?sort=title" id="ember9516"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9517" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6624,7 +6624,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9518" class="ember-view"><a
-                                            href="/libraries/603/journals/238333?sort=title" id="ember9519"
+                                            href="/journals/libraries/search/238333?sort=title" id="ember9519"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9520" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6640,7 +6640,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9521" class="ember-view"><a
-                                            href="/libraries/603/journals/263380?sort=title" id="ember9522"
+                                            href="/journals/libraries/search/263380?sort=title" id="ember9522"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9523" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6655,7 +6655,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9524" class="ember-view"><a
-                                            href="/libraries/603/journals/32147?sort=title" id="ember9525"
+                                            href="/journals/libraries/search/32147?sort=title" id="ember9525"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9526" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6670,7 +6670,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9527" class="ember-view"><a
-                                            href="/libraries/603/journals/35956?sort=title" id="ember9528"
+                                            href="/journals/libraries/search/35956?sort=title" id="ember9528"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9529" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6685,7 +6685,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9530" class="ember-view"><a
-                                            href="/libraries/603/journals/54918?sort=title" id="ember9531"
+                                            href="/journals/libraries/search/54918?sort=title" id="ember9531"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9532" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6701,7 +6701,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9533" class="ember-view"><a
-                                            href="/libraries/603/journals/40798?sort=title" id="ember9534"
+                                            href="/journals/libraries/search/40798?sort=title" id="ember9534"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9535" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6716,7 +6716,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9536" class="ember-view"><a
-                                            href="/libraries/603/journals/54953?sort=title" id="ember9537"
+                                            href="/journals/libraries/search/54953?sort=title" id="ember9537"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9538" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6733,7 +6733,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9539" class="ember-view"><a
-                                            href="/libraries/603/journals/10833?sort=title" id="ember9540"
+                                            href="/journals/libraries/search/10833?sort=title" id="ember9540"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9541" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6747,7 +6747,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9542" class="ember-view"><a
-                                            href="/libraries/603/journals/177550?sort=title" id="ember9543"
+                                            href="/journals/libraries/search/177550?sort=title" id="ember9543"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9544" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6761,7 +6761,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9545" class="ember-view"><a
-                                            href="/libraries/603/journals/55051?sort=title" id="ember9546"
+                                            href="/journals/libraries/search/55051?sort=title" id="ember9546"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9547" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6778,7 +6778,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9548" class="ember-view"><a
-                                            href="/libraries/603/journals/55057?sort=title" id="ember9549"
+                                            href="/journals/libraries/search/55057?sort=title" id="ember9549"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9550" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6793,7 +6793,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9551" class="ember-view"><a
-                                            href="/libraries/603/journals/55151?sort=title" id="ember9552"
+                                            href="/journals/libraries/search/55151?sort=title" id="ember9552"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9553" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6810,7 +6810,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9554" class="ember-view"><a
-                                            href="/libraries/603/journals/55149?sort=title" id="ember9555"
+                                            href="/journals/libraries/search/55149?sort=title" id="ember9555"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9556" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6825,7 +6825,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9557" class="ember-view"><a
-                                            href="/libraries/603/journals/55161?sort=title" id="ember9558"
+                                            href="/journals/libraries/search/55161?sort=title" id="ember9558"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9559" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6841,7 +6841,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9560" class="ember-view"><a
-                                            href="/libraries/603/journals/18263?sort=title" id="ember9561"
+                                            href="/journals/libraries/search/18263?sort=title" id="ember9561"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9562" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6855,7 +6855,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9563" class="ember-view"><a
-                                            href="/libraries/603/journals/55205?sort=title" id="ember9564"
+                                            href="/journals/libraries/search/55205?sort=title" id="ember9564"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9565" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6872,7 +6872,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9566" class="ember-view"><a
-                                            href="/libraries/603/journals/15687?sort=title" id="ember9567"
+                                            href="/journals/libraries/search/15687?sort=title" id="ember9567"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9568" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6887,7 +6887,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9569" class="ember-view"><a
-                                            href="/libraries/603/journals/32205?sort=title" id="ember9570"
+                                            href="/journals/libraries/search/32205?sort=title" id="ember9570"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9571" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6904,7 +6904,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9572" class="ember-view"><a
-                                            href="/libraries/603/journals/55262?sort=title" id="ember9573"
+                                            href="/journals/libraries/search/55262?sort=title" id="ember9573"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9574" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6921,7 +6921,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9575" class="ember-view"><a
-                                            href="/libraries/603/journals/55248?sort=title" id="ember9576"
+                                            href="/journals/libraries/search/55248?sort=title" id="ember9576"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9577" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6938,7 +6938,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9578" class="ember-view"><a
-                                            href="/libraries/603/journals/306571?sort=title" id="ember9579"
+                                            href="/journals/libraries/search/306571?sort=title" id="ember9579"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9580" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6955,7 +6955,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9581" class="ember-view"><a
-                                            href="/libraries/603/journals/36097?sort=title" id="ember9582"
+                                            href="/journals/libraries/search/36097?sort=title" id="ember9582"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9583" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6969,7 +6969,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9584" class="ember-view"><a
-                                            href="/libraries/603/journals/55318?sort=title" id="ember9585"
+                                            href="/journals/libraries/search/55318?sort=title" id="ember9585"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9586" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6985,7 +6985,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9587" class="ember-view"><a
-                                            href="/libraries/603/journals/55320?sort=title" id="ember9588"
+                                            href="/journals/libraries/search/55320?sort=title" id="ember9588"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9589" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -6999,7 +6999,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9590" class="ember-view"><a
-                                            href="/libraries/603/journals/55332?sort=title" id="ember9591"
+                                            href="/journals/libraries/search/55332?sort=title" id="ember9591"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9592" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7015,7 +7015,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9593" class="ember-view"><a
-                                            href="/libraries/603/journals/238348?sort=title" id="ember9594"
+                                            href="/journals/libraries/search/238348?sort=title" id="ember9594"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9595" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7032,7 +7032,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9596" class="ember-view"><a
-                                            href="/libraries/603/journals/100864?sort=title" id="ember9597"
+                                            href="/journals/libraries/search/100864?sort=title" id="ember9597"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9598" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7047,7 +7047,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9599" class="ember-view"><a
-                                            href="/libraries/603/journals/157786?sort=title" id="ember9600"
+                                            href="/journals/libraries/search/157786?sort=title" id="ember9600"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9601" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7063,7 +7063,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9602" class="ember-view"><a
-                                            href="/libraries/603/journals/157787?sort=title" id="ember9603"
+                                            href="/journals/libraries/search/157787?sort=title" id="ember9603"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9604" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7080,7 +7080,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9605" class="ember-view"><a
-                                            href="/libraries/603/journals/36444?sort=title" id="ember9606"
+                                            href="/journals/libraries/search/36444?sort=title" id="ember9606"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9607" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7094,7 +7094,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9608" class="ember-view"><a
-                                            href="/libraries/603/journals/55655?sort=title" id="ember9609"
+                                            href="/journals/libraries/search/55655?sort=title" id="ember9609"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9610" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7109,7 +7109,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9611" class="ember-view"><a
-                                            href="/libraries/603/journals/36460?sort=title" id="ember9612"
+                                            href="/journals/libraries/search/36460?sort=title" id="ember9612"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9613" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7124,7 +7124,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9614" class="ember-view"><a
-                                            href="/libraries/603/journals/123927?sort=title" id="ember9615"
+                                            href="/journals/libraries/search/123927?sort=title" id="ember9615"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9616" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7141,7 +7141,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9617" class="ember-view"><a
-                                            href="/libraries/603/journals/10723?sort=title" id="ember9618"
+                                            href="/journals/libraries/search/10723?sort=title" id="ember9618"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9619" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7157,7 +7157,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9620" class="ember-view"><a
-                                            href="/libraries/603/journals/55783?sort=title" id="ember9621"
+                                            href="/journals/libraries/search/55783?sort=title" id="ember9621"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9622" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7173,7 +7173,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9623" class="ember-view"><a
-                                            href="/libraries/603/journals/10397?sort=title" id="ember9624"
+                                            href="/journals/libraries/search/10397?sort=title" id="ember9624"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9625" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7187,7 +7187,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9626" class="ember-view"><a
-                                            href="/libraries/603/journals/19082?sort=title" id="ember9627"
+                                            href="/journals/libraries/search/19082?sort=title" id="ember9627"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9628" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7202,7 +7202,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9629" class="ember-view"><a
-                                            href="/libraries/603/journals/17382?sort=title" id="ember9630"
+                                            href="/journals/libraries/search/17382?sort=title" id="ember9630"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9631" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7218,7 +7218,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9632" class="ember-view"><a
-                                            href="/libraries/603/journals/55819?sort=title" id="ember9633"
+                                            href="/journals/libraries/search/55819?sort=title" id="ember9633"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9634" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7235,7 +7235,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9635" class="ember-view"><a
-                                            href="/libraries/603/journals/55845?sort=title" id="ember9636"
+                                            href="/journals/libraries/search/55845?sort=title" id="ember9636"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9637" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7252,7 +7252,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9638" class="ember-view"><a
-                                            href="/libraries/603/journals/56220?sort=title" id="ember9639"
+                                            href="/journals/libraries/search/56220?sort=title" id="ember9639"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9640" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7269,7 +7269,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9641" class="ember-view"><a
-                                            href="/libraries/603/journals/128916?sort=title" id="ember9642"
+                                            href="/journals/libraries/search/128916?sort=title" id="ember9642"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9643" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7283,7 +7283,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9644" class="ember-view"><a
-                                            href="/libraries/603/journals/33424?sort=title" id="ember9645"
+                                            href="/journals/libraries/search/33424?sort=title" id="ember9645"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9646" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7299,7 +7299,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9647" class="ember-view"><a
-                                            href="/libraries/603/journals/100964?sort=title" id="ember9648"
+                                            href="/journals/libraries/search/100964?sort=title" id="ember9648"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9649" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7315,7 +7315,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9650" class="ember-view"><a
-                                            href="/libraries/603/journals/101009?sort=title" id="ember9651"
+                                            href="/journals/libraries/search/101009?sort=title" id="ember9651"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9652" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7332,7 +7332,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9653" class="ember-view"><a
-                                            href="/libraries/603/journals/351717?sort=title" id="ember9654"
+                                            href="/journals/libraries/search/351717?sort=title" id="ember9654"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9655" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7349,7 +7349,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9656" class="ember-view"><a
-                                            href="/libraries/603/journals/10894?sort=title" id="ember9657"
+                                            href="/journals/libraries/search/10894?sort=title" id="ember9657"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9658" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7365,7 +7365,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9659" class="ember-view"><a
-                                            href="/libraries/603/journals/19172?sort=title" id="ember9660"
+                                            href="/journals/libraries/search/19172?sort=title" id="ember9660"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9661" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7381,7 +7381,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9662" class="ember-view"><a
-                                            href="/libraries/603/journals/38745?sort=title" id="ember9663"
+                                            href="/journals/libraries/search/38745?sort=title" id="ember9663"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9664" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7397,7 +7397,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9665" class="ember-view"><a
-                                            href="/libraries/603/journals/238237?sort=title" id="ember9666"
+                                            href="/journals/libraries/search/238237?sort=title" id="ember9666"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9667" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7411,7 +7411,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9668" class="ember-view"><a
-                                            href="/libraries/603/journals/10860?sort=title" id="ember9669"
+                                            href="/journals/libraries/search/10860?sort=title" id="ember9669"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9670" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7425,7 +7425,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9671" class="ember-view"><a
-                                            href="/libraries/603/journals/158671?sort=title" id="ember9672"
+                                            href="/journals/libraries/search/158671?sort=title" id="ember9672"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9673" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7440,7 +7440,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9674" class="ember-view"><a
-                                            href="/libraries/603/journals/56595?sort=title" id="ember9675"
+                                            href="/journals/libraries/search/56595?sort=title" id="ember9675"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9676" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7457,7 +7457,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9677" class="ember-view"><a
-                                            href="/libraries/603/journals/10800?sort=title" id="ember9678"
+                                            href="/journals/libraries/search/10800?sort=title" id="ember9678"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9679" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7471,7 +7471,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9680" class="ember-view"><a
-                                            href="/libraries/603/journals/56708?sort=title" id="ember9681"
+                                            href="/journals/libraries/search/56708?sort=title" id="ember9681"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9682" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7488,7 +7488,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9683" class="ember-view"><a
-                                            href="/libraries/603/journals/195411?sort=title" id="ember9684"
+                                            href="/journals/libraries/search/195411?sort=title" id="ember9684"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9685" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7505,7 +7505,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9686" class="ember-view"><a
-                                            href="/libraries/603/journals/182559?sort=title" id="ember9687"
+                                            href="/journals/libraries/search/182559?sort=title" id="ember9687"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9688" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7522,7 +7522,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9689" class="ember-view"><a
-                                            href="/libraries/603/journals/37472?sort=title" id="ember9690"
+                                            href="/journals/libraries/search/37472?sort=title" id="ember9690"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9691" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7536,7 +7536,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9692" class="ember-view"><a
-                                            href="/libraries/603/journals/10799?sort=title" id="ember9693"
+                                            href="/journals/libraries/search/10799?sort=title" id="ember9693"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9694" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7552,7 +7552,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9695" class="ember-view"><a
-                                            href="/libraries/603/journals/56778?sort=title" id="ember9696"
+                                            href="/journals/libraries/search/56778?sort=title" id="ember9696"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9697" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7568,7 +7568,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9698" class="ember-view"><a
-                                            href="/libraries/603/journals/40078?sort=title" id="ember9699"
+                                            href="/journals/libraries/search/40078?sort=title" id="ember9699"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9700" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7584,7 +7584,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9701" class="ember-view"><a
-                                            href="/libraries/603/journals/56839?sort=title" id="ember9702"
+                                            href="/journals/libraries/search/56839?sort=title" id="ember9702"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9703" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7598,7 +7598,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9704" class="ember-view"><a
-                                            href="/libraries/603/journals/468746?sort=title" id="ember9705"
+                                            href="/journals/libraries/search/468746?sort=title" id="ember9705"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9706" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7612,7 +7612,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9707" class="ember-view"><a
-                                            href="/libraries/603/journals/10545?sort=title" id="ember9708"
+                                            href="/journals/libraries/search/10545?sort=title" id="ember9708"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9709" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7626,7 +7626,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9710" class="ember-view"><a
-                                            href="/libraries/603/journals/17696?sort=title" id="ember9711"
+                                            href="/journals/libraries/search/17696?sort=title" id="ember9711"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9712" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7642,7 +7642,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9713" class="ember-view"><a
-                                            href="/libraries/603/journals/32637?sort=title" id="ember9714"
+                                            href="/journals/libraries/search/32637?sort=title" id="ember9714"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9715" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7659,7 +7659,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9716" class="ember-view"><a
-                                            href="/libraries/603/journals/34227?sort=title" id="ember9717"
+                                            href="/journals/libraries/search/34227?sort=title" id="ember9717"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9718" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7674,7 +7674,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9719" class="ember-view"><a
-                                            href="/libraries/603/journals/343433?sort=title" id="ember9720"
+                                            href="/journals/libraries/search/343433?sort=title" id="ember9720"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9721" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7690,7 +7690,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9722" class="ember-view"><a
-                                            href="/libraries/603/journals/3976?sort=title" id="ember9723"
+                                            href="/journals/libraries/search/3976?sort=title" id="ember9723"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9724" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7706,7 +7706,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9725" class="ember-view"><a
-                                            href="/libraries/603/journals/263464?sort=title" id="ember9726"
+                                            href="/journals/libraries/search/263464?sort=title" id="ember9726"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9727" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7723,7 +7723,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9728" class="ember-view"><a
-                                            href="/libraries/603/journals/15802?sort=title" id="ember9729"
+                                            href="/journals/libraries/search/15802?sort=title" id="ember9729"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9730" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7738,7 +7738,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9731" class="ember-view"><a
-                                            href="/libraries/603/journals/17878?sort=title" id="ember9732"
+                                            href="/journals/libraries/search/17878?sort=title" id="ember9732"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9733" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7754,7 +7754,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9734" class="ember-view"><a
-                                            href="/libraries/603/journals/57016?sort=title" id="ember9735"
+                                            href="/journals/libraries/search/57016?sort=title" id="ember9735"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9736" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7771,7 +7771,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9737" class="ember-view"><a
-                                            href="/libraries/603/journals/109396?sort=title" id="ember9738"
+                                            href="/journals/libraries/search/109396?sort=title" id="ember9738"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9739" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7785,7 +7785,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9740" class="ember-view"><a
-                                            href="/libraries/603/journals/238163?sort=title" id="ember9741"
+                                            href="/journals/libraries/search/238163?sort=title" id="ember9741"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9742" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7802,7 +7802,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9743" class="ember-view"><a
-                                            href="/libraries/603/journals/244007?sort=title" id="ember9744"
+                                            href="/journals/libraries/search/244007?sort=title" id="ember9744"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9745" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7816,7 +7816,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9746" class="ember-view"><a
-                                            href="/libraries/603/journals/57150?sort=title" id="ember9747"
+                                            href="/journals/libraries/search/57150?sort=title" id="ember9747"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9748" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7832,7 +7832,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9749" class="ember-view"><a
-                                            href="/libraries/603/journals/57214?sort=title" id="ember9750"
+                                            href="/journals/libraries/search/57214?sort=title" id="ember9750"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9751" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7846,7 +7846,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9752" class="ember-view"><a
-                                            href="/libraries/603/journals/367935?sort=title" id="ember9753"
+                                            href="/journals/libraries/search/367935?sort=title" id="ember9753"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9754" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7863,7 +7863,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9755" class="ember-view"><a
-                                            href="/libraries/603/journals/402188?sort=title" id="ember9756"
+                                            href="/journals/libraries/search/402188?sort=title" id="ember9756"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9757" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7880,7 +7880,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9758" class="ember-view"><a
-                                            href="/libraries/603/journals/399833?sort=title" id="ember9759"
+                                            href="/journals/libraries/search/399833?sort=title" id="ember9759"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9760" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7897,7 +7897,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9761" class="ember-view"><a
-                                            href="/libraries/603/journals/101163?sort=title" id="ember9762"
+                                            href="/journals/libraries/search/101163?sort=title" id="ember9762"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9763" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7914,7 +7914,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9764" class="ember-view"><a
-                                            href="/libraries/603/journals/355693?sort=title" id="ember9765"
+                                            href="/journals/libraries/search/355693?sort=title" id="ember9765"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9766" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7931,7 +7931,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9767" class="ember-view"><a
-                                            href="/libraries/603/journals/10898?sort=title" id="ember9768"
+                                            href="/journals/libraries/search/10898?sort=title" id="ember9768"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9769" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7947,7 +7947,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9770" class="ember-view"><a
-                                            href="/libraries/603/journals/57298?sort=title" id="ember9771"
+                                            href="/journals/libraries/search/57298?sort=title" id="ember9771"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9772" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7962,7 +7962,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9773" class="ember-view"><a
-                                            href="/libraries/603/journals/57301?sort=title" id="ember9774"
+                                            href="/journals/libraries/search/57301?sort=title" id="ember9774"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9775" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7976,7 +7976,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9776" class="ember-view"><a
-                                            href="/libraries/603/journals/57304?sort=title" id="ember9777"
+                                            href="/journals/libraries/search/57304?sort=title" id="ember9777"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9778" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -7991,7 +7991,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9779" class="ember-view"><a
-                                            href="/libraries/603/journals/10344?sort=title" id="ember9780"
+                                            href="/journals/libraries/search/10344?sort=title" id="ember9780"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9781" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8006,7 +8006,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9782" class="ember-view"><a
-                                            href="/libraries/603/journals/10725?sort=title" id="ember9783"
+                                            href="/journals/libraries/search/10725?sort=title" id="ember9783"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9784" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8022,7 +8022,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9785" class="ember-view"><a
-                                            href="/libraries/603/journals/129524?sort=title" id="ember9786"
+                                            href="/journals/libraries/search/129524?sort=title" id="ember9786"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9787" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8039,7 +8039,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9788" class="ember-view"><a
-                                            href="/libraries/603/journals/337156?sort=title" id="ember9789"
+                                            href="/journals/libraries/search/337156?sort=title" id="ember9789"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9790" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8056,7 +8056,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9791" class="ember-view"><a
-                                            href="/libraries/603/journals/57495?sort=title" id="ember9792"
+                                            href="/journals/libraries/search/57495?sort=title" id="ember9792"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9793" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8073,7 +8073,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9794" class="ember-view"><a
-                                            href="/libraries/603/journals/306836?sort=title" id="ember9795"
+                                            href="/journals/libraries/search/306836?sort=title" id="ember9795"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9796" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8090,7 +8090,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9797" class="ember-view"><a
-                                            href="/libraries/603/journals/17031?sort=title" id="ember9798"
+                                            href="/journals/libraries/search/17031?sort=title" id="ember9798"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9799" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8106,7 +8106,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9800" class="ember-view"><a
-                                            href="/libraries/603/journals/33364?sort=title" id="ember9801"
+                                            href="/journals/libraries/search/33364?sort=title" id="ember9801"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9802" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8121,7 +8121,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9803" class="ember-view"><a
-                                            href="/libraries/603/journals/16659?sort=title" id="ember9804"
+                                            href="/journals/libraries/search/16659?sort=title" id="ember9804"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9805" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8137,7 +8137,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9806" class="ember-view"><a
-                                            href="/libraries/603/journals/57559?sort=title" id="ember9807"
+                                            href="/journals/libraries/search/57559?sort=title" id="ember9807"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9808" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8154,7 +8154,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9809" class="ember-view"><a
-                                            href="/libraries/603/journals/32727?sort=title" id="ember9810"
+                                            href="/journals/libraries/search/32727?sort=title" id="ember9810"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9811" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8169,7 +8169,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9812" class="ember-view"><a
-                                            href="/libraries/603/journals/57675?sort=title" id="ember9813"
+                                            href="/journals/libraries/search/57675?sort=title" id="ember9813"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9814" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8183,7 +8183,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9815" class="ember-view"><a
-                                            href="/libraries/603/journals/270048?sort=title" id="ember9816"
+                                            href="/journals/libraries/search/270048?sort=title" id="ember9816"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9817" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8198,7 +8198,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9818" class="ember-view"><a
-                                            href="/libraries/603/journals/57588?sort=title" id="ember9819"
+                                            href="/journals/libraries/search/57588?sort=title" id="ember9819"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9820" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8214,7 +8214,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9821" class="ember-view"><a
-                                            href="/libraries/603/journals/57654?sort=title" id="ember9822"
+                                            href="/journals/libraries/search/57654?sort=title" id="ember9822"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9823" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8229,7 +8229,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9824" class="ember-view"><a
-                                            href="/libraries/603/journals/341498?sort=title" id="ember9825"
+                                            href="/journals/libraries/search/341498?sort=title" id="ember9825"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9826" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8245,7 +8245,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9827" class="ember-view"><a
-                                            href="/libraries/603/journals/57666?sort=title" id="ember9828"
+                                            href="/journals/libraries/search/57666?sort=title" id="ember9828"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9829" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8260,7 +8260,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9830" class="ember-view"><a
-                                            href="/libraries/603/journals/57665?sort=title" id="ember9831"
+                                            href="/journals/libraries/search/57665?sort=title" id="ember9831"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9832" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8275,7 +8275,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9833" class="ember-view"><a
-                                            href="/libraries/603/journals/57673?sort=title" id="ember9834"
+                                            href="/journals/libraries/search/57673?sort=title" id="ember9834"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9835" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8292,7 +8292,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9836" class="ember-view"><a
-                                            href="/libraries/603/journals/332801?sort=title" id="ember9837"
+                                            href="/journals/libraries/search/332801?sort=title" id="ember9837"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9838" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8307,7 +8307,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9839" class="ember-view"><a
-                                            href="/libraries/603/journals/32208?sort=title" id="ember9840"
+                                            href="/journals/libraries/search/32208?sort=title" id="ember9840"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9841" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8322,7 +8322,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9842" class="ember-view"><a
-                                            href="/libraries/603/journals/33418?sort=title" id="ember9843"
+                                            href="/journals/libraries/search/33418?sort=title" id="ember9843"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9844" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8338,7 +8338,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9845" class="ember-view"><a
-                                            href="/libraries/603/journals/57725?sort=title" id="ember9846"
+                                            href="/journals/libraries/search/57725?sort=title" id="ember9846"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9847" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8355,7 +8355,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9848" class="ember-view"><a
-                                            href="/libraries/603/journals/39886?sort=title" id="ember9849"
+                                            href="/journals/libraries/search/39886?sort=title" id="ember9849"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9850" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8370,7 +8370,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9851" class="ember-view"><a
-                                            href="/libraries/603/journals/7323?sort=title" id="ember9852"
+                                            href="/journals/libraries/search/7323?sort=title" id="ember9852"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9853" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8387,7 +8387,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9854" class="ember-view"><a
-                                            href="/libraries/603/journals/15708?sort=title" id="ember9855"
+                                            href="/journals/libraries/search/15708?sort=title" id="ember9855"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9856" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8404,7 +8404,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9857" class="ember-view"><a
-                                            href="/libraries/603/journals/32762?sort=title" id="ember9858"
+                                            href="/journals/libraries/search/32762?sort=title" id="ember9858"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9859" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8421,7 +8421,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9860" class="ember-view"><a
-                                            href="/libraries/603/journals/16403?sort=title" id="ember9861"
+                                            href="/journals/libraries/search/16403?sort=title" id="ember9861"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9862" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8437,7 +8437,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9863" class="ember-view"><a
-                                            href="/libraries/603/journals/58160?sort=title" id="ember9864"
+                                            href="/journals/libraries/search/58160?sort=title" id="ember9864"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9865" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8454,7 +8454,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9866" class="ember-view"><a
-                                            href="/libraries/603/journals/9813?sort=title" id="ember9867"
+                                            href="/journals/libraries/search/9813?sort=title" id="ember9867"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9868" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8468,7 +8468,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9869" class="ember-view"><a
-                                            href="/libraries/603/journals/17609?sort=title" id="ember9870"
+                                            href="/journals/libraries/search/17609?sort=title" id="ember9870"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9871" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8483,7 +8483,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9872" class="ember-view"><a
-                                            href="/libraries/603/journals/38784?sort=title" id="ember9873"
+                                            href="/journals/libraries/search/38784?sort=title" id="ember9873"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9874" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8498,7 +8498,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9875" class="ember-view"><a
-                                            href="/libraries/603/journals/295650?sort=title" id="ember9876"
+                                            href="/journals/libraries/search/295650?sort=title" id="ember9876"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9877" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8514,7 +8514,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9878" class="ember-view"><a
-                                            href="/libraries/603/journals/1397?sort=title" id="ember9879"
+                                            href="/journals/libraries/search/1397?sort=title" id="ember9879"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9880" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8530,7 +8530,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9881" class="ember-view"><a
-                                            href="/libraries/603/journals/58305?sort=title" id="ember9882"
+                                            href="/journals/libraries/search/58305?sort=title" id="ember9882"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9883" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8547,7 +8547,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9884" class="ember-view"><a
-                                            href="/libraries/603/journals/101272?sort=title" id="ember9885"
+                                            href="/journals/libraries/search/101272?sort=title" id="ember9885"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9886" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8562,7 +8562,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9887" class="ember-view"><a
-                                            href="/libraries/603/journals/58463?sort=title" id="ember9888"
+                                            href="/journals/libraries/search/58463?sort=title" id="ember9888"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9889" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8578,7 +8578,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9890" class="ember-view"><a
-                                            href="/libraries/603/journals/35951?sort=title" id="ember9891"
+                                            href="/journals/libraries/search/35951?sort=title" id="ember9891"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9892" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8595,7 +8595,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9893" class="ember-view"><a
-                                            href="/libraries/603/journals/36591?sort=title" id="ember9894"
+                                            href="/journals/libraries/search/36591?sort=title" id="ember9894"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9895" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8612,7 +8612,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9896" class="ember-view"><a
-                                            href="/libraries/603/journals/35947?sort=title" id="ember9897"
+                                            href="/journals/libraries/search/35947?sort=title" id="ember9897"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9898" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8629,7 +8629,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9899" class="ember-view"><a
-                                            href="/libraries/603/journals/369233?sort=title" id="ember9900"
+                                            href="/journals/libraries/search/369233?sort=title" id="ember9900"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9901" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8644,7 +8644,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9902" class="ember-view"><a
-                                            href="/libraries/603/journals/111619?sort=title" id="ember9903"
+                                            href="/journals/libraries/search/111619?sort=title" id="ember9903"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9904" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8661,7 +8661,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9905" class="ember-view"><a
-                                            href="/libraries/603/journals/477722?sort=title" id="ember9906"
+                                            href="/journals/libraries/search/477722?sort=title" id="ember9906"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9907" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8678,7 +8678,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9908" class="ember-view"><a
-                                            href="/libraries/603/journals/58720?sort=title" id="ember9909"
+                                            href="/journals/libraries/search/58720?sort=title" id="ember9909"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9910" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8692,7 +8692,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9911" class="ember-view"><a
-                                            href="/libraries/603/journals/250339?sort=title" id="ember9912"
+                                            href="/journals/libraries/search/250339?sort=title" id="ember9912"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9913" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8707,7 +8707,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9914" class="ember-view"><a
-                                            href="/libraries/603/journals/349854?sort=title" id="ember9915"
+                                            href="/journals/libraries/search/349854?sort=title" id="ember9915"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9916" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8723,7 +8723,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9917" class="ember-view"><a
-                                            href="/libraries/603/journals/36573?sort=title" id="ember9918"
+                                            href="/journals/libraries/search/36573?sort=title" id="ember9918"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9919" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8739,7 +8739,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9920" class="ember-view"><a
-                                            href="/libraries/603/journals/33352?sort=title" id="ember9921"
+                                            href="/journals/libraries/search/33352?sort=title" id="ember9921"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9922" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8756,7 +8756,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9923" class="ember-view"><a
-                                            href="/libraries/603/journals/33249?sort=title" id="ember9924"
+                                            href="/journals/libraries/search/33249?sort=title" id="ember9924"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9925" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8771,7 +8771,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9926" class="ember-view"><a
-                                            href="/libraries/603/journals/58741?sort=title" id="ember9927"
+                                            href="/journals/libraries/search/58741?sort=title" id="ember9927"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9928" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8785,7 +8785,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9929" class="ember-view"><a
-                                            href="/libraries/603/journals/58739?sort=title" id="ember9930"
+                                            href="/journals/libraries/search/58739?sort=title" id="ember9930"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9931" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8800,7 +8800,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9932" class="ember-view"><a
-                                            href="/libraries/603/journals/58750?sort=title" id="ember9933"
+                                            href="/journals/libraries/search/58750?sort=title" id="ember9933"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9934" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8816,7 +8816,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9935" class="ember-view"><a
-                                            href="/libraries/603/journals/58749?sort=title" id="ember9936"
+                                            href="/journals/libraries/search/58749?sort=title" id="ember9936"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9937" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8832,7 +8832,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9938" class="ember-view"><a
-                                            href="/libraries/603/journals/33377?sort=title" id="ember9939"
+                                            href="/journals/libraries/search/33377?sort=title" id="ember9939"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9940" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8846,7 +8846,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9941" class="ember-view"><a
-                                            href="/libraries/603/journals/247346?sort=title" id="ember9942"
+                                            href="/journals/libraries/search/247346?sort=title" id="ember9942"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9943" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8862,7 +8862,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9944" class="ember-view"><a
-                                            href="/libraries/603/journals/375355?sort=title" id="ember9945"
+                                            href="/journals/libraries/search/375355?sort=title" id="ember9945"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9946" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8878,7 +8878,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9947" class="ember-view"><a
-                                            href="/libraries/603/journals/59123?sort=title" id="ember9948"
+                                            href="/journals/libraries/search/59123?sort=title" id="ember9948"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9949" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8892,7 +8892,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9950" class="ember-view"><a
-                                            href="/libraries/603/journals/36429?sort=title" id="ember9951"
+                                            href="/journals/libraries/search/36429?sort=title" id="ember9951"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9952" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8909,7 +8909,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9953" class="ember-view"><a
-                                            href="/libraries/603/journals/59324?sort=title" id="ember9954"
+                                            href="/journals/libraries/search/59324?sort=title" id="ember9954"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9955" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8924,7 +8924,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9956" class="ember-view"><a
-                                            href="/libraries/603/journals/59364?sort=title" id="ember9957"
+                                            href="/journals/libraries/search/59364?sort=title" id="ember9957"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9958" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8941,7 +8941,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9959" class="ember-view"><a
-                                            href="/libraries/603/journals/10393?sort=title" id="ember9960"
+                                            href="/journals/libraries/search/10393?sort=title" id="ember9960"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9961" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8957,7 +8957,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9962" class="ember-view"><a
-                                            href="/libraries/603/journals/10789?sort=title" id="ember9963"
+                                            href="/journals/libraries/search/10789?sort=title" id="ember9963"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9964" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8974,7 +8974,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9965" class="ember-view"><a
-                                            href="/libraries/603/journals/10846?sort=title" id="ember9966"
+                                            href="/journals/libraries/search/10846?sort=title" id="ember9966"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9967" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -8991,7 +8991,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9968" class="ember-view"><a
-                                            href="/libraries/603/journals/38785?sort=title" id="ember9969"
+                                            href="/journals/libraries/search/38785?sort=title" id="ember9969"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9970" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9006,7 +9006,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9971" class="ember-view"><a
-                                            href="/libraries/603/journals/3315?sort=title" id="ember9972"
+                                            href="/journals/libraries/search/3315?sort=title" id="ember9972"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9973" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9022,7 +9022,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9974" class="ember-view"><a
-                                            href="/libraries/603/journals/10715?sort=title" id="ember9975"
+                                            href="/journals/libraries/search/10715?sort=title" id="ember9975"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9976" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9036,7 +9036,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9977" class="ember-view"><a
-                                            href="/libraries/603/journals/492266?sort=title" id="ember9978"
+                                            href="/journals/libraries/search/492266?sort=title" id="ember9978"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9979" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9051,7 +9051,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9980" class="ember-view"><a
-                                            href="/libraries/603/journals/10406?sort=title" id="ember9981"
+                                            href="/journals/libraries/search/10406?sort=title" id="ember9981"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9982" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9066,7 +9066,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9983" class="ember-view"><a
-                                            href="/libraries/603/journals/10428?sort=title" id="ember9984"
+                                            href="/journals/libraries/search/10428?sort=title" id="ember9984"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9985" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9082,7 +9082,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9986" class="ember-view"><a
-                                            href="/libraries/603/journals/121814?sort=title" id="ember9987"
+                                            href="/journals/libraries/search/121814?sort=title" id="ember9987"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9988" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9098,7 +9098,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9989" class="ember-view"><a
-                                            href="/libraries/603/journals/59637?sort=title" id="ember9990"
+                                            href="/journals/libraries/search/59637?sort=title" id="ember9990"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9991" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9115,7 +9115,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9992" class="ember-view"><a
-                                            href="/libraries/603/journals/3788?sort=title" id="ember9993"
+                                            href="/journals/libraries/search/3788?sort=title" id="ember9993"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9994" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9132,7 +9132,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9995" class="ember-view"><a
-                                            href="/libraries/603/journals/32638?sort=title" id="ember9996"
+                                            href="/journals/libraries/search/32638?sort=title" id="ember9996"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember9997" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9148,7 +9148,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember9998" class="ember-view"><a
-                                            href="/libraries/603/journals/10656?sort=title" id="ember9999"
+                                            href="/journals/libraries/search/10656?sort=title" id="ember9999"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10000" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9163,7 +9163,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10001" class="ember-view"><a
-                                            href="/libraries/603/journals/105523?sort=title" id="ember10002"
+                                            href="/journals/libraries/search/105523?sort=title" id="ember10002"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10003" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9180,7 +9180,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10004" class="ember-view"><a
-                                            href="/libraries/603/journals/60033?sort=title" id="ember10005"
+                                            href="/journals/libraries/search/60033?sort=title" id="ember10005"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10006" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9195,7 +9195,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10007" class="ember-view"><a
-                                            href="/libraries/603/journals/6987?sort=title" id="ember10008"
+                                            href="/journals/libraries/search/6987?sort=title" id="ember10008"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10009" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9210,7 +9210,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10010" class="ember-view"><a
-                                            href="/libraries/603/journals/18252?sort=title" id="ember10011"
+                                            href="/journals/libraries/search/18252?sort=title" id="ember10011"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10012" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9224,7 +9224,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10013" class="ember-view"><a
-                                            href="/libraries/603/journals/101473?sort=title" id="ember10014"
+                                            href="/journals/libraries/search/101473?sort=title" id="ember10014"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10015" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9241,7 +9241,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10016" class="ember-view"><a
-                                            href="/libraries/603/journals/10879?sort=title" id="ember10017"
+                                            href="/journals/libraries/search/10879?sort=title" id="ember10017"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10018" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9257,7 +9257,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10019" class="ember-view"><a
-                                            href="/libraries/603/journals/4651?sort=title" id="ember10020"
+                                            href="/journals/libraries/search/4651?sort=title" id="ember10020"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10021" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9273,7 +9273,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10022" class="ember-view"><a
-                                            href="/libraries/603/journals/6704?sort=title" id="ember10023"
+                                            href="/journals/libraries/search/6704?sort=title" id="ember10023"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10024" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9289,7 +9289,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10025" class="ember-view"><a
-                                            href="/libraries/603/journals/40299?sort=title" id="ember10026"
+                                            href="/journals/libraries/search/40299?sort=title" id="ember10026"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10027" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9305,7 +9305,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10028" class="ember-view"><a
-                                            href="/libraries/603/journals/17585?sort=title" id="ember10029"
+                                            href="/journals/libraries/search/17585?sort=title" id="ember10029"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10030" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9322,7 +9322,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10031" class="ember-view"><a
-                                            href="/libraries/603/journals/32650?sort=title" id="ember10032"
+                                            href="/journals/libraries/search/32650?sort=title" id="ember10032"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10033" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9336,7 +9336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10034" class="ember-view"><a
-                                            href="/libraries/603/journals/33442?sort=title" id="ember10035"
+                                            href="/journals/libraries/search/33442?sort=title" id="ember10035"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10036" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9350,7 +9350,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10037" class="ember-view"><a
-                                            href="/libraries/603/journals/60351?sort=title" id="ember10038"
+                                            href="/journals/libraries/search/60351?sort=title" id="ember10038"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10039" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9367,7 +9367,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10040" class="ember-view"><a
-                                            href="/libraries/603/journals/60372?sort=title" id="ember10041"
+                                            href="/journals/libraries/search/60372?sort=title" id="ember10041"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10042" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9383,7 +9383,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10043" class="ember-view"><a
-                                            href="/libraries/603/journals/40230?sort=title" id="ember10044"
+                                            href="/journals/libraries/search/40230?sort=title" id="ember10044"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10045" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9399,7 +9399,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10046" class="ember-view"><a
-                                            href="/libraries/603/journals/401048?sort=title" id="ember10047"
+                                            href="/journals/libraries/search/401048?sort=title" id="ember10047"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10048" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9416,7 +9416,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10049" class="ember-view"><a
-                                            href="/libraries/603/journals/33360?sort=title" id="ember10050"
+                                            href="/journals/libraries/search/33360?sort=title" id="ember10050"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10051" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9431,7 +9431,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10052" class="ember-view"><a
-                                            href="/libraries/603/journals/60594?sort=title" id="ember10053"
+                                            href="/journals/libraries/search/60594?sort=title" id="ember10053"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10054" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9445,7 +9445,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10055" class="ember-view"><a
-                                            href="/libraries/603/journals/10902?sort=title" id="ember10056"
+                                            href="/journals/libraries/search/10902?sort=title" id="ember10056"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10057" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9460,7 +9460,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10058" class="ember-view"><a
-                                            href="/libraries/603/journals/60673?sort=title" id="ember10059"
+                                            href="/journals/libraries/search/60673?sort=title" id="ember10059"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10060" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9475,7 +9475,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10061" class="ember-view"><a
-                                            href="/libraries/603/journals/295867?sort=title" id="ember10062"
+                                            href="/journals/libraries/search/295867?sort=title" id="ember10062"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10063" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9489,7 +9489,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10064" class="ember-view"><a
-                                            href="/libraries/603/journals/60718?sort=title" id="ember10065"
+                                            href="/journals/libraries/search/60718?sort=title" id="ember10065"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10066" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9503,7 +9503,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10067" class="ember-view"><a
-                                            href="/libraries/603/journals/19185?sort=title" id="ember10068"
+                                            href="/journals/libraries/search/19185?sort=title" id="ember10068"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10069" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9518,7 +9518,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10070" class="ember-view"><a
-                                            href="/libraries/603/journals/37422?sort=title" id="ember10071"
+                                            href="/journals/libraries/search/37422?sort=title" id="ember10071"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10072" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9534,7 +9534,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10073" class="ember-view"><a
-                                            href="/libraries/603/journals/32155?sort=title" id="ember10074"
+                                            href="/journals/libraries/search/32155?sort=title" id="ember10074"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10075" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9548,7 +9548,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10076" class="ember-view"><a
-                                            href="/libraries/603/journals/217734?sort=title" id="ember10077"
+                                            href="/journals/libraries/search/217734?sort=title" id="ember10077"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10078" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9565,7 +9565,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10079" class="ember-view"><a
-                                            href="/libraries/603/journals/61120?sort=title" id="ember10080"
+                                            href="/journals/libraries/search/61120?sort=title" id="ember10080"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10081" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9582,7 +9582,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10082" class="ember-view"><a
-                                            href="/libraries/603/journals/10686?sort=title" id="ember10083"
+                                            href="/journals/libraries/search/10686?sort=title" id="ember10083"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10084" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9597,7 +9597,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10085" class="ember-view"><a
-                                            href="/libraries/603/journals/10899?sort=title" id="ember10086"
+                                            href="/journals/libraries/search/10899?sort=title" id="ember10086"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10087" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9611,7 +9611,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10088" class="ember-view"><a
-                                            href="/libraries/603/journals/10738?sort=title" id="ember10089"
+                                            href="/journals/libraries/search/10738?sort=title" id="ember10089"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10090" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9627,7 +9627,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10091" class="ember-view"><a
-                                            href="/libraries/603/journals/10784?sort=title" id="ember10092"
+                                            href="/journals/libraries/search/10784?sort=title" id="ember10092"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10093" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9643,7 +9643,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10094" class="ember-view"><a
-                                            href="/libraries/603/journals/400413?sort=title" id="ember10095"
+                                            href="/journals/libraries/search/400413?sort=title" id="ember10095"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10096" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9657,7 +9657,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10097" class="ember-view"><a
-                                            href="/libraries/603/journals/36484?sort=title" id="ember10098"
+                                            href="/journals/libraries/search/36484?sort=title" id="ember10098"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10099" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9673,7 +9673,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10100" class="ember-view"><a
-                                            href="/libraries/603/journals/37307?sort=title" id="ember10101"
+                                            href="/journals/libraries/search/37307?sort=title" id="ember10101"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10102" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9688,7 +9688,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10103" class="ember-view"><a
-                                            href="/libraries/603/journals/405277?sort=title" id="ember10104"
+                                            href="/journals/libraries/search/405277?sort=title" id="ember10104"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10105" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9705,7 +9705,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10106" class="ember-view"><a
-                                            href="/libraries/603/journals/61534?sort=title" id="ember10107"
+                                            href="/journals/libraries/search/61534?sort=title" id="ember10107"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10108" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9719,7 +9719,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10109" class="ember-view"><a
-                                            href="/libraries/603/journals/61654?sort=title" id="ember10110"
+                                            href="/journals/libraries/search/61654?sort=title" id="ember10110"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10111" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9736,7 +9736,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10112" class="ember-view"><a
-                                            href="/libraries/603/journals/36366?sort=title" id="ember10113"
+                                            href="/journals/libraries/search/36366?sort=title" id="ember10113"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10114" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9752,7 +9752,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10115" class="ember-view"><a
-                                            href="/libraries/603/journals/10775?sort=title" id="ember10116"
+                                            href="/journals/libraries/search/10775?sort=title" id="ember10116"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10117" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9767,7 +9767,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10118" class="ember-view"><a
-                                            href="/libraries/603/journals/61670?sort=title" id="ember10119"
+                                            href="/journals/libraries/search/61670?sort=title" id="ember10119"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10120" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9781,7 +9781,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10121" class="ember-view"><a
-                                            href="/libraries/603/journals/32210?sort=title" id="ember10122"
+                                            href="/journals/libraries/search/32210?sort=title" id="ember10122"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10123" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9795,7 +9795,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10124" class="ember-view"><a
-                                            href="/libraries/603/journals/36441?sort=title" id="ember10125"
+                                            href="/journals/libraries/search/36441?sort=title" id="ember10125"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10126" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9811,7 +9811,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10127" class="ember-view"><a
-                                            href="/libraries/603/journals/39882?sort=title" id="ember10128"
+                                            href="/journals/libraries/search/39882?sort=title" id="ember10128"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10129" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9827,7 +9827,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10130" class="ember-view"><a
-                                            href="/libraries/603/journals/10827?sort=title" id="ember10131"
+                                            href="/journals/libraries/search/10827?sort=title" id="ember10131"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10132" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9842,7 +9842,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10133" class="ember-view"><a
-                                            href="/libraries/603/journals/61783?sort=title" id="ember10134"
+                                            href="/journals/libraries/search/61783?sort=title" id="ember10134"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10135" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9858,7 +9858,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10136" class="ember-view"><a
-                                            href="/libraries/603/journals/17769?sort=title" id="ember10137"
+                                            href="/journals/libraries/search/17769?sort=title" id="ember10137"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10138" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9874,7 +9874,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10139" class="ember-view"><a
-                                            href="/libraries/603/journals/35945?sort=title" id="ember10140"
+                                            href="/journals/libraries/search/35945?sort=title" id="ember10140"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10141" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9889,7 +9889,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10142" class="ember-view"><a
-                                            href="/libraries/603/journals/16939?sort=title" id="ember10143"
+                                            href="/journals/libraries/search/16939?sort=title" id="ember10143"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10144" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9905,7 +9905,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10145" class="ember-view"><a
-                                            href="/libraries/603/journals/33615?sort=title" id="ember10146"
+                                            href="/journals/libraries/search/33615?sort=title" id="ember10146"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10147" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9920,7 +9920,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10148" class="ember-view"><a
-                                            href="/libraries/603/journals/398514?sort=title" id="ember10149"
+                                            href="/journals/libraries/search/398514?sort=title" id="ember10149"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10150" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9935,7 +9935,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10151" class="ember-view"><a
-                                            href="/libraries/603/journals/62147?sort=title" id="ember10152"
+                                            href="/journals/libraries/search/62147?sort=title" id="ember10152"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10153" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9949,7 +9949,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10154" class="ember-view"><a
-                                            href="/libraries/603/journals/126972?sort=title" id="ember10155"
+                                            href="/journals/libraries/search/126972?sort=title" id="ember10155"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10156" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9963,7 +9963,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10157" class="ember-view"><a
-                                            href="/libraries/603/journals/37171?sort=title" id="ember10158"
+                                            href="/journals/libraries/search/37171?sort=title" id="ember10158"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10159" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9977,7 +9977,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10160" class="ember-view"><a
-                                            href="/libraries/603/journals/423035?sort=title" id="ember10161"
+                                            href="/journals/libraries/search/423035?sort=title" id="ember10161"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10162" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -9994,7 +9994,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10163" class="ember-view"><a
-                                            href="/libraries/603/journals/303744?sort=title" id="ember10164"
+                                            href="/journals/libraries/search/303744?sort=title" id="ember10164"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10165" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10011,7 +10011,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10166" class="ember-view"><a
-                                            href="/libraries/603/journals/135452?sort=title" id="ember10167"
+                                            href="/journals/libraries/search/135452?sort=title" id="ember10167"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10168" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10027,7 +10027,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10169" class="ember-view"><a
-                                            href="/libraries/603/journals/33267?sort=title" id="ember10170"
+                                            href="/journals/libraries/search/33267?sort=title" id="ember10170"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10171" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10043,7 +10043,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10172" class="ember-view"><a
-                                            href="/libraries/603/journals/35770?sort=title" id="ember10173"
+                                            href="/journals/libraries/search/35770?sort=title" id="ember10173"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10174" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10060,7 +10060,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10175" class="ember-view"><a
-                                            href="/libraries/603/journals/265088?sort=title" id="ember10176"
+                                            href="/journals/libraries/search/265088?sort=title" id="ember10176"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10177" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10077,7 +10077,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10178" class="ember-view"><a
-                                            href="/libraries/603/journals/16318?sort=title" id="ember10179"
+                                            href="/journals/libraries/search/16318?sort=title" id="ember10179"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10180" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10092,7 +10092,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10181" class="ember-view"><a
-                                            href="/libraries/603/journals/62307?sort=title" id="ember10182"
+                                            href="/journals/libraries/search/62307?sort=title" id="ember10182"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10183" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10109,7 +10109,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10184" class="ember-view"><a
-                                            href="/libraries/603/journals/112174?sort=title" id="ember10185"
+                                            href="/journals/libraries/search/112174?sort=title" id="ember10185"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10186" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10126,7 +10126,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10187" class="ember-view"><a
-                                            href="/libraries/603/journals/62475?sort=title" id="ember10188"
+                                            href="/journals/libraries/search/62475?sort=title" id="ember10188"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10189" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10143,7 +10143,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10190" class="ember-view"><a
-                                            href="/libraries/603/journals/62493?sort=title" id="ember10191"
+                                            href="/journals/libraries/search/62493?sort=title" id="ember10191"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10192" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10160,7 +10160,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10193" class="ember-view"><a
-                                            href="/libraries/603/journals/62502?sort=title" id="ember10194"
+                                            href="/journals/libraries/search/62502?sort=title" id="ember10194"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10195" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10177,7 +10177,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10196" class="ember-view"><a
-                                            href="/libraries/603/journals/33471?sort=title" id="ember10197"
+                                            href="/journals/libraries/search/33471?sort=title" id="ember10197"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10198" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10193,7 +10193,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10199" class="ember-view"><a
-                                            href="/libraries/603/journals/192749?sort=title" id="ember10200"
+                                            href="/journals/libraries/search/192749?sort=title" id="ember10200"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10201" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10208,7 +10208,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10202" class="ember-view"><a
-                                            href="/libraries/603/journals/9761?sort=title" id="ember10203"
+                                            href="/journals/libraries/search/9761?sort=title" id="ember10203"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10204" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10222,7 +10222,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10205" class="ember-view"><a
-                                            href="/libraries/603/journals/101877?sort=title" id="ember10206"
+                                            href="/journals/libraries/search/101877?sort=title" id="ember10206"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10207" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10239,7 +10239,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10208" class="ember-view"><a
-                                            href="/libraries/603/journals/62703?sort=title" id="ember10209"
+                                            href="/journals/libraries/search/62703?sort=title" id="ember10209"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10210" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10256,7 +10256,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10211" class="ember-view"><a
-                                            href="/libraries/603/journals/62788?sort=title" id="ember10212"
+                                            href="/journals/libraries/search/62788?sort=title" id="ember10212"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10213" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10273,7 +10273,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10214" class="ember-view"><a
-                                            href="/libraries/603/journals/300940?sort=title" id="ember10215"
+                                            href="/journals/libraries/search/300940?sort=title" id="ember10215"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10216" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10289,7 +10289,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10217" class="ember-view"><a
-                                            href="/libraries/603/journals/101926?sort=title" id="ember10218"
+                                            href="/journals/libraries/search/101926?sort=title" id="ember10218"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10219" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10305,7 +10305,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10220" class="ember-view"><a
-                                            href="/libraries/603/journals/9841?sort=title" id="ember10221"
+                                            href="/journals/libraries/search/9841?sort=title" id="ember10221"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10222" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10321,7 +10321,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10223" class="ember-view"><a
-                                            href="/libraries/603/journals/321455?sort=title" id="ember10224"
+                                            href="/journals/libraries/search/321455?sort=title" id="ember10224"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10225" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10336,7 +10336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10226" class="ember-view"><a
-                                            href="/libraries/603/journals/303578?sort=title" id="ember10227"
+                                            href="/journals/libraries/search/303578?sort=title" id="ember10227"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10228" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10353,7 +10353,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10229" class="ember-view"><a
-                                            href="/libraries/603/journals/797?sort=title" id="ember10230"
+                                            href="/journals/libraries/search/797?sort=title" id="ember10230"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10231" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10367,7 +10367,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10232" class="ember-view"><a
-                                            href="/libraries/603/journals/63062?sort=title" id="ember10233"
+                                            href="/journals/libraries/search/63062?sort=title" id="ember10233"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10234" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10382,7 +10382,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10235" class="ember-view"><a
-                                            href="/libraries/603/journals/63151?sort=title" id="ember10236"
+                                            href="/journals/libraries/search/63151?sort=title" id="ember10236"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10237" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10399,7 +10399,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10238" class="ember-view"><a
-                                            href="/libraries/603/journals/17012?sort=title" id="ember10239"
+                                            href="/journals/libraries/search/17012?sort=title" id="ember10239"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10240" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10415,7 +10415,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10241" class="ember-view"><a
-                                            href="/libraries/603/journals/135223?sort=title" id="ember10242"
+                                            href="/journals/libraries/search/135223?sort=title" id="ember10242"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10243" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10432,7 +10432,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10244" class="ember-view"><a
-                                            href="/libraries/603/journals/63526?sort=title" id="ember10245"
+                                            href="/journals/libraries/search/63526?sort=title" id="ember10245"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10246" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10449,7 +10449,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10247" class="ember-view"><a
-                                            href="/libraries/603/journals/369775?sort=title" id="ember10248"
+                                            href="/journals/libraries/search/369775?sort=title" id="ember10248"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10249" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10466,7 +10466,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10250" class="ember-view"><a
-                                            href="/libraries/603/journals/33416?sort=title" id="ember10251"
+                                            href="/journals/libraries/search/33416?sort=title" id="ember10251"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10252" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10482,7 +10482,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10253" class="ember-view"><a
-                                            href="/libraries/603/journals/10554?sort=title" id="ember10254"
+                                            href="/journals/libraries/search/10554?sort=title" id="ember10254"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10255" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10499,7 +10499,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10256" class="ember-view"><a
-                                            href="/libraries/603/journals/35957?sort=title" id="ember10257"
+                                            href="/journals/libraries/search/35957?sort=title" id="ember10257"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10258" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10516,7 +10516,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10259" class="ember-view"><a
-                                            href="/libraries/603/journals/63551?sort=title" id="ember10260"
+                                            href="/journals/libraries/search/63551?sort=title" id="ember10260"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10261" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10531,7 +10531,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10262" class="ember-view"><a
-                                            href="/libraries/603/journals/63622?sort=title" id="ember10263"
+                                            href="/journals/libraries/search/63622?sort=title" id="ember10263"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10264" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10548,7 +10548,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10265" class="ember-view"><a
-                                            href="/libraries/603/journals/63841?sort=title" id="ember10266"
+                                            href="/journals/libraries/search/63841?sort=title" id="ember10266"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10267" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10565,7 +10565,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10268" class="ember-view"><a
-                                            href="/libraries/603/journals/63853?sort=title" id="ember10269"
+                                            href="/journals/libraries/search/63853?sort=title" id="ember10269"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10270" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10582,7 +10582,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10271" class="ember-view"><a
-                                            href="/libraries/603/journals/63850?sort=title" id="ember10272"
+                                            href="/journals/libraries/search/63850?sort=title" id="ember10272"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10273" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10599,7 +10599,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10274" class="ember-view"><a
-                                            href="/libraries/603/journals/17509?sort=title" id="ember10275"
+                                            href="/journals/libraries/search/17509?sort=title" id="ember10275"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10276" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10616,7 +10616,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10277" class="ember-view"><a
-                                            href="/libraries/603/journals/8527?sort=title" id="ember10278"
+                                            href="/journals/libraries/search/8527?sort=title" id="ember10278"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10279" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10633,7 +10633,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10280" class="ember-view"><a
-                                            href="/libraries/603/journals/63858?sort=title" id="ember10281"
+                                            href="/journals/libraries/search/63858?sort=title" id="ember10281"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10282" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10650,7 +10650,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10283" class="ember-view"><a
-                                            href="/libraries/603/journals/262301?sort=title" id="ember10284"
+                                            href="/journals/libraries/search/262301?sort=title" id="ember10284"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10285" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10667,7 +10667,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10286" class="ember-view"><a
-                                            href="/libraries/603/journals/17449?sort=title" id="ember10287"
+                                            href="/journals/libraries/search/17449?sort=title" id="ember10287"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10288" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10684,7 +10684,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10289" class="ember-view"><a
-                                            href="/libraries/603/journals/3062?sort=title" id="ember10290"
+                                            href="/journals/libraries/search/3062?sort=title" id="ember10290"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10291" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10701,7 +10701,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10292" class="ember-view"><a
-                                            href="/libraries/603/journals/64033?sort=title" id="ember10293"
+                                            href="/journals/libraries/search/64033?sort=title" id="ember10293"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10294" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10718,7 +10718,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10295" class="ember-view"><a
-                                            href="/libraries/603/journals/64038?sort=title" id="ember10296"
+                                            href="/journals/libraries/search/64038?sort=title" id="ember10296"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10297" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10735,7 +10735,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10298" class="ember-view"><a
-                                            href="/libraries/603/journals/370463?sort=title" id="ember10299"
+                                            href="/journals/libraries/search/370463?sort=title" id="ember10299"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10300" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10752,7 +10752,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10301" class="ember-view"><a
-                                            href="/libraries/603/journals/237512?sort=title" id="ember10302"
+                                            href="/journals/libraries/search/237512?sort=title" id="ember10302"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10303" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10769,7 +10769,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10304" class="ember-view"><a
-                                            href="/libraries/603/journals/36521?sort=title" id="ember10305"
+                                            href="/journals/libraries/search/36521?sort=title" id="ember10305"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10306" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10786,7 +10786,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10307" class="ember-view"><a
-                                            href="/libraries/603/journals/64124?sort=title" id="ember10308"
+                                            href="/journals/libraries/search/64124?sort=title" id="ember10308"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10309" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10803,7 +10803,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10310" class="ember-view"><a
-                                            href="/libraries/603/journals/153508?sort=title" id="ember10311"
+                                            href="/journals/libraries/search/153508?sort=title" id="ember10311"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10312" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10820,7 +10820,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10313" class="ember-view"><a
-                                            href="/libraries/603/journals/17830?sort=title" id="ember10314"
+                                            href="/journals/libraries/search/17830?sort=title" id="ember10314"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10315" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10837,7 +10837,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10316" class="ember-view"><a
-                                            href="/libraries/603/journals/36584?sort=title" id="ember10317"
+                                            href="/journals/libraries/search/36584?sort=title" id="ember10317"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10318" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10854,7 +10854,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10319" class="ember-view"><a
-                                            href="/libraries/603/journals/157815?sort=title" id="ember10320"
+                                            href="/journals/libraries/search/157815?sort=title" id="ember10320"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10321" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10871,7 +10871,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10322" class="ember-view"><a
-                                            href="/libraries/603/journals/17005?sort=title" id="ember10323"
+                                            href="/journals/libraries/search/17005?sort=title" id="ember10323"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10324" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10888,7 +10888,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10325" class="ember-view"><a
-                                            href="/libraries/603/journals/38818?sort=title" id="ember10326"
+                                            href="/journals/libraries/search/38818?sort=title" id="ember10326"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10327" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10905,7 +10905,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10328" class="ember-view"><a
-                                            href="/libraries/603/journals/242633?sort=title" id="ember10329"
+                                            href="/journals/libraries/search/242633?sort=title" id="ember10329"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10330" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10922,7 +10922,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10331" class="ember-view"><a
-                                            href="/libraries/603/journals/157817?sort=title" id="ember10332"
+                                            href="/journals/libraries/search/157817?sort=title" id="ember10332"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10333" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10939,7 +10939,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10334" class="ember-view"><a
-                                            href="/libraries/603/journals/36572?sort=title" id="ember10335"
+                                            href="/journals/libraries/search/36572?sort=title" id="ember10335"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10336" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10956,7 +10956,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10337" class="ember-view"><a
-                                            href="/libraries/603/journals/318113?sort=title" id="ember10338"
+                                            href="/journals/libraries/search/318113?sort=title" id="ember10338"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10339" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10973,7 +10973,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10340" class="ember-view"><a
-                                            href="/libraries/603/journals/242635?sort=title" id="ember10341"
+                                            href="/journals/libraries/search/242635?sort=title" id="ember10341"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10342" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -10990,7 +10990,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10343" class="ember-view"><a
-                                            href="/libraries/603/journals/3698?sort=title" id="ember10344"
+                                            href="/journals/libraries/search/3698?sort=title" id="ember10344"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10345" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11007,7 +11007,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10346" class="ember-view"><a
-                                            href="/libraries/603/journals/38707?sort=title" id="ember10347"
+                                            href="/journals/libraries/search/38707?sort=title" id="ember10347"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10348" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11024,7 +11024,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10349" class="ember-view"><a
-                                            href="/libraries/603/journals/289123?sort=title" id="ember10350"
+                                            href="/journals/libraries/search/289123?sort=title" id="ember10350"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10351" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11041,7 +11041,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10352" class="ember-view"><a
-                                            href="/libraries/603/journals/102176?sort=title" id="ember10353"
+                                            href="/journals/libraries/search/102176?sort=title" id="ember10353"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10354" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11058,7 +11058,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10355" class="ember-view"><a
-                                            href="/libraries/603/journals/64532?sort=title" id="ember10356"
+                                            href="/journals/libraries/search/64532?sort=title" id="ember10356"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10357" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11075,7 +11075,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10358" class="ember-view"><a
-                                            href="/libraries/603/journals/157275?sort=title" id="ember10359"
+                                            href="/journals/libraries/search/157275?sort=title" id="ember10359"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10360" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11092,7 +11092,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10361" class="ember-view"><a
-                                            href="/libraries/603/journals/5650?sort=title" id="ember10362"
+                                            href="/journals/libraries/search/5650?sort=title" id="ember10362"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10363" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11109,7 +11109,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10364" class="ember-view"><a
-                                            href="/libraries/603/journals/64580?sort=title" id="ember10365"
+                                            href="/journals/libraries/search/64580?sort=title" id="ember10365"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10366" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11126,7 +11126,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10367" class="ember-view"><a
-                                            href="/libraries/603/journals/441187?sort=title" id="ember10368"
+                                            href="/journals/libraries/search/441187?sort=title" id="ember10368"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10369" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11143,7 +11143,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10370" class="ember-view"><a
-                                            href="/libraries/603/journals/38820?sort=title" id="ember10371"
+                                            href="/journals/libraries/search/38820?sort=title" id="ember10371"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10372" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11160,7 +11160,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10373" class="ember-view"><a
-                                            href="/libraries/603/journals/40313?sort=title" id="ember10374"
+                                            href="/journals/libraries/search/40313?sort=title" id="ember10374"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10375" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11176,7 +11176,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10376" class="ember-view"><a
-                                            href="/libraries/603/journals/32610?sort=title" id="ember10377"
+                                            href="/journals/libraries/search/32610?sort=title" id="ember10377"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10378" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11193,7 +11193,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10379" class="ember-view"><a
-                                            href="/libraries/603/journals/64878?sort=title" id="ember10380"
+                                            href="/journals/libraries/search/64878?sort=title" id="ember10380"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10381" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11210,7 +11210,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10382" class="ember-view"><a
-                                            href="/libraries/603/journals/10658?sort=title" id="ember10383"
+                                            href="/journals/libraries/search/10658?sort=title" id="ember10383"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10384" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11224,7 +11224,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10385" class="ember-view"><a
-                                            href="/libraries/603/journals/17189?sort=title" id="ember10386"
+                                            href="/journals/libraries/search/17189?sort=title" id="ember10386"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10387" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11241,7 +11241,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10388" class="ember-view"><a
-                                            href="/libraries/603/journals/123884?sort=title" id="ember10389"
+                                            href="/journals/libraries/search/123884?sort=title" id="ember10389"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10390" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11257,7 +11257,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10391" class="ember-view"><a
-                                            href="/libraries/603/journals/38835?sort=title" id="ember10392"
+                                            href="/journals/libraries/search/38835?sort=title" id="ember10392"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10393" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11273,7 +11273,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10394" class="ember-view"><a
-                                            href="/libraries/603/journals/65178?sort=title" id="ember10395"
+                                            href="/journals/libraries/search/65178?sort=title" id="ember10395"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10396" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11288,7 +11288,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10397" class="ember-view"><a
-                                            href="/libraries/603/journals/65192?sort=title" id="ember10398"
+                                            href="/journals/libraries/search/65192?sort=title" id="ember10398"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10399" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11304,7 +11304,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10400" class="ember-view"><a
-                                            href="/libraries/603/journals/65350?sort=title" id="ember10401"
+                                            href="/journals/libraries/search/65350?sort=title" id="ember10401"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10402" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11321,7 +11321,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10403" class="ember-view"><a
-                                            href="/libraries/603/journals/36400?sort=title" id="ember10404"
+                                            href="/journals/libraries/search/36400?sort=title" id="ember10404"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10405" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11336,7 +11336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10406" class="ember-view"><a
-                                            href="/libraries/603/journals/36379?sort=title" id="ember10407"
+                                            href="/journals/libraries/search/36379?sort=title" id="ember10407"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10408" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11351,7 +11351,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10409" class="ember-view"><a
-                                            href="/libraries/603/journals/36375?sort=title" id="ember10410"
+                                            href="/journals/libraries/search/36375?sort=title" id="ember10410"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10411" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11366,7 +11366,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10412" class="ember-view"><a
-                                            href="/libraries/603/journals/65395?sort=title" id="ember10413"
+                                            href="/journals/libraries/search/65395?sort=title" id="ember10413"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10414" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11381,7 +11381,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10415" class="ember-view"><a
-                                            href="/libraries/603/journals/371300?sort=title" id="ember10416"
+                                            href="/journals/libraries/search/371300?sort=title" id="ember10416"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10417" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11398,7 +11398,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10418" class="ember-view"><a
-                                            href="/libraries/603/journals/388749?sort=title" id="ember10419"
+                                            href="/journals/libraries/search/388749?sort=title" id="ember10419"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10420" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11415,7 +11415,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10421" class="ember-view"><a
-                                            href="/libraries/603/journals/65448?sort=title" id="ember10422"
+                                            href="/journals/libraries/search/65448?sort=title" id="ember10422"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10423" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11432,7 +11432,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10424" class="ember-view"><a
-                                            href="/libraries/603/journals/65451?sort=title" id="ember10425"
+                                            href="/journals/libraries/search/65451?sort=title" id="ember10425"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10426" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11450,7 +11450,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10427" class="ember-view"><a
-                                            href="/libraries/603/journals/65456?sort=title" id="ember10428"
+                                            href="/journals/libraries/search/65456?sort=title" id="ember10428"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10429" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11467,7 +11467,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10430" class="ember-view"><a
-                                            href="/libraries/603/journals/321486?sort=title" id="ember10431"
+                                            href="/journals/libraries/search/321486?sort=title" id="ember10431"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10432" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11484,7 +11484,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10433" class="ember-view"><a
-                                            href="/libraries/603/journals/32644?sort=title" id="ember10434"
+                                            href="/journals/libraries/search/32644?sort=title" id="ember10434"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10435" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11501,7 +11501,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10436" class="ember-view"><a
-                                            href="/libraries/603/journals/124064?sort=title" id="ember10437"
+                                            href="/journals/libraries/search/124064?sort=title" id="ember10437"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10438" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11517,7 +11517,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10439" class="ember-view"><a
-                                            href="/libraries/603/journals/10896?sort=title" id="ember10440"
+                                            href="/journals/libraries/search/10896?sort=title" id="ember10440"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10441" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11533,7 +11533,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10442" class="ember-view"><a
-                                            href="/libraries/603/journals/443504?sort=title" id="ember10443"
+                                            href="/journals/libraries/search/443504?sort=title" id="ember10443"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10444" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11550,7 +11550,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10445" class="ember-view"><a
-                                            href="/libraries/603/journals/65532?sort=title" id="ember10446"
+                                            href="/journals/libraries/search/65532?sort=title" id="ember10446"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10447" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11564,7 +11564,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10448" class="ember-view"><a
-                                            href="/libraries/603/journals/314137?sort=title" id="ember10449"
+                                            href="/journals/libraries/search/314137?sort=title" id="ember10449"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10450" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11580,7 +11580,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10451" class="ember-view"><a
-                                            href="/libraries/603/journals/65702?sort=title" id="ember10452"
+                                            href="/journals/libraries/search/65702?sort=title" id="ember10452"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10453" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11597,7 +11597,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10454" class="ember-view"><a
-                                            href="/libraries/603/journals/139579?sort=title" id="ember10455"
+                                            href="/journals/libraries/search/139579?sort=title" id="ember10455"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10456" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11613,7 +11613,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10457" class="ember-view"><a
-                                            href="/libraries/603/journals/65733?sort=title" id="ember10458"
+                                            href="/journals/libraries/search/65733?sort=title" id="ember10458"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10459" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11627,7 +11627,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10460" class="ember-view"><a
-                                            href="/libraries/603/journals/398248?sort=title" id="ember10461"
+                                            href="/journals/libraries/search/398248?sort=title" id="ember10461"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10462" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11644,7 +11644,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10463" class="ember-view"><a
-                                            href="/libraries/603/journals/17518?sort=title" id="ember10464"
+                                            href="/journals/libraries/search/17518?sort=title" id="ember10464"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10465" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11659,7 +11659,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10466" class="ember-view"><a
-                                            href="/libraries/603/journals/356334?sort=title" id="ember10467"
+                                            href="/journals/libraries/search/356334?sort=title" id="ember10467"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10468" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11676,7 +11676,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10469" class="ember-view"><a
-                                            href="/libraries/603/journals/10668?sort=title" id="ember10470"
+                                            href="/journals/libraries/search/10668?sort=title" id="ember10470"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10471" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11693,7 +11693,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10472" class="ember-view"><a
-                                            href="/libraries/603/journals/65830?sort=title" id="ember10473"
+                                            href="/journals/libraries/search/65830?sort=title" id="ember10473"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10474" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11709,7 +11709,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10475" class="ember-view"><a
-                                            href="/libraries/603/journals/375518?sort=title" id="ember10476"
+                                            href="/journals/libraries/search/375518?sort=title" id="ember10476"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10477" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11726,7 +11726,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10478" class="ember-view"><a
-                                            href="/libraries/603/journals/40012?sort=title" id="ember10479"
+                                            href="/journals/libraries/search/40012?sort=title" id="ember10479"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10480" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11743,7 +11743,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10481" class="ember-view"><a
-                                            href="/libraries/603/journals/118758?sort=title" id="ember10482"
+                                            href="/journals/libraries/search/118758?sort=title" id="ember10482"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10483" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11759,7 +11759,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10484" class="ember-view"><a
-                                            href="/libraries/603/journals/16330?sort=title" id="ember10485"
+                                            href="/journals/libraries/search/16330?sort=title" id="ember10485"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10486" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11775,7 +11775,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10487" class="ember-view"><a
-                                            href="/libraries/603/journals/12637?sort=title" id="ember10488"
+                                            href="/journals/libraries/search/12637?sort=title" id="ember10488"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10489" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11792,7 +11792,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10490" class="ember-view"><a
-                                            href="/libraries/603/journals/66322?sort=title" id="ember10491"
+                                            href="/journals/libraries/search/66322?sort=title" id="ember10491"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10492" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11808,7 +11808,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10493" class="ember-view"><a
-                                            href="/libraries/603/journals/6978?sort=title" id="ember10494"
+                                            href="/journals/libraries/search/6978?sort=title" id="ember10494"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10495" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11825,7 +11825,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10496" class="ember-view"><a
-                                            href="/libraries/603/journals/40296?sort=title" id="ember10497"
+                                            href="/journals/libraries/search/40296?sort=title" id="ember10497"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10498" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11842,7 +11842,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10499" class="ember-view"><a
-                                            href="/libraries/603/journals/66325?sort=title" id="ember10500"
+                                            href="/journals/libraries/search/66325?sort=title" id="ember10500"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10501" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11859,7 +11859,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10502" class="ember-view"><a
-                                            href="/libraries/603/journals/33373?sort=title" id="ember10503"
+                                            href="/journals/libraries/search/33373?sort=title" id="ember10503"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10504" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11876,7 +11876,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10505" class="ember-view"><a
-                                            href="/libraries/603/journals/39002?sort=title" id="ember10506"
+                                            href="/journals/libraries/search/39002?sort=title" id="ember10506"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10507" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11893,7 +11893,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10508" class="ember-view"><a
-                                            href="/libraries/603/journals/16819?sort=title" id="ember10509"
+                                            href="/journals/libraries/search/16819?sort=title" id="ember10509"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10510" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11910,7 +11910,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10511" class="ember-view"><a
-                                            href="/libraries/603/journals/36478?sort=title" id="ember10512"
+                                            href="/journals/libraries/search/36478?sort=title" id="ember10512"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10513" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11927,7 +11927,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10514" class="ember-view"><a
-                                            href="/libraries/603/journals/19054?sort=title" id="ember10515"
+                                            href="/journals/libraries/search/19054?sort=title" id="ember10515"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10516" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11943,7 +11943,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10517" class="ember-view"><a
-                                            href="/libraries/603/journals/32586?sort=title" id="ember10518"
+                                            href="/journals/libraries/search/32586?sort=title" id="ember10518"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10519" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11960,7 +11960,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10520" class="ember-view"><a
-                                            href="/libraries/603/journals/36539?sort=title" id="ember10521"
+                                            href="/journals/libraries/search/36539?sort=title" id="ember10521"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10522" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11976,7 +11976,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10523" class="ember-view"><a
-                                            href="/libraries/603/journals/66327?sort=title" id="ember10524"
+                                            href="/journals/libraries/search/66327?sort=title" id="ember10524"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10525" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -11992,7 +11992,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10526" class="ember-view"><a
-                                            href="/libraries/603/journals/33422?sort=title" id="ember10527"
+                                            href="/journals/libraries/search/33422?sort=title" id="ember10527"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10528" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12008,7 +12008,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10529" class="ember-view"><a
-                                            href="/libraries/603/journals/401232?sort=title" id="ember10530"
+                                            href="/journals/libraries/search/401232?sort=title" id="ember10530"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10531" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12024,7 +12024,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10532" class="ember-view"><a
-                                            href="/libraries/603/journals/5046?sort=title" id="ember10533"
+                                            href="/journals/libraries/search/5046?sort=title" id="ember10533"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10534" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12040,7 +12040,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10535" class="ember-view"><a
-                                            href="/libraries/603/journals/112429?sort=title" id="ember10536"
+                                            href="/journals/libraries/search/112429?sort=title" id="ember10536"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10537" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12056,7 +12056,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10538" class="ember-view"><a
-                                            href="/libraries/603/journals/66401?sort=title" id="ember10539"
+                                            href="/journals/libraries/search/66401?sort=title" id="ember10539"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10540" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12072,7 +12072,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10541" class="ember-view"><a
-                                            href="/libraries/603/journals/9899?sort=title" id="ember10542"
+                                            href="/journals/libraries/search/9899?sort=title" id="ember10542"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10543" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12088,7 +12088,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10544" class="ember-view"><a
-                                            href="/libraries/603/journals/66465?sort=title" id="ember10545"
+                                            href="/journals/libraries/search/66465?sort=title" id="ember10545"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10546" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12105,7 +12105,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10547" class="ember-view"><a
-                                            href="/libraries/603/journals/7164?sort=title" id="ember10548"
+                                            href="/journals/libraries/search/7164?sort=title" id="ember10548"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10549" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12121,7 +12121,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10550" class="ember-view"><a
-                                            href="/libraries/603/journals/17056?sort=title" id="ember10551"
+                                            href="/journals/libraries/search/17056?sort=title" id="ember10551"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10552" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12137,7 +12137,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10553" class="ember-view"><a
-                                            href="/libraries/603/journals/366072?sort=title" id="ember10554"
+                                            href="/journals/libraries/search/366072?sort=title" id="ember10554"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10555" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12154,7 +12154,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10556" class="ember-view"><a
-                                            href="/libraries/603/journals/66463?sort=title" id="ember10557"
+                                            href="/journals/libraries/search/66463?sort=title" id="ember10557"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10558" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12171,7 +12171,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10559" class="ember-view"><a
-                                            href="/libraries/603/journals/17582?sort=title" id="ember10560"
+                                            href="/journals/libraries/search/17582?sort=title" id="ember10560"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10561" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12188,7 +12188,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10562" class="ember-view"><a
-                                            href="/libraries/603/journals/66493?sort=title" id="ember10563"
+                                            href="/journals/libraries/search/66493?sort=title" id="ember10563"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10564" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12205,7 +12205,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10565" class="ember-view"><a
-                                            href="/libraries/603/journals/394349?sort=title" id="ember10566"
+                                            href="/journals/libraries/search/394349?sort=title" id="ember10566"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10567" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12221,7 +12221,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10568" class="ember-view"><a
-                                            href="/libraries/603/journals/38822?sort=title" id="ember10569"
+                                            href="/journals/libraries/search/38822?sort=title" id="ember10569"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10570" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12237,7 +12237,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10571" class="ember-view"><a
-                                            href="/libraries/603/journals/2680?sort=title" id="ember10572"
+                                            href="/journals/libraries/search/2680?sort=title" id="ember10572"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10573" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12253,7 +12253,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10574" class="ember-view"><a
-                                            href="/libraries/603/journals/1450?sort=title" id="ember10575"
+                                            href="/journals/libraries/search/1450?sort=title" id="ember10575"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10576" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12269,7 +12269,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10577" class="ember-view"><a
-                                            href="/libraries/603/journals/66616?sort=title" id="ember10578"
+                                            href="/journals/libraries/search/66616?sort=title" id="ember10578"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10579" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12286,7 +12286,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10580" class="ember-view"><a
-                                            href="/libraries/603/journals/38813?sort=title" id="ember10581"
+                                            href="/journals/libraries/search/38813?sort=title" id="ember10581"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10582" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12303,7 +12303,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10583" class="ember-view"><a
-                                            href="/libraries/603/journals/66705?sort=title" id="ember10584"
+                                            href="/journals/libraries/search/66705?sort=title" id="ember10584"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10585" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12319,7 +12319,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10586" class="ember-view"><a
-                                            href="/libraries/603/journals/66706?sort=title" id="ember10587"
+                                            href="/journals/libraries/search/66706?sort=title" id="ember10587"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10588" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12336,7 +12336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10589" class="ember-view"><a
-                                            href="/libraries/603/journals/102500?sort=title" id="ember10590"
+                                            href="/journals/libraries/search/102500?sort=title" id="ember10590"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10591" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12352,7 +12352,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10592" class="ember-view"><a
-                                            href="/libraries/603/journals/66794?sort=title" id="ember10593"
+                                            href="/journals/libraries/search/66794?sort=title" id="ember10593"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10594" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12369,7 +12369,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10595" class="ember-view"><a
-                                            href="/libraries/603/journals/3377?sort=title" id="ember10596"
+                                            href="/journals/libraries/search/3377?sort=title" id="ember10596"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10597" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12386,7 +12386,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10598" class="ember-view"><a
-                                            href="/libraries/603/journals/32481?sort=title" id="ember10599"
+                                            href="/journals/libraries/search/32481?sort=title" id="ember10599"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10600" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12403,7 +12403,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10601" class="ember-view"><a
-                                            href="/libraries/603/journals/37939?sort=title" id="ember10602"
+                                            href="/journals/libraries/search/37939?sort=title" id="ember10602"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10603" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12420,7 +12420,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10604" class="ember-view"><a
-                                            href="/libraries/603/journals/17177?sort=title" id="ember10605"
+                                            href="/journals/libraries/search/17177?sort=title" id="ember10605"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10606" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12437,7 +12437,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10607" class="ember-view"><a
-                                            href="/libraries/603/journals/154052?sort=title" id="ember10608"
+                                            href="/journals/libraries/search/154052?sort=title" id="ember10608"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10609" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12454,7 +12454,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10610" class="ember-view"><a
-                                            href="/libraries/603/journals/346137?sort=title" id="ember10611"
+                                            href="/journals/libraries/search/346137?sort=title" id="ember10611"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10612" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12470,7 +12470,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10613" class="ember-view"><a
-                                            href="/libraries/603/journals/17379?sort=title" id="ember10614"
+                                            href="/journals/libraries/search/17379?sort=title" id="ember10614"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10615" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12487,7 +12487,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10616" class="ember-view"><a
-                                            href="/libraries/603/journals/270691?sort=title" id="ember10617"
+                                            href="/journals/libraries/search/270691?sort=title" id="ember10617"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10618" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12504,7 +12504,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10619" class="ember-view"><a
-                                            href="/libraries/603/journals/7240?sort=title" id="ember10620"
+                                            href="/journals/libraries/search/7240?sort=title" id="ember10620"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10621" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12520,7 +12520,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10622" class="ember-view"><a
-                                            href="/libraries/603/journals/39667?sort=title" id="ember10623"
+                                            href="/journals/libraries/search/39667?sort=title" id="ember10623"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10624" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12536,7 +12536,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10625" class="ember-view"><a
-                                            href="/libraries/603/journals/15658?sort=title" id="ember10626"
+                                            href="/journals/libraries/search/15658?sort=title" id="ember10626"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10627" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12552,7 +12552,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10628" class="ember-view"><a
-                                            href="/libraries/603/journals/66933?sort=title" id="ember10629"
+                                            href="/journals/libraries/search/66933?sort=title" id="ember10629"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10630" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12569,7 +12569,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10631" class="ember-view"><a
-                                            href="/libraries/603/journals/123904?sort=title" id="ember10632"
+                                            href="/journals/libraries/search/123904?sort=title" id="ember10632"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10633" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12586,7 +12586,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10634" class="ember-view"><a
-                                            href="/libraries/603/journals/10381?sort=title" id="ember10635"
+                                            href="/journals/libraries/search/10381?sort=title" id="ember10635"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10636" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12602,7 +12602,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10637" class="ember-view"><a
-                                            href="/libraries/603/journals/389596?sort=title" id="ember10638"
+                                            href="/journals/libraries/search/389596?sort=title" id="ember10638"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10639" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12618,7 +12618,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10640" class="ember-view"><a
-                                            href="/libraries/603/journals/17737?sort=title" id="ember10641"
+                                            href="/journals/libraries/search/17737?sort=title" id="ember10641"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10642" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12634,7 +12634,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10643" class="ember-view"><a
-                                            href="/libraries/603/journals/33460?sort=title" id="ember10644"
+                                            href="/journals/libraries/search/33460?sort=title" id="ember10644"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10645" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12651,7 +12651,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10646" class="ember-view"><a
-                                            href="/libraries/603/journals/74997?sort=title" id="ember10647"
+                                            href="/journals/libraries/search/74997?sort=title" id="ember10647"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10648" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12668,7 +12668,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10649" class="ember-view"><a
-                                            href="/libraries/603/journals/407035?sort=title" id="ember10650"
+                                            href="/journals/libraries/search/407035?sort=title" id="ember10650"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10651" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12684,7 +12684,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10652" class="ember-view"><a
-                                            href="/libraries/603/journals/165075?sort=title" id="ember10653"
+                                            href="/journals/libraries/search/165075?sort=title" id="ember10653"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10654" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12701,7 +12701,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10655" class="ember-view"><a
-                                            href="/libraries/603/journals/9954?sort=title" id="ember10656"
+                                            href="/journals/libraries/search/9954?sort=title" id="ember10656"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10657" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12718,7 +12718,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10658" class="ember-view"><a
-                                            href="/libraries/603/journals/375725?sort=title" id="ember10659"
+                                            href="/journals/libraries/search/375725?sort=title" id="ember10659"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10660" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12734,7 +12734,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10661" class="ember-view"><a
-                                            href="/libraries/603/journals/33459?sort=title" id="ember10662"
+                                            href="/journals/libraries/search/33459?sort=title" id="ember10662"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10663" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12750,7 +12750,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10664" class="ember-view"><a
-                                            href="/libraries/603/journals/39772?sort=title" id="ember10665"
+                                            href="/journals/libraries/search/39772?sort=title" id="ember10665"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10666" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12766,7 +12766,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10667" class="ember-view"><a
-                                            href="/libraries/603/journals/18959?sort=title" id="ember10668"
+                                            href="/journals/libraries/search/18959?sort=title" id="ember10668"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10669" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12782,7 +12782,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10670" class="ember-view"><a
-                                            href="/libraries/603/journals/468180?sort=title" id="ember10671"
+                                            href="/journals/libraries/search/468180?sort=title" id="ember10671"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10672" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12798,7 +12798,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10673" class="ember-view"><a
-                                            href="/libraries/603/journals/102626?sort=title" id="ember10674"
+                                            href="/journals/libraries/search/102626?sort=title" id="ember10674"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10675" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12815,7 +12815,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10676" class="ember-view"><a
-                                            href="/libraries/603/journals/15594?sort=title" id="ember10677"
+                                            href="/journals/libraries/search/15594?sort=title" id="ember10677"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10678" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12832,7 +12832,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10679" class="ember-view"><a
-                                            href="/libraries/603/journals/129695?sort=title" id="ember10680"
+                                            href="/journals/libraries/search/129695?sort=title" id="ember10680"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10681" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12849,7 +12849,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10682" class="ember-view"><a
-                                            href="/libraries/603/journals/37395?sort=title" id="ember10683"
+                                            href="/journals/libraries/search/37395?sort=title" id="ember10683"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10684" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12865,7 +12865,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10685" class="ember-view"><a
-                                            href="/libraries/603/journals/67337?sort=title" id="ember10686"
+                                            href="/journals/libraries/search/67337?sort=title" id="ember10686"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10687" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12882,7 +12882,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10688" class="ember-view"><a
-                                            href="/libraries/603/journals/67351?sort=title" id="ember10689"
+                                            href="/journals/libraries/search/67351?sort=title" id="ember10689"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10690" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12898,7 +12898,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10691" class="ember-view"><a
-                                            href="/libraries/603/journals/10684?sort=title" id="ember10692"
+                                            href="/journals/libraries/search/10684?sort=title" id="ember10692"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10693" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12915,7 +12915,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10694" class="ember-view"><a
-                                            href="/libraries/603/journals/19434?sort=title" id="ember10695"
+                                            href="/journals/libraries/search/19434?sort=title" id="ember10695"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10696" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12931,7 +12931,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10697" class="ember-view"><a
-                                            href="/libraries/603/journals/175302?sort=title" id="ember10698"
+                                            href="/journals/libraries/search/175302?sort=title" id="ember10698"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10699" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12947,7 +12947,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10700" class="ember-view"><a
-                                            href="/libraries/603/journals/93262?sort=title" id="ember10701"
+                                            href="/journals/libraries/search/93262?sort=title" id="ember10701"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10702" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12964,7 +12964,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10703" class="ember-view"><a
-                                            href="/libraries/603/journals/388764?sort=title" id="ember10704"
+                                            href="/journals/libraries/search/388764?sort=title" id="ember10704"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10705" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12981,7 +12981,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10706" class="ember-view"><a
-                                            href="/libraries/603/journals/15617?sort=title" id="ember10707"
+                                            href="/journals/libraries/search/15617?sort=title" id="ember10707"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10708" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -12998,7 +12998,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10709" class="ember-view"><a
-                                            href="/libraries/603/journals/16991?sort=title" id="ember10710"
+                                            href="/journals/libraries/search/16991?sort=title" id="ember10710"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10711" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13015,7 +13015,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10712" class="ember-view"><a
-                                            href="/libraries/603/journals/36586?sort=title" id="ember10713"
+                                            href="/journals/libraries/search/36586?sort=title" id="ember10713"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10714" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13031,7 +13031,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10715" class="ember-view"><a
-                                            href="/libraries/603/journals/375869?sort=title" id="ember10716"
+                                            href="/journals/libraries/search/375869?sort=title" id="ember10716"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10717" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13048,7 +13048,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10718" class="ember-view"><a
-                                            href="/libraries/603/journals/164176?sort=title" id="ember10719"
+                                            href="/journals/libraries/search/164176?sort=title" id="ember10719"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10720" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13064,7 +13064,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10721" class="ember-view"><a
-                                            href="/libraries/603/journals/40233?sort=title" id="ember10722"
+                                            href="/journals/libraries/search/40233?sort=title" id="ember10722"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10723" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13081,7 +13081,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10724" class="ember-view"><a
-                                            href="/libraries/603/journals/157459?sort=title" id="ember10725"
+                                            href="/journals/libraries/search/157459?sort=title" id="ember10725"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10726" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13098,7 +13098,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10727" class="ember-view"><a
-                                            href="/libraries/603/journals/1743?sort=title" id="ember10728"
+                                            href="/journals/libraries/search/1743?sort=title" id="ember10728"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10729" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13114,7 +13114,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10730" class="ember-view"><a
-                                            href="/libraries/603/journals/36579?sort=title" id="ember10731"
+                                            href="/journals/libraries/search/36579?sort=title" id="ember10731"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10732" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13131,7 +13131,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10733" class="ember-view"><a
-                                            href="/libraries/603/journals/67656?sort=title" id="ember10734"
+                                            href="/journals/libraries/search/67656?sort=title" id="ember10734"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10735" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13148,7 +13148,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10736" class="ember-view"><a
-                                            href="/libraries/603/journals/67757?sort=title" id="ember10737"
+                                            href="/journals/libraries/search/67757?sort=title" id="ember10737"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10738" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13165,7 +13165,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10739" class="ember-view"><a
-                                            href="/libraries/603/journals/36471?sort=title" id="ember10740"
+                                            href="/journals/libraries/search/36471?sort=title" id="ember10740"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10741" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13182,7 +13182,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10742" class="ember-view"><a
-                                            href="/libraries/603/journals/10909?sort=title" id="ember10743"
+                                            href="/journals/libraries/search/10909?sort=title" id="ember10743"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10744" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13198,7 +13198,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10745" class="ember-view"><a
-                                            href="/libraries/603/journals/9336?sort=title" id="ember10746"
+                                            href="/journals/libraries/search/9336?sort=title" id="ember10746"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10747" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13215,7 +13215,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10748" class="ember-view"><a
-                                            href="/libraries/603/journals/17128?sort=title" id="ember10749"
+                                            href="/journals/libraries/search/17128?sort=title" id="ember10749"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10750" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13232,7 +13232,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10751" class="ember-view"><a
-                                            href="/libraries/603/journals/192134?sort=title" id="ember10752"
+                                            href="/journals/libraries/search/192134?sort=title" id="ember10752"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10753" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13249,7 +13249,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10754" class="ember-view"><a
-                                            href="/libraries/603/journals/17706?sort=title" id="ember10755"
+                                            href="/journals/libraries/search/17706?sort=title" id="ember10755"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10756" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13265,7 +13265,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10757" class="ember-view"><a
-                                            href="/libraries/603/journals/67872?sort=title" id="ember10758"
+                                            href="/journals/libraries/search/67872?sort=title" id="ember10758"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10759" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13282,7 +13282,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10760" class="ember-view"><a
-                                            href="/libraries/603/journals/17537?sort=title" id="ember10761"
+                                            href="/journals/libraries/search/17537?sort=title" id="ember10761"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10762" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13298,7 +13298,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10763" class="ember-view"><a
-                                            href="/libraries/603/journals/67920?sort=title" id="ember10764"
+                                            href="/journals/libraries/search/67920?sort=title" id="ember10764"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10765" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13314,7 +13314,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10766" class="ember-view"><a
-                                            href="/libraries/603/journals/7037?sort=title" id="ember10767"
+                                            href="/journals/libraries/search/7037?sort=title" id="ember10767"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10768" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13330,7 +13330,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10769" class="ember-view"><a
-                                            href="/libraries/603/journals/18991?sort=title" id="ember10770"
+                                            href="/journals/libraries/search/18991?sort=title" id="ember10770"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10771" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13347,7 +13347,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10772" class="ember-view"><a
-                                            href="/libraries/603/journals/35950?sort=title" id="ember10773"
+                                            href="/journals/libraries/search/35950?sort=title" id="ember10773"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10774" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13363,7 +13363,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10775" class="ember-view"><a
-                                            href="/libraries/603/journals/33336?sort=title" id="ember10776"
+                                            href="/journals/libraries/search/33336?sort=title" id="ember10776"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10777" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13379,7 +13379,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10778" class="ember-view"><a
-                                            href="/libraries/603/journals/33411?sort=title" id="ember10779"
+                                            href="/journals/libraries/search/33411?sort=title" id="ember10779"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10780" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13396,7 +13396,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10781" class="ember-view"><a
-                                            href="/libraries/603/journals/12346?sort=title" id="ember10782"
+                                            href="/journals/libraries/search/12346?sort=title" id="ember10782"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10783" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13413,7 +13413,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10784" class="ember-view"><a
-                                            href="/libraries/603/journals/36473?sort=title" id="ember10785"
+                                            href="/journals/libraries/search/36473?sort=title" id="ember10785"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10786" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13429,7 +13429,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10787" class="ember-view"><a
-                                            href="/libraries/603/journals/36527?sort=title" id="ember10788"
+                                            href="/journals/libraries/search/36527?sort=title" id="ember10788"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10789" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13446,7 +13446,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10790" class="ember-view"><a
-                                            href="/libraries/603/journals/18285?sort=title" id="ember10791"
+                                            href="/journals/libraries/search/18285?sort=title" id="ember10791"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10792" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13462,7 +13462,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10793" class="ember-view"><a
-                                            href="/libraries/603/journals/37895?sort=title" id="ember10794"
+                                            href="/journals/libraries/search/37895?sort=title" id="ember10794"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10795" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13478,7 +13478,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10796" class="ember-view"><a
-                                            href="/libraries/603/journals/16372?sort=title" id="ember10797"
+                                            href="/journals/libraries/search/16372?sort=title" id="ember10797"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10798" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13494,7 +13494,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10799" class="ember-view"><a
-                                            href="/libraries/603/journals/33252?sort=title" id="ember10800"
+                                            href="/journals/libraries/search/33252?sort=title" id="ember10800"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10801" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13510,7 +13510,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10802" class="ember-view"><a
-                                            href="/libraries/603/journals/10758?sort=title" id="ember10803"
+                                            href="/journals/libraries/search/10758?sort=title" id="ember10803"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10804" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13526,7 +13526,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10805" class="ember-view"><a
-                                            href="/libraries/603/journals/33299?sort=title" id="ember10806"
+                                            href="/journals/libraries/search/33299?sort=title" id="ember10806"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10807" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13542,7 +13542,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10808" class="ember-view"><a
-                                            href="/libraries/603/journals/33387?sort=title" id="ember10809"
+                                            href="/journals/libraries/search/33387?sort=title" id="ember10809"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10810" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13558,7 +13558,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10811" class="ember-view"><a
-                                            href="/libraries/603/journals/15686?sort=title" id="ember10812"
+                                            href="/journals/libraries/search/15686?sort=title" id="ember10812"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10813" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13574,7 +13574,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10814" class="ember-view"><a
-                                            href="/libraries/603/journals/121722?sort=title" id="ember10815"
+                                            href="/journals/libraries/search/121722?sort=title" id="ember10815"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10816" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13590,7 +13590,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10817" class="ember-view"><a
-                                            href="/libraries/603/journals/5501?sort=title" id="ember10818"
+                                            href="/journals/libraries/search/5501?sort=title" id="ember10818"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10819" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13606,7 +13606,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10820" class="ember-view"><a
-                                            href="/libraries/603/journals/17332?sort=title" id="ember10821"
+                                            href="/journals/libraries/search/17332?sort=title" id="ember10821"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10822" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13622,7 +13622,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10823" class="ember-view"><a
-                                            href="/libraries/603/journals/68389?sort=title" id="ember10824"
+                                            href="/journals/libraries/search/68389?sort=title" id="ember10824"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10825" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13638,7 +13638,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10826" class="ember-view"><a
-                                            href="/libraries/603/journals/38757?sort=title" id="ember10827"
+                                            href="/journals/libraries/search/38757?sort=title" id="ember10827"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10828" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13655,7 +13655,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10829" class="ember-view"><a
-                                            href="/libraries/603/journals/5386?sort=title" id="ember10830"
+                                            href="/journals/libraries/search/5386?sort=title" id="ember10830"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10831" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13672,7 +13672,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10832" class="ember-view"><a
-                                            href="/libraries/603/journals/68432?sort=title" id="ember10833"
+                                            href="/journals/libraries/search/68432?sort=title" id="ember10833"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10834" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13689,7 +13689,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10835" class="ember-view"><a
-                                            href="/libraries/603/journals/68450?sort=title" id="ember10836"
+                                            href="/journals/libraries/search/68450?sort=title" id="ember10836"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10837" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13705,7 +13705,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10838" class="ember-view"><a
-                                            href="/libraries/603/journals/19435?sort=title" id="ember10839"
+                                            href="/journals/libraries/search/19435?sort=title" id="ember10839"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10840" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13721,7 +13721,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10841" class="ember-view"><a
-                                            href="/libraries/603/journals/39875?sort=title" id="ember10842"
+                                            href="/journals/libraries/search/39875?sort=title" id="ember10842"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10843" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13737,7 +13737,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10844" class="ember-view"><a
-                                            href="/libraries/603/journals/123782?sort=title" id="ember10845"
+                                            href="/journals/libraries/search/123782?sort=title" id="ember10845"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10846" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13754,7 +13754,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10847" class="ember-view"><a
-                                            href="/libraries/603/journals/435909?sort=title" id="ember10848"
+                                            href="/journals/libraries/search/435909?sort=title" id="ember10848"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10849" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13770,7 +13770,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10850" class="ember-view"><a
-                                            href="/libraries/603/journals/16781?sort=title" id="ember10851"
+                                            href="/journals/libraries/search/16781?sort=title" id="ember10851"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10852" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13787,7 +13787,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10853" class="ember-view"><a
-                                            href="/libraries/603/journals/16765?sort=title" id="ember10854"
+                                            href="/journals/libraries/search/16765?sort=title" id="ember10854"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10855" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13804,7 +13804,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10856" class="ember-view"><a
-                                            href="/libraries/603/journals/68693?sort=title" id="ember10857"
+                                            href="/journals/libraries/search/68693?sort=title" id="ember10857"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10858" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13821,7 +13821,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10859" class="ember-view"><a
-                                            href="/libraries/603/journals/122097?sort=title" id="ember10860"
+                                            href="/journals/libraries/search/122097?sort=title" id="ember10860"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10861" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13838,7 +13838,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10862" class="ember-view"><a
-                                            href="/libraries/603/journals/40235?sort=title" id="ember10863"
+                                            href="/journals/libraries/search/40235?sort=title" id="ember10863"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10864" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13854,7 +13854,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10865" class="ember-view"><a
-                                            href="/libraries/603/journals/36391?sort=title" id="ember10866"
+                                            href="/journals/libraries/search/36391?sort=title" id="ember10866"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10867" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13871,7 +13871,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10868" class="ember-view"><a
-                                            href="/libraries/603/journals/66373?sort=title" id="ember10869"
+                                            href="/journals/libraries/search/66373?sort=title" id="ember10869"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10870" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13888,7 +13888,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10871" class="ember-view"><a
-                                            href="/libraries/603/journals/33266?sort=title" id="ember10872"
+                                            href="/journals/libraries/search/33266?sort=title" id="ember10872"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10873" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13905,7 +13905,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10874" class="ember-view"><a
-                                            href="/libraries/603/journals/10835?sort=title" id="ember10875"
+                                            href="/journals/libraries/search/10835?sort=title" id="ember10875"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10876" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13922,7 +13922,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10877" class="ember-view"><a
-                                            href="/libraries/603/journals/17889?sort=title" id="ember10878"
+                                            href="/journals/libraries/search/17889?sort=title" id="ember10878"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10879" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13939,7 +13939,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10880" class="ember-view"><a
-                                            href="/libraries/603/journals/154194?sort=title" id="ember10881"
+                                            href="/journals/libraries/search/154194?sort=title" id="ember10881"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10882" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13956,7 +13956,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10883" class="ember-view"><a
-                                            href="/libraries/603/journals/68930?sort=title" id="ember10884"
+                                            href="/journals/libraries/search/68930?sort=title" id="ember10884"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10885" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13973,7 +13973,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10886" class="ember-view"><a
-                                            href="/libraries/603/journals/366555?sort=title" id="ember10887"
+                                            href="/journals/libraries/search/366555?sort=title" id="ember10887"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10888" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -13990,7 +13990,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10889" class="ember-view"><a
-                                            href="/libraries/603/journals/69066?sort=title" id="ember10890"
+                                            href="/journals/libraries/search/69066?sort=title" id="ember10890"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10891" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14007,7 +14007,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10892" class="ember-view"><a
-                                            href="/libraries/603/journals/69070?sort=title" id="ember10893"
+                                            href="/journals/libraries/search/69070?sort=title" id="ember10893"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10894" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14024,7 +14024,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10895" class="ember-view"><a
-                                            href="/libraries/603/journals/16705?sort=title" id="ember10896"
+                                            href="/journals/libraries/search/16705?sort=title" id="ember10896"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10897" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14041,7 +14041,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10898" class="ember-view"><a
-                                            href="/libraries/603/journals/19749?sort=title" id="ember10899"
+                                            href="/journals/libraries/search/19749?sort=title" id="ember10899"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10900" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14058,7 +14058,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10901" class="ember-view"><a
-                                            href="/libraries/603/journals/69143?sort=title" id="ember10902"
+                                            href="/journals/libraries/search/69143?sort=title" id="ember10902"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10903" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14075,7 +14075,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10904" class="ember-view"><a
-                                            href="/libraries/603/journals/33430?sort=title" id="ember10905"
+                                            href="/journals/libraries/search/33430?sort=title" id="ember10905"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10906" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14092,7 +14092,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10907" class="ember-view"><a
-                                            href="/libraries/603/journals/289957?sort=title" id="ember10908"
+                                            href="/journals/libraries/search/289957?sort=title" id="ember10908"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10909" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14109,7 +14109,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10910" class="ember-view"><a
-                                            href="/libraries/603/journals/36587?sort=title" id="ember10911"
+                                            href="/journals/libraries/search/36587?sort=title" id="ember10911"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10912" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14125,7 +14125,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10913" class="ember-view"><a
-                                            href="/libraries/603/journals/445956?sort=title" id="ember10914"
+                                            href="/journals/libraries/search/445956?sort=title" id="ember10914"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10915" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14141,7 +14141,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10916" class="ember-view"><a
-                                            href="/libraries/603/journals/69293?sort=title" id="ember10917"
+                                            href="/journals/libraries/search/69293?sort=title" id="ember10917"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10918" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14157,7 +14157,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10919" class="ember-view"><a
-                                            href="/libraries/603/journals/69302?sort=title" id="ember10920"
+                                            href="/journals/libraries/search/69302?sort=title" id="ember10920"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10921" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14174,7 +14174,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10922" class="ember-view"><a
-                                            href="/libraries/603/journals/38708?sort=title" id="ember10923"
+                                            href="/journals/libraries/search/38708?sort=title" id="ember10923"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10924" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14190,7 +14190,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10925" class="ember-view"><a
-                                            href="/libraries/603/journals/102971?sort=title" id="ember10926"
+                                            href="/journals/libraries/search/102971?sort=title" id="ember10926"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10927" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14206,7 +14206,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10928" class="ember-view"><a
-                                            href="/libraries/603/journals/69345?sort=title" id="ember10929"
+                                            href="/journals/libraries/search/69345?sort=title" id="ember10929"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10930" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14222,7 +14222,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10931" class="ember-view"><a
-                                            href="/libraries/603/journals/40236?sort=title" id="ember10932"
+                                            href="/journals/libraries/search/40236?sort=title" id="ember10932"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10933" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14238,7 +14238,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10934" class="ember-view"><a
-                                            href="/libraries/603/journals/266934?sort=title" id="ember10935"
+                                            href="/journals/libraries/search/266934?sort=title" id="ember10935"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10936" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14254,7 +14254,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10937" class="ember-view"><a
-                                            href="/libraries/603/journals/306823?sort=title" id="ember10938"
+                                            href="/journals/libraries/search/306823?sort=title" id="ember10938"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10939" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14271,7 +14271,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10940" class="ember-view"><a
-                                            href="/libraries/603/journals/197293?sort=title" id="ember10941"
+                                            href="/journals/libraries/search/197293?sort=title" id="ember10941"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10942" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14286,7 +14286,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10943" class="ember-view"><a
-                                            href="/libraries/603/journals/300922?sort=title" id="ember10944"
+                                            href="/journals/libraries/search/300922?sort=title" id="ember10944"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10945" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14303,7 +14303,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10946" class="ember-view"><a
-                                            href="/libraries/603/journals/310391?sort=title" id="ember10947"
+                                            href="/journals/libraries/search/310391?sort=title" id="ember10947"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10948" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14319,7 +14319,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10949" class="ember-view"><a
-                                            href="/libraries/603/journals/300893?sort=title" id="ember10950"
+                                            href="/journals/libraries/search/300893?sort=title" id="ember10950"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10951" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14335,7 +14335,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10952" class="ember-view"><a
-                                            href="/libraries/603/journals/316010?sort=title" id="ember10953"
+                                            href="/journals/libraries/search/316010?sort=title" id="ember10953"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10954" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14351,7 +14351,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10955" class="ember-view"><a
-                                            href="/libraries/603/journals/303768?sort=title" id="ember10956"
+                                            href="/journals/libraries/search/303768?sort=title" id="ember10956"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10957" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14367,7 +14367,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10958" class="ember-view"><a
-                                            href="/libraries/603/journals/210609?sort=title" id="ember10959"
+                                            href="/journals/libraries/search/210609?sort=title" id="ember10959"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10960" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14384,7 +14384,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10961" class="ember-view"><a
-                                            href="/libraries/603/journals/69700?sort=title" id="ember10962"
+                                            href="/journals/libraries/search/69700?sort=title" id="ember10962"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10963" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14401,7 +14401,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10964" class="ember-view"><a
-                                            href="/libraries/603/journals/32592?sort=title" id="ember10965"
+                                            href="/journals/libraries/search/32592?sort=title" id="ember10965"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10966" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14415,7 +14415,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10967" class="ember-view"><a
-                                            href="/libraries/603/journals/69629?sort=title" id="ember10968"
+                                            href="/journals/libraries/search/69629?sort=title" id="ember10968"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10969" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14432,7 +14432,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10970" class="ember-view"><a
-                                            href="/libraries/603/journals/69640?sort=title" id="ember10971"
+                                            href="/journals/libraries/search/69640?sort=title" id="ember10971"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10972" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14449,7 +14449,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10973" class="ember-view"><a
-                                            href="/libraries/603/journals/108258?sort=title" id="ember10974"
+                                            href="/journals/libraries/search/108258?sort=title" id="ember10974"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10975" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14465,7 +14465,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10976" class="ember-view"><a
-                                            href="/libraries/603/journals/69642?sort=title" id="ember10977"
+                                            href="/journals/libraries/search/69642?sort=title" id="ember10977"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10978" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14482,7 +14482,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10979" class="ember-view"><a
-                                            href="/libraries/603/journals/303379?sort=title" id="ember10980"
+                                            href="/journals/libraries/search/303379?sort=title" id="ember10980"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10981" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14497,7 +14497,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10982" class="ember-view"><a
-                                            href="/libraries/603/journals/103038?sort=title" id="ember10983"
+                                            href="/journals/libraries/search/103038?sort=title" id="ember10983"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10984" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14514,7 +14514,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10985" class="ember-view"><a
-                                            href="/libraries/603/journals/36443?sort=title" id="ember10986"
+                                            href="/journals/libraries/search/36443?sort=title" id="ember10986"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10987" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14530,7 +14530,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10988" class="ember-view"><a
-                                            href="/libraries/603/journals/263145?sort=title" id="ember10989"
+                                            href="/journals/libraries/search/263145?sort=title" id="ember10989"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10990" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14545,7 +14545,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10991" class="ember-view"><a
-                                            href="/libraries/603/journals/17631?sort=title" id="ember10992"
+                                            href="/journals/libraries/search/17631?sort=title" id="ember10992"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10993" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14562,7 +14562,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10994" class="ember-view"><a
-                                            href="/libraries/603/journals/400415?sort=title" id="ember10995"
+                                            href="/journals/libraries/search/400415?sort=title" id="ember10995"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10996" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14578,7 +14578,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember10997" class="ember-view"><a
-                                            href="/libraries/603/journals/145424?sort=title" id="ember10998"
+                                            href="/journals/libraries/search/145424?sort=title" id="ember10998"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember10999" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14594,7 +14594,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11000" class="ember-view"><a
-                                            href="/libraries/603/journals/190942?sort=title" id="ember11001"
+                                            href="/journals/libraries/search/190942?sort=title" id="ember11001"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11002" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14609,7 +14609,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11003" class="ember-view"><a
-                                            href="/libraries/603/journals/70099?sort=title" id="ember11004"
+                                            href="/journals/libraries/search/70099?sort=title" id="ember11004"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11005" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14626,7 +14626,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11006" class="ember-view"><a
-                                            href="/libraries/603/journals/70093?sort=title" id="ember11007"
+                                            href="/journals/libraries/search/70093?sort=title" id="ember11007"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11008" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14641,7 +14641,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11009" class="ember-view"><a
-                                            href="/libraries/603/journals/129201?sort=title" id="ember11010"
+                                            href="/journals/libraries/search/129201?sort=title" id="ember11010"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11011" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14656,7 +14656,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11012" class="ember-view"><a
-                                            href="/libraries/603/journals/289872?sort=title" id="ember11013"
+                                            href="/journals/libraries/search/289872?sort=title" id="ember11013"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11014" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14670,7 +14670,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11015" class="ember-view"><a
-                                            href="/libraries/603/journals/18413?sort=title" id="ember11016"
+                                            href="/journals/libraries/search/18413?sort=title" id="ember11016"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11017" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14685,7 +14685,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11018" class="ember-view"><a
-                                            href="/libraries/603/journals/70270?sort=title" id="ember11019"
+                                            href="/journals/libraries/search/70270?sort=title" id="ember11019"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11020" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14700,7 +14700,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11021" class="ember-view"><a
-                                            href="/libraries/603/journals/310396?sort=title" id="ember11022"
+                                            href="/journals/libraries/search/310396?sort=title" id="ember11022"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11023" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14716,7 +14716,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11024" class="ember-view"><a
-                                            href="/libraries/603/journals/70280?sort=title" id="ember11025"
+                                            href="/journals/libraries/search/70280?sort=title" id="ember11025"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11026" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14732,7 +14732,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11027" class="ember-view"><a
-                                            href="/libraries/603/journals/70290?sort=title" id="ember11028"
+                                            href="/journals/libraries/search/70290?sort=title" id="ember11028"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11029" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14748,7 +14748,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11030" class="ember-view"><a
-                                            href="/libraries/603/journals/2438?sort=title" id="ember11031"
+                                            href="/journals/libraries/search/2438?sort=title" id="ember11031"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11032" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14764,7 +14764,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11033" class="ember-view"><a
-                                            href="/libraries/603/journals/17740?sort=title" id="ember11034"
+                                            href="/journals/libraries/search/17740?sort=title" id="ember11034"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11035" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14779,7 +14779,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11036" class="ember-view"><a
-                                            href="/libraries/603/journals/85795?sort=title" id="ember11037"
+                                            href="/journals/libraries/search/85795?sort=title" id="ember11037"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11038" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14796,7 +14796,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11039" class="ember-view"><a
-                                            href="/libraries/603/journals/36092?sort=title" id="ember11040"
+                                            href="/journals/libraries/search/36092?sort=title" id="ember11040"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11041" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14811,7 +14811,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11042" class="ember-view"><a
-                                            href="/libraries/603/journals/43942?sort=title" id="ember11043"
+                                            href="/journals/libraries/search/43942?sort=title" id="ember11043"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11044" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14827,7 +14827,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11045" class="ember-view"><a
-                                            href="/libraries/603/journals/10793?sort=title" id="ember11046"
+                                            href="/journals/libraries/search/10793?sort=title" id="ember11046"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11047" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14843,7 +14843,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11048" class="ember-view"><a
-                                            href="/libraries/603/journals/10676?sort=title" id="ember11049"
+                                            href="/journals/libraries/search/10676?sort=title" id="ember11049"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11050" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14859,7 +14859,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11051" class="ember-view"><a
-                                            href="/libraries/603/journals/70412?sort=title" id="ember11052"
+                                            href="/journals/libraries/search/70412?sort=title" id="ember11052"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11053" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14874,7 +14874,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11054" class="ember-view"><a
-                                            href="/libraries/603/journals/33254?sort=title" id="ember11055"
+                                            href="/journals/libraries/search/33254?sort=title" id="ember11055"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11056" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14889,7 +14889,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11057" class="ember-view"><a
-                                            href="/libraries/603/journals/155727?sort=title" id="ember11058"
+                                            href="/journals/libraries/search/155727?sort=title" id="ember11058"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11059" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14905,7 +14905,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11060" class="ember-view"><a
-                                            href="/libraries/603/journals/70531?sort=title" id="ember11061"
+                                            href="/journals/libraries/search/70531?sort=title" id="ember11061"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11062" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14922,7 +14922,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11063" class="ember-view"><a
-                                            href="/libraries/603/journals/32134?sort=title" id="ember11064"
+                                            href="/journals/libraries/search/32134?sort=title" id="ember11064"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11065" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14936,7 +14936,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11066" class="ember-view"><a
-                                            href="/libraries/603/journals/32151?sort=title" id="ember11067"
+                                            href="/journals/libraries/search/32151?sort=title" id="ember11067"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11068" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14952,7 +14952,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11069" class="ember-view"><a
-                                            href="/libraries/603/journals/40239?sort=title" id="ember11070"
+                                            href="/journals/libraries/search/40239?sort=title" id="ember11070"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11071" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14967,7 +14967,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11072" class="ember-view"><a
-                                            href="/libraries/603/journals/10870?sort=title" id="ember11073"
+                                            href="/journals/libraries/search/10870?sort=title" id="ember11073"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11074" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14982,7 +14982,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11075" class="ember-view"><a
-                                            href="/libraries/603/journals/70659?sort=title" id="ember11076"
+                                            href="/journals/libraries/search/70659?sort=title" id="ember11076"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11077" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -14996,7 +14996,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11078" class="ember-view"><a
-                                            href="/libraries/603/journals/70661?sort=title" id="ember11079"
+                                            href="/journals/libraries/search/70661?sort=title" id="ember11079"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11080" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15011,7 +15011,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11081" class="ember-view"><a
-                                            href="/libraries/603/journals/70660?sort=title" id="ember11082"
+                                            href="/journals/libraries/search/70660?sort=title" id="ember11082"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11083" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15026,7 +15026,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11084" class="ember-view"><a
-                                            href="/libraries/603/journals/7284?sort=title" id="ember11085"
+                                            href="/journals/libraries/search/7284?sort=title" id="ember11085"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11086" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15040,7 +15040,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11087" class="ember-view"><a
-                                            href="/libraries/603/journals/70707?sort=title" id="ember11088"
+                                            href="/journals/libraries/search/70707?sort=title" id="ember11088"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11089" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15054,7 +15054,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11090" class="ember-view"><a
-                                            href="/libraries/603/journals/17707?sort=title" id="ember11091"
+                                            href="/journals/libraries/search/17707?sort=title" id="ember11091"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11092" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15068,7 +15068,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11093" class="ember-view"><a
-                                            href="/libraries/603/journals/126818?sort=title" id="ember11094"
+                                            href="/journals/libraries/search/126818?sort=title" id="ember11094"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11095" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15084,7 +15084,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11096" class="ember-view"><a
-                                            href="/libraries/603/journals/70858?sort=title" id="ember11097"
+                                            href="/journals/libraries/search/70858?sort=title" id="ember11097"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11098" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15098,7 +15098,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11099" class="ember-view"><a
-                                            href="/libraries/603/journals/70879?sort=title" id="ember11100"
+                                            href="/journals/libraries/search/70879?sort=title" id="ember11100"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11101" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15112,7 +15112,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11102" class="ember-view"><a
-                                            href="/libraries/603/journals/63097?sort=title" id="ember11103"
+                                            href="/journals/libraries/search/63097?sort=title" id="ember11103"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11104" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15128,7 +15128,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11105" class="ember-view"><a
-                                            href="/libraries/603/journals/136876?sort=title" id="ember11106"
+                                            href="/journals/libraries/search/136876?sort=title" id="ember11106"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11107" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15145,7 +15145,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11108" class="ember-view"><a
-                                            href="/libraries/603/journals/119075?sort=title" id="ember11109"
+                                            href="/journals/libraries/search/119075?sort=title" id="ember11109"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11110" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15161,7 +15161,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11111" class="ember-view"><a
-                                            href="/libraries/603/journals/306848?sort=title" id="ember11112"
+                                            href="/journals/libraries/search/306848?sort=title" id="ember11112"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11113" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15178,7 +15178,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11114" class="ember-view"><a
-                                            href="/libraries/603/journals/369050?sort=title" id="ember11115"
+                                            href="/journals/libraries/search/369050?sort=title" id="ember11115"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11116" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15194,7 +15194,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11117" class="ember-view"><a
-                                            href="/libraries/603/journals/10703?sort=title" id="ember11118"
+                                            href="/journals/libraries/search/10703?sort=title" id="ember11118"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11119" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15210,7 +15210,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11120" class="ember-view"><a
-                                            href="/libraries/603/journals/16380?sort=title" id="ember11121"
+                                            href="/journals/libraries/search/16380?sort=title" id="ember11121"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11122" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15227,7 +15227,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11123" class="ember-view"><a
-                                            href="/libraries/603/journals/10521?sort=title" id="ember11124"
+                                            href="/journals/libraries/search/10521?sort=title" id="ember11124"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11125" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15243,7 +15243,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11126" class="ember-view"><a
-                                            href="/libraries/603/journals/37103?sort=title" id="ember11127"
+                                            href="/journals/libraries/search/37103?sort=title" id="ember11127"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11128" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15257,7 +15257,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11129" class="ember-view"><a
-                                            href="/libraries/603/journals/139736?sort=title" id="ember11130"
+                                            href="/journals/libraries/search/139736?sort=title" id="ember11130"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11131" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15271,7 +15271,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11132" class="ember-view"><a
-                                            href="/libraries/603/journals/205703?sort=title" id="ember11133"
+                                            href="/journals/libraries/search/205703?sort=title" id="ember11133"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11134" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15288,7 +15288,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11135" class="ember-view"><a
-                                            href="/libraries/603/journals/70989?sort=title" id="ember11136"
+                                            href="/journals/libraries/search/70989?sort=title" id="ember11136"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11137" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15303,7 +15303,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11138" class="ember-view"><a
-                                            href="/libraries/603/journals/70991?sort=title" id="ember11139"
+                                            href="/journals/libraries/search/70991?sort=title" id="ember11139"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11140" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15320,7 +15320,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11141" class="ember-view"><a
-                                            href="/libraries/603/journals/70990?sort=title" id="ember11142"
+                                            href="/journals/libraries/search/70990?sort=title" id="ember11142"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11143" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15336,7 +15336,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11144" class="ember-view"><a
-                                            href="/libraries/603/journals/468773?sort=title" id="ember11145"
+                                            href="/journals/libraries/search/468773?sort=title" id="ember11145"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11146" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15350,7 +15350,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11147" class="ember-view"><a
-                                            href="/libraries/603/journals/10817?sort=title" id="ember11148"
+                                            href="/journals/libraries/search/10817?sort=title" id="ember11148"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11149" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15366,7 +15366,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11150" class="ember-view"><a
-                                            href="/libraries/603/journals/6029?sort=title" id="ember11151"
+                                            href="/journals/libraries/search/6029?sort=title" id="ember11151"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11152" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15381,7 +15381,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11153" class="ember-view"><a
-                                            href="/libraries/603/journals/36147?sort=title" id="ember11154"
+                                            href="/journals/libraries/search/36147?sort=title" id="ember11154"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11155" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15395,7 +15395,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11156" class="ember-view"><a
-                                            href="/libraries/603/journals/266335?sort=title" id="ember11157"
+                                            href="/journals/libraries/search/266335?sort=title" id="ember11157"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11158" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15411,7 +15411,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11159" class="ember-view"><a
-                                            href="/libraries/603/journals/128951?sort=title" id="ember11160"
+                                            href="/journals/libraries/search/128951?sort=title" id="ember11160"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11161" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15425,7 +15425,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11162" class="ember-view"><a
-                                            href="/libraries/603/journals/289776?sort=title" id="ember11163"
+                                            href="/journals/libraries/search/289776?sort=title" id="ember11163"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11164" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15440,7 +15440,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11165" class="ember-view"><a
-                                            href="/libraries/603/journals/111706?sort=title" id="ember11166"
+                                            href="/journals/libraries/search/111706?sort=title" id="ember11166"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11167" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15455,7 +15455,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11168" class="ember-view"><a
-                                            href="/libraries/603/journals/237790?sort=title" id="ember11169"
+                                            href="/journals/libraries/search/237790?sort=title" id="ember11169"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11170" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15472,7 +15472,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11171" class="ember-view"><a
-                                            href="/libraries/603/journals/71120?sort=title" id="ember11172"
+                                            href="/journals/libraries/search/71120?sort=title" id="ember11172"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11173" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15489,7 +15489,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11174" class="ember-view"><a
-                                            href="/libraries/603/journals/71115?sort=title" id="ember11175"
+                                            href="/journals/libraries/search/71115?sort=title" id="ember11175"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11176" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15506,7 +15506,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11177" class="ember-view"><a
-                                            href="/libraries/603/journals/10763?sort=title" id="ember11178"
+                                            href="/journals/libraries/search/10763?sort=title" id="ember11178"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11179" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15522,7 +15522,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11180" class="ember-view"><a
-                                            href="/libraries/603/journals/71329?sort=title" id="ember11181"
+                                            href="/journals/libraries/search/71329?sort=title" id="ember11181"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11182" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15538,7 +15538,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11183" class="ember-view"><a
-                                            href="/libraries/603/journals/71376?sort=title" id="ember11184"
+                                            href="/journals/libraries/search/71376?sort=title" id="ember11184"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11185" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15555,7 +15555,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11186" class="ember-view"><a
-                                            href="/libraries/603/journals/10910?sort=title" id="ember11187"
+                                            href="/journals/libraries/search/10910?sort=title" id="ember11187"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11188" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15571,7 +15571,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11189" class="ember-view"><a
-                                            href="/libraries/603/journals/71419?sort=title" id="ember11190"
+                                            href="/journals/libraries/search/71419?sort=title" id="ember11190"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11191" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15588,7 +15588,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11192" class="ember-view"><a
-                                            href="/libraries/603/journals/176162?sort=title" id="ember11193"
+                                            href="/journals/libraries/search/176162?sort=title" id="ember11193"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11194" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15605,7 +15605,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11195" class="ember-view"><a
-                                            href="/libraries/603/journals/1872?sort=title" id="ember11196"
+                                            href="/journals/libraries/search/1872?sort=title" id="ember11196"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11197" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15621,7 +15621,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11198" class="ember-view"><a
-                                            href="/libraries/603/journals/40746?sort=title" id="ember11199"
+                                            href="/journals/libraries/search/40746?sort=title" id="ember11199"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11200" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15636,7 +15636,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11201" class="ember-view"><a
-                                            href="/libraries/603/journals/71875?sort=title" id="ember11202"
+                                            href="/journals/libraries/search/71875?sort=title" id="ember11202"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11203" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15652,7 +15652,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11204" class="ember-view"><a
-                                            href="/libraries/603/journals/71892?sort=title" id="ember11205"
+                                            href="/journals/libraries/search/71892?sort=title" id="ember11205"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11206" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15669,7 +15669,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11207" class="ember-view"><a
-                                            href="/libraries/603/journals/71992?sort=title" id="ember11208"
+                                            href="/journals/libraries/search/71992?sort=title" id="ember11208"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11209" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15686,7 +15686,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11210" class="ember-view"><a
-                                            href="/libraries/603/journals/71994?sort=title" id="ember11211"
+                                            href="/journals/libraries/search/71994?sort=title" id="ember11211"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11212" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15700,7 +15700,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11213" class="ember-view"><a
-                                            href="/libraries/603/journals/299103?sort=title" id="ember11214"
+                                            href="/journals/libraries/search/299103?sort=title" id="ember11214"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11215" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15715,7 +15715,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11216" class="ember-view"><a
-                                            href="/libraries/603/journals/72051?sort=title" id="ember11217"
+                                            href="/journals/libraries/search/72051?sort=title" id="ember11217"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11218" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15729,7 +15729,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11219" class="ember-view"><a
-                                            href="/libraries/603/journals/10689?sort=title" id="ember11220"
+                                            href="/journals/libraries/search/10689?sort=title" id="ember11220"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11221" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15743,7 +15743,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11222" class="ember-view"><a
-                                            href="/libraries/603/journals/2205?sort=title" id="ember11223"
+                                            href="/journals/libraries/search/2205?sort=title" id="ember11223"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11224" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15759,7 +15759,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11225" class="ember-view"><a
-                                            href="/libraries/603/journals/72107?sort=title" id="ember11226"
+                                            href="/journals/libraries/search/72107?sort=title" id="ember11226"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11227" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15774,7 +15774,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11228" class="ember-view"><a
-                                            href="/libraries/603/journals/327196?sort=title" id="ember11229"
+                                            href="/journals/libraries/search/327196?sort=title" id="ember11229"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11230" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15790,7 +15790,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11231" class="ember-view"><a
-                                            href="/libraries/603/journals/40261?sort=title" id="ember11232"
+                                            href="/journals/libraries/search/40261?sort=title" id="ember11232"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11233" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15806,7 +15806,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11234" class="ember-view"><a
-                                            href="/libraries/603/journals/32220?sort=title" id="ember11235"
+                                            href="/journals/libraries/search/32220?sort=title" id="ember11235"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11236" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15820,7 +15820,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11237" class="ember-view"><a
-                                            href="/libraries/603/journals/103386?sort=title" id="ember11238"
+                                            href="/journals/libraries/search/103386?sort=title" id="ember11238"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11239" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15834,7 +15834,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11240" class="ember-view"><a
-                                            href="/libraries/603/journals/72189?sort=title" id="ember11241"
+                                            href="/journals/libraries/search/72189?sort=title" id="ember11241"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11242" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15851,7 +15851,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11243" class="ember-view"><a
-                                            href="/libraries/603/journals/72248?sort=title" id="ember11244"
+                                            href="/journals/libraries/search/72248?sort=title" id="ember11244"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11245" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15868,7 +15868,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11246" class="ember-view"><a
-                                            href="/libraries/603/journals/9916?sort=title" id="ember11247"
+                                            href="/journals/libraries/search/9916?sort=title" id="ember11247"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11248" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15883,7 +15883,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11249" class="ember-view"><a
-                                            href="/libraries/603/journals/40262?sort=title" id="ember11250"
+                                            href="/journals/libraries/search/40262?sort=title" id="ember11250"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11251" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15899,7 +15899,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11252" class="ember-view"><a
-                                            href="/libraries/603/journals/36456?sort=title" id="ember11253"
+                                            href="/journals/libraries/search/36456?sort=title" id="ember11253"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11254" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15915,7 +15915,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11255" class="ember-view"><a
-                                            href="/libraries/603/journals/36399?sort=title" id="ember11256"
+                                            href="/journals/libraries/search/36399?sort=title" id="ember11256"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11257" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15931,7 +15931,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11258" class="ember-view"><a
-                                            href="/libraries/603/journals/72255?sort=title" id="ember11259"
+                                            href="/journals/libraries/search/72255?sort=title" id="ember11259"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11260" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15945,7 +15945,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11261" class="ember-view"><a
-                                            href="/libraries/603/journals/123903?sort=title" id="ember11262"
+                                            href="/journals/libraries/search/123903?sort=title" id="ember11262"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11263" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15962,7 +15962,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11264" class="ember-view"><a
-                                            href="/libraries/603/journals/33421?sort=title" id="ember11265"
+                                            href="/journals/libraries/search/33421?sort=title" id="ember11265"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11266" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15978,7 +15978,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11267" class="ember-view"><a
-                                            href="/libraries/603/journals/491536?sort=title" id="ember11268"
+                                            href="/journals/libraries/search/491536?sort=title" id="ember11268"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11269" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -15992,7 +15992,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11270" class="ember-view"><a
-                                            href="/libraries/603/journals/31140?sort=title" id="ember11271"
+                                            href="/journals/libraries/search/31140?sort=title" id="ember11271"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11272" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16009,7 +16009,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11273" class="ember-view"><a
-                                            href="/libraries/603/journals/72476?sort=title" id="ember11274"
+                                            href="/journals/libraries/search/72476?sort=title" id="ember11274"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11275" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16026,7 +16026,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11276" class="ember-view"><a
-                                            href="/libraries/603/journals/72651?sort=title" id="ember11277"
+                                            href="/journals/libraries/search/72651?sort=title" id="ember11277"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11278" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16044,7 +16044,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11279" class="ember-view"><a
-                                            href="/libraries/603/journals/136941?sort=title" id="ember11280"
+                                            href="/journals/libraries/search/136941?sort=title" id="ember11280"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11281" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16059,7 +16059,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11282" class="ember-view"><a
-                                            href="/libraries/603/journals/33440?sort=title" id="ember11283"
+                                            href="/journals/libraries/search/33440?sort=title" id="ember11283"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11284" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16075,7 +16075,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11285" class="ember-view"><a
-                                            href="/libraries/603/journals/73018?sort=title" id="ember11286"
+                                            href="/journals/libraries/search/73018?sort=title" id="ember11286"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11287" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16092,7 +16092,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11288" class="ember-view"><a
-                                            href="/libraries/603/journals/10809?sort=title" id="ember11289"
+                                            href="/journals/libraries/search/10809?sort=title" id="ember11289"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11290" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16108,7 +16108,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11291" class="ember-view"><a
-                                            href="/libraries/603/journals/17090?sort=title" id="ember11292"
+                                            href="/journals/libraries/search/17090?sort=title" id="ember11292"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11293" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16124,7 +16124,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11294" class="ember-view"><a
-                                            href="/libraries/603/journals/317892?sort=title" id="ember11295"
+                                            href="/journals/libraries/search/317892?sort=title" id="ember11295"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11296" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16141,7 +16141,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11297" class="ember-view"><a
-                                            href="/libraries/603/journals/72999?sort=title" id="ember11298"
+                                            href="/journals/libraries/search/72999?sort=title" id="ember11298"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11299" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16155,7 +16155,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11300" class="ember-view"><a
-                                            href="/libraries/603/journals/5549?sort=title" id="ember11301"
+                                            href="/journals/libraries/search/5549?sort=title" id="ember11301"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11302" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16170,7 +16170,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11303" class="ember-view"><a
-                                            href="/libraries/603/journals/73015?sort=title" id="ember11304"
+                                            href="/journals/libraries/search/73015?sort=title" id="ember11304"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11305" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16185,7 +16185,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11306" class="ember-view"><a
-                                            href="/libraries/603/journals/18251?sort=title" id="ember11307"
+                                            href="/journals/libraries/search/18251?sort=title" id="ember11307"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11308" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16201,7 +16201,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11309" class="ember-view"><a
-                                            href="/libraries/603/journals/10760?sort=title" id="ember11310"
+                                            href="/journals/libraries/search/10760?sort=title" id="ember11310"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11311" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16216,7 +16216,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11312" class="ember-view"><a
-                                            href="/libraries/603/journals/73165?sort=title" id="ember11313"
+                                            href="/journals/libraries/search/73165?sort=title" id="ember11313"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11314" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16233,7 +16233,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11315" class="ember-view"><a
-                                            href="/libraries/603/journals/128945?sort=title" id="ember11316"
+                                            href="/journals/libraries/search/128945?sort=title" id="ember11316"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11317" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16250,7 +16250,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11318" class="ember-view"><a
-                                            href="/libraries/603/journals/10830?sort=title" id="ember11319"
+                                            href="/journals/libraries/search/10830?sort=title" id="ember11319"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11320" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16264,7 +16264,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11321" class="ember-view"><a
-                                            href="/libraries/603/journals/9889?sort=title" id="ember11322"
+                                            href="/journals/libraries/search/9889?sort=title" id="ember11322"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11323" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16278,7 +16278,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11324" class="ember-view"><a
-                                            href="/libraries/603/journals/293037?sort=title" id="ember11325"
+                                            href="/journals/libraries/search/293037?sort=title" id="ember11325"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11326" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16294,7 +16294,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11327" class="ember-view"><a
-                                            href="/libraries/603/journals/38741?sort=title" id="ember11328"
+                                            href="/journals/libraries/search/38741?sort=title" id="ember11328"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11329" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16308,7 +16308,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11330" class="ember-view"><a
-                                            href="/libraries/603/journals/18273?sort=title" id="ember11331"
+                                            href="/journals/libraries/search/18273?sort=title" id="ember11331"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11332" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16324,7 +16324,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11333" class="ember-view"><a
-                                            href="/libraries/603/journals/33401?sort=title" id="ember11334"
+                                            href="/journals/libraries/search/33401?sort=title" id="ember11334"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11335" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16340,7 +16340,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11336" class="ember-view"><a
-                                            href="/libraries/603/journals/73261?sort=title" id="ember11337"
+                                            href="/journals/libraries/search/73261?sort=title" id="ember11337"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11338" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16356,7 +16356,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11339" class="ember-view"><a
-                                            href="/libraries/603/journals/33307?sort=title" id="ember11340"
+                                            href="/journals/libraries/search/33307?sort=title" id="ember11340"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11341" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16371,7 +16371,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11342" class="ember-view"><a
-                                            href="/libraries/603/journals/10777?sort=title" id="ember11343"
+                                            href="/journals/libraries/search/10777?sort=title" id="ember11343"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11344" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16386,7 +16386,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11345" class="ember-view"><a
-                                            href="/libraries/603/journals/38824?sort=title" id="ember11346"
+                                            href="/journals/libraries/search/38824?sort=title" id="ember11346"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11347" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16401,7 +16401,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11348" class="ember-view"><a
-                                            href="/libraries/603/journals/322399?sort=title" id="ember11349"
+                                            href="/journals/libraries/search/322399?sort=title" id="ember11349"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11350" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16418,7 +16418,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11351" class="ember-view"><a
-                                            href="/libraries/603/journals/84032?sort=title" id="ember11352"
+                                            href="/journals/libraries/search/84032?sort=title" id="ember11352"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11353" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16435,7 +16435,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11354" class="ember-view"><a
-                                            href="/libraries/603/journals/10887?sort=title" id="ember11355"
+                                            href="/journals/libraries/search/10887?sort=title" id="ember11355"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11356" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16449,7 +16449,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11357" class="ember-view"><a
-                                            href="/libraries/603/journals/266644?sort=title" id="ember11358"
+                                            href="/journals/libraries/search/266644?sort=title" id="ember11358"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11359" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16463,7 +16463,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11360" class="ember-view"><a
-                                            href="/libraries/603/journals/10915?sort=title" id="ember11361"
+                                            href="/journals/libraries/search/10915?sort=title" id="ember11361"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11362" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16477,7 +16477,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11363" class="ember-view"><a
-                                            href="/libraries/603/journals/33476?sort=title" id="ember11364"
+                                            href="/journals/libraries/search/33476?sort=title" id="ember11364"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11365" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16494,7 +16494,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11366" class="ember-view"><a
-                                            href="/libraries/603/journals/36051?sort=title" id="ember11367"
+                                            href="/journals/libraries/search/36051?sort=title" id="ember11367"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11368" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16508,7 +16508,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11369" class="ember-view"><a
-                                            href="/libraries/603/journals/33777?sort=title" id="ember11370"
+                                            href="/journals/libraries/search/33777?sort=title" id="ember11370"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11371" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16525,7 +16525,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11372" class="ember-view"><a
-                                            href="/libraries/603/journals/145586?sort=title" id="ember11373"
+                                            href="/journals/libraries/search/145586?sort=title" id="ember11373"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11374" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16542,7 +16542,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11375" class="ember-view"><a
-                                            href="/libraries/603/journals/37392?sort=title" id="ember11376"
+                                            href="/journals/libraries/search/37392?sort=title" id="ember11376"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11377" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16557,7 +16557,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11378" class="ember-view"><a
-                                            href="/libraries/603/journals/175887?sort=title" id="ember11379"
+                                            href="/journals/libraries/search/175887?sort=title" id="ember11379"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11380" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16574,7 +16574,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11381" class="ember-view"><a
-                                            href="/libraries/603/journals/36474?sort=title" id="ember11382"
+                                            href="/journals/libraries/search/36474?sort=title" id="ember11382"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11383" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16590,7 +16590,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11384" class="ember-view"><a
-                                            href="/libraries/603/journals/5641?sort=title" id="ember11385"
+                                            href="/journals/libraries/search/5641?sort=title" id="ember11385"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11386" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16606,7 +16606,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11387" class="ember-view"><a
-                                            href="/libraries/603/journals/38940?sort=title" id="ember11388"
+                                            href="/journals/libraries/search/38940?sort=title" id="ember11388"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11389" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16622,7 +16622,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11390" class="ember-view"><a
-                                            href="/libraries/603/journals/39900?sort=title" id="ember11391"
+                                            href="/journals/libraries/search/39900?sort=title" id="ember11391"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11392" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16637,7 +16637,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11393" class="ember-view"><a
-                                            href="/libraries/603/journals/36503?sort=title" id="ember11394"
+                                            href="/journals/libraries/search/36503?sort=title" id="ember11394"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11395" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16653,7 +16653,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11396" class="ember-view"><a
-                                            href="/libraries/603/journals/5634?sort=title" id="ember11397"
+                                            href="/journals/libraries/search/5634?sort=title" id="ember11397"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11398" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16668,7 +16668,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11399" class="ember-view"><a
-                                            href="/libraries/603/journals/10402?sort=title" id="ember11400"
+                                            href="/journals/libraries/search/10402?sort=title" id="ember11400"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11401" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16683,7 +16683,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11402" class="ember-view"><a
-                                            href="/libraries/603/journals/298411?sort=title" id="ember11403"
+                                            href="/journals/libraries/search/298411?sort=title" id="ember11403"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11404" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16698,7 +16698,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11405" class="ember-view"><a
-                                            href="/libraries/603/journals/33466?sort=title" id="ember11406"
+                                            href="/journals/libraries/search/33466?sort=title" id="ember11406"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11407" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16714,7 +16714,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11408" class="ember-view"><a
-                                            href="/libraries/603/journals/16894?sort=title" id="ember11409"
+                                            href="/journals/libraries/search/16894?sort=title" id="ember11409"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11410" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16730,7 +16730,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11411" class="ember-view"><a
-                                            href="/libraries/603/journals/5455?sort=title" id="ember11412"
+                                            href="/journals/libraries/search/5455?sort=title" id="ember11412"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11413" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16746,7 +16746,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11414" class="ember-view"><a
-                                            href="/libraries/603/journals/33255?sort=title" id="ember11415"
+                                            href="/journals/libraries/search/33255?sort=title" id="ember11415"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11416" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16761,7 +16761,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11417" class="ember-view"><a
-                                            href="/libraries/603/journals/16312?sort=title" id="ember11418"
+                                            href="/journals/libraries/search/16312?sort=title" id="ember11418"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11419" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16777,7 +16777,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11420" class="ember-view"><a
-                                            href="/libraries/603/journals/38775?sort=title" id="ember11421"
+                                            href="/journals/libraries/search/38775?sort=title" id="ember11421"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11422" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16793,7 +16793,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11423" class="ember-view"><a
-                                            href="/libraries/603/journals/73836?sort=title" id="ember11424"
+                                            href="/journals/libraries/search/73836?sort=title" id="ember11424"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11425" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16809,7 +16809,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11426" class="ember-view"><a
-                                            href="/libraries/603/journals/73838?sort=title" id="ember11427"
+                                            href="/journals/libraries/search/73838?sort=title" id="ember11427"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11428" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16824,7 +16824,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11429" class="ember-view"><a
-                                            href="/libraries/603/journals/33257?sort=title" id="ember11430"
+                                            href="/journals/libraries/search/33257?sort=title" id="ember11430"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11431" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16840,7 +16840,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11432" class="ember-view"><a
-                                            href="/libraries/603/journals/37894?sort=title" id="ember11433"
+                                            href="/journals/libraries/search/37894?sort=title" id="ember11433"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11434" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16856,7 +16856,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11435" class="ember-view"><a
-                                            href="/libraries/603/journals/73850?sort=title" id="ember11436"
+                                            href="/journals/libraries/search/73850?sort=title" id="ember11436"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11437" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16871,7 +16871,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11438" class="ember-view"><a
-                                            href="/libraries/603/journals/10356?sort=title" id="ember11439"
+                                            href="/journals/libraries/search/10356?sort=title" id="ember11439"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11440" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16887,7 +16887,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11441" class="ember-view"><a
-                                            href="/libraries/603/journals/15597?sort=title" id="ember11442"
+                                            href="/journals/libraries/search/15597?sort=title" id="ember11442"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11443" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16903,7 +16903,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11444" class="ember-view"><a
-                                            href="/libraries/603/journals/321632?sort=title" id="ember11445"
+                                            href="/journals/libraries/search/321632?sort=title" id="ember11445"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11446" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16918,7 +16918,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11447" class="ember-view"><a
-                                            href="/libraries/603/journals/190740?sort=title" id="ember11448"
+                                            href="/journals/libraries/search/190740?sort=title" id="ember11448"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11449" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16934,7 +16934,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11450" class="ember-view"><a
-                                            href="/libraries/603/journals/308809?sort=title" id="ember11451"
+                                            href="/journals/libraries/search/308809?sort=title" id="ember11451"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11452" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16951,7 +16951,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11453" class="ember-view"><a
-                                            href="/libraries/603/journals/124060?sort=title" id="ember11454"
+                                            href="/journals/libraries/search/124060?sort=title" id="ember11454"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11455" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16965,7 +16965,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11456" class="ember-view"><a
-                                            href="/libraries/603/journals/298709?sort=title" id="ember11457"
+                                            href="/journals/libraries/search/298709?sort=title" id="ember11457"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11458" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16982,7 +16982,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11459" class="ember-view"><a
-                                            href="/libraries/603/journals/17708?sort=title" id="ember11460"
+                                            href="/journals/libraries/search/17708?sort=title" id="ember11460"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11461" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -16996,7 +16996,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11462" class="ember-view"><a
-                                            href="/libraries/603/journals/10759?sort=title" id="ember11463"
+                                            href="/journals/libraries/search/10759?sort=title" id="ember11463"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11464" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17011,7 +17011,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11465" class="ember-view"><a
-                                            href="/libraries/603/journals/318109?sort=title" id="ember11466"
+                                            href="/journals/libraries/search/318109?sort=title" id="ember11466"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11467" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17027,7 +17027,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11468" class="ember-view"><a
-                                            href="/libraries/603/journals/10737?sort=title" id="ember11469"
+                                            href="/journals/libraries/search/10737?sort=title" id="ember11469"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11470" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17041,7 +17041,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11471" class="ember-view"><a
-                                            href="/libraries/603/journals/73973?sort=title" id="ember11472"
+                                            href="/journals/libraries/search/73973?sort=title" id="ember11472"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11473" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17056,7 +17056,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11474" class="ember-view"><a
-                                            href="/libraries/603/journals/290059?sort=title" id="ember11475"
+                                            href="/journals/libraries/search/290059?sort=title" id="ember11475"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11476" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17073,7 +17073,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11477" class="ember-view"><a
-                                            href="/libraries/603/journals/40318?sort=title" id="ember11478"
+                                            href="/journals/libraries/search/40318?sort=title" id="ember11478"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11479" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17090,7 +17090,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11480" class="ember-view"><a
-                                            href="/libraries/603/journals/298739?sort=title" id="ember11481"
+                                            href="/journals/libraries/search/298739?sort=title" id="ember11481"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11482" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17104,7 +17104,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11483" class="ember-view"><a
-                                            href="/libraries/603/journals/40323?sort=title" id="ember11484"
+                                            href="/journals/libraries/search/40323?sort=title" id="ember11484"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11485" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17120,7 +17120,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11486" class="ember-view"><a
-                                            href="/libraries/603/journals/3284?sort=title" id="ember11487"
+                                            href="/journals/libraries/search/3284?sort=title" id="ember11487"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11488" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17134,7 +17134,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11489" class="ember-view"><a
-                                            href="/libraries/603/journals/37435?sort=title" id="ember11490"
+                                            href="/journals/libraries/search/37435?sort=title" id="ember11490"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11491" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17151,7 +17151,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11492" class="ember-view"><a
-                                            href="/libraries/603/journals/74477?sort=title" id="ember11493"
+                                            href="/journals/libraries/search/74477?sort=title" id="ember11493"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11494" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17166,7 +17166,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11495" class="ember-view"><a
-                                            href="/libraries/603/journals/36517?sort=title" id="ember11496"
+                                            href="/journals/libraries/search/36517?sort=title" id="ember11496"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11497" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17183,7 +17183,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11498" class="ember-view"><a
-                                            href="/libraries/603/journals/32221?sort=title" id="ember11499"
+                                            href="/journals/libraries/search/32221?sort=title" id="ember11499"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11500" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17198,7 +17198,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11501" class="ember-view"><a
-                                            href="/libraries/603/journals/35793?sort=title" id="ember11502"
+                                            href="/journals/libraries/search/35793?sort=title" id="ember11502"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11503" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17213,7 +17213,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11504" class="ember-view"><a
-                                            href="/libraries/603/journals/18287?sort=title" id="ember11505"
+                                            href="/journals/libraries/search/18287?sort=title" id="ember11505"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11506" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17228,7 +17228,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11507" class="ember-view"><a
-                                            href="/libraries/603/journals/10712?sort=title" id="ember11508"
+                                            href="/journals/libraries/search/10712?sort=title" id="ember11508"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11509" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17243,7 +17243,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11510" class="ember-view"><a
-                                            href="/libraries/603/journals/10705?sort=title" id="ember11511"
+                                            href="/journals/libraries/search/10705?sort=title" id="ember11511"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11512" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17259,7 +17259,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11513" class="ember-view"><a
-                                            href="/libraries/603/journals/9249?sort=title" id="ember11514"
+                                            href="/journals/libraries/search/9249?sort=title" id="ember11514"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11515" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17275,7 +17275,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11516" class="ember-view"><a
-                                            href="/libraries/603/journals/19060?sort=title" id="ember11517"
+                                            href="/journals/libraries/search/19060?sort=title" id="ember11517"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11518" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17291,7 +17291,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11519" class="ember-view"><a
-                                            href="/libraries/603/journals/115304?sort=title" id="ember11520"
+                                            href="/journals/libraries/search/115304?sort=title" id="ember11520"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11521" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17305,7 +17305,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11522" class="ember-view"><a
-                                            href="/libraries/603/journals/74650?sort=title" id="ember11523"
+                                            href="/journals/libraries/search/74650?sort=title" id="ember11523"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11524" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17321,7 +17321,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11525" class="ember-view"><a
-                                            href="/libraries/603/journals/17416?sort=title" id="ember11526"
+                                            href="/journals/libraries/search/17416?sort=title" id="ember11526"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11527" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17335,7 +17335,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11528" class="ember-view"><a
-                                            href="/libraries/603/journals/75070?sort=title" id="ember11529"
+                                            href="/journals/libraries/search/75070?sort=title" id="ember11529"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11530" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17352,7 +17352,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11531" class="ember-view"><a
-                                            href="/libraries/603/journals/10752?sort=title" id="ember11532"
+                                            href="/journals/libraries/search/10752?sort=title" id="ember11532"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11533" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17368,7 +17368,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11534" class="ember-view"><a
-                                            href="/libraries/603/journals/33258?sort=title" id="ember11535"
+                                            href="/journals/libraries/search/33258?sort=title" id="ember11535"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11536" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17384,7 +17384,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11537" class="ember-view"><a
-                                            href="/libraries/603/journals/20835?sort=title" id="ember11538"
+                                            href="/journals/libraries/search/20835?sort=title" id="ember11538"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11539" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17400,7 +17400,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11540" class="ember-view"><a
-                                            href="/libraries/603/journals/150501?sort=title" id="ember11541"
+                                            href="/journals/libraries/search/150501?sort=title" id="ember11541"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11542" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17414,7 +17414,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11543" class="ember-view"><a
-                                            href="/libraries/603/journals/75170?sort=title" id="ember11544"
+                                            href="/journals/libraries/search/75170?sort=title" id="ember11544"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11545" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17431,7 +17431,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11546" class="ember-view"><a
-                                            href="/libraries/603/journals/18291?sort=title" id="ember11547"
+                                            href="/journals/libraries/search/18291?sort=title" id="ember11547"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11548" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17448,7 +17448,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11549" class="ember-view"><a
-                                            href="/libraries/603/journals/75125?sort=title" id="ember11550"
+                                            href="/journals/libraries/search/75125?sort=title" id="ember11550"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11551" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17465,7 +17465,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11552" class="ember-view"><a
-                                            href="/libraries/603/journals/326124?sort=title" id="ember11553"
+                                            href="/journals/libraries/search/326124?sort=title" id="ember11553"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11554" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17482,7 +17482,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11555" class="ember-view"><a
-                                            href="/libraries/603/journals/63069?sort=title" id="ember11556"
+                                            href="/journals/libraries/search/63069?sort=title" id="ember11556"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11557" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17498,7 +17498,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11558" class="ember-view"><a
-                                            href="/libraries/603/journals/394929?sort=title" id="ember11559"
+                                            href="/journals/libraries/search/394929?sort=title" id="ember11559"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11560" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17515,7 +17515,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11561" class="ember-view"><a
-                                            href="/libraries/603/journals/375509?sort=title" id="ember11562"
+                                            href="/journals/libraries/search/375509?sort=title" id="ember11562"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11563" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17531,7 +17531,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11564" class="ember-view"><a
-                                            href="/libraries/603/journals/17894?sort=title" id="ember11565"
+                                            href="/journals/libraries/search/17894?sort=title" id="ember11565"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11566" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17547,7 +17547,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11567" class="ember-view"><a
-                                            href="/libraries/603/journals/75177?sort=title" id="ember11568"
+                                            href="/journals/libraries/search/75177?sort=title" id="ember11568"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11569" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17564,7 +17564,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11570" class="ember-view"><a
-                                            href="/libraries/603/journals/141699?sort=title" id="ember11571"
+                                            href="/journals/libraries/search/141699?sort=title" id="ember11571"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11572" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17581,7 +17581,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11573" class="ember-view"><a
-                                            href="/libraries/603/journals/433067?sort=title" id="ember11574"
+                                            href="/journals/libraries/search/433067?sort=title" id="ember11574"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11575" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17597,7 +17597,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11576" class="ember-view"><a
-                                            href="/libraries/603/journals/33901?sort=title" id="ember11577"
+                                            href="/journals/libraries/search/33901?sort=title" id="ember11577"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11578" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17612,7 +17612,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11579" class="ember-view"><a
-                                            href="/libraries/603/journals/267539?sort=title" id="ember11580"
+                                            href="/journals/libraries/search/267539?sort=title" id="ember11580"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11581" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17627,7 +17627,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11582" class="ember-view"><a
-                                            href="/libraries/603/journals/75196?sort=title" id="ember11583"
+                                            href="/journals/libraries/search/75196?sort=title" id="ember11583"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11584" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17644,7 +17644,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11585" class="ember-view"><a
-                                            href="/libraries/603/journals/135244?sort=title" id="ember11586"
+                                            href="/journals/libraries/search/135244?sort=title" id="ember11586"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11587" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17660,7 +17660,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11588" class="ember-view"><a
-                                            href="/libraries/603/journals/40086?sort=title" id="ember11589"
+                                            href="/journals/libraries/search/40086?sort=title" id="ember11589"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11590" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17676,7 +17676,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11591" class="ember-view"><a
-                                            href="/libraries/603/journals/10709?sort=title" id="ember11592"
+                                            href="/journals/libraries/search/10709?sort=title" id="ember11592"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11593" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17690,7 +17690,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11594" class="ember-view"><a
-                                            href="/libraries/603/journals/10380?sort=title" id="ember11595"
+                                            href="/journals/libraries/search/10380?sort=title" id="ember11595"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11596" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17705,7 +17705,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11597" class="ember-view"><a
-                                            href="/libraries/603/journals/40245?sort=title" id="ember11598"
+                                            href="/journals/libraries/search/40245?sort=title" id="ember11598"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11599" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17721,7 +17721,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11600" class="ember-view"><a
-                                            href="/libraries/603/journals/36229?sort=title" id="ember11601"
+                                            href="/journals/libraries/search/36229?sort=title" id="ember11601"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11602" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17737,7 +17737,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11603" class="ember-view"><a
-                                            href="/libraries/603/journals/10660?sort=title" id="ember11604"
+                                            href="/journals/libraries/search/10660?sort=title" id="ember11604"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11605" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17753,7 +17753,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11606" class="ember-view"><a
-                                            href="/libraries/603/journals/375146?sort=title" id="ember11607"
+                                            href="/journals/libraries/search/375146?sort=title" id="ember11607"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11608" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17769,7 +17769,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11609" class="ember-view"><a
-                                            href="/libraries/603/journals/75484?sort=title" id="ember11610"
+                                            href="/journals/libraries/search/75484?sort=title" id="ember11610"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11611" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17784,7 +17784,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11612" class="ember-view"><a
-                                            href="/libraries/603/journals/75488?sort=title" id="ember11613"
+                                            href="/journals/libraries/search/75488?sort=title" id="ember11613"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11614" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17798,7 +17798,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11615" class="ember-view"><a
-                                            href="/libraries/603/journals/18286?sort=title" id="ember11616"
+                                            href="/journals/libraries/search/18286?sort=title" id="ember11616"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11617" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17814,7 +17814,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11618" class="ember-view"><a
-                                            href="/libraries/603/journals/75505?sort=title" id="ember11619"
+                                            href="/journals/libraries/search/75505?sort=title" id="ember11619"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11620" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17830,7 +17830,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11621" class="ember-view"><a
-                                            href="/libraries/603/journals/75592?sort=title" id="ember11622"
+                                            href="/journals/libraries/search/75592?sort=title" id="ember11622"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11623" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17847,7 +17847,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11624" class="ember-view"><a
-                                            href="/libraries/603/journals/296275?sort=title" id="ember11625"
+                                            href="/journals/libraries/search/296275?sort=title" id="ember11625"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11626" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17864,7 +17864,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11627" class="ember-view"><a
-                                            href="/libraries/603/journals/32160?sort=title" id="ember11628"
+                                            href="/journals/libraries/search/32160?sort=title" id="ember11628"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11629" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17878,7 +17878,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11630" class="ember-view"><a
-                                            href="/libraries/603/journals/303596?sort=title" id="ember11631"
+                                            href="/journals/libraries/search/303596?sort=title" id="ember11631"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11632" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17894,7 +17894,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11633" class="ember-view"><a
-                                            href="/libraries/603/journals/76226?sort=title" id="ember11634"
+                                            href="/journals/libraries/search/76226?sort=title" id="ember11634"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11635" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17911,7 +17911,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11636" class="ember-view"><a
-                                            href="/libraries/603/journals/76265?sort=title" id="ember11637"
+                                            href="/journals/libraries/search/76265?sort=title" id="ember11637"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11638" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17926,7 +17926,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11639" class="ember-view"><a
-                                            href="/libraries/603/journals/190809?sort=title" id="ember11640"
+                                            href="/journals/libraries/search/190809?sort=title" id="ember11640"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11641" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17942,7 +17942,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11642" class="ember-view"><a
-                                            href="/libraries/603/journals/76353?sort=title" id="ember11643"
+                                            href="/journals/libraries/search/76353?sort=title" id="ember11643"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11644" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17958,7 +17958,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11645" class="ember-view"><a
-                                            href="/libraries/603/journals/76428?sort=title" id="ember11646"
+                                            href="/journals/libraries/search/76428?sort=title" id="ember11646"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11647" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17974,7 +17974,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11648" class="ember-view"><a
-                                            href="/libraries/603/journals/10343?sort=title" id="ember11649"
+                                            href="/journals/libraries/search/10343?sort=title" id="ember11649"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11650" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -17989,7 +17989,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11651" class="ember-view"><a
-                                            href="/libraries/603/journals/5797?sort=title" id="ember11652"
+                                            href="/journals/libraries/search/5797?sort=title" id="ember11652"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11653" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18004,7 +18004,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11654" class="ember-view"><a
-                                            href="/libraries/603/journals/76542?sort=title" id="ember11655"
+                                            href="/journals/libraries/search/76542?sort=title" id="ember11655"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11656" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18021,7 +18021,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11657" class="ember-view"><a
-                                            href="/libraries/603/journals/18982?sort=title" id="ember11658"
+                                            href="/journals/libraries/search/18982?sort=title" id="ember11658"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11659" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18036,7 +18036,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11660" class="ember-view"><a
-                                            href="/libraries/603/journals/123877?sort=title" id="ember11661"
+                                            href="/journals/libraries/search/123877?sort=title" id="ember11661"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11662" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18050,7 +18050,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11663" class="ember-view"><a
-                                            href="/libraries/603/journals/9756?sort=title" id="ember11664"
+                                            href="/journals/libraries/search/9756?sort=title" id="ember11664"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11665" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18067,7 +18067,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11666" class="ember-view"><a
-                                            href="/libraries/603/journals/10359?sort=title" id="ember11667"
+                                            href="/journals/libraries/search/10359?sort=title" id="ember11667"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11668" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18082,7 +18082,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11669" class="ember-view"><a
-                                            href="/libraries/603/journals/36377?sort=title" id="ember11670"
+                                            href="/journals/libraries/search/36377?sort=title" id="ember11670"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11671" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18098,7 +18098,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11672" class="ember-view"><a
-                                            href="/libraries/603/journals/19856?sort=title" id="ember11673"
+                                            href="/journals/libraries/search/19856?sort=title" id="ember11673"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11674" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18114,7 +18114,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11675" class="ember-view"><a
-                                            href="/libraries/603/journals/103993?sort=title" id="ember11676"
+                                            href="/journals/libraries/search/103993?sort=title" id="ember11676"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11677" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18130,7 +18130,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11678" class="ember-view"><a
-                                            href="/libraries/603/journals/123971?sort=title" id="ember11679"
+                                            href="/journals/libraries/search/123971?sort=title" id="ember11679"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11680" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18145,7 +18145,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11681" class="ember-view"><a
-                                            href="/libraries/603/journals/32159?sort=title" id="ember11682"
+                                            href="/journals/libraries/search/32159?sort=title" id="ember11682"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11683" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18162,7 +18162,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11684" class="ember-view"><a
-                                            href="/libraries/603/journals/104650?sort=title" id="ember11685"
+                                            href="/journals/libraries/search/104650?sort=title" id="ember11685"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11686" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18176,7 +18176,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11687" class="ember-view"><a
-                                            href="/libraries/603/journals/76963?sort=title" id="ember11688"
+                                            href="/journals/libraries/search/76963?sort=title" id="ember11688"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11689" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18192,7 +18192,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11690" class="ember-view"><a
-                                            href="/libraries/603/journals/262210?sort=title" id="ember11691"
+                                            href="/journals/libraries/search/262210?sort=title" id="ember11691"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11692" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18209,7 +18209,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11693" class="ember-view"><a
-                                            href="/libraries/603/journals/15775?sort=title" id="ember11694"
+                                            href="/journals/libraries/search/15775?sort=title" id="ember11694"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11695" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18225,7 +18225,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11696" class="ember-view"><a
-                                            href="/libraries/603/journals/77057?sort=title" id="ember11697"
+                                            href="/journals/libraries/search/77057?sort=title" id="ember11697"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11698" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18242,7 +18242,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11699" class="ember-view"><a
-                                            href="/libraries/603/journals/20838?sort=title" id="ember11700"
+                                            href="/journals/libraries/search/20838?sort=title" id="ember11700"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11701" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18259,7 +18259,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11702" class="ember-view"><a
-                                            href="/libraries/603/journals/370467?sort=title" id="ember11703"
+                                            href="/journals/libraries/search/370467?sort=title" id="ember11703"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11704" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18275,7 +18275,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11705" class="ember-view"><a
-                                            href="/libraries/603/journals/38795?sort=title" id="ember11706"
+                                            href="/journals/libraries/search/38795?sort=title" id="ember11706"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11707" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18289,7 +18289,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11708" class="ember-view"><a
-                                            href="/libraries/603/journals/16970?sort=title" id="ember11709"
+                                            href="/journals/libraries/search/16970?sort=title" id="ember11709"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11710" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18303,7 +18303,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11711" class="ember-view"><a
-                                            href="/libraries/603/journals/142400?sort=title" id="ember11712"
+                                            href="/journals/libraries/search/142400?sort=title" id="ember11712"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11713" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18317,7 +18317,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11714" class="ember-view"><a
-                                            href="/libraries/603/journals/10816?sort=title" id="ember11715"
+                                            href="/journals/libraries/search/10816?sort=title" id="ember11715"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11716" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18331,7 +18331,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11717" class="ember-view"><a
-                                            href="/libraries/603/journals/10889?sort=title" id="ember11718"
+                                            href="/journals/libraries/search/10889?sort=title" id="ember11718"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11719" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18348,7 +18348,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11720" class="ember-view"><a
-                                            href="/libraries/603/journals/386326?sort=title" id="ember11721"
+                                            href="/journals/libraries/search/386326?sort=title" id="ember11721"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11722" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18362,7 +18362,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11723" class="ember-view"><a
-                                            href="/libraries/603/journals/40246?sort=title" id="ember11724"
+                                            href="/journals/libraries/search/40246?sort=title" id="ember11724"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11725" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18376,7 +18376,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11726" class="ember-view"><a
-                                            href="/libraries/603/journals/18276?sort=title" id="ember11727"
+                                            href="/journals/libraries/search/18276?sort=title" id="ember11727"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11728" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18393,7 +18393,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11729" class="ember-view"><a
-                                            href="/libraries/603/journals/387612?sort=title" id="ember11730"
+                                            href="/journals/libraries/search/387612?sort=title" id="ember11730"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11731" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18409,7 +18409,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11732" class="ember-view"><a
-                                            href="/libraries/603/journals/77362?sort=title" id="ember11733"
+                                            href="/journals/libraries/search/77362?sort=title" id="ember11733"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11734" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18423,7 +18423,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11735" class="ember-view"><a
-                                            href="/libraries/603/journals/182113?sort=title" id="ember11736"
+                                            href="/journals/libraries/search/182113?sort=title" id="ember11736"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11737" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18439,7 +18439,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11738" class="ember-view"><a
-                                            href="/libraries/603/journals/77402?sort=title" id="ember11739"
+                                            href="/journals/libraries/search/77402?sort=title" id="ember11739"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11740" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18454,7 +18454,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11741" class="ember-view"><a
-                                            href="/libraries/603/journals/77429?sort=title" id="ember11742"
+                                            href="/journals/libraries/search/77429?sort=title" id="ember11742"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11743" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18470,7 +18470,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11744" class="ember-view"><a
-                                            href="/libraries/603/journals/17420?sort=title" id="ember11745"
+                                            href="/journals/libraries/search/17420?sort=title" id="ember11745"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11746" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18486,7 +18486,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11747" class="ember-view"><a
-                                            href="/libraries/603/journals/77489?sort=title" id="ember11748"
+                                            href="/journals/libraries/search/77489?sort=title" id="ember11748"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11749" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18500,7 +18500,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11750" class="ember-view"><a
-                                            href="/libraries/603/journals/77494?sort=title" id="ember11751"
+                                            href="/journals/libraries/search/77494?sort=title" id="ember11751"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11752" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18517,7 +18517,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11753" class="ember-view"><a
-                                            href="/libraries/603/journals/40247?sort=title" id="ember11754"
+                                            href="/journals/libraries/search/40247?sort=title" id="ember11754"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11755" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18531,7 +18531,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11756" class="ember-view"><a
-                                            href="/libraries/603/journals/77537?sort=title" id="ember11757"
+                                            href="/journals/libraries/search/77537?sort=title" id="ember11757"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11758" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18545,7 +18545,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11759" class="ember-view"><a
-                                            href="/libraries/603/journals/17749?sort=title" id="ember11760"
+                                            href="/journals/libraries/search/17749?sort=title" id="ember11760"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11761" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18559,7 +18559,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11762" class="ember-view"><a
-                                            href="/libraries/603/journals/33620?sort=title" id="ember11763"
+                                            href="/journals/libraries/search/33620?sort=title" id="ember11763"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11764" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18573,7 +18573,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11765" class="ember-view"><a
-                                            href="/libraries/603/journals/104129?sort=title" id="ember11766"
+                                            href="/journals/libraries/search/104129?sort=title" id="ember11766"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11767" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18589,7 +18589,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11768" class="ember-view"><a
-                                            href="/libraries/603/journals/77862?sort=title" id="ember11769"
+                                            href="/journals/libraries/search/77862?sort=title" id="ember11769"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11770" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18603,7 +18603,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11771" class="ember-view"><a
-                                            href="/libraries/603/journals/10832?sort=title" id="ember11772"
+                                            href="/journals/libraries/search/10832?sort=title" id="ember11772"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11773" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18619,7 +18619,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11774" class="ember-view"><a
-                                            href="/libraries/603/journals/33341?sort=title" id="ember11775"
+                                            href="/journals/libraries/search/33341?sort=title" id="ember11775"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11776" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18636,7 +18636,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11777" class="ember-view"><a
-                                            href="/libraries/603/journals/17778?sort=title" id="ember11778"
+                                            href="/journals/libraries/search/17778?sort=title" id="ember11778"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11779" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18651,7 +18651,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11780" class="ember-view"><a
-                                            href="/libraries/603/journals/35955?sort=title" id="ember11781"
+                                            href="/journals/libraries/search/35955?sort=title" id="ember11781"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11782" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18667,7 +18667,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11783" class="ember-view"><a
-                                            href="/libraries/603/journals/339282?sort=title" id="ember11784"
+                                            href="/journals/libraries/search/339282?sort=title" id="ember11784"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11785" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18684,7 +18684,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11786" class="ember-view"><a
-                                            href="/libraries/603/journals/78055?sort=title" id="ember11787"
+                                            href="/journals/libraries/search/78055?sort=title" id="ember11787"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11788" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18699,7 +18699,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11789" class="ember-view"><a
-                                            href="/libraries/603/journals/18997?sort=title" id="ember11790"
+                                            href="/journals/libraries/search/18997?sort=title" id="ember11790"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11791" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18715,7 +18715,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11792" class="ember-view"><a
-                                            href="/libraries/603/journals/32222?sort=title" id="ember11793"
+                                            href="/journals/libraries/search/32222?sort=title" id="ember11793"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11794" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18729,7 +18729,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11795" class="ember-view"><a
-                                            href="/libraries/603/journals/30165?sort=title" id="ember11796"
+                                            href="/journals/libraries/search/30165?sort=title" id="ember11796"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11797" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18743,7 +18743,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11798" class="ember-view"><a
-                                            href="/libraries/603/journals/180135?sort=title" id="ember11799"
+                                            href="/journals/libraries/search/180135?sort=title" id="ember11799"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11800" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18757,7 +18757,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11801" class="ember-view"><a
-                                            href="/libraries/603/journals/78223?sort=title" id="ember11802"
+                                            href="/journals/libraries/search/78223?sort=title" id="ember11802"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11803" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18771,7 +18771,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11804" class="ember-view"><a
-                                            href="/libraries/603/journals/18278?sort=title" id="ember11805"
+                                            href="/journals/libraries/search/18278?sort=title" id="ember11805"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11806" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18786,7 +18786,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11807" class="ember-view"><a
-                                            href="/libraries/603/journals/295846?sort=title" id="ember11808"
+                                            href="/journals/libraries/search/295846?sort=title" id="ember11808"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11809" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18802,7 +18802,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11810" class="ember-view"><a
-                                            href="/libraries/603/journals/36209?sort=title" id="ember11811"
+                                            href="/journals/libraries/search/36209?sort=title" id="ember11811"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11812" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18816,7 +18816,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11813" class="ember-view"><a
-                                            href="/libraries/603/journals/37437?sort=title" id="ember11814"
+                                            href="/journals/libraries/search/37437?sort=title" id="ember11814"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11815" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18833,7 +18833,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11816" class="ember-view"><a
-                                            href="/libraries/603/journals/270596?sort=title" id="ember11817"
+                                            href="/journals/libraries/search/270596?sort=title" id="ember11817"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11818" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18850,7 +18850,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11819" class="ember-view"><a
-                                            href="/libraries/603/journals/318115?sort=title" id="ember11820"
+                                            href="/journals/libraries/search/318115?sort=title" id="ember11820"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11821" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18867,7 +18867,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11822" class="ember-view"><a
-                                            href="/libraries/603/journals/18998?sort=title" id="ember11823"
+                                            href="/journals/libraries/search/18998?sort=title" id="ember11823"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11824" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18882,7 +18882,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11825" class="ember-view"><a
-                                            href="/libraries/603/journals/16064?sort=title" id="ember11826"
+                                            href="/journals/libraries/search/16064?sort=title" id="ember11826"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11827" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18898,7 +18898,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11828" class="ember-view"><a
-                                            href="/libraries/603/journals/78445?sort=title" id="ember11829"
+                                            href="/journals/libraries/search/78445?sort=title" id="ember11829"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11830" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18912,7 +18912,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11831" class="ember-view"><a
-                                            href="/libraries/603/journals/33404?sort=title" id="ember11832"
+                                            href="/journals/libraries/search/33404?sort=title" id="ember11832"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11833" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18927,7 +18927,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11834" class="ember-view"><a
-                                            href="/libraries/603/journals/297235?sort=title" id="ember11835"
+                                            href="/journals/libraries/search/297235?sort=title" id="ember11835"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11836" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18944,7 +18944,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11837" class="ember-view"><a
-                                            href="/libraries/603/journals/18277?sort=title" id="ember11838"
+                                            href="/journals/libraries/search/18277?sort=title" id="ember11838"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11839" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18960,7 +18960,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11840" class="ember-view"><a
-                                            href="/libraries/603/journals/16829?sort=title" id="ember11841"
+                                            href="/journals/libraries/search/16829?sort=title" id="ember11841"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11842" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18976,7 +18976,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11843" class="ember-view"><a
-                                            href="/libraries/603/journals/10654?sort=title" id="ember11844"
+                                            href="/journals/libraries/search/10654?sort=title" id="ember11844"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11845" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -18993,7 +18993,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11846" class="ember-view"><a
-                                            href="/libraries/603/journals/10822?sort=title" id="ember11847"
+                                            href="/journals/libraries/search/10822?sort=title" id="ember11847"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11848" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19008,7 +19008,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11849" class="ember-view"><a
-                                            href="/libraries/603/journals/10735?sort=title" id="ember11850"
+                                            href="/journals/libraries/search/10735?sort=title" id="ember11850"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11851" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19023,7 +19023,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11852" class="ember-view"><a
-                                            href="/libraries/603/journals/78685?sort=title" id="ember11853"
+                                            href="/journals/libraries/search/78685?sort=title" id="ember11853"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11854" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19038,7 +19038,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11855" class="ember-view"><a
-                                            href="/libraries/603/journals/367340?sort=title" id="ember11856"
+                                            href="/journals/libraries/search/367340?sort=title" id="ember11856"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11857" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19055,7 +19055,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11858" class="ember-view"><a
-                                            href="/libraries/603/journals/78875?sort=title" id="ember11859"
+                                            href="/journals/libraries/search/78875?sort=title" id="ember11859"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11860" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19072,7 +19072,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11861" class="ember-view"><a
-                                            href="/libraries/603/journals/39937?sort=title" id="ember11862"
+                                            href="/journals/libraries/search/39937?sort=title" id="ember11862"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11863" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19089,7 +19089,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11864" class="ember-view"><a
-                                            href="/libraries/603/journals/441054?sort=title" id="ember11865"
+                                            href="/journals/libraries/search/441054?sort=title" id="ember11865"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11866" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
@@ -19106,7 +19106,7 @@
                                 </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember11867" class="ember-view"><a
-                                            href="/libraries/603/journals/39885?sort=title" id="ember11868"
+                                            href="/journals/libraries/search/39885?sort=title" id="ember11868"
                                             class="bookshelf-journal ember-view" tabindex="0">
                                             <div id="ember11869" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">

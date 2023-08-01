@@ -22,6 +22,13 @@ final class PagesController extends Controller {
         ];
         $this->view("index", $data);
     }
-
     
+    public function clone(){
+        
+        $search = trim(filter_var($_POST['data'], FILTER_SANITIZE_STRING));
+        $_token = $_POST['encrypted'];
+        if($search != ""){
+            $this->view("components/apiHeader");
+        }
+    }
 }

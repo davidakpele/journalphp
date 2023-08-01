@@ -13,7 +13,7 @@
             $this->_connect_db = new Database;
         }
         
-        public function login_validate(){
-
+        public function get_search(){
+            return false;
         }
     }

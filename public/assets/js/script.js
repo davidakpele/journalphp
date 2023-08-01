@@ -5,13 +5,19 @@ $('document').ready(function (e) {
         $('.magnifying-glass').show();
         $('.clearer').hide();
         window.history.pushState("", "Title", root_url);
+        $('#search_result').empty();
+        $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container")
+        $('.clone_result').removeClass('subjects-search-container complete').addClass("subjects-search-container")
     });
     $(".hero-search").keyup(function (e) {
         var input = $(this);
-        if (input.val() == "") {
-             $('.hero-search').val('');
+        if ((input).val().length ==0) {
+            input.val('');
             $('.magnifying-glass').show();
             $('.clearer').hide();
+            $('#search_result').empty();
+            $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container")
+            $('.clone_result').removeClass('subjects-search-container complete').addClass("subjects-search-container")
             window.history.replaceState({}, "Title", root_url);
         }
 
@@ -70,20 +76,44 @@ function search(input) {
                 },
             }).then((response) => {
                 if (response.status === 200) {
-                        var xhr = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
-                        const postData = { "data": response._token, "_data": input.value }
-                        xhr.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
-                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8", this.withCredentials = true);
-                        xhr.send(JSON.stringify(postData));
-                        xhr.onreadystatechange = function () {
-                        if (xhr.readyState == 4 && xhr.status == 201) {
-                            $('#ember1178').hide();
-                            $('.clearer').show();
-                            // document.getElementById("response").innerHTML = "Post request successful: " + xhr.responseText;
-                        } else {
-                            // document.getElementById("response").innerHTML = "Post request failed: " + xhr.responseText;
-                        }
-                    }
+                    const Http = new XMLHttpRequest();
+                    const postData = { "data": response._token, "_data": input.value }
+                    Http.open("POST", root_url+'api/getsearch', true);
+                    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8", this.withCredentials = true);
+                    Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
+                    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+                    Http.send(JSON.stringify(postData));
+                    Http.onreadystatechange = function (e) {
+                        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
+                            var result = JSON.parse(Http.responseText);
+                            const strjson = { "data": result.data, "encrypted": response._token };
+                            if (result.inc == true) {
+                                $.ajax({
+                                    url: root_url+'PagesController/clone',
+                                    type: "POST",
+                                    data: strjson,
+                                    crossDomain: true,
+                                    dataType: 'html',
+                                    crossOrigin: true,
+                                    async: true,
+                                    cache: false,
+                                    processData: true,
+                                }).then((data) => {
+                                    $('#ember1178').hide();
+                                    $('.clearer').show();
+                                    $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                                    $('#search_result').empty();
+                                    $('#search_result').append(data);
+                                })
+                            } else {
+                                $('#ember1178').hide();
+                                $('.clearer').show();
+                                $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                                $('#search_result').empty();
+                                $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
+                           }
+                    } 
+                }
                 } else {
                     return false;
                 }

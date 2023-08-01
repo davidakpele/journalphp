@@ -23,15 +23,51 @@ final class api extends Controller {
             $_token = new Http\sanctum();
             $token = $_token->getToken();
             if($token){
-                $response['status'] = 200;
+                $response['status'] = http_response_code(200);
                 $response['_token']= $token;
             }
             ob_end_clean();
            echo json_encode($response);
         }
-       
-       
-    }
+   }
+
+    public function getsearch(){
+        if(validata_api_request_header()){
+            ob_start();
+            $jsonString = file_get_contents("php://input");
+            $response = array();
+            $phpObject = json_decode($jsonString);
+
+            $search_data=$phpObject->{'_data'};
+
+            $newobjt = json_encode($phpObject);
+            $search_requested_in_data=$this->_fetching_sql_model_data->get_search($search_data);
+            if($search_requested_in_data == true){
+                $response['inc']=true;
+                $response['data']= $search_data;
+                $response['status'] = http_response_code(200);
+            }else {
+                $response['status'] = http_response_code(200);
+                $response['inc']=false;
+                $response['data'] ='No matches for '.$search_data.' ';
+                $response['error']='';
+            }
+            ob_end_clean();
+            
+            $this->returning_page($response);
+        }
+   }
+
+   public function returning_page($response){
+        if($response['inc'] == false){
+            echo json_encode($response);
+        }else{
+            $data=['result'=>$response];
+            //$this->view("components/apiHeader", $data);
+            echo json_encode($response);
+        }
+        
+   }
 
     
 }
