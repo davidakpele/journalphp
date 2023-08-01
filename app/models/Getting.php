@@ -1,12 +1,6 @@
 <?php
     class Getting
     {
-        /**
-         * 
-         * API Data Fetch
-         * var [type]
-         * 
-         */
 
         private $_connect_db;
         public function __construct(){
@@ -14,6 +8,7 @@
         }
         
         public function get_search(){
-            return false;
+            
+            return true;
         }
     }

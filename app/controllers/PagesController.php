@@ -31,4 +31,16 @@ final class PagesController extends Controller {
             $this->view("components/apiHeader");
         }
     }
+
+
+    public function Login(){
+
+        $this->view("auth/Login");
+    }
+
+
+    public function lookup(){
+
+        $this->view("lookup/Find_institute");
+    }
 }

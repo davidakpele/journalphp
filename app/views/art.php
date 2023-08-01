@@ -14,46 +14,48 @@
                             <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                             <ul class="subject-bookcase-list">
                                 <li class="subject-bookcase-list-item">
-                                    <a href="/libraries/603/subjects/57?sort=title" id="ember1123"
+                                    <a href="/journals/libraries/603/subjects/57" id="ember1123"
                                         class="active ember-view"> All Journals
                                     </a>
                                 </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/69?sort=title" id="ember1124"
+                                        href="/journals/libraries/603/subjects/57/bookcases/69?sort=title" id="ember1124"
                                         class="ember-view">Architecture</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/71?sort=title" id="ember1125"
+                                        href="/journals/libraries/603/subjects/57/bookcases/71?sort=title" id="ember1125"
                                         class="ember-view">Art and Design</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/70?sort=title" id="ember1126"
+                                        href="/journals/libraries/603/subjects/57/bookcases/70?sort=title" id="ember1126"
                                         class="ember-view">Arts and Humanities, General/Interdisciplinary</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/73?sort=title" id="ember1127"
+                                        href="/journals/libraries/603/subjects/57/bookcases/73?sort=title" id="ember1127"
                                         class="ember-view">Classical Studies</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/72?sort=title" id="ember1128"
+                                        href="/journals/libraries/603/subjects/57/bookcases/72?sort=title" id="ember1128"
                                         class="ember-view">Creative Writing</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/75?sort=title" id="ember1129"
+                                        href="/journals/libraries/603/subjects/57/bookcases/75?sort=title" id="ember1129"
                                         class="ember-view">Film and Media Studies</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/76?sort=title" id="ember1130"
+                                        href="/journals/libraries/603/subjects/57/bookcases/76?sort=title" id="ember1130"
                                         class="ember-view">Fine Arts</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/77?sort=title" id="ember1131"
+                                        href="/journals/libraries/603/subjects/57/bookcases/77?sort=title" id="ember1131"
                                         class="ember-view">Literature</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/78?sort=title" id="ember1132"
+                                        href="/journals/libraries/603/subjects/57/bookcases/78?sort=title" id="ember1132"
                                         class="ember-view">Medieval/Renaissance Studies</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/79?sort=title" id="ember1133"
+                                        href="/journals/libraries/603/subjects/57/bookcases/79?sort=title" id="ember1133"
                                         class="ember-view">Music</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/57/bookcases/81?sort=title" id="ember1134"
+                                        href="/journals/libraries/603/subjects/57/bookcases/81?sort=title" id="ember1134"
                                         class="ember-view">Theatre and Performance Studies</a> </li>
                             </ul>
                         </div>
-
+                        <?php if($data['sideline']==true):?>
+                            <?php $this->view("components/SideBarMenu") ?>
+                        <?php endif;?>
                         <!---->
                         <div id="ember786" class="journals-container infinite-scroller ember-view"><!---->
                             <div style="margin-right: 47.200000000000045px" id="ember791"
@@ -65,7 +67,6 @@
                                             class="sort-control sort-by-title hide-underline active ember-view"
                                             tabindex="0"> Sort <span class="show-underline">A-Z</span>
                                         </a> </span>
-                                    /
                                     <span>
                                         <a aria-label="Journal Rank" href="/libraries/603/subjects/57?sort=rank"
                                             id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">

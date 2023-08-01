@@ -53,7 +53,7 @@
                                     <ul id="subjects-list">
                                         <li>
                                             <div id="ember654" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/57/" id="ember655" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/57" id="ember655" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Arts and Humanities</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -61,7 +61,7 @@
                                         </li>
                                         <li>
                                             <div id="ember671" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/60/" id="ember672" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/60" id="ember672" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Biological Sciences</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -69,7 +69,7 @@
                                         </li>
                                         <li>
                                             <div id="ember674" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/62/" id="ember675" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/62" id="ember675" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name"> Biomedical and Health Sciences</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -77,7 +77,7 @@
                                         </li>
                                         <li>
                                             <div id="ember677" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/66/" id="ember678" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/66" id="ember678" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Business and Economics</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -85,7 +85,7 @@
                                         </li>
                                         <li>
                                             <div id="ember680" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/61/" id="ember681" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/61" id="ember681" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Earth and Environmental Sciences</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -93,7 +93,7 @@
                                         </li>
                                         <li>
                                             <div id="ember683" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/63/" id="ember684" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/63" id="ember684" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Engineering and Technology</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -101,7 +101,7 @@
                                         </li>
                                         <li>
                                             <div id="ember686" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/58/" id="ember687" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/58" id="ember687" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">History</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -109,7 +109,7 @@
                                         </li>
                                         <li>
                                             <div id="ember689" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/68/" id="ember690" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/68" id="ember690" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Law and Legal Studies</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -117,7 +117,7 @@
                                         </li>
                                         <li>
                                             <div id="ember692" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/64/" id="ember693" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/64" id="ember693" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Mathematics and Statistics</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -125,7 +125,7 @@
                                         </li>
                                         <li>
                                             <div id="ember695" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/59/" id="ember696" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/59" id="ember696" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Philosophy and Religion</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -133,7 +133,7 @@
                                         </li>
                                         <li>
                                             <div id="ember698" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/65/" id="ember699" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/65" id="ember699" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Physics, Chemistry and Astronomy</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -141,7 +141,7 @@
                                         </li>
                                         <li>
                                             <div id="ember701" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/67/" id="ember702" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/603/subjects/67" id="ember702" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name">Social Science and Behavioral Science</span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>

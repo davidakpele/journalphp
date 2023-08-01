@@ -15,57 +15,59 @@
                 <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                 <ul class="subject-bookcase-list">
                     <li class="subject-bookcase-list-item">
-                        <a href="/libraries/603/subjects/63?sort=title" id="ember65513" class="active ember-view"
+                        <a href="/journals/libraries/603/subjects/63" id="ember65513" class="active ember-view"
                             tabindex="0"> All Journals
                         </a>
                     </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/131?sort=title" id="ember65515"
+                            href="/journals/libraries/603/subjects/63/bookcases/131?sort=title" id="ember65515"
                             class="ember-view" tabindex="0">Aerospace Engineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/132?sort=title" id="ember65517"
+                            href="/journals/libraries/603/subjects/63/bookcases/132?sort=title" id="ember65517"
                             class="ember-view" tabindex="0">Biomedical Engineering and Bioengineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/134?sort=title" id="ember65519"
+                            href="/journals/libraries/603/subjects/63/bookcases/134?sort=title" id="ember65519"
                             class="ember-view" tabindex="0">Chemical Engineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/133?sort=title" id="ember65521"
+                            href="/journals/libraries/603/subjects/63/bookcases/133?sort=title" id="ember65521"
                             class="ember-view" tabindex="0">Civil and Environmental Engineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/135?sort=title" id="ember65523"
+                            href="/journals/libraries/603/subjects/63/bookcases/135?sort=title" id="ember65523"
                             class="ember-view" tabindex="0">Computational Engineering &amp; Science</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/137?sort=title" id="ember65525"
+                            href="/journals/libraries/603/subjects/63/bookcases/137?sort=title" id="ember65525"
                             class="ember-view" tabindex="0">Computer and Information Science</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/136?sort=title" id="ember65527"
+                            href="/journals/libraries/603/subjects/63/bookcases/136?sort=title" id="ember65527"
                             class="ember-view" tabindex="0">Electrical and Computer Engineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/138?sort=title" id="ember65529"
+                            href="/journals/libraries/603/subjects/63/bookcases/138?sort=title" id="ember65529"
                             class="ember-view" tabindex="0">Engineering and Technology, General/Interdisciplinary</a>
                     </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/139?sort=title" id="ember65531"
+                            href="/journals/libraries/603/subjects/63/bookcases/139?sort=title" id="ember65531"
                             class="ember-view" tabindex="0">Materials Science</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/140?sort=title" id="ember65533"
+                            href="/journals/libraries/603/subjects/63/bookcases/140?sort=title" id="ember65533"
                             class="ember-view" tabindex="0">Mechanical Engineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/141?sort=title" id="ember65535"
+                            href="/journals/libraries/603/subjects/63/bookcases/141?sort=title" id="ember65535"
                             class="ember-view" tabindex="0">Mining, Petroleum and Power Sources</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/143?sort=title" id="ember65537"
+                            href="/journals/libraries/603/subjects/63/bookcases/143?sort=title" id="ember65537"
                             class="ember-view" tabindex="0">Nanoscience and Nanotechnology</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/142?sort=title" id="ember65539"
+                            href="/journals/libraries/603/subjects/63/bookcases/142?sort=title" id="ember65539"
                             class="ember-view" tabindex="0">Nuclear Engineering</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/63/bookcases/145?sort=title" id="ember65541"
+                            href="/journals/libraries/603/subjects/63/bookcases/145?sort=title" id="ember65541"
                             class="ember-view" tabindex="0">Operations Research, Systems Engineering and Industrial
                             Engineering</a> </li>
                 </ul>
             </div>
-
+              <?php if($data['sideline']==true):?>
+                <?php $this->view("components/SideBarMenu") ?>
+            <?php endif;?>
             <!---->
             <div id="ember3315" class="journals-container infinite-scroller ember-view"><!---->
                 <div style="margin-right: 93.20000000000005px" id="ember3320"
@@ -73,13 +75,13 @@
                     <div class="sort-options">
                         <!---->
                         <span class="active">
-                            <a aria-label="A-Z" href="/libraries/603/subjects/60?sort=title" id="ember3321"
+                            <a aria-label="A-Z" href="/journals/libraries/603/subjects/60?sort=title" id="ember3321"
                                 class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Sort
                                 <span class="show-underline">A-Z</span>
                             </a> </span>
                         /
                         <span>
-                            <a aria-label="Journal Rank" href="/libraries/603/subjects/60?sort=rank" id="ember3322"
+                            <a aria-label="Journal Rank" href="/journals/libraries/603/subjects/60?sort=rank" id="ember3322"
                                 class="sort-control sort-by-scimago ember-view" tabindex="0">
                                 Journal Rank
                             </a> </span>

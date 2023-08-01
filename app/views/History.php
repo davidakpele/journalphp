@@ -14,21 +14,23 @@
                 <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                 <ul class="subject-bookcase-list">
                     <li class="subject-bookcase-list-item">
-                        <a href="/libraries/603/subjects/58?sort=title" id="ember84557" class="active ember-view"> All
+                        <a href="/journals/libraries/603/subjects/58" id="ember84557" class="active ember-view"> All
                             Journals
                         </a>
                     </li>
-                    <li class="subject-bookcase-list-item"> <a href="/libraries/603/subjects/58/bookcases/83?sort=title"
+                    <li class="subject-bookcase-list-item"> <a href="/journals/libraries/603/subjects/58/bookcases/83?sort=title"
                             id="ember84558" class="ember-view">History by Time Period</a> </li>
-                    <li class="subject-bookcase-list-item"> <a href="/libraries/603/subjects/58/bookcases/82?sort=title"
+                    <li class="subject-bookcase-list-item"> <a href="/journals/libraries/603/subjects/58/bookcases/82?sort=title"
                             id="ember84559" class="ember-view">History - General</a> </li>
-                    <li class="subject-bookcase-list-item"> <a href="/libraries/603/subjects/58/bookcases/84?sort=title"
+                    <li class="subject-bookcase-list-item"> <a href="/journals/libraries/603/subjects/58/bookcases/84?sort=title"
                             id="ember84560" class="ember-view">History of Geographic Regions</a> </li>
-                    <li class="subject-bookcase-list-item"> <a href="/libraries/603/subjects/58/bookcases/86?sort=title"
+                    <li class="subject-bookcase-list-item"> <a href="/journals/libraries/603/subjects/58/bookcases/86?sort=title"
                             id="ember84561" class="ember-view">Social History</a> </li>
                 </ul>
             </div>
-
+               <?php if($data['sideline']==true):?>
+                <?php $this->view("components/SideBarMenu") ?>
+            <?php endif;?>   
             <!---->
             <div id="ember3315" class="journals-container infinite-scroller ember-view"><!---->
                 <div style="margin-right: 93.20000000000005px" id="ember3320"
@@ -36,13 +38,13 @@
                     <div class="sort-options">
                         <!---->
                         <span class="active">
-                            <a aria-label="A-Z" href="/libraries/603/subjects/60?sort=title" id="ember3321"
+                            <a aria-label="A-Z" href="/journals/libraries/603/subjects/60?sort=title" id="ember3321"
                                 class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Sort
                                 <span class="show-underline">A-Z</span>
                             </a> </span>
                         /
                         <span>
-                            <a aria-label="Journal Rank" href="/libraries/603/subjects/60?sort=rank" id="ember3322"
+                            <a aria-label="Journal Rank" href="/journals/libraries/603/subjects/60?sort=rank" id="ember3322"
                                 class="sort-control sort-by-scimago ember-view" tabindex="0">
                                 Journal Rank
                             </a> </span>

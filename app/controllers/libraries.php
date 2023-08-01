@@ -42,31 +42,103 @@ final class libraries extends Controller
                 $controllerName = $controller;
                 $id= trim(filter_var($controllerName, FILTER_SANITIZE_NUMBER_INT));
                 define("ID", $id);
+
                  if (ID==57) {
-                    $this->view('art');
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view('art', $data);
+                     }else{
+                        $data = ['sideline'=>false];
+                        $this->view('art', $data);
+                     }
                  }elseif (ID==58) {
-                    $this->view("History");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("History", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("History", $data);
+                     }
                  }elseif (ID==59) {
-                    $this->view("philosophy");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("philosophy", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("philosophy", $data);
+                     }
                  }elseif (ID==60) {
-                    $this->view("biological");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("biological", $data);
+                    }else {
+                        $data = ['sideline'=>false];
+                        $this->view("biological", $data);
+                    }
                  }elseif (ID==62) {
-                    $this->view("Biomedical");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Biomedical", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Biomedical", $data);
+                     }
                  }elseif (ID==61) {
-                    $this->view("Earth");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Earth", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Earth", $data);
+                     }
                  }elseif (ID==63) {
-                    $this->view("Engineering_and_Technology");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Engineering_and_Technology", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Engineering_and_Technology", $data);
+                     }
                  }elseif (ID==64) {
-                    $this->view("Mathematics");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Mathematics", $data);
+                      }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Mathematics", $data);
+                      }  
                  }elseif (ID==65) {
-                    $this->view("physics_chemistry");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("physics_chemistry", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("physics_chemistry", $data);
+                     }
                  }elseif (ID==66) {
-                    $this->view("Business");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Business", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Business", $data);
+                     }
                  }elseif (ID==67) {
-                    $this->view("Social_science");
-                 }
-                 elseif (ID==68) {
-                    $this->view("Law_and_Legal");
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Social_science", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Social_science", $data);
+                     }
+                 }elseif (ID==68) {
+                     if ((isset($urlParts[4]) && is_string($urlParts[4]))) {
+                        $data = ['sideline'=>true];
+                        $this->view("Law_and_Legal", $data);
+                     }else {
+                        $data = ['sideline'=>false];
+                        $this->view("Law_and_Legal", $data);
+                     }
                  }else {
                     $this->view("index");
                  }

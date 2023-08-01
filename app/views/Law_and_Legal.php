@@ -14,22 +14,24 @@
                 <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                 <ul class="subject-bookcase-list">
                     <li class="subject-bookcase-list-item">
-                        <a href="/libraries/603/subjects/68?sort=title" id="ember87152" class="active ember-view"> All
+                        <a href="/journals/libraries/603/subjects/68" id="ember87152" class="active ember-view"> All
                             Journals
                         </a>
                     </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/68/bookcases/152?sort=title" id="ember87153"
+                            href="/journals/libraries/603/subjects/68/bookcases/152?sort=title" id="ember87153"
                             class="ember-view">Law: Fields of Law</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/68/bookcases/157?sort=title" id="ember87154"
+                            href="/journals/libraries/603/subjects/68/bookcases/157?sort=title" id="ember87154"
                             class="ember-view">Law: Professional Interest</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/68/bookcases/156?sort=title" id="ember87155"
+                            href="/journals/libraries/603/subjects/68/bookcases/156?sort=title" id="ember87155"
                             class="ember-view">Legal System</a> </li>
                 </ul>
             </div>
-
+             <?php if($data['sideline']==true):?>
+                <?php $this->view("components/SideBarMenu") ?>
+            <?php endif;?>
             <!---->
             <div id="ember3315" class="journals-container infinite-scroller ember-view"><!---->
                 <div style="margin-right: 93.20000000000005px" id="ember3320"
@@ -37,13 +39,13 @@
                     <div class="sort-options">
                         <!---->
                         <span class="active">
-                            <a aria-label="A-Z" href="/libraries/603/subjects/60?sort=title" id="ember3321"
+                            <a aria-label="A-Z" href="/journals/libraries/603/subjects/60?sort=title" id="ember3321"
                                 class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Sort
                                 <span class="show-underline">A-Z</span>
                             </a> </span>
                         /
                         <span>
-                            <a aria-label="Journal Rank" href="/libraries/603/subjects/60?sort=rank" id="ember3322"
+                            <a aria-label="Journal Rank" href="/journals/libraries/603/subjects/60?sort=rank" id="ember3322"
                                 class="sort-control sort-by-scimago ember-view" tabindex="0">
                                 Journal Rank
                             </a> </span>

@@ -15,39 +15,42 @@
                 <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                 <ul class="subject-bookcase-list">
                     <li class="subject-bookcase-list-item">
-                        <a href="/libraries/603/subjects/65?sort=title" id="ember93438" class="active ember-view"
+                        <a href="/journals/libraries/603/subjects/65" id="ember93438" class="active ember-view"
                             tabindex="0"> All Journals
                         </a>
                     </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/65/bookcases/147?sort=title" id="ember93440"
+                            href="/journals/libraries/603/subjects/65/bookcases/147?sort=title" id="ember93440"
                             class="ember-view" tabindex="0">Astronomy &amp; Space Science</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/65/bookcases/146?sort=title" id="ember93442"
+                            href="/journals/libraries/603/subjects/65/bookcases/146?sort=title" id="ember93442"
                             class="ember-view" tabindex="0">Chemistry</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/65/bookcases/151?sort=title" id="ember93444"
+                            href="/journals/libraries/603/subjects/65/bookcases/151?sort=title" id="ember93444"
                             class="ember-view" tabindex="0">Physics</a> </li>
                     <li class="subject-bookcase-list-item"> <a
-                            href="/libraries/603/subjects/65/bookcases/150?sort=title" id="ember93446"
+                            href="/journals/libraries/603/subjects/65/bookcases/150?sort=title" id="ember93446"
                             class="ember-view" tabindex="0">Physics, Chemistry and Astronomy -
                             General/Interdisciplinary</a> </li>
                 </ul>
             </div>
             <!---->
+              <?php if($data['sideline']==true):?>
+                <?php $this->view("components/SideBarMenu") ?>
+            <?php endif;?>
             <div id="ember3315" class="journals-container infinite-scroller ember-view"><!---->
                 <div style="margin-right: 93.20000000000005px" id="ember3320"
                     class="sort-options-container __eccf5 ember-view">
                     <div class="sort-options">
                         <!---->
                         <span class="active">
-                            <a aria-label="A-Z" href="/libraries/603/subjects/60?sort=title" id="ember3321"
+                            <a aria-label="A-Z" href="/journals/libraries/603/subjects/60?sort=title" id="ember3321"
                                 class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Sort
                                 <span class="show-underline">A-Z</span>
                             </a> </span>
                         /
                         <span>
-                            <a aria-label="Journal Rank" href="/libraries/603/subjects/60?sort=rank" id="ember3322"
+                            <a aria-label="Journal Rank" href="/journals/libraries/603/subjects/60?sort=rank" id="ember3322"
                                 class="sort-control sort-by-scimago ember-view" tabindex="0">
                                 Journal Rank
                             </a> </span>

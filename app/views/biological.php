@@ -14,51 +14,53 @@
                             <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                             <ul class="subject-bookcase-list">
                                 <li class="subject-bookcase-list-item">
-                                    <a href="/libraries/603/subjects/60?sort=title" id="ember3290"
+                                    <a href="/journals/libraries/603/subjects/60" id="ember3290"
                                         class="active ember-view" tabindex="0"> All Journals
                                     </a>
                                 </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/87?sort=title" id="ember3292"
+                                        href="/journals/libraries/603/subjects/60/bookcases/87?sort=title" id="ember3292"
                                         class="ember-view" tabindex="0">Agriculture</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/99?sort=title" id="ember3294"
+                                        href="/journals/libraries/603/subjects/60/bookcases/99?sort=title" id="ember3294"
                                         class="ember-view" tabindex="0">Anatomy and Physiology</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/90?sort=title" id="ember3296"
+                                        href="/journals/libraries/603/subjects/60/bookcases/90?sort=title" id="ember3296"
                                         class="ember-view" tabindex="0">Biological Sciences,
                                         General/Interdisciplinary</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/91?sort=title" id="ember3298"
+                                        href="/journals/libraries/603/subjects/60/bookcases/91?sort=title" id="ember3298"
                                         class="ember-view" tabindex="0">Ecology and Evolutionary Biology</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/94?sort=title" id="ember3300"
+                                        href="/journals/libraries/603/subjects/60/bookcases/94?sort=title" id="ember3300"
                                         class="ember-view" tabindex="0">Food Science</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/96?sort=title" id="ember3302"
+                                        href="/journals/libraries/603/subjects/60/bookcases/96?sort=title" id="ember3302"
                                         class="ember-view" tabindex="0">Forest Sciences</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/97?sort=title" id="ember3304"
+                                        href="/journals/libraries/603/subjects/60/bookcases/97?sort=title" id="ember3304"
                                         class="ember-view" tabindex="0">Genetics and Genomics</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/98?sort=title" id="ember3306"
+                                        href="/journals/libraries/603/subjects/60/bookcases/98?sort=title" id="ember3306"
                                         class="ember-view" tabindex="0">Microbiology</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/92?sort=title" id="ember3308"
+                                        href="/journals/libraries/603/subjects/60/bookcases/92?sort=title" id="ember3308"
                                         class="ember-view" tabindex="0">Molecular, Cellular and Developmental
                                         Biology</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/95?sort=title" id="ember3310"
+                                        href="/journals/libraries/603/subjects/60/bookcases/95?sort=title" id="ember3310"
                                         class="ember-view" tabindex="0">Neuroscience</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/100?sort=title" id="ember3312"
+                                        href="/journals/libraries/603/subjects/60/bookcases/100?sort=title" id="ember3312"
                                         class="ember-view" tabindex="0">Plant Sciences/Botany</a> </li>
                                 <li class="subject-bookcase-list-item"> <a
-                                        href="/libraries/603/subjects/60/bookcases/101?sort=title" id="ember3314"
+                                        href="/journals/libraries/603/subjects/60/bookcases/101?sort=title" id="ember3314"
                                         class="ember-view" tabindex="0">Zoology and Animal Sciences</a> </li>
                             </ul>
                         </div>
-
+                        <?php if($data['sideline']==true):?>
+                            <?php $this->view("components/SideBarMenu") ?>
+                        <?php endif;?>
                         <!---->
                         <div id="ember3315" class="journals-container infinite-scroller ember-view"><!---->
                             <div style="margin-right: 93.20000000000005px" id="ember3320"
@@ -66,13 +68,13 @@
                                 <div class="sort-options">
                                     <!---->
                                     <span class="active">
-                                        <a aria-label="A-Z" href="/libraries/603/subjects/60?sort=title" id="ember3321"
+                                        <a aria-label="A-Z" href="/journals/libraries/603/subjects/60?sort=title" id="ember3321"
                                             class="sort-control sort-by-title hide-underline active ember-view"
                                             tabindex="0"> Sort <span class="show-underline">A-Z</span>
                                         </a> </span>
                                     /
                                     <span>
-                                        <a aria-label="Journal Rank" href="/libraries/603/subjects/60?sort=rank"
+                                        <a aria-label="Journal Rank" href="/journals/libraries/603/subjects/60?sort=rank"
                                             id="ember3322" class="sort-control sort-by-scimago ember-view" tabindex="0">
                                             Journal Rank
                                         </a> </span>
