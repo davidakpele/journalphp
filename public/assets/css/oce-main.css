@@ -1,0 +1,894 @@
+body {
+    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, 'Roboto', Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    right: 2.4em;
+}
+
+.showLeft {
+    color: #005b92 !important;
+    /* padding: 0px; Removed this property */
+    padding-top: 16px; /*Changed this property
+}
+
+.dropbtn {
+    /* position: fixed; Removed this property */
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: none;
+    width: 16px;
+    height: 16px;
+}
+
+.dropbtn.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.links:hover {
+    color: #003D61;
+}
+
+.contain-login {
+    float: none;
+    margin: auto;
+}
+
+.oce-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f6f6f6;
+    padding-top: 24px;
+	min-height: 113vh;
+}
+
+@media (min-width: 768px) {
+    .oce-column-5 {
+        width: 460px;
+    }
+
+    .oce-column-12 {
+        width: 100%;
+    }
+}
+
+
+.wrapper {
+    margin: 16px auto;
+    background-color: #ffffff;
+    padding: 12px 30px;
+    border-top: 4px solid #007ac3;
+	border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    /* padding-bottom: 34px; remove this one */
+    height: auto;
+}
+
+.oce-align-center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 19px; /* Changed this property */
+}
+/* Added class below */
+.top-margin-fix {
+    margin-top: 14px;
+}
+
+.oce-header-menu-left {
+    flex: 1 1 auto;
+    height: 55px;
+    align-items: center;
+    display: flex;
+}
+
+.desktop-menu {
+    display: flex;
+    flex-flow: row;
+}
+
+.desktop-menu .oce-header-menuitem-support {
+    padding-top: 4px; /*Changed this property */
+}
+
+.desktop-menu .oce-header-menuitem-help {
+    padding-top: 4px; /*Changed this property */
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.wk-icon-close:before {
+    content: '\eb9d';
+}
+
+.oce-button-link-custom {
+    color: #005b92;
+}
+
+.oce-button-link-custom:hover {
+    background-color: #ffffff !important;
+    color: #003d61 !important;
+}
+
+.oce-input-form-username {
+    padding-top: 24px;
+}
+
+.oce-find-articles {
+    padding: 12px 30px;
+}
+.oce-ip-text{
+    font-family: 'Fira Sans';
+    font-size: medium;
+
+}
+
+.link-text-wrapper {
+    font-weight: 500;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    padding-top: 4px; /* Changed this property */
+}
+
+.oce-label-buy-articles {
+    width: 100%;
+    height: 20px;
+    /* margin-top: 4px; Removed this property */
+    margin-left: -0.2em;
+    padding-top: 10px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    background-color: #ffffff;
+    align-items: end;
+    display: flex;
+}
+
+
+
+@media (max-width: 768px) {
+    .mobile-menu.expanded {
+        display: block;
+        top: 0px;
+        left: 0;
+        // stacks the li tags vertically:;
+        flex-direction: column;
+        // makes menu span full height and width:;
+        height: 100%;
+        //calc(100vh - 77px);
+        background-color: white;
+        margin-left: 0px;
+        position: fixed !important;
+        width: 100% !important;
+    }
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        right: 36px;
+    }
+
+.wk-button-text, .wk-button-text:hover {
+  background-color: transparent;
+  color: #005b92;
+}
+    /*.wrapper {
+        border: none;
+        height: unset;
+
+    }*/
+
+
+
+    .oce-align-center img {
+        display: none;
+    }
+
+    .oce-header-menuitem-support .wk-button {
+        text-align: left !important;
+		background-color: white !important;
+        margin-bottom: 0; /* Added this */
+    }
+
+    .oce-header-menuitem-help .wk-button {
+        text-align: left !important;
+		background-color: white !important;
+    }
+
+    .oce-container.hidden {
+        display: none;
+    }
+
+    .oce-find-articles {
+        padding: 12px 30px !important;
+    }
+
+
+
+		.oce-header-menu-left {
+    height: 47px !important; /* Changed property here */
+    margin-left:8px; /* Added property here */
+	}
+	.oce-wk-logo-image {
+	content:url("https://cdn.wolterskluwer.io/wk/fundamentals/2.x.x/logo/assets/wheel-small.svg") !important;
+	}
+
+		.oce-align-center{
+		margin-top: 6px !important;
+	}
+    /* Added 3 classes below */
+    .oce-input-form-username {
+    padding-top: 16px;
+    }
+
+    .link-text-wrapper {
+    padding-top: 0px;
+    }
+
+    .oce-label-buy-articles {
+        padding-top: 40px;}
+    a:hover {
+        color: #003d61
+    }
+    .oce-wk-logo-text {
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 410px) {
+
+	.oce-align-center, .link-text-wrapper{
+		width:100% !important;
+	}
+}
+.oneid-button {
+    width: auto !important;
+}
+
+.mobile-menu-closeButton {
+    padding-bottom: 12px;
+    text-align: right;
+    padding-top: 19px;
+    padding-right: 19px;
+}
+
+.mobile-menu-closeButton.closed {
+    display: none;
+}
+
+.oce-header-menuitem-support {
+    padding-right: 20px;
+
+}
+
+.oce-header-menuitem-help {
+    padding-right: 19px;
+}
+
+.oce-login-label-custom {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #353535;
+}
+
+.oce-label-show {
+    width: auto;
+    float: right;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #005b92;
+    display: flex;
+    align-items: center;
+    padding-top: 2px; /* Added this property */
+}
+
+/* Added this class */
+.icon-fix {
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 4px;
+}
+
+.oce-password-elements {
+    margin-top: 5px;
+}
+
+#showPassword label {
+    margin-top: 0px !important;
+}
+
+.oce-login-text-custom {
+    font-family: 'Fira Sans' !important;
+    background: #ffffff !important;
+    border: 1px solid #757575 !important;
+    height: 40px !important;
+    margin-top: 2px;
+    width: 396px !important;
+}
+
+.oce-login-text-custom::placeholder {
+    font-weight: 300 !important;
+    color: #757575 !important;
+}
+
+.oce-hr-custom {
+    width: 100%;
+    height: 0px;
+    left: 522px;
+    border: 1px solid #757575; /*Changed this property*/
+    border-bottom: 0px solid #757575;
+    margin-top: 2px;
+}
+
+.oce-label-login-option {
+	margin: auto;
+	width: 120px;
+	display:block;
+    position: relative;
+    top: -10px;
+    background-color: white;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-feature-settings: 'lnum' on;
+    color: #757575;
+}
+
+.oce-link-athens-login {
+    /*float: left;*/
+    width: 170px;
+    height: 18px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #005b92;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+	padding-right: 44px; /*Changed this one */
+}
+
+.oce-link-sso-login {
+    /*float: right;*/
+    width: 58px;
+    height: 18px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #005b92;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.oce-btn-custom {
+    margin-top: 16px;
+	margin-bottom:24px;
+    width: 100%;
+    border: 1px #dadada;
+	height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.oce-link-find-articles-wrapper {
+    margin: auto;
+    border-top: 4px solid #007ac3;
+	border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    background-color: #ffffff;
+}
+
+
+
+/* Added this class */
+.icon-padding {
+    padding-left: 8px;
+}
+
+.oce-label-find-articles {
+    width: 100%;
+    height: 57px;
+    float: left;
+    padding-top: 12px; /* Changed this property */
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353535;
+    background-color: #ffffff;
+}
+
+.oce-btn-find-articles-wrapper {
+    margin: 4px auto;
+}
+
+.oce-btn-find-articles {
+    background-color: #ffffff;
+}
+
+.oce-btn-custom-find-articles {
+    margin: 8px 0;
+    margin-top: 4px;
+    width: 100%;
+    height: 40px !important;
+	padding: 0px;
+	background-color: transparent;
+    border-color: #005b92;
+    color: #005b92;
+    border: 0.0625rem solid;
+}
+
+.oce-btn-custom-find-articles:hover:not([disabled]) {
+    background-color: #003d61 !important;
+}
+
+.oce-form-signin-heading {
+    font-size: 24px;
+    text-align: center;
+    color: #353535;
+    font-weight: 500;
+}
+
+label {
+    font-size: 13px;
+    text-align: left;
+    color: #474747;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+
+.link-text {
+    margin-right: 22px;
+}
+
+/*Login Form Styles Ends*/
+
+/*Footer Styles Starts*/
+#oce_footer {
+    z-index: 5;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    position: static;
+}
+
+#oce_footer > p {
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+    padding-top: 6px; /*Changed this property*/
+    margin-bottom: 0;
+	font-size: 14px;
+}
+
+.oce_footer_content {
+    color: #474747 !important;
+}
+
+#footSurvey {
+    float: right;
+}
+
+/*Mobile Devices/Phablets*/
+@media only screen and (max-device-width: 767.90.9px) {
+    #oce_footer > p {
+        width: 100%;
+    }
+
+    #footNote {
+        padding-top: 3%;
+    }
+
+    .link-text-wrapper {
+        width: 100%;
+        padding-top: 0px !important;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+/*Footer Styles Starts*/
+
+/*Header Styles Starts*/
+.wk-navbar {
+    list-style-type: none;
+    border-bottom: 1px solid #dadada;
+}
+
+.wk-nav > li {
+    padding-left: 2%;
+}
+
+.registeredLogo {
+    font-size: 20px;
+}
+
+.enable-display {
+    display: inherit !important;
+    background-color: #ffffff;
+    list-style-type: none;
+    height: 51px;
+}
+
+.label-center {
+    height: inherit !important;
+}
+
+.wk-navbar .wk-navbar-container {
+    max-width: 100%;
+    background-color: #2f3440;
+    padding-right: 1rem;
+    color: #fff;
+}
+
+/* Ovid Brand logo css */
+#navbar-brand {
+    width: 150px;
+    height: 100%;
+    padding-left: 3.5%;
+    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, 'Roboto', Arial, sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+    text-align: left;
+    color: black;
+    background: none;
+}
+
+.wk-navbar {
+    background-color: #ffffff;
+    color: black;
+}
+
+.oce-login-text-custom {
+    width: 100% !important;
+}
+
+li.col-sm-2.col-lg-3 {
+    text-align: right;
+}
+
+.wolter-label {
+    padding: 3% 4%;
+    max-width: 64%;
+    width: 100%;
+}
+
+.wolter-label-logo {
+    max-width: 100%;
+}
+
+a.no-underline:hover  {
+    text-decoration: none;
+}
+
+.oce-wk-logo-image {
+    padding-left: 0px;
+    padding-top: 2px;
+	vertical-align: bottom;
+}
+
+.oce-wk-logo-text {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding-left: 28px;
+    padding-top: 3px;
+}
+
+.registeredLogo {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+    top: -11px;
+    letter-spacing: -0.0829142px;
+    color: #353535;
+}
+
+.oce-wk-logo-text:focus {
+    outline: none;
+    border: 1.5px solid #a6dbd3 !important;
+}
+
+.wolter-label-logo:focus {
+    outline: none;
+    border: 1.5px solid #a6dbd3 !important;
+}
+
+/* OneID - Color Contrast Error reported on the Login Page */
+
+#athensLoginUrl,
+#institutionalLogin {
+    color: #005b92;
+}
+
+/* OneID - Custom Error Messages in Login Page*/
+input[aria-invalid='false'] {
+    border: 1px solid black;
+}
+
+input[aria-invalid='true'] {
+    border: 2px solid #e5202e !important;
+}
+
+p[aria-hidden='true'] {
+    display: none;
+}
+
+p[aria-hidden='false'] {
+    display: block;
+}
+
+.error {
+    display: none;
+    color: #e5202e;
+    font-weight: normal;
+}
+
+/*Ipad and above*/
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .wolter-label {
+        max-width: 87%;
+        top: 8px;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: landscape) {
+    .wolter-label {
+        max-width: 83%;
+        top: 2px;
+    }
+
+    .oce-find-articles {
+        padding: 12px 30px !important;
+    }
+}
+
+@media only screen and (max-device-width: 767.90.9px) and (orientation: landscape) {
+    #oce_footer {
+        position: fixed !important;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .oce-find-articles {
+        padding: 12px 30px !important;
+    }
+}
+
+/*Mobile Devices/Phablets*/
+@media only screen and (max-device-width: 767.90.9px) {
+    .wolter-label {
+        max-width: 85%;
+        padding: 2% 2%;
+        padding-top: 8%;
+    }
+
+    .col-lg-3 {
+        max-width: 25%;
+    }
+
+    .col-xs-8 {
+        width: 66.66666667%;
+    }
+
+    .oce-btn-find-articles-wrapper {
+        padding: 12px 0px;
+    }
+
+    .oce-btn-custom-find-articles {
+        width: 100% important;
+    }
+
+    #btnSubmit {
+        width: 100% !important;
+        height: 40px !important;
+    }
+}
+
+@media only screen and (max-device-width: 767.90.9px) and (orientation: landscape) {
+    .wolter-label {
+        padding: 4%;
+    }
+}
+
+.oce-container div.error_wrapper {
+    border: 1px solid #ea8f00;
+    background-color: #ffffff;
+    margin: 24px auto 0px auto;
+    width: 100%;
+    font-size: 13px;
+    text-align: left;
+    color: #474747;
+    display: table;
+}
+/*Header Styles Ends*/
+
+.oce-container div.error_wrapper > div {
+    display: table-cell;
+}
+
+.oce-container div.error_wrapper .error_heading {
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 0.5%;
+}
+
+.oce-container div.error_wrapper .error_message {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 0.5%;
+}
+
+.oce-container div.error_wrapper .error_end {
+    padding-bottom: 0.5%;
+}
+
+.oce-container div.error_wrapper .alert-icon {
+    color: #ea8f00;
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.oce-alert-close-content {
+    position: relative;
+}
+
+.close-icon {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.oce-alert-content {
+    margin-left: 53px;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+
+.oce-container div.error_wrapper .icon-wrapper {
+    background-color: #ea8f00;
+    float: none !important;
+}
+
+.oce-container .error_container {
+    float: none;
+    margin: 0 auto;
+}
+
+.oce-inner-container {
+    width: 99%;
+}
+
+/*Mobile Devices/Phablets*/
+@media (max-width: 767.9px) {
+    .oce-container div.error_wrapper .alert-icon {
+        font-size: 1.8em;
+    }
+
+
+	 .oce-link-find-articles-wrapper {
+        padding: 0px !important;
+        border: none !important;
+    }
+
+.desktop-menu {
+        display: none;
+    }
+	.dropbtn {
+    display: block;
+}
+    .wrapper {
+        margin: 0;
+        padding: 0;
+		 border: none;
+        height: unset;
+    }
+	    .seperate-border {
+        border-top: 4px solid #007ac3;
+    }
+   .oce-container {
+        padding-left: 22.5px;
+        padding-right: 22.5px;
+        background-color: #ffffff;
+		min-height: 94vh;
+    }
+    .oce-find-articles {
+        padding: 0 !important;
+    }
+
+    body {
+        background-color: #ffffff !important;
+    }
+
+    .oce-container div.error_wrapper {
+        //margin: 5% 0;
+		margin: 24px auto 0px auto;
+        width: 100%;
+    }
+
+    .link-text {
+        margin-bottom: 1%;
+    }
+}
+
+#oce_footer.footer-position {
+    position: relative;
+}
+/*Ipad and above*/
+@media only screen and (max-device-width: 767.9px) and (orientation: portrait) {
+    .link-text {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .dropbtn {
+        display: block;
+    }
+
+    #oce_footer.footer-position {
+        position: fixed !important;
+    }
+}
+
+
+@media (min-width: 90rem){
+	.wk-navbar-container {
+    padding-left: 32px !important;
+}
+}
+
+  @media (min-width: 75rem)
+.wk-navbar-container {
+
+  padding-left: 1rem; !important
+
+}
