@@ -88,6 +88,38 @@
             return false;
         }
     }
+
+    public function get_subject_info($id){
+        $data =[];
+        $this->_connect_db->query("SELECT * FROM `subjects` WHERE subjectid=:id");
+        $this->_connect_db->bind(':id', $id);
+        $data['subject']= $this->_connect_db->single();
+
+        $this->_connect_db->query("SELECT a.*, b.subjectid FROM categories a INNER JOIN subjects b ON a.subjectid=b.subjectid WHERE b.subjectid =:id");
+        $this->_connect_db->bind(':id', $id);
+        $data['data']= $this->_connect_db->resultSet();
+        if (!empty($data)) {
+            return $data;
+        }else {
+            return false;
+        }
+    }
+
+    public function get_bookshalves_info($cat_id, $id){
+        $data =[];
+        $this->_connect_db->query("SELECT * FROM `categories` WHERE categoriesid =:cat_id");
+        $this->_connect_db->bind(':cat_id', $cat_id);
+        $data['category']= $this->_connect_db->single();
+
+        $this->_connect_db->query("SELECT a.*, b.subjectid,b.categoriesid, c.subjectid FROM bookshelves a INNER JOIN categories b  ON a.categoriesid=b.categoriesid INNER JOIN subjects c ON c.subjectid =b.subjectid WHERE b.categoriesid =:id");
+        $this->_connect_db->bind(':id', $id);
+        $data['bookcases']= $this->_connect_db->resultSet();
+        if (!empty($data)) {
+            return $data;
+        }else {
+            return false;
+        }
+    }
 }
       
                                        

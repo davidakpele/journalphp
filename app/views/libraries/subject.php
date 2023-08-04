@@ -1,92 +1,71 @@
 <?php $this->view("./components/Header"); ?>
 <body class="ember-application">
 <?php $this->view("./components/Nav"); ?>
-                <div id="library-content" class="container ">
-                    <main class="holdings-container">
-                        <div class="subject">
-                            <a href="/libraries/603/subjects?sort=title" id="ember1122" class="subject-back-button ember-view"> <img src="//browzine-app.thirdiron.com/images/change-subject-chevron-b0613c2c2576dc880a792874777e52b3.png" alt="Change Subject"> Change Subject</a>
-                            <h1 tabindex="0" class="subject-name">Arts and Humanities</h1>
-                            <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
-                            <ul class="subject-bookcase-list">
-                                <li class="subject-bookcase-list-item">
-                                    <a href="/journals/libraries/603/subjects/57" id="ember1123"
-                                        class="active ember-view"> All Journals
+    <div id="library-content" class="container ">
+    <main class="holdings-container">
+        <div class="subject">
+            <a href="<?=ROOT?>" id="ember1122" class="subject-back-button ember-view"> 
+                <img src="<?=ASSETS?>images/change-subject-chevron-b0613c2c2576dc880a792874777e52b3.png" alt="Change Subject"> 
+                Change Subject
+            </a>
+            <h1 tabindex="0" class="subject-name"><?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjects_name;?></h1>
+            <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
+            <ul class="subject-bookcase-list">
+                <li class="subject-bookcase-list-item"><a href="<?php echo ROOT?>libraries/603/subjects/<?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjectid.'/?sort=title';?>" id="ember1123" class="active ember-view"> All Journals</a></li>
+                <?php if($data['data']['data'] !=null):?>
+                    <?php foreach($data['data']['data'] as $categoriesList):?>
+                     <li class="subject-bookcase-list-item"> <a href="<?php echo ROOT?>libraries/603/subjects/<?php echo $data['data']['subject']->subjectid?>/bookcases/<?php echo $categoriesList['categoriesid'];?>/?sort=title" id="ember1124" class="ember-view"><?php echo $categoriesList['categories_name'];?></a> </li>
+                    <?php endforeach;?>
+                <?php endif;?>
+            </ul>
+        </div>
+        <?php if($data['sideline']==true):?>
+            <div class="bookcase">
+                <h3 tabindex="0" class="bookcase-name"><?=((isset($data['activate_bookshalves']) && !empty($data['activate_bookshalves']))?$data['activate_bookshalves']['category']->categories_name:'')?></h3>
+                <ul class="bookcase-bookshelf-list">
+                    <li class="bookcase-bookshelf-list-item">
+                    <a href="/libraries/603/subjects/57/bookcases/69?sort=title" id="ember1115" class="active ember-view" tabindex="0"><span>All Journals</span></a>
+                    </li>
+                    <?php if(isset($data['activate_bookshalves'])) :?>
+                        <?php if($data['activate_bookshalves']['bookcases'] !=null):?>
+                            <?php foreach($data['activate_bookshalves']['bookcases'] as $bookcasesList):?>
+                                <li class="bookcase-bookshelf-list-item">
+                                    <a href="<?php echo ROOT?>libraries/<?=$data['data']['subject']->package_id?>/subjects/<?=$data['activate_bookshalves']['category']->subjectid?>/bookcases/<?=$data['activate_bookshalves']['category']->categoriesid?>/bookshelves/<?=$bookcasesList['bookshelvesid']?>/?sort=title" id="ember1119" class="ember-view" tabindex="0">
+                                        <span><?=$bookcasesList['bookshelves_name']?></span>
                                     </a>
+                                    <div id="ember1126" class="ember-view"></div>
                                 </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/69?sort=title" id="ember1124"
-                                        class="ember-view">Architecture</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/71?sort=title" id="ember1125"
-                                        class="ember-view">Art and Design</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/70?sort=title" id="ember1126"
-                                        class="ember-view">Arts and Humanities, General/Interdisciplinary</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/73?sort=title" id="ember1127"
-                                        class="ember-view">Classical Studies</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/72?sort=title" id="ember1128"
-                                        class="ember-view">Creative Writing</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/75?sort=title" id="ember1129"
-                                        class="ember-view">Film and Media Studies</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/76?sort=title" id="ember1130"
-                                        class="ember-view">Fine Arts</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/77?sort=title" id="ember1131"
-                                        class="ember-view">Literature</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/78?sort=title" id="ember1132"
-                                        class="ember-view">Medieval/Renaissance Studies</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/79?sort=title" id="ember1133"
-                                        class="ember-view">Music</a> </li>
-                                <li class="subject-bookcase-list-item"> <a
-                                        href="/journals/libraries/603/subjects/57/bookcases/81?sort=title" id="ember1134"
-                                        class="ember-view">Theatre and Performance Studies</a> </li>
-                            </ul>
-                        </div>
-                        <?php if($data['sideline']==true):?>
-                            <?php $this->view("components/SideBarMenu") ?>
+                            <?php endforeach;?>
                         <?php endif;?>
-                        <!---->
-                        <div id="ember786" class="journals-container infinite-scroller ember-view"><!---->
-                            <div style="margin-right: 47.200000000000045px" id="ember791"
-                                class="sort-options-container __eccf5 ember-view">
-                                <div class="sort-options">
-                                    <!---->
-                                    <span class="active">
-                                        <a aria-label="A-Z" href="/libraries/603/subjects/57?sort=title" id="ember792"
-                                            class="sort-control sort-by-title hide-underline active ember-view"
-                                            tabindex="0"> Sort <span class="show-underline">A-Z</span>
-                                        </a> </span>
-                                    <span>
-                                        <a aria-label="Journal Rank" href="/libraries/603/subjects/57?sort=rank"
-                                            id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">
-                                            Journal Rank
-                                        </a> </span>
-                                </div>
-                            </div>
+                    <?php endif;?>
+                </ul>
+                </div>
+        <?php endif;?>
+            <div id="ember786" class="journals-container infinite-scroller ember-view"><!---->
+                <div style="margin-right: 47.200000000000045px" id="ember791" class="sort-options-container __eccf5 ember-view">
+                    <div class="sort-options">
+                        <span class="active">
+                            <a aria-label="A-Z" href="/libraries/603/subjects/57?sort=title" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Sort <span class="show-underline">A-Z</span></a> 
+                        </span>
+                        <span>
+                            <a aria-label="Journal Rank" href="/libraries/603/subjects/57?sort=rank" id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">Journal Rank</a> 
+                        </span>
+                    </div>
+                </div>
 
-                            <ul class="bookshelf">
-                                <li class="bookshelf-journal-list-item">
-                                    <div id="ember8270" class="ember-view"><a
-                                            href="/journals/libraries/search/267555?sort=title" id="ember8271"
-                                            class="bookshelf-journal ember-view" tabindex="0">
-                                            <div id="ember8272" class="journal-cover __771d8 ember-view">
-                                                <div class="image-container">
-                                                    <img src="<?=ASSETS?>images/art/1960-6176.png"
-                                                        alt="Cover of 1895 : Revue d’Histoire du Cinéma"
-                                                        title="1895 : Revue d’Histoire du Cinéma">
-                                                    <!---->
-                                                </div>
-                                            </div>
-                                            <div title="1895 : Revue d’Histoire du Cinéma"
-                                                class="bookshelf-journal-title">1895 : Revue d’Histoire du Cinéma</div>
-                                        </a></div>
-                                </li>
+                <ul class="bookshelf">
+                    <li class="bookshelf-journal-list-item">
+                        <div id="ember8270" class="ember-view">
+                            <a href="/journals/libraries/search/267555?sort=title" id="ember8271" class="bookshelf-journal ember-view" tabindex="0">
+                                <div id="ember8272" class="journal-cover __771d8 ember-view">
+                                    <div class="image-container">
+                                        <img src="<?=ASSETS?>images/art/1960-6176.png" alt="Cover of 1895 : Revue d’Histoire du Cinéma" title="1895 : Revue d’Histoire du Cinéma">
+                                    </div>
+                                </div>
+                                <div title="1895 : Revue d’Histoire du Cinéma" class="bookshelf-journal-title">1895 : Revue d’Histoire du Cinéma</div>
+                            </a>
+                        </div>
+                    </li>
                                 <li class="bookshelf-journal-list-item">
                                     <div id="ember8273" class="ember-view"><a
                                             href="/journals/libraries/search/33246?sort=title" id="ember8274"

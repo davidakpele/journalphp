@@ -152,6 +152,8 @@ INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('105', 'Aquatic 
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('105', 'Environmental Health and Protection');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('105', 'Environmental Science, General/Interdisciplinary');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('105', 'Geosciences');
+INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('105', 'Natural Resources Management');
+INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('105', 'Oceanography and Atmospheric Sciences');
 
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('106', 'Aerospace Engineering');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('106', 'Biomedical Engineering and Bioengineering');
@@ -218,7 +220,6 @@ CREATE TABLE IF NOT EXISTS `bookshelves`(
     `categoriesid` VARCHAR (100) COLLATE utf8mb4_unicode_ci NOT NULL,
     `bookshelves_name` TEXT
 )ENGINE = InnoDB DEFAULT CHARSET = latin1;
-
 
 
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('1', 'Architectural History');
@@ -717,56 +718,586 @@ INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('51', 'Haza
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('51', 'Monitoring and Environmental Analysis');
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('51', 'Water, Air, and Soil Pollution');
 
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
-INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('52', 'Environmental Science - General/Interdisciplinary');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Engineering Geology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geochemistry and Biogeochemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geodesy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geological Modeling and Methods');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geology - General');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geomorphology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geophysics and Seismology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Geosciences - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Glaciology and Quaternary Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Hydrogeology and Hydrology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Mineralogy and Petrology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Mining Geology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Paleontology and Stratigraphy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Petroleum Geology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Polar Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Sedimentology and Soil Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Tectonics and Structural Geology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('53', 'Volcanology');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Energy Resources and Conservation');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Human - Environment Interaction');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Natural Resources Conservation and Biodiversity');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Natural Resources Management and Policy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Natural Resources Management - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Sustainability');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('54', 'Water Resource Management');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Atmospheric Chemistry and Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Atmospheric Sciences - General');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Biological and Chemical Oceanography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Chemical Oceanography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Climatology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Marine Geology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Marine Technology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Meteorology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Oceanography - General');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('55', 'Physical Oceanography');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('56', 'Aeronautical Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('56', 'Aerospace Engineering - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('56', 'Astronautical Engineering');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Bioengineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Bioimaging and Biomedical Optics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Biomaterials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Biomechanics/Biotransport');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Biomedical Engineering - General');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Biomedical Engineering - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Molecular, Cellular, and Tissue Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Nanomedicine');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Neuroengineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('57', 'Rehabilitation Engineering');
+
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Biochemical Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Catalysis and Reaction Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Chemical Engineering - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Chemical Engineering - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Heat Transfer/Thermodynamics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Process Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('58', 'Separation Science');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Civil Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Construction Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Earthquake Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Environmental Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Geotechnical Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Hydraulic and Hydrologic Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Structural Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Transportation Engineering');
+
+
+
+
+
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Computational Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Computational Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Computer Modeling');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Informatics');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Applied Computing');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Artificial Intelligence/Robotics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Computer and Information Science - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Computer and Systems Architecture');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Computer Science - Education and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Computer Security and Cryptography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Computer Vision');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Databases/Information Systems');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Data Mining and Data Sets');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Human Computer Interaction/Graphics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Internet Technology/Information Technology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Mobile and Cloud Computing');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Networks');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('61', 'Numerical Analysis/Scientific Computing');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Computer Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Controls and Control Theory');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Digital Circuits');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Digital Communications and Networking');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Electrical Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Electrical Engineering - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Electrical Power and Energy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Electromagnetics and Photonics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Electronic Devices and Semiconductors');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Electronics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Embedded/Hardware Systems');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Nanotechnology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Robotics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Sensors and Remote Sensing');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Signal Processing');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('62', 'Systems, Electrical Engineering');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('63', 'Engineering Analysis and Design');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('63', 'Engineering and Technology - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('63', 'Engineering Measurement and Instrumentation');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Adhesives');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Biological and Biomimetic Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Ceramic Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Coatings and Films');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Composites');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Corrosion');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Crystals/Crystallography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Inorganic Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Materials Science - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Mechanics of Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Metals');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Nanomaterials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Polymer and Organic Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Powder and Particulate Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Semiconductor and Optical Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Solid State');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Structural Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Testing of Materials');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('64', 'Textiles');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Acoustics, Dynamics, and Controls');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Applied Mechanics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Automotive Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Electro-Mechanical Systems');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Energy Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Engineering Mechanics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Heat Transfer, Combustion');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Manufacturing');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Mechanical Engineering - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Mechanical Engineering - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Ocean Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Pump and Fluid Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('65', 'Tribology');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('66', 'Alternative and Renewable Energy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('66', 'Mining and Metallurgy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('66', 'Mining Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('66', 'Oil, Gas, and Energy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('66', 'Petroleum Engineering');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('67', 'Nanoscience and Nanotechnology - General');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('68', 'Nuclear Engineering - General');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('68', 'Nuclear Materials and Fuels');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('68', 'Radiation Measurement and Dosimetry');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('69', 'Ergonomics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('69', 'Industrial Engineering');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('69', 'Operations Research');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('69', 'Systems Engineering');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('70', 'Ancient History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('70', 'Medieval and Renaissance History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('70', 'Modern History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('70', 'Seventeenth- and Eighteenth-Century History');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'Business and Economic History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'Cultural History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'History - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'History of Religion');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'History of Science, Technology, and Medicine');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'History - Theory and Methods');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'Intellectual History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'Political, Diplomatic, and Military History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('71', 'World History');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'African History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'Asian History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'British History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'Canadian History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'European History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'History of Geographic Regions - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'Islamic World and Near East History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'Latin American History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'Russian and Eastern European History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('72', 'United States History');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', 'Ethnic History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', 'Family History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', 'Labor History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', 'Rural History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', 'Social History - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', 'Urban History');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('73', "Women's History");
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Administrative Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'African Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Asian Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Business and Trade Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Civil Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Civil Rights and Discrimination');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Common Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Communications Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Comparative Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Constitutional Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Contracts');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Criminal Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Estate Planning and Trusts');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'European Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Human Rights Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Injury and Tort Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Intellectual Property');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'International and Transnational Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Islamic and Middle Eastern Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Juvenile and Family Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Labor and Employment Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Medical and Health Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Military, War and Peace');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Natural Resources and Environmental Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'State and Local Government Law');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('74', 'Tax Law');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Dispute Resolution and Arbitration');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Ethics and Professional Responsibility');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Law and Society');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Legal Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Legal History, Theory, and Process');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Legal Profession');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Legal Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Legal Writing and Research');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('75', 'Rule of Law');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('76', 'Courts and Legal System');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('76', 'Judges and Jurisprudence');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('76', 'Law Enforcement and Corrections');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('77', 'Applied Mathematics - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('77', 'Control Theory, Dynamical Systems, Nonlinear Dynamics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('77', 'Differential Equations - Partial and Ordinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('77', 'Mathematical Modeling & Simulation');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('77', 'Numerical Analysis and Computation');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Algebra');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Analysis');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Computational Mathematics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Discrete Mathematics, Combinatorics and Graph Theory');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Functional Analysis and Group Theory');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Geometry and Topology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Logic and Foundations');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Mathematical Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Pure Mathematics - General');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('78', 'Pure Mathematics - Teaching and Professional Issues');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Applied Statistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Biometrics and Biostatistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Probability and Stochastic Processes');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Statistical Computation and Modelling');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Statistical Methodology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Statistical Theory');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('79', 'Statistics - General/Interdisciplinary');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Analytic Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Ancient and Medieval Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Applied Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Asian Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Catholic/Christian Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Continental Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Epistemology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Ethics/Bioethics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'History of Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Logic');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Metaphysics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Phenomenology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Philosophy - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Philosophy of Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Philosophy - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Political Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('80', 'Social Philosophy');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Arts, Literature, and Religion');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Biblical Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Catholicism');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Christianity and Christian Theology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'History of Christianity');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Religion and Society');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Religion - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Religion in Asia');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Study of Islam');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Study of Judaism');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('81', 'Theology - General/Interdisciplinary');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('82', 'Astronomy - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('82', 'Celestial Mechanics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('82', 'Cosmology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('82', 'Planetary Astronomy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('82', 'Solar Astronomy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('82', 'Space Science');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Analytical Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Applied Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Biochemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Chemistry - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Chemistry - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Colloid and Interface Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Computational Chemistry and Molecular Modeling');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Electrochemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Environmental Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Inorganic Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Materials Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Molecular Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Nuclear Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Organic Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Physical Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Pigments, Perfumes and Cosmetics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Polymer Chemistry');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Spectroscopy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('83', 'Surface Science ');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Applied Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Astrophysics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Atomic, Molecular, and Optical Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Biological and Chemical Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Condensed Matter Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Engineering Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Fluid Mechanics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Gravity and Relativity');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Mathematical and Statistical Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Nonlinear Dynamics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Nuclear and Particle Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Physics - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Plasma and Beam Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Quantum Physics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Superconductivity');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('84', 'Thermodynamics');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('85', 'Physics, Chemistry and Astronomy - General/Interdisciplinary');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Anthropology - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Anthropology Theory and Methods');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Archaeology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Biological and Physical Anthropology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Economic and Agricultural Anthropology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Folklore');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Linguistic Anthropology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Migration and Diaspora');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Psychological Anthropology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('86', 'Social and Cultural Anthropology');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Communication and Journalism - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Communication - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Communication Technology and Electronic Media');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Communication Theory and Methods');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Health Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'International and Intercultural Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Interpersonal and Small Group Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Journalism and Mass Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Language and Social Interaction');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Media Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Mediation and Dispute Resolution');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Organizational Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Political Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Public Relations');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Rhetoric, Composition and Speech');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Technical Writing and Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('87', 'Visual Communication');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Corrections and the Penal System');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Crime and Delinquency');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Criminal Justice - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Criminal Justice System');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Criminology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Criminology and Criminal Justice - Teaching and Professional Interest');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Forensic Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Juvenile Justice');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Law Enforcement and Crime Prevention');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('88', 'Victims and Victimology');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Adult and Continuing Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Art and Music Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Bilingual, Multilingual, and Multicultural Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Community College Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Curriculum and Instruction');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Disability and Special Needs Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Early Childhood Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Educational Administration and Supervision');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Educational Assessment, Evaluation, and Research');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Educational/School Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Education - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Education Philosophy and Policy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Education Technology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Gifted Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Higher Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'International and Comparative Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'K-12 Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Physical Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Reading, Writing, and Literacy Instruction');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Religious and Moral Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Science and Mathematics Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Student Counseling');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Teacher Education and Professional Development');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Urban Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('89', 'Vocational Education');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', 'African-American/Black/Africana Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', 'American Indian/Native American Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', 'Asian-American Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', 'Ethnic, Race, and Gender Studies - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', 'Hispanic-American Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', 'Lesbian, Gay, Bisexual, and Transgender Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('90', "Women's Studies");
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Geographic Information Sciences');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Geography - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Geography - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Human, Cultural and Economic Geography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Nature and Society Relations');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Physical and Environmental Geography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Regional Geography');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('91', 'Urban and Regional Planning');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'African Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'American Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Asia-Pacific Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Canadian Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'China Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Commonwealth Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Development Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'English Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'European Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'French and Francophone Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'German Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'International and Area Studies - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Islamic Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Japanese Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Jewish/Judaic Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Latin American and Caribbean Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Near and Middle Eastern Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('92', 'Russian, Eastern European, and Slavic Studies');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Academic Libraries');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Archives and Preservation');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Children and Young Adult Librarianship');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Collection Management');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Information Science');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Information Systems');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Library Administration');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Library and Information Science - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Library and Information Science - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Public Libraries');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Reference and User Services');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Scholarly Communication');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'School Libraries');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Special Libraries');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('93', 'Technical Services');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Anthropological Linguistics/Sociolinguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Applied Linguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Comparative and Historical Linguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Computational Linguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Discourse and Text Linguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Language Description and Linguistic Typology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Language Learning and Acquisition');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Language Pathology and Learning Disabilities');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Linguistics - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Linguistics - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Morphology and Syntax');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Phonetics and Phonology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Psycholinguistics and Neurolinguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Semantics and Pragmatics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Theory of Linguistics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('94', 'Translation Studies');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'American Politics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Comparative Politics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Defense and Security Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'European Politics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Governments and Political Systems');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'International Relations');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Peace and Conflict Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Political Behavior');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Political Economy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Political Science - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Political Science - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Political Theory and Philosophy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Politics');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('95', 'Politics and Society');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Applied Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Biological Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Child and Adolescent Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Clinical Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Cognition and Perception');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Community Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Counseling Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Cross Cultural Psychology & Diversity');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Developmental Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Educational and School Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Experimental Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Forensic Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Health Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Industrial and Organizational Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Neuropsychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Personality');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Psychological Disorders');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Psychology - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Psychology - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Psychometrics and Methods');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Psychotherapeutic Interventions');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Social Psychology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('96', 'Sports Psychology');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Health and Social Welfare Policy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Policy, Planning, and Forecasting');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Public Administration');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Public Affairs');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Public Finance');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Public Policy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('97', 'Urban/Regional Studies and Planning');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('98', 'Social Science and Behavioral Science - General');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Child and Family Welfare');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Clinical and Medical Social Work');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Crime and Corrections');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Health and Mental Health');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Poverty and Homelessness');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Social Administration and Social Policy');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Social Gerontology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Social Work Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Social Work - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Social Work Practice');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Social Work Theory and Research');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('99', 'Substance Abuse and Addiction Treatment');
+
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Collective Behavior, Social Movements, and Social Change');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Comparative and Historical Sociology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Culture and Social Structure');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Demography, Population, and Ecology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Family, Life Course, and Society');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Gender and Sexuality');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Inequality and Social Stratification');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Medicine and Health');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Organizations and Civil Society');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Political Sociology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Race and Ethnicity');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Recreation and Leisure Studies');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Rural Sociology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Social Control, Law, Crime, and Deviance');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Social Problems and Social Welfare');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Social Psychology and Social Interaction');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociological Research and Methods');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociological Theory');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology - General/Interdisciplinary');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology of Education');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology of Language');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology of Religion');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology of Science and Technology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology of Sports');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Sociology - Teaching and Professional Issues');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Urban Sociology');
+INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Work & Economy');
+
+
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+-- INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('15', '');
+
 
 CREATE TABLE IF NOT EXISTS `journals`(
     `#` TINYINT(10) PRIMARY KEY AUTO_INCREMENT,

@@ -5,7 +5,10 @@ use Https\sanctum;
 
 final class libraries extends Controller 
 {
-
+    private $_fetching_sql_model_data;
+    public function __construct() {
+       @$this->_fetching_sql_model_data = @$this->loadModel('Getting');
+    }
     public function index(){
         $url=implode('',$_REQUEST);
         $urlParts = explode('/', $url);
@@ -20,8 +23,29 @@ final class libraries extends Controller
                             window.location.replace('". ROOT ."');
                         </script>";
                 }else {
-                    $id= trim($urlParts[3], FILTER_SANITIZE_STRING && FILTER_SANITIZE_SPECIAL_CHARS && FILTER_SANITIZE_NUMBER_INT);
-                    $data = ['sideline'=>false];
+                    $id=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
+                    $get_subject_info = $this->_fetching_sql_model_data->get_subject_info($id);
+                    if (isset($urlParts[4])) {
+                        switch (@$urlParts[4]){
+                            case'bookcases':
+                                if(isset($urlParts[5]) && is_numeric($urlParts[5])){
+                                    $id = strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
+                                    $cat_id = strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
+                                    $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_bookshalves_info($cat_id, $id);
+                                    $activate_bookcases_sidebar = true;
+                                }else {
+                                    echo "<script>
+                                            window.location.replace('". ROOT ."');
+                                        </script>";
+                                }
+                                break;
+                            default:
+                                $activate_bookcases_sidebar = false;
+                                break;
+                        }
+                    }
+                    $data = ['activate_bookshalves'=>((isset($get_bookshalvesinfo) && (!empty($get_bookshalvesinfo))?$get_bookshalvesinfo:'')), 'sideline'=>$activate_bookcases_sidebar, 'data'=>$get_subject_info];
+                    //dnd($data);
                     $this->view("libraries/subject", $data);
                 }
             }elseif ($urlParts[2] == 'journals') {

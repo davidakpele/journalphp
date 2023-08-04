@@ -1,13 +1,10 @@
-    <noscript>
-        <div class='compatibility-message'>BrowZine requires Javascript to operate. <a href="http://support.thirdiron.com/knowledgebase/articles/663469-what-web-browsers-does-browzine-com-support-web">More information</a></div>
-    </noscript>
     <div id="ember-basic-dropdown-wormhole"></div>
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
         <section id="shadow-host-companion"></section>
     </div>
     <div id="ember404" class="ember-view">
         <aside class="route-announcer">
-            <div aria-live="polite" id="ember432" class="screen-reader ember-view">University of Cambridge — BrowZine has loaded</div>
+            <div aria-live="polite" id="ember432" class="screen-reader ember-view">Loaded SkyBase Data</div>
         </aside>
         <div class="media-desktop locale-en-us">
             <div class="canvas">
