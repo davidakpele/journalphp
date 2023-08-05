@@ -44,6 +44,30 @@ final class libraries extends Controller
                                 break;
                         }
                     }
+                    if (isset($urlParts[6])) {
+                         switch (@$urlParts[6]){
+                            case'bookshelves':
+                                if(isset($urlParts[7]) && is_numeric($urlParts[7])){
+                                    $bookshelvesid = strip_tags(trim(filter_var($urlParts[7], FILTER_SANITIZE_STRING)));
+                                    $cat_id = strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
+                                    $get_requested_journals = $this->_fetching_sql_model_data->get_journal_on_bookcase_ref($cat_id, $bookshelvesid);
+                                    if (isset($_GET['query'])) {
+                                        echo "<script>
+                                            window.location.replace('". ROOT ."libraries/".$urlParts[1]."/subjects/".$urlParts[3]."/bookcases/".$urlParts[5]."/bookshelves/".$urlParts[7]."/?sort=title');
+                                        </script>";
+                                    }
+                                }else {
+                                    echo "<script>
+                                            window.location.replace('". ROOT ."');
+                                        </script>";
+                                }
+                                break;
+                            default:
+                                
+                                break;
+                        }
+                        
+                    }
                     $data = ['activate_bookshalves'=>((isset($get_bookshalvesinfo) && (!empty($get_bookshalvesinfo))?$get_bookshalvesinfo:'')), 'sideline'=>$activate_bookcases_sidebar, 'data'=>$get_subject_info];
                     //dnd($data);
                     $this->view("libraries/subject", $data);

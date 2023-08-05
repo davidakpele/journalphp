@@ -15,28 +15,10 @@
 <!-- api result -->
 <li class="result-container">
     <ul>
-        <div id="ember1093" class="ember-view">
+        <div id="ember1093" class="ember-view"  style="overflow: scroll;">
             <div id="ember1871" class="infinite-scroller ember-view">
-                <?php 
-                if (!empty($data['data'])):
+                <?php if (!empty($data['data'])):
                     foreach ($data['data'] as $key):?>
-                        <?php 
-                        if (array_key_exists('subjects', $key)):
-                            if (!empty($key['subjects'])):
-                                foreach ($key['subjects'] as $subjectsValues):?>
-                                    <li class="result subject ">
-                                        <div id="ember1942" class="ember-view">
-                                            <a tabindex="0" href="javascript:void(0)" id="ember1943" class="ember-view" onclick="is_subject(<?php echo $subjectsValues['subjectid']?>)">
-                                                <div title="<?php echo $subjectsValues['subjects_name']?>" class="text">
-                                                   <?php echo $subjectsValues['subjects_name']?>
-                                                </div>
-                                                <div class="icon flaticon solid files-1"></div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                <?php endforeach;?>
-                            <?php endif;?>   
-                        <?php endif;?>
                         <?php 
                         if (array_key_exists('journals', $key)):
                             if (!empty($key['journals'])) :
@@ -54,17 +36,16 @@
                                 <?php endforeach;?>
                             <?php endif;?>   
                         <?php endif;?>
-                        <?php 
-                        if (array_key_exists('bookshelves', $key)):
-                            if (!empty($key['bookshelves'])):
-                                foreach ($key['bookshelves'] as $bookshelvesValues):?>
-                                    <li class="result journal first-result ">
-                                        <div id="ember1872" class="ember-view">
-                                            <a tabindex="0" href="javascript:void(0)" id="ember1873" class="ember-view" onclick="is_journal(<?php echo $bookshelvesValues['bookshelvesid']?>)">
-                                                <div title="<?php echo $bookshelvesValues['bookshelves_name']?>" class="text">
-                                                    <?php echo $bookshelvesValues['bookshelves_name']?>
+                        <?php if (array_key_exists('subjects', $key)):
+                            if (!empty($key['subjects'])):
+                                foreach ($key['subjects'] as $subjectsValues):?>
+                                    <li class="result subject ">
+                                        <div id="ember1942" class="ember-view">
+                                            <a tabindex="0" href="<?=ROOT?>libraries/<?=$subjectsValues['package_id']?>/subjects/<?=$subjectsValues['subjectid']?>/sort=title" id="ember1943" class="ember-view">
+                                                <div title="<?php echo $subjectsValues['subjects_name']?>" class="text">
+                                                   View All Journals Under - <?php echo $subjectsValues['subjects_name']?>
                                                 </div>
-                                                <div class="icon flaticon solid journal-2"></div>
+                                                <div class="icon flaticon solid files-1"></div>
                                             </a>
                                         </div>
                                     </li>
@@ -72,16 +53,16 @@
                             <?php endif;?>   
                         <?php endif;?>
                         <?php 
-                        if (array_key_exists('categories', $key)):
-                            if (!empty($key['categories'])):
-                                foreach ($key['categories'] as $categoriesValues):?>
-                                <li class="result journal first-result ">
-                                    <div id="ember1872" class="ember-view">
-                                        <a tabindex="0" href="javascript:void(0)" id="ember1873" class="ember-view" onclick="is_journal(<?php echo $categoriesValues['categoriesid']?>)">
-                                            <div title="<?php echo $categoriesValues['categories_name']?>" class="text">
-                                               <?php echo $categoriesValues['categories_name']?>
+                        if (array_key_exists('bookshelves', $key)):
+                            if (!empty($key['bookshelves'])):
+                                foreach ($key['bookshelves'] as $bookshelvesValues):?>
+                                <li class="result subject">
+                                    <div id="ember1942" class="ember-view">
+                                        <a tabindex="0" href="<?php echo ROOT?>libraries/<?=$bookshelvesValues['packageid']?>/subjects/<?=$bookshelvesValues['subjectid']?>/bookcases/<?=$bookshelvesValues['categoriesid']?>/bookshelves/<?=$bookshelvesValues['bookshelvesid']?>/?query=<?=$bookshelvesValues['bookshelves_name']?>&sort=title&storeQuery=true" id="ember1943" class="ember-view">
+                                            <div title="<?php echo $bookshelvesValues['bookshelves_name']?>" class="text">
+                                            <?php echo $bookshelvesValues['bookshelves_name']?>
                                             </div>
-                                            <div class="icon flaticon solid journal-2"></div>
+                                            <div class="icon flaticon solid files-1"></div>
                                         </a>
                                     </div>
                                 </li>

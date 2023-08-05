@@ -9,22 +9,22 @@
         
         public function get_search($data_request){
             $data =[];
-            $this->_connect_db->query("SELECT *  FROM subjects WHERE subjects_name LIKE '%$data_request%' ORDER BY RAND()");
+            $this->_connect_db->query("SELECT *  FROM subjects WHERE subjects_name LIKE '%$data_request%' OR subjects_name LIKE  '%$data_request' OR subjects_name LIKE '$data_request%' OR subjects_name LIKE '_$data_request%' OR subjects_name LIKE '$data_request _%' ORDER BY RAND()");
             $data[]['subjects']= $this->_connect_db->resultSet();
             
-            $this->_connect_db->query("SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' ORDER BY RAND()");
+            $this->_connect_db->query("SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' OR journal_name LIKE '%$data_request' OR journal_name LIKE '$data_request%' OR journal_name LIKE '_$data_request%' OR journal_name LIKE '$data_request _%' ORDER BY RAND()");
             $data[]['journals']= $this->_connect_db->resultSet();
 
-            $this->_connect_db->query("SELECT *  FROM bookshelves WHERE bookshelves_name LIKE '%$data_request%' ORDER BY RAND()");
+            $this->_connect_db->query("SELECT a.*, b.subjectid, b.categoriesid, c.subjectid, c.package_id, e.packageid  FROM bookshelves a INNER JOIN categories b ON a.categoriesid= b.categoriesid INNER JOIN subjects c  ON c.subjectid = b.subjectid INNER JOIN package e ON e.packageid=c.package_id WHERE bookshelves_name  LIKE '%$data_request%'  OR bookshelves_name  LIKE '%$data_request'  OR bookshelves_name  LIKE '$data_request%' OR bookshelves_name LIKE '_$data_request%' OR bookshelves_name LIKE '$data_request _%' ORDER BY RAND()");
             $data[]['bookshelves']= $this->_connect_db->resultSet();
 
-            $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");
-            $data[]['categories']= $this->_connect_db->resultSet();
+            // $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");
+            // $data[]['categories']= $this->_connect_db->resultSet();
             
             if (!empty($data)) {
-                $mergin_Array_result= array_merge($data[0]['subjects'], $data[1]['journals'], $data[2]['bookshelves'], $data[3]['categories']);
+                $mergin_Array_result= array_merge($data[0]['subjects'], $data[1]['journals'], $data[2]['bookshelves']);
                 if ($mergin_Array_result !=null) {
-                   return $data; 
+                    return $data; 
                 }else{
                     return false;
                 }
@@ -35,9 +35,11 @@
 
         public function getsubjects($data_request){
             $data =[];
-            $this->_connect_db->query("SELECT *  FROM subjects WHERE subjects_name LIKE '%$data_request%' ORDER BY RAND()");
+            $this->_connect_db->query("SELECT *  FROM subjects WHERE subjects_name LIKE '%$data_request%' OR subjects_name LIKE '%$data_request' OR subjects_name LIKE '$data_request%' OR subjects_name LIKE '_$data_request%' OR subjects_name LIKE '$data_request _%' ORDER BY RAND()");
             $data[]['subjects']= $this->_connect_db->resultSet();
             
+            $this->_connect_db->query("SELECT a.*, b.subjectid, b.categoriesid, c.subjectid, c.package_id, e.packageid  FROM bookshelves a INNER JOIN categories b ON a.categoriesid= b.categoriesid INNER JOIN subjects c  ON c.subjectid = b.subjectid INNER JOIN package e ON e.packageid=c.package_id WHERE bookshelves_name  LIKE '%$data_request%'  OR bookshelves_name  LIKE '%$data_request'  OR bookshelves_name  LIKE '$data_request%' OR bookshelves_name LIKE '_$data_request%' OR bookshelves_name LIKE '$data_request _%' ORDER BY RAND()");
+            $data[]['bookshelves']= $this->_connect_db->resultSet();
             if (!empty($data)) {
                 return $data;
             }else {
@@ -47,14 +49,14 @@
 
         public function getjournals($data_request){
             $data =[];
-            $this->_connect_db->query("SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' ORDER BY RAND()");
+            $this->_connect_db->query("SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' OR journal_name LIKE '%$data_request' OR journal_name LIKE '$data_request%' OR journal_name LIKE '_$data_request%' OR journal_name LIKE '$data_request _%' ORDER BY RAND()");
             $data[]['journals']= $this->_connect_db->resultSet();
 
-            $this->_connect_db->query("SELECT *  FROM bookshelves WHERE bookshelves_name LIKE '%$data_request%' ORDER BY RAND() ");
-            $data[]['bookshelves']= $this->_connect_db->resultSet();
+            // $this->_connect_db->query("SELECT *  FROM bookshelves WHERE bookshelves_name LIKE '%$data_request%' OR bookshelves_name LIKE '%$data_request' OR bookshelves_name LIKE '$data_request%' OR bookshelves_name LIKE '_$data_request%' OR bookshelves_name LIKE '$data_request _%' ORDER BY RAND() ");
+            // $data[]['bookshelves']= $this->_connect_db->resultSet();
 
-            $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");
-            $data[]['categories']= $this->_connect_db->resultSet();
+            // $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");
+            // $data[]['categories']= $this->_connect_db->resultSet();
 
             if (!empty($data)) {
                 return $data;
@@ -114,6 +116,56 @@
         $this->_connect_db->query("SELECT a.*, b.subjectid,b.categoriesid, c.subjectid FROM bookshelves a INNER JOIN categories b  ON a.categoriesid=b.categoriesid INNER JOIN subjects c ON c.subjectid =b.subjectid WHERE b.categoriesid =:id");
         $this->_connect_db->bind(':id', $id);
         $data['bookcases']= $this->_connect_db->resultSet();
+        if (!empty($data)) {
+            return $data;
+        }else {
+            return false;
+        }
+    }
+
+    
+    public function get_journal_on_bookcase_ref($cat_id, $bookshelvesid){
+        return true;
+    }
+
+    public function _selectCategories(){
+        $this->_connect_db->query("SELECT * FROM `categories`");
+        $data= $this->_connect_db->resultSet();
+        if (!empty($data)) {
+            return $data;
+        }else {
+            return false;
+        }
+    }
+
+    public function _selectBookshelves(){
+        $this->_connect_db->query("SELECT * FROM `bookshelves`");
+        $data= $this->_connect_db->resultSet();
+        if (!empty($data)) {
+            return $data;
+        }else {
+            return false;
+        }
+    }
+    public function __saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$tmpLoc){
+        $sql =  $this->_connect_db->query("SELECT * FROM `journals` ORDER BY journalid DESC");
+        $result= $this->_connect_db->single();
+        if(empty($result)){
+            $id = '101';
+        }else {
+            $oldid=$result->journalid;
+            $id = $oldid+1;
+        }
+        
+        $this->_connect_db->query("INSERT INTO `journals`(`journalid`, `bookshelvesid`, `categorieid`, `journal_name`, `imagetype`, `imagedata`) 
+        VALUES (:id, :bookshelvesid, :categorieid, :journal_name, :imgType, :tmpLoc)");
+        $this->_connect_db->bind(':id', $id);
+        $this->_connect_db->bind(':bookshelvesid', $bookshelvesid);
+        $this->_connect_db->bind(':categorieid', $categorieid);
+        $this->_connect_db->bind(':journal_name', $journal_name);
+        $this->_connect_db->bind(':imgType', $imgType);
+        $this->_connect_db->bind(':tmpLoc', $tmpLoc);
+        $data= $this->_connect_db->resultSet();
         if (!empty($data)) {
             return $data;
         }else {

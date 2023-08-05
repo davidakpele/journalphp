@@ -85,7 +85,6 @@ CREATE TABLE IF NOT EXISTS `categories`(
 )ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
 
-
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('101', 'Architecture');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('101', 'Art and Design');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('101', 'Arts and Humanities, General/Interdisciplinary');
@@ -173,10 +172,10 @@ INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('106', 'Nanoscie
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('106', 'Nuclear Engineering');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('106', 'Operations Research, Systems Engineering and Industrial Engineering');
 
-INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'Social History');
-INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'History of Geographic Regions');
-INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'History - General');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'History by Time Period');
+INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'History - General');
+INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'History of Geographic Regions');
+INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('107', 'Social History');
 
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('108', 'Law: Fields of Law');
 INSERT INTO `categories`(`subjectid`, `categories_name`) VALUE ('108', 'Law: Professional Interest');
@@ -791,11 +790,6 @@ INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Hydr
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Structural Engineering');
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('59', 'Transportation Engineering');
 
-
-
-
-
-
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Computational Engineering');
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Computational Science');
 INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('60', 'Computer Modeling');
@@ -1302,14 +1296,20 @@ INSERT INTO `bookshelves`(`categoriesid`, `bookshelves_name`) VALUE ('100', 'Wor
 CREATE TABLE IF NOT EXISTS `journals`(
     `#` TINYINT(10) PRIMARY KEY AUTO_INCREMENT,
     `journalid` VARCHAR(200) UNIQUE NOT NULL,
-    `categoriesid` VARCHAR (100) COLLATE utf8mb4_unicode_ci NOT NULL,
+    `bookshelvesid` VARCHAR (100) COLLATE utf8mb4_unicode_ci NOT NULL,
+    `categorieid` VARCHAR (100) COLLATE utf8mb4_unicode_ci NOT NULL,
     `journal_name` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
-    `image` TEXT NOT NULL, 
-    `author` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
-    `yearofpublication` DATE COLLATE utf8mb4_unicode_ci NOT NULL,
-    `type` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
-    `link` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
+    `imagetype` varchar(255) NOT NULL,
+    `imagedata` longblob NOT NULL
+)ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+CREATE TABLE IF NOT EXISTS `articals`(
+    `articalid` TINYINT(10) PRIMARY KEY AUTO_INCREMENT,
+    `journalid` VARCHAR(200) UNIQUE NOT NULL,
     `description` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
-    `status` INT(5),
-    `voluetype` VARCHAR (200) COLLATE utf8mb4_unicode_ci NOT NULL
+    `author` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
+    `link` TEXT COLLATE utf8mb4_unicode_ci NOT NULL,
+    `receivedyear` DATE COLLATE utf8mb4_unicode_ci NOT NULL,
+    `acceptedyear` DATE COLLATE utf8mb4_unicode_ci NOT NULL,
+    `yearofpublication` DATE COLLATE utf8mb4_unicode_ci NOT NULL
 )ENGINE = InnoDB DEFAULT CHARSET = latin1;
