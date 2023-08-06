@@ -76,6 +76,20 @@ INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('109',
 INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('110', '603', 'Philosophy and Religion');
 INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('111', '603', 'Physics, Chemistry and Astronomy');
 INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('112', '603', 'Social Science and Behavioral Science');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('113', '603', 'Health Services Administration');
+
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('114', '604', 'Core Title Lists');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('115', '604', 'Mathematical and Physical Sciences');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('116', '604', 'Medical Science and Biomedicine');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('117', '604', 'Medical Specialties');
+
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('118', '604', 'Molecular and Medical Biology');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('119', '604', 'Nursing and Allied Health');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('120', '604', 'Pharmacy and Pharmacology');
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('121', '604', 'Physical Therapy and Rehabilitation');
+
+INSERT INTO `subjects`(`subjectid`, `package_id`, `subjects_name`) VALUE ('122', '604', 'Psychiatry and Psychology');
+
 
 
 CREATE TABLE IF NOT EXISTS `categories`(

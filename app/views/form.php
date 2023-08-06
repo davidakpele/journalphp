@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=ASSETS?>css/bootstrap.css">
+    <script src="<?=ASSETS?>js/jquery2.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <body style="padding-top:60px">
-    <div class="container">
+    <body style="padding-top:60px;background-color:gray" id="app" >
+    <div class="container" id="page">
         <div class="row">
              <form class="form-group" name="frmImage" enctype="multipart/form-data"method="post" autocomplete="off">
                 <div class="phppot-container tile-container">
@@ -40,7 +41,21 @@
             </form>
         </div>
     </div>
-   
+   <script>
+var app = document.getElementById('page');
+// $( window ).resize(function() {
+//  if ($(window).width() <= 700){
+//   $('#app').addClass('two').removeClass('one')
+//      $('#app').load('')
+//      return;
+//  }
+//  else{
+//   $('#app').addClass('one').removeClass('two')
+//     $('#app').load('./form')
+
+//  }
+// }).trigger('resize');
+   </script>
     </body>
 </body>
 </html>

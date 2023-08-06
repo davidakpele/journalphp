@@ -25,7 +25,7 @@
                                 foreach ($key['journals'] as $journalsValues) :?>
                                 <li class="result journal first-result ">
                                     <div id="ember1872" class="ember-view">
-                                        <a tabindex="0" href="javascript:void(0)" id="ember1873" class="ember-view"  onclick="is_journal(<?php echo $journalsValues['journalid']?>)">
+                                        <a tabindex="0" href="<?=ROOT?>libraries/603/journals/<?=$journalsValues['journalid'];?>" id="ember1873" class="ember-view"  onclick="is_journal(<?php echo $journalsValues['journalid']?>)">
                                             <div title="<?php echo $journalsValues['journal_name']?>" class="text">
                                                  <?php echo $journalsValues['journal_name']?>
                                             </div>

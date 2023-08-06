@@ -24,7 +24,7 @@
                 <h3 tabindex="0" class="bookcase-name"><?=((isset($data['activate_bookshalves']) && !empty($data['activate_bookshalves']))?$data['activate_bookshalves']['category']->categories_name:'')?></h3>
                 <ul class="bookcase-bookshelf-list">
                     <li class="bookcase-bookshelf-list-item">
-                    <a href="/libraries/603/subjects/57/bookcases/69?sort=title" id="ember1115" class="active ember-view" tabindex="0"><span>All Journals</span></a>
+                    <a href="<?php echo ROOT?>libraries/603/subjects/<?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjectid.'/?sort=title';?>" id="ember1115" class="active ember-view" tabindex="0"><span>All Journals</span></a>
                     </li>
                     <?php if(isset($data['activate_bookshalves'])) :?>
                         <?php if($data['activate_bookshalves']['bookcases'] !=null):?>

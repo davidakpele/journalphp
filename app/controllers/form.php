@@ -28,11 +28,11 @@ final class form extends Controller
                 $categorieid=$_POST['categorieid'];
                 $journal_name=$_POST['journal_name'];
                 if (empty($bookshelvesid) || empty($categorieid) || empty($journal_name)) {
-                   return false;
                    echo "All feilds requireds.*";
+                   return false;
                 }
 
-                 $uploadPath =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
+                $uploadPath =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
                 $dbpath     =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING)).'/'.$uploadName;
                 $folder =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING));
                     if ($fileSize > 90000000000000) {
@@ -59,6 +59,9 @@ final class form extends Controller
                         } 
                     }
                 }
+           }else{
+            echo "Please select a valid image.";
+            die();
            }
         }
          $getcategories = $this->_fetching_sql_model_data->_selectCategories();
