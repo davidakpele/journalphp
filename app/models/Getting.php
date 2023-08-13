@@ -6,7 +6,7 @@
         public function __construct(){
             $this->_connect_db = new Database;
         }
-        
+         
         public function get_search($data_request){
             $data =[];
             $this->_connect_db->query("SELECT a.*, b.packageid  FROM subjects a INNER JOIN package b ON b.packageid=a.package_id WHERE subjects_name LIKE '%$data_request%' OR subjects_name LIKE  '%$data_request' OR subjects_name LIKE '$data_request%' OR subjects_name LIKE '_$data_request%' OR subjects_name LIKE '$data_request _%' AND a.package_id=603 ORDER BY RAND()");
@@ -15,7 +15,7 @@
             $this->_connect_db->query("SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' OR journal_name LIKE '%$data_request' OR journal_name LIKE '$data_request%' OR journal_name LIKE '_$data_request%' OR journal_name LIKE '$data_request _%' ORDER BY RAND()");
             $data[]['journals']= $this->_connect_db->resultSet();
     
-            $this->_connect_db->query("SELECT a.*, b.subjectid, b.categoriesid, c.subjectid, c.package_id, e.packageid  FROM bookshelves a INNER JOIN categories b ON a.categoriesid= b.categoriesid INNER JOIN subjects c  ON c.subjectid = b.subjectid INNER JOIN package e ON e.packageid=c.package_id WHERE bookshelves_name  LIKE '%$data_request%'  OR bookshelves_name  LIKE '%$data_request'  OR bookshelves_name  LIKE '$data_request%' OR bookshelves_name LIKE '_$data_request%' OR bookshelves_name LIKE '$data_request _%' ORDER BY RAND()");
+            $this->_connect_db->query("SELECT a.*, b.subjectid, b.categoriesid,  c.subjectid, c.package_id,  e.packageid  FROM bookshelves a  INNER JOIN categories b  ON a.categoriesid= b.categoriesid  INNER JOIN subjects c   ON c.subjectid = b.subjectid  INNER JOIN package e  ON e.packageid=c.package_id  WHERE bookshelves_name   LIKE '%$data_request%'   OR bookshelves_name   LIKE '%$data_request'   OR bookshelves_name   LIKE '$data_request%'  OR bookshelves_name  LIKE '_$data_request%'  OR bookshelves_name  LIKE '$data_request _%'  ORDER BY RAND()");
             $data[]['bookshelves']= $this->_connect_db->resultSet();
 
             // $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");

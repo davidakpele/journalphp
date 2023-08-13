@@ -62,9 +62,20 @@ function validata_api_request_header(){
 			"detail"=> "Something went wrong with authentication to your SkyBase library.",
 			"code"=> "generic_authentication_error"
 		];
-        echo json_encode($response);
+        echo json_encode(error_log_auth());
         return false;
     }else{
         return true;
     }
+}
+
+function error_log_auth(){
+	$response=
+	[
+		"status"=> http_response_code(401),
+		"title"=> "Authentication Error",
+		"detail"=> "Something went wrong with authentication to your SkyBase library.",
+		"code"=> "generic_authentication_error"
+	];
+	echo json_encode($response);
 }

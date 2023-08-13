@@ -2,8 +2,21 @@
 <style>
 .error-search:after {position: fixed;left: 600px;top: 0;bottom: 0;width: 30rem;background: rgba(255,255,255,.25);box-sizing: border-box;z-index: -1;content: '';}
 </style>
-<body class="ember-application">
-<?php $this->view("./components/Nav"); ?>
+    <body id="pagetop" class="oxy-ui pubs-ui hp-page">
+     <!-- Google Tag Manager SST (noscript) -->
+    <noscript>
+        <iframe src="https://www.analytics.rsc.org/ns.html?id=GTM-56FZ7G" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager SST (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-56FZ7G" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+            <?php $this->view("./components/Nav"); ?>
                 <div id="library-content" class="container ">
                     <div id="ember620" class="splash-panel __f1079 hide-header ember-view"><!---->
                         <div class="content" >
@@ -55,7 +68,7 @@
                                         <?php foreach ($data['data']['data'] as $v):?>
                                             <li>
                                             <div id="ember654" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/<?=$v['package_id']?>/subjects/<?=$v['subjectid']?>/?sort=title" id="ember655" class="subjects-list-subject ember-view"> 
+                                                <a tabindex="0" href="<?=ROOT?>libraries/<?=$v['package_id']?>/subjects/<?=$v['subjectid']?>/?sort=title&all=1" id="ember655" class="subjects-list-subject ember-view"> 
                                                     <span class="subjects-list-subject-name"><?=$v['subjects_name']?></span>
                                                     <span class="subjects-list-subject-icon flaticon solid files"></span>
                                                 </a>
@@ -78,10 +91,6 @@
             </div>
         </div>
     </div>
-    <script>
-        const _route="<?=$data['_token']?>"
-    </script>
-    <script src="<?=ASSETS?>js/script.js"></script>
-</body>
 
-</html>
+ <?php $this->view('components/NavDrawe');?>
+ <?php $this->view('components/Footer');?>

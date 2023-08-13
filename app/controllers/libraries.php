@@ -63,13 +63,11 @@ final class libraries extends Controller
                                 }
                                 break;
                             default:
-                                
                                 break;
                         }
                         
                     }
                     $data = ['activate_bookshalves'=>((isset($get_bookshalvesinfo) && (!empty($get_bookshalvesinfo))?$get_bookshalvesinfo:'')), 'sideline'=>$activate_bookcases_sidebar, 'data'=>$get_subject_info];
-                    //dnd($data);
                     $this->view("libraries/subject", $data);
                 }
             }elseif ($urlParts[2] == 'journals') {

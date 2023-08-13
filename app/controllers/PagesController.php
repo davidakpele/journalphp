@@ -26,8 +26,8 @@ final class PagesController extends Controller {
     }
     
     public function clone(){
-        $_token = $_POST['encrypted'];
-        $data_request = strip_tags(trim(filter_var($_POST['data'], FILTER_SANITIZE_STRING)));
+        $_token = $_GET['encrypted'];
+        $data_request = strip_tags(trim(filter_var($_GET['data'], FILTER_SANITIZE_STRING)));
         $search_post_data = $this->_fetching_sql_model_data->get_search($data_request);
         if($search_post_data != ""){
             $data = ['data'=>$search_post_data];

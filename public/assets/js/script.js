@@ -4,7 +4,6 @@ $('document').ready(function (e) {
         $('.hero-search').val('');
         $('.magnifying-glass').show();
         $('.clearer').hide();
-        window.history.pushState({}, "Title", root_url);
         $('#search_result').empty();
         $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container")
         $('.clone_result').removeClass('subjects-search-container complete').addClass("subjects-search-container")
@@ -18,7 +17,6 @@ $('document').ready(function (e) {
             $('#search_result').empty();
             $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container")
             $('.clone_result').removeClass('subjects-search-container complete').addClass("subjects-search-container")
-            window.history.replaceState({}, "Title", root_url);
         }
     });
 })
@@ -52,7 +50,6 @@ function search(input) {
         if (input.value != filterValue) {
             filterValue = input.value;
             //trigger a post here
-            window.history.pushState("object or string", "Title", root_url + 'subjects?libraries/603/subjects?=' + input.value + '&sort=title');
             $.ajax({
                 type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
                 dataType: 'JSON',
@@ -92,7 +89,7 @@ function search(input) {
                             if (result.inc == true) {
                                 $.ajax({
                                     url: root_url+'PagesController/clone',
-                                    type: "POST",
+                                    type: "GET",
                                     data: strjson,
                                     crossDomain: true,
                                     dataType: 'html',

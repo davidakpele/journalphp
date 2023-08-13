@@ -1,5 +1,5 @@
-<li class="filter-container">
-    <span class="label results-label-header">Results</span>
+<li class="filter-container" style="margin-top:20px">
+    <span class=" results-label-header">Results</span>
     <div class="filters">
         <div aria-label="See all Subjects and Journals" tabindex="0" class="filter all active tabindex" onclick="view_All_Search()" id="default_active">
             <div class="label icon flaticon solid article-2"> All Results</div>
@@ -11,9 +11,9 @@
             <div class="icon flaticon solid journal-2"> Journals</div>
         </div>
     </div>
-</li>
+</li> 
 <!-- api result -->
-<li class="result-container">
+<li class="result-container"style="margin-top:20px">
     <ul>
         <div id="ember1093" class="ember-view"  style="overflow: scroll;">
             <div id="ember1871" class="infinite-scroller ember-view">

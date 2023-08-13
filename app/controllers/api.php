@@ -12,7 +12,11 @@ final class api extends Controller {
        @$this->_store_sql_model_data = @$this->loadModel('Store');
        @$this->_delete_sql_model_data = $this->loadModel('Delete');
     }
-    
+  
+  
+    public function flask(){
+        echo $_SERVER['REQUEST_METHOD'];
+    }
     public function csrf_token(){
         if(validata_api_request_header()){
             ob_start();

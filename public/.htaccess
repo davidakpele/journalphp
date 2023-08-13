@@ -7,6 +7,7 @@
     </IfModule>
    
     RewriteEngine On
+    
     RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
     RewriteCond %{QUERY_STRING} base64_encode.*(.*) [OR]
     RewriteCond %{QUERY_STRING} (<|%3C).*script.*(>|%3E) [NC,OR]
@@ -34,14 +35,14 @@
     RewriteCond %{QUERY_STRING}  ^task=view$ [NC]
     RewriteRule ^(.*)$ $1? [R=301,L]
 
-    #This condition replace and direct you to the that match ur request url. example is instead of http//www/MVC/admin/About maybe you mistakely type About.php with extension so this redirect you to about about instead of 404 page only is the request match with any method name.
+    #This condition replace and direct you to the that match ur request url. example is instead of http//www/school/admin/About maybe you mistakely type About.php with extension so this redirect you to about about instead of 404 page only is the request match with any method name.
     #Redirect from extensions to non-extensions
     RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
     RewriteRule ^ /%1 [R=301,NE,L]
 
     # Redirect external .php requests to extensionless url
     RewriteCond %{THE_REQUEST} \ /+(.+)\.php([#?][^\ ]*)?\ HTTP/
-    RewriteRule ^(.+)\.php$ https://google.com/$1 [R=302,L] 
+    RewriteRule ^(.+)\.php$ https://www.midtech.digital/$1 [R=302,L] 
     
 
     # Remove index from home URL
@@ -49,5 +50,5 @@
     RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
     # Remove www from URL
     RewriteCond %{HTTP_HOST} ^www\.example\.org$ [NC]
-    RewriteRule ^(.*)$ https://google.com/$1 [R=301,L]
+    RewriteRule ^(.*)$ https://www.midtech.digital/$1 [R=301,L]
 </IfModule>
