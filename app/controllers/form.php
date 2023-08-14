@@ -52,7 +52,7 @@ final class form extends Controller
                                 unlink($file);
                             }
                         }
-                         
+                      
                         move_uploaded_file($tmpLoc,$dbpath);
                         if ($this->_fetching_sql_model_data->__saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$tmpLoc)) {
                             echo 'Uploaded Successfully';

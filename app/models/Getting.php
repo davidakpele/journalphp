@@ -158,8 +158,7 @@
             $oldid=$result->journalid;
             $id = $oldid+1;
         }
-        
-        $this->_connect_db->query("INSERT INTO `journals`(`journalid`, `bookshelvesid`, `categorieid`, `journal_name`, `imagetype`, `imagedata`) 
+        $this->_connect_db->query("INSERT INTO `journals`(`journalid`, `bookshelvesid`, `categoryid`, `journal_name`, `imagetype`, `imagedata`) 
         VALUES (:id, :bookshelvesid, :categorieid, :journal_name, :imgType, :tmpLoc)");
         $this->_connect_db->bind(':id', $id);
         $this->_connect_db->bind(':bookshelvesid', $bookshelvesid);
