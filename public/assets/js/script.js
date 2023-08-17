@@ -1,4 +1,7 @@
 $('document').ready(function (e) {
+    $('#returnHome').click(function () {
+        window.location.replace(root_url);
+    });
     $('.clearer').hide();
     $('.clearer').click(function () {
         $('.hero-search').val('');
@@ -171,7 +174,7 @@ view_All_Search = () => {
                     if (result.inc == true) {
                         $.ajax({
                             url: root_url+'PagesController/clone',
-                            type: "POST",
+                            type: "GET",
                             data: strjson,
                             crossDomain: true,
                             dataType: 'html',
@@ -339,3 +342,68 @@ is_subject = (id) => {
     }
 }
 
+
+function widthChangeCallback() {
+  if(window.innerWidth > 1025) {
+    document.getElementById("case1").style.display = 'none';
+    document.getElementById("locale-en-us").classList.remove('media-tablet');
+    document.getElementById("locale-en-us").classList.remove('media-mobile');
+    document.getElementById("locale-en-us").classList.add('media-desktop');
+  }else if (window.innerWidth <= 685 && window.innerWidth < 1025) {
+    document.getElementById("locale-en-us").classList.remove('media-tablet');
+    document.getElementById("locale-en-us").classList.add('media-mobile');
+    $('.controls-container').show();
+    document.getElementById("locale-en-us").classList.remove('media-desktop');
+  }
+  else {
+    $('.controls-container').show();
+    document.getElementById("locale-en-us").classList.remove('media-desktop');
+    document.getElementById("locale-en-us").classList.add('media-tablet');
+    document.getElementById("locale-en-us").classList.remove('media-mobile');
+   }
+}
+window.addEventListener('resize', widthChangeCallback);
+widthChangeCallback();
+
+
+
+const toggleSubject = document.getElementById('view_mobile_toggle_subject');
+const toggleSort_controls = document.getElementById('view_sort_toggle');
+const hiddenDiv = document.getElementById('hidden_subject_list');
+const hiddenSortDiv = document.getElementById('hidden_sort');
+
+toggleSubject.addEventListener('click', () => {
+    if (hiddenDiv.style.display === 'none') {
+        if (hiddenSortDiv.style.display === 'block') { 
+            hiddenSortDiv.style.display = 'none';
+        }
+        if (toggleSort_controls.classList.contains('active')) {
+            toggleSort_controls.classList.remove('active');
+            toggleSubject.classList.add('active');
+        } else {
+            toggleSubject.classList.add('active');
+        }
+        hiddenDiv.style.display = 'block';
+    } else {
+        document.getElementById("view_mobile_toggle_subject").classList.remove('active');
+        hiddenDiv.style.display = 'none';
+    }
+});
+
+toggleSort_controls.addEventListener('click', () => {
+    if (hiddenSortDiv.style.display === 'none') {
+      if (hiddenDiv.style.display === 'block') { 
+            hiddenDiv.style.display = 'none';
+        }
+        if (toggleSubject.classList.contains('active')) {
+            toggleSubject.classList.remove('active');
+            toggleSort_controls.classList.add('active');
+        } else {
+            toggleSort_controls.classList.add('active');
+        }
+        hiddenSortDiv.style.display = 'block';
+    } else {
+        toggleSort_controls.classList.remove('active');
+        hiddenSortDiv.style.display = 'none';
+    }
+});

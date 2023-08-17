@@ -11,8 +11,9 @@ require "../app/core/app.php";
 // Accessing helpers file
 require "../app/helpers/validating.php";
 require '../app/helpers/vendor/autoload.php';
-require "../app/helpers/JwtHandler.php";
+require "../app/helpers/JwtHandler.php";    
 require_once "../app/helpers/HTTPRoute.php";
 require_once "../app/security/SecurityService.php";
 require_once "../app/Http/MailService.php";
 require_once "../app/bootstrap/sanctum.php";
+require '../app/vendor/autoload.php';

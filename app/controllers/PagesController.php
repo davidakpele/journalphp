@@ -79,7 +79,10 @@ final class PagesController extends Controller {
 
 
     public function subject(){
-
+        
+        
+        
+        //assuming found user
         $this->view("libraries/subject");
     }
 }

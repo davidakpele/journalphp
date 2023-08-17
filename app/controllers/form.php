@@ -12,17 +12,16 @@ final class form extends Controller
            if (is_uploaded_file($_FILES['file']['tmp_name'])){
             if (isset($_FILES['file']['name']) != ''){
                 $photo = $_FILES['file'];
-                $imgType = $_FILES['file']['type'];
                 $name = $photo['name'];
                 $nameArray = explode('.', $name);
                 $fileName = $nameArray[0];
                 $fileExt = $nameArray[1];
                 $mime = explode('/', $photo['type']);
                 $mimeType = $mime[0];
+                $imgType = $photo['type'];
                 $mimeExt = $mime[1];
                 $tmpLoc = $photo['tmp_name'];   
                 $fileSize = $photo['size']; 
-                $uploadName = uniqid().'.'.$fileExt;
 
                 $bookshelvesid=$_POST['bookshelvesid'];
                 $categorieid=$_POST['categorieid'];
@@ -31,30 +30,22 @@ final class form extends Controller
                    echo "All feilds requireds.*";
                    return false;
                 }
-
-                $uploadPath =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
-                $dbpath     =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING)).'/'.$uploadName;
-                $folder =  'logo/'.trim(filter_var('_newLogo'.date("Y-m-d"), FILTER_SANITIZE_STRING));
-                    if ($fileSize > 90000000000000) {
-                        $response['status'] = 300;
-                        $response['errormsg'] = '<b>ERROR:</b>Your file was larger than 50kb in file size.';
-                    }elseif ($fileSize < 90000000000000 ) {
-                        
-                        if(!file_exists($folder)){
-                            mkdir($folder,077,true);
-                        }
-                        foreach(glob($folder . '/*') as $file){
-                            // check if file older than 90 days
-                            if((time() - filemtime($file)) > (60 * 60 * 24 * 90)){
-                                unlink($file);
-                            }else {
-                                // delete file
-                                unlink($file);
-                            }
-                        }
+                // $allowed = array('jpg', 'jpeg', 'png');
+                $uploadName = md5(microtime()).'.'.$fileExt;
+                $uploadPath = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
+                $dbpath     = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName;
+                $folder = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING));
+                if ($fileSize > 90000000000000) {
+                    $response['status'] = 300;
+                    $response['errormsg'] = '<b>ERROR:</b>Your file was larger than 50kb in file size.';
+                }elseif ($fileSize < 90000000000000 ) {
+                    if(!file_exists($folder)){
+                        mkdir($folder,077,true);
+                    }
+                       
                       
                         move_uploaded_file($tmpLoc,$dbpath);
-                        if ($this->_fetching_sql_model_data->__saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$tmpLoc)) {
+                        if ($this->_fetching_sql_model_data->__saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$uploadPath)) {
                             echo 'Uploaded Successfully';
                         } 
                     }

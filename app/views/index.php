@@ -17,10 +17,12 @@
     <!-- End Google Tag Manager (noscript) -->
 
             <?php $this->view("./components/Nav"); ?>
-                <div id="library-content" class="container ">
+            <div class="media-desktop locale-en-us" id="locale-en-us">
+                <div class="canvas">
+                    <div id="library-content" class="container ">
                     <div id="ember620" class="splash-panel __f1079 hide-header ember-view"><!---->
-                        <div class="content" >
-                            <div class="subjects-container">
+                        <div class="content" id="o_cok_pl">
+                            <div class="subjects-container" >
                                 <ul class="responsive-menu"></ul>
                                 <div id="ember625" class="__fbe9a ember-view">
                                     <div>
@@ -36,7 +38,7 @@
                                             <div id="search_result"></div>
                                             <li class="search-field-container" data-ember-action="" data-ember-action-640="640" data-ember-action-641="641">
                                                 <div id="ember644" class="search-field __991a0 ember-view">
-                                                    <input aria-label="Find Journal By Title, Subject, or ISSN" placeholder="Find Journal By Title, Subject, or ISSN" type="text" autocomplete="off" title="Find Journal By Title, Subject, or ISSN" id="ember650" class="hero-search ember-text-field ember-view">
+                                                    <input aria-label="Find Journal By Title, Subject, or ISSN" type="text" autocomplete="off" title="Find Journal By Title, Subject, or ISSN" id="ember650" class="hero-search ember-text-field ember-view">
                                                     <div class="icon" id="clear_icon">
                                                         <div class="magnifying-glass flaticon stroke magnifying-glass-2"></div>
                                                         <div tabindex="0" aria-label="Hit enter to clear search input or Hit tab to continue to library search result" class="clearer flaticon stroke x-2" data-ember-action="" data-ember-action-8304="8304" style="display:none"></div>
@@ -80,12 +82,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="banner">
+                        <div class="banner" id="banner">
                             <div class="shadow-top"></div>
                             <div class="shadow-bottom"></div>
                         </div>
                     </div>
                 </div>
+                </div>
+            </div>
+                
             </div>
             <div class="flash-messages">
             </div>

@@ -66,10 +66,6 @@
         }
 
     public function get_connection_table($id){
-        /**
-         * one you insert journal please use this code here and remove the active code because journal was not included in the query
-         * $this->_connect_db->query("SELECT a.packageid, b.subjectid, b.package_id, c.subjectid, c.categoriesid, d.bookshelvesid, d.categoriesid, e.bookcaseid, e.journalid FROM package a  INNER JOIN subjects b ON b.package_id=a.packageid INNER JOIN categories c ON c.subjectid=b.subjectid INNER JOIN bookshelves d ON d.categoriesid=c.categoriesid INNER JOIN journals e ON e.bookcaseid=d.categoriesid WHERE c.categoriesid =:id  OR d.bookshelvesid=:id OR e.journalid=:id");
-         */
         $data =[];
         $this->_connect_db->query("SELECT a.packageid,  b.subjectid, b.package_id,  c.subjectid, c.categoriesid, d.bookshelvesid, d.categoriesid FROM package a  INNER JOIN subjects b  ON b.package_id=a.packageid  INNER JOIN categories c  ON c.subjectid=b.subjectid INNER JOIN bookshelves d  ON d.categoriesid=c.categoriesid WHERE c.categoriesid=:id OR d.bookshelvesid =:id LIMIT 1");
         $this->_connect_db->bind(':id', $id);
@@ -125,9 +121,138 @@
         }
     }
 
-    
-    public function get_journal_on_bookcase_ref($cat_id, $bookshelvesid){
-        return true;
+
+    public function get_journal_on_bookcase_ref($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases, $bookshelvesid){
+        $data = [];
+        // set the default timezone to use.
+        date_default_timezone_set('UTC');
+        $this->_connect_db->query("SELECT p.packageid,  s.subjectid, s.package_id,  c.subjectid, c.categoriesid,  bsh.categoriesid, bsh.bookshelvesid, jn.*  FROM package p INNER JOIN subjects s ON s.package_id=p.packageid INNER JOIN categories c ON c.subjectid=s.subjectid INNER JOIN bookshelves bsh ON bsh.categoriesid=c.categoriesid INNER JOIN journals jn ON jn.bookshelvesid= bsh.bookshelvesid WHERE jn.bookshelvesid =:bookshelvesid AND bsh.bookshelvesid=:bookshelvesid AND p.packageid=:package AND c.categoriesid=:category_as_bookcases AND s.subjectid=:subject ORDER BY jn.journal_name ASC");
+        $this->_connect_db->bind(':package', $package);
+        $this->_connect_db->bind(':subject', $subject);
+        $this->_connect_db->bind(':category_as_bookcases', $category_as_bookcases);
+        $this->_connect_db->bind(':bookshelvesid', $bookshelvesid);
+        $data['data']['journalList']= $this->_connect_db->resultSet();
+        $data["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];
+        $data["States"][]=array("ct", "ca", "va","co", "ut");
+        $data["LanguageSwitcherPlaceholder"]= ["hi"=>"hi","ps"=>"ps","pt"=>"pt","hr"=>"hr","hu"=>"hu","yi"=>"yi","hy"=>"hy","yo"=>"yo","id"=>"id","af"=>"af","is"=>"is","it"=>"it","am"=>"am","zh"=>"zh","ar"=>"ar","ja"=>"ja","az"=>"az","zu"=>"zu","ro"=>"ro","ru"=>"ru","be"=>"be","bg"=>"bg","jv"=>"jv","bn"=>"bn","sd"=>"sd","bs"=>"bs","deflt"=> "en","si"=>"si","ka"=>"ka","sk"=>"sk","sl"=>"sl","sm"=>"sm","sn"=>"sn","so"=>"so","ca"=>"ca","sq"=>"sq","sr"=>"sr","kk"=>"kk","st"=>"st","kl"=>"kl","su"=>"su","km"=>"km","sv"=>"sv","kn"=>"kn","sw"=>"sw","ko"=>"ko","kr"=>"kr","ku"=>"ku","co"=>"co","ta"=>"ta","ky"=>"ky","cs"=>"cs","te"=>"te","tg"=>"tg","th"=>"th","cy"=>"cy","lb"=>"lb","tl"=>"tl","da"=>"da","tr"=>"tr","tt"=>"tt","de"=>"de","lo"=>"lo","lt"=>"lt","lv"=>"lv","uk"=>"uk","me"=>"me","mg"=>"mg","mi"=>"mi","ur"=>"ur","mk"=>"mk","ml"=>"ml","mn"=>"mn","uz"=>"uz","mr"=>"mr","ms"=>"ms","mt"=>"mt","el"=>"el","eo"=>"eo","my"=>"my","es"=>"es","et"=>"et","eu"=>"eu","vi"=>"vi","ne"=>"ne","fa"=>"fa","nl"=>"nl","no"=>"no","fi"=>"fi","fr"=>"fr","ga"=>"ga","gd"=>"gd","gl"=>"gl","gu"=>"gu","xh"=>"xh","pa"=>"pa","ha"=>"ha","pl"=>"pl","he"=>"he"];
+        $data['CookieSPAEnabled']= 'false';
+        $data['CookieSameSiteNoneEnabled']= 'false';
+        $data['CookieV2CSPEnabled']= 'false';
+        $data['UseV2']= 'true';
+        $data['MobileSDK']= 'false';
+        $data['SkipGeolocation']= 'false';
+        $data['ScriptType']= 'PRODUCTION';
+        $data['Version']= date('l');
+        $data['RuleSet'][]['id']=$formattedUid;
+        $data['GeolocationUrl']= "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location";
+        $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
+        $data['BannerPushesDown']='false';
+        $data['Default']='true';
+        $data['Global']='false';
+        $data['Type']='true';
+        $data['OptanonDataJSON']= $formattedUuid;
+        $data['UseGoogleVendors']='false';
+        $data['VariantEnabled']='false';
+        $data['TestEndTime']='null';
+        $data['Variants']=[];
+        $data['TemplateName']="General Opt-In Template";
+        $data['Conditions']=[];
+        $data['GCEnable']='false';
+        $data['IsGPPEnabled']="false";
+        if (!empty($data)) {
+           return $data;
+        }else {
+            return false;
+        }
+    }
+    public function get_all_journal_on_bookcase_ref($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases){
+        $data = [];
+        // set the default timezone to use.
+        date_default_timezone_set('UTC');
+        $this->_connect_db->query("SELECT p.packageid,  s.subjectid, s.package_id,  c.subjectid, c.categoriesid, jn.*  
+        FROM package p 
+        INNER JOIN subjects s ON s.package_id=p.packageid 
+        INNER JOIN categories c ON c.subjectid=s.subjectid 
+        INNER JOIN journals jn ON jn.categoryid= c.categoriesid
+        WHERE p.packageid=:package AND c.categoriesid=:category_as_bookcases 
+        AND s.subjectid=:subject  ORDER BY jn.journal_name ASC");
+        $this->_connect_db->bind(':package', $package);
+        $this->_connect_db->bind(':subject', $subject);
+        $this->_connect_db->bind(':category_as_bookcases', $category_as_bookcases);
+        $data['data']['journalList']= $this->_connect_db->resultSet();
+        $data["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];
+        $data["States"][]=array("ct", "ca", "va","co", "ut");
+        $data["LanguageSwitcherPlaceholder"]= ["hi"=>"hi","ps"=>"ps","pt"=>"pt","hr"=>"hr","hu"=>"hu","yi"=>"yi","hy"=>"hy","yo"=>"yo","id"=>"id","af"=>"af","is"=>"is","it"=>"it","am"=>"am","zh"=>"zh","ar"=>"ar","ja"=>"ja","az"=>"az","zu"=>"zu","ro"=>"ro","ru"=>"ru","be"=>"be","bg"=>"bg","jv"=>"jv","bn"=>"bn","sd"=>"sd","bs"=>"bs","deflt"=> "en","si"=>"si","ka"=>"ka","sk"=>"sk","sl"=>"sl","sm"=>"sm","sn"=>"sn","so"=>"so","ca"=>"ca","sq"=>"sq","sr"=>"sr","kk"=>"kk","st"=>"st","kl"=>"kl","su"=>"su","km"=>"km","sv"=>"sv","kn"=>"kn","sw"=>"sw","ko"=>"ko","kr"=>"kr","ku"=>"ku","co"=>"co","ta"=>"ta","ky"=>"ky","cs"=>"cs","te"=>"te","tg"=>"tg","th"=>"th","cy"=>"cy","lb"=>"lb","tl"=>"tl","da"=>"da","tr"=>"tr","tt"=>"tt","de"=>"de","lo"=>"lo","lt"=>"lt","lv"=>"lv","uk"=>"uk","me"=>"me","mg"=>"mg","mi"=>"mi","ur"=>"ur","mk"=>"mk","ml"=>"ml","mn"=>"mn","uz"=>"uz","mr"=>"mr","ms"=>"ms","mt"=>"mt","el"=>"el","eo"=>"eo","my"=>"my","es"=>"es","et"=>"et","eu"=>"eu","vi"=>"vi","ne"=>"ne","fa"=>"fa","nl"=>"nl","no"=>"no","fi"=>"fi","fr"=>"fr","ga"=>"ga","gd"=>"gd","gl"=>"gl","gu"=>"gu","xh"=>"xh","pa"=>"pa","ha"=>"ha","pl"=>"pl","he"=>"he"];
+        $data['CookieSPAEnabled']= 'false';
+        $data['CookieSameSiteNoneEnabled']= 'false';
+        $data['CookieV2CSPEnabled']= 'false';
+        $data['UseV2']= 'true';
+        $data['MobileSDK']= 'false';
+        $data['SkipGeolocation']= 'false';
+        $data['ScriptType']= 'PRODUCTION';
+        $data['Version']= date('l');
+        $data['RuleSet'][]['id']=$formattedUid;
+        $data['GeolocationUrl']= "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location";
+        $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
+        $data['BannerPushesDown']='false';
+        $data['Default']='true';
+        $data['Global']='false';
+        $data['Type']='true';
+        $data['OptanonDataJSON']= $formattedUuid;
+        $data['UseGoogleVendors']='false';
+        $data['VariantEnabled']='false';
+        $data['TestEndTime']='null';
+        $data['Variants']=[];
+        $data['TemplateName']="General Opt-In Template";
+        $data['Conditions']=[];
+        $data['GCEnable']='false';
+        $data['IsGPPEnabled']="false";
+        if (!empty($data)) {
+           return $data;
+        }else {
+            return false;
+        }
+    }
+    public function get_all_journal_by_category($formattedUid,$formattedUuid, $package, $subject){
+        $data = [];
+        // set the default timezone to use.
+        date_default_timezone_set('UTC');
+        $this->_connect_db->query("SELECT p.packageid, s.subjectid, s.package_id, c.subjectid, c.categoriesid, jn.*   FROM package p  INNER JOIN subjects s ON s.package_id=p.packageid  INNER JOIN categories c ON c.subjectid=s.subjectid  INNER JOIN journals jn ON jn.categoryid= c.categoriesid WHERE p.packageid=:package  AND s.subjectid=:subject ORDER BY jn.journal_name ASC");
+        $this->_connect_db->bind(':package', $package);
+        $this->_connect_db->bind(':subject', $subject);
+        $data['data']['journalList']= $this->_connect_db->resultSet();
+        $data["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];
+        $data["States"][]=array("ct", "ca", "va","co", "ut");
+        $data["LanguageSwitcherPlaceholder"]= ["hi"=>"hi","ps"=>"ps","pt"=>"pt","hr"=>"hr","hu"=>"hu","yi"=>"yi","hy"=>"hy","yo"=>"yo","id"=>"id","af"=>"af","is"=>"is","it"=>"it","am"=>"am","zh"=>"zh","ar"=>"ar","ja"=>"ja","az"=>"az","zu"=>"zu","ro"=>"ro","ru"=>"ru","be"=>"be","bg"=>"bg","jv"=>"jv","bn"=>"bn","sd"=>"sd","bs"=>"bs","deflt"=> "en","si"=>"si","ka"=>"ka","sk"=>"sk","sl"=>"sl","sm"=>"sm","sn"=>"sn","so"=>"so","ca"=>"ca","sq"=>"sq","sr"=>"sr","kk"=>"kk","st"=>"st","kl"=>"kl","su"=>"su","km"=>"km","sv"=>"sv","kn"=>"kn","sw"=>"sw","ko"=>"ko","kr"=>"kr","ku"=>"ku","co"=>"co","ta"=>"ta","ky"=>"ky","cs"=>"cs","te"=>"te","tg"=>"tg","th"=>"th","cy"=>"cy","lb"=>"lb","tl"=>"tl","da"=>"da","tr"=>"tr","tt"=>"tt","de"=>"de","lo"=>"lo","lt"=>"lt","lv"=>"lv","uk"=>"uk","me"=>"me","mg"=>"mg","mi"=>"mi","ur"=>"ur","mk"=>"mk","ml"=>"ml","mn"=>"mn","uz"=>"uz","mr"=>"mr","ms"=>"ms","mt"=>"mt","el"=>"el","eo"=>"eo","my"=>"my","es"=>"es","et"=>"et","eu"=>"eu","vi"=>"vi","ne"=>"ne","fa"=>"fa","nl"=>"nl","no"=>"no","fi"=>"fi","fr"=>"fr","ga"=>"ga","gd"=>"gd","gl"=>"gl","gu"=>"gu","xh"=>"xh","pa"=>"pa","ha"=>"ha","pl"=>"pl","he"=>"he"];
+        $data['CookieSPAEnabled']= 'false';
+        $data['CookieSameSiteNoneEnabled']= 'false';
+        $data['CookieV2CSPEnabled']= 'false';
+        $data['UseV2']= 'true';
+        $data['MobileSDK']= 'false';
+        $data['SkipGeolocation']= 'false';
+        $data['ScriptType']= 'PRODUCTION';
+        $data['Version']= date('l');
+        $data['RuleSet'][]['id']=$formattedUid;
+        $data['GeolocationUrl']= "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location";
+        $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
+        $data['BannerPushesDown']='false';
+        $data['Default']='true';
+        $data['Global']='false';
+        $data['Type']='true';
+        $data['OptanonDataJSON']= $formattedUuid;
+        $data['UseGoogleVendors']='false';
+        $data['VariantEnabled']='false';
+        $data['TestEndTime']='null';
+        $data['Variants']=[];
+        $data['TemplateName']="General Opt-In Template";
+        $data['Conditions']=[];
+        $data['GCEnable']='false';
+        $data['IsGPPEnabled']="false";
+        if (!empty($data)) {
+           return $data;
+        }else {
+            return false;
+        }
     }
 
     public function _selectCategories(){
@@ -149,7 +274,7 @@
             return false;
         }
     }
-    public function __saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$tmpLoc){
+    public function __saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$uploadPath){
         $sql =  $this->_connect_db->query("SELECT * FROM `journals` ORDER BY journalid DESC");
         $result= $this->_connect_db->single();
         if(empty($result)){
@@ -159,13 +284,13 @@
             $id = $oldid+1;
         }
         $this->_connect_db->query("INSERT INTO `journals`(`journalid`, `bookshelvesid`, `categoryid`, `journal_name`, `imagetype`, `imagedata`) 
-        VALUES (:id, :bookshelvesid, :categorieid, :journal_name, :imgType, :tmpLoc)");
+        VALUES (:id, :bookshelvesid, :categorieid, :journal_name, :imgType, :uploadPath)");
         $this->_connect_db->bind(':id', $id);
         $this->_connect_db->bind(':bookshelvesid', $bookshelvesid);
         $this->_connect_db->bind(':categorieid', $categorieid);
         $this->_connect_db->bind(':journal_name', $journal_name);
         $this->_connect_db->bind(':imgType', $imgType);
-        $this->_connect_db->bind(':tmpLoc', $tmpLoc);
+        $this->_connect_db->bind(':uploadPath', $uploadPath);
         $data= $this->_connect_db->resultSet();
         if (!empty($data)) {
             return $data;
