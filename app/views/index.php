@@ -1,5 +1,6 @@
 <?php $this->view("./components/Header"); ?>
 <style>
+
 .error-search:after {position: fixed;left: 600px;top: 0;bottom: 0;width: 30rem;background: rgba(255,255,255,.25);box-sizing: border-box;z-index: -1;content: '';}
 </style>
     <body id="pagetop" class="oxy-ui pubs-ui hp-page">
@@ -65,20 +66,8 @@
                                 </div>
                                 <div class="subject-holder ">
                                     <h3 tabindex="0" class="subjects-sub-head">Browse Subjects</h3>
-                                    <ul id="subjects-list">
-                                        <?php if(!empty($data['data']['data'])):?>
-                                        <?php foreach ($data['data']['data'] as $v):?>
-                                            <li>
-                                            <div id="ember654" class="ember-view">
-                                                <a tabindex="0" href="<?=ROOT?>libraries/<?=$v['package_id']?>/subjects/<?=$v['subjectid']?>/?sort=title&all=1" id="ember655" class="subjects-list-subject ember-view"> 
-                                                    <span class="subjects-list-subject-name"><?=$v['subjects_name']?></span>
-                                                    <span class="subjects-list-subject-icon flaticon solid files"></span>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <?php endforeach;?>
-                                        <?php endif;?>
-                                    </ul>
+                                    <div class="custom-loader" style="margin-top:10rem"></div>
+                                    <ul id="subjects-list"></ul>
                                 </div>
                             </div>
                         </div>

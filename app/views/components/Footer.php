@@ -5,6 +5,7 @@
     const _route="<?=$data['_token']?>"
 </script>
 <script src="<?=ASSETS?>js/script.js"></script>
+<script src="<?=ASSETS?>js/em.js"></script>
 </body>
 
 </html>

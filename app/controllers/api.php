@@ -14,9 +14,7 @@ final class api extends Controller {
     }
   
   
-    public function flask(){
-        echo $_SERVER['REQUEST_METHOD'];
-    }
+   
     public function csrf_token(){
         if(validata_api_request_header()){
             ob_start();
@@ -81,6 +79,20 @@ final class api extends Controller {
         }
     }
 
-    
- 
+    public function _is_connected()
+    { 
+        return isset($_SESSION["user"]) ? TRUE : FALSE ;
+    }
+
+    public function items(){
+        if (isset($_GET['token'])) {
+            $response = [];
+            $response['_items']= $this->_fetching_sql_model_data->get_user_subcribed_subjects();
+            $response['status']=http_response_code(200);
+        }else {
+           $response['error']= error_log_auth();
+        }
+        echo json_encode($response);
+    }
+
 }

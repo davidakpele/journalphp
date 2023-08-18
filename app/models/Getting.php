@@ -81,7 +81,7 @@
         $user_subcribed_package_id='603';
         $this->_connect_db->query("SELECT * FROM `subjects` WHERE package_id=:user_subcribed_package_id");
         $this->_connect_db->bind(':user_subcribed_package_id', $user_subcribed_package_id);
-        $data['data']= $this->_connect_db->resultSet();
+        $data = $this->_connect_db->resultSet();
         if (!empty($data)) {
             return $data;
         }else {
