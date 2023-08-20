@@ -4,6 +4,11 @@ $('document').ready(function (e) {
     });
     $('.clearer').hide();
     $('.clearer').click(function () {
+        const subject_span = document.getElementById('subj_holder');
+        if (subject_span.classList.contains('visibility-hidden')) {
+            subject_span.classList.remove('visibility-hidden');
+        } 
+         
         $('.hero-search').val('');
         $('.magnifying-glass').show();
         $('.clearer').hide();
@@ -13,7 +18,11 @@ $('document').ready(function (e) {
     });
     $(".hero-search").keyup(function (e) {
         var input = $(this);
-        if ((input).val().length ==0) {
+        if ((input).val().length == 0) {
+            const subject_span = document.getElementById('subj_holder');
+            if (subject_span.classList.contains('visibility-hidden')) {
+                subject_span.classList.remove('visibility-hidden');
+            }
             input.val('');
             $('.magnifying-glass').show();
             $('.clearer').hide();
@@ -86,34 +95,47 @@ function search(input) {
                     Http.setRequestHeader("Access-Control-Allow-Origin", "*");
                     Http.send(JSON.stringify(postData));
                     Http.onreadystatechange = function (e) {
-                        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
-                            var result = JSON.parse(Http.responseText);
-                            const strjson = { "data": result.data, "encrypted": response._token };
-                            if (result.inc == true) {
-                                $.ajax({
-                                    url: root_url+'PagesController/clone',
-                                    type: "GET",
-                                    data: strjson,
-                                    crossDomain: true,
-                                    dataType: 'html',
-                                    crossOrigin: true,
-                                    async: true,
-                                    cache: false,
-                                    processData: true,
-                                }).then((data) => {
-                                    $('#ember1178').hide();
-                                    $('.clearer').show();
-                                    $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                                    $('#search_result').empty();
-                                    $('#search_result').append(data);
-                                })
-                            } else {
+                    if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
+                        var result = JSON.parse(Http.responseText);
+                        const strjson = { "data": result.data, "encrypted": response._token };
+                        if (result.inc == true) {
+                            $.ajax({
+                                url: root_url+'PagesController/clone',
+                                type: "GET",
+                                data: strjson,
+                                crossDomain: true,
+                                dataType: 'html',
+                                crossOrigin: true,
+                                async: true,
+                                cache: false,
+                                processData: true,
+                            }).then((data) => {
+                                const subject_span = document.getElementById('subj_holder');
+                                if(window.innerWidth > 1025) {
+                                if (subject_span.classList.contains('visibility-hidden')) {
+                                        subject_span.classList.remove('visibility-hidden');
+                                        //$('#browser_hf').show();
+                                    } 
+                                } 
+                                else {
+                                    if (!subject_span.classList.contains('visibility-hidden')) {
+                                        subject_span.classList.add('visibility-hidden');
+                                        //$('#browser_hf').hide();
+                                    }
+                                }
                                 $('#ember1178').hide();
                                 $('.clearer').show();
                                 $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
                                 $('#search_result').empty();
-                                $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
-                           }
+                                $('#search_result').append(data);
+                            })
+                        } else {
+                            $('#ember1178').hide();
+                            $('.clearer').show();
+                            $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                            $('#search_result').empty();
+                            $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
+                        }
                     } 
                 }
                 } else {
@@ -183,6 +205,19 @@ view_All_Search = () => {
                             cache: false,
                             processData: true,
                         }).then((data) => {
+                            const subject_span = document.getElementById('subj_holder');
+                            if(window.innerWidth > 1025) {
+                               if (subject_span.classList.contains('visibility-hidden')) {
+                                   subject_span.classList.remove('visibility-hidden');
+                                    //$('#browser_hf').show();
+                                } 
+                            } 
+                            else {
+                                if (!subject_span.classList.contains('visibility-hidden')) {
+                                    subject_span.classList.add('visibility-hidden');
+                                    //$('#browser_hf').hide();
+                                }
+                            }
                             $('#ember1178').hide();
                             $('.clearer').show();
                             $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
@@ -342,17 +377,21 @@ is_subject = (id) => {
     }
 }
 
+const toggleSubject = document.getElementById('view_mobile_toggle_subject');
+const toggleSort_controls = document.getElementById('view_sort_toggle');
+const hiddenDiv = document.getElementById('hidden_subject_list');
+const hiddenSortDiv = document.getElementById('hidden_sort');
+
 
 function widthChangeCallback() {
   if(window.innerWidth > 1025) {
-    document.getElementById("case1").style.display = 'none';
     document.getElementById("locale-en-us").classList.remove('media-tablet');
     document.getElementById("locale-en-us").classList.remove('media-mobile');
     document.getElementById("locale-en-us").classList.add('media-desktop');
-  }else if (window.innerWidth <= 685 && window.innerWidth < 1025) {
+  } else if (window.innerWidth <= 685 && window.innerWidth < 1025) {
+    $('.controls-container').show();
     document.getElementById("locale-en-us").classList.remove('media-tablet');
     document.getElementById("locale-en-us").classList.add('media-mobile');
-    $('.controls-container').show();
     document.getElementById("locale-en-us").classList.remove('media-desktop');
   }
   else {
@@ -367,10 +406,7 @@ widthChangeCallback();
 
 
 
-const toggleSubject = document.getElementById('view_mobile_toggle_subject');
-const toggleSort_controls = document.getElementById('view_sort_toggle');
-const hiddenDiv = document.getElementById('hidden_subject_list');
-const hiddenSortDiv = document.getElementById('hidden_sort');
+
 
 toggleSubject.addEventListener('click', () => {
     if (hiddenDiv.style.display === 'none') {

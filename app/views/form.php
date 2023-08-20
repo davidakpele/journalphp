@@ -24,7 +24,7 @@
                 <select name="bookshelvesid" id="bookshelvesid" class="form-control">   
                     <option value="">-Select-</option> 
                     <?php foreach ($data['book'] as $key):?>
-                    <option  <?=((($key['bookshelvesid'] ==37))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
+                    <option  <?=((($key['bookshelvesid'] ==44))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="journal_name">Journal name</label>
@@ -41,21 +41,6 @@
             </form>
         </div>
     </div>
-   <script>
-var app = document.getElementById('page');
-// $( window ).resize(function() {
-//  if ($(window).width() <= 700){
-//   $('#app').addClass('two').removeClass('one')
-//      $('#app').load('')
-//      return;
-//  }
-//  else{
-//   $('#app').addClass('one').removeClass('two')
-//     $('#app').load('./form')
-
-//  }
-// }).trigger('resize');
-   </script>
     </body>
 </body>
 </html>

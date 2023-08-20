@@ -21,7 +21,7 @@
             <div class="media-desktop locale-en-us" id="locale-en-us">
                 <div class="canvas">
                     <div id="library-content" class="container ">
-                    <div id="ember620" class="splash-panel __f1079 hide-header ember-view"><!---->
+                    <div id="ember620" class="splash-panel __f1079 hide-header ember-view">
                         <div class="content" id="o_cok_pl">
                             <div class="subjects-container" >
                                 <ul class="responsive-menu"></ul>
@@ -36,7 +36,6 @@
                                     <h3 class="subjects-search-sub-head">Find Journal By Title, Subject, or ISSN</h3>
                                     <div id="ember637" class="search-pane-container __bd7a3 subjects ember-view">
                                         <ul role="dialog" class="search-pane complete">
-                                            <div id="search_result"></div>
                                             <li class="search-field-container" data-ember-action="" data-ember-action-640="640" data-ember-action-641="641">
                                                 <div id="ember644" class="search-field __991a0 ember-view">
                                                     <input aria-label="Find Journal By Title, Subject, or ISSN" type="text" autocomplete="off" title="Find Journal By Title, Subject, or ISSN" id="ember650" class="hero-search ember-text-field ember-view">
@@ -53,6 +52,7 @@
                                                     </div>
                                                 </div>
                                             </li>
+                                            <div id="search_result"></div>
                                         </ul>
                                         <ul class="responsive-menu"></ul>
                                     </div>
@@ -64,8 +64,8 @@
                                     </ul>
                                     <ul class="responsive-menu"></ul>
                                 </div>
-                                <div class="subject-holder ">
-                                    <h3 tabindex="0" class="subjects-sub-head">Browse Subjects</h3>
+                                <div class="subject-holder " id="subj_holder">
+                                    <h3 tabindex="0" class="subjects-sub-head" id="browser_hf">Browse Subjects</h3>
                                     <div class="custom-loader" style="margin-top:10rem"></div>
                                     <ul id="subjects-list"></ul>
                                 </div>
