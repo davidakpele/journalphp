@@ -155,7 +155,14 @@
                                                 <div class="bounce3"></div>
                                             </div>
                                         </div>
-                                        <button  id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
+                                        <div class="error-screen" style="text-align: center;display: grid;margin: 0 auto;">
+                                            <div tabindex="0" class="message" style="display:none">
+                                                <p>An error occurred while contacting the Skybase database center.</p>
+                                                <p>Third Iron support has been notified.</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <button class="button " id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
                                     </div>
                                 </div>
                             </div>

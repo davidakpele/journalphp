@@ -161,8 +161,7 @@ final class api extends Controller {
                     $response['status']=http_response_code(200);
                     $response['_items']=$get_bookshalvesinfo;
                 }
-            }
-            elseif (isset($_GET['getcraft']) && isset($_GET['bookcases']) && isset($_GET['bookshelves']) && $_GET['getcraft'] ==true && !isset($_GET['getall'])) {
+            }elseif (isset($_GET['getcraft']) && isset($_GET['bookcases']) && isset($_GET['bookshelves']) && $_GET['getcraft'] ==true && !isset($_GET['getall'])) {
                 $page = isset($_GET['page']) ? $_GET['page'] : 1;
                 $itemsPerPage = 40;
                 $offset = ($page - 1) * $itemsPerPage;
