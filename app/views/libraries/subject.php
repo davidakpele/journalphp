@@ -141,14 +141,16 @@
                                     </span>
                                 </div>
                             </div>
-                            <ul class="bookshelf">
-                                <div id="Datacontent">
-                                    <!-- Existing content -->
+                                <ul class="bookshelf">
+                                    <!-- Books -->
+                                    <div id="child_container"></div>
+                                    
+                                </ul>
+                                <div style="margin-bottom:60px">
+                                    <div class="bookshelf-loading-indicator" id="loading" style="display: none;">
+                                        <button  id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
+                                    </div>
                                 </div>
-                                <div class="bookshelf-loading-indicator" id="loading" style="display: none;">
-                                    <button  id="loadMoreButton">Load More</button>
-                                </div>
-                            </ul>
                             </div>
                         </main>
                     <div id="ember797" class="ember-view"></div>

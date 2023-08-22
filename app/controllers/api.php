@@ -114,11 +114,68 @@ final class api extends Controller {
     { 
         $response = [];
         if (isset($_GET['page'])) {
-            $page = isset($_GET['page']) ? $_GET['page'] : 1;
-            $itemsPerPage = 40;
-            $offset = ($page - 1) * $itemsPerPage;
-            $response['_items']= $this->_fetching_sql_model_data->get_requested_journals($offset, $itemsPerPage);
-            $response['status']=http_response_code(200);
+            $uid = Uuid::uuid1();
+            $uuid = Uuid::uuid4();
+            $uidString = $uid->toString(); 
+            $uuidString = $uuid->toString(); // Get the UUID as a string
+            // Format the UUID in the desired pattern
+            $formattedUid = sprintf(
+                '%08s-%04s-%04s-%04s-%012s',
+                substr($uidString, 0, 8),
+                substr($uidString, 9, 4),
+                substr($uidString, 14, 4),
+                substr($uidString, 19, 4),
+                substr($uidString, 24)
+            );
+            $formattedUuid = sprintf(
+                '%08s-%04s-%04s-%04s-%012s',
+                substr($uuidString, 0, 8),
+                substr($uuidString, 9, 4),
+                substr($uuidString, 14, 4),
+                substr($uuidString, 19, 4),
+                substr($uuidString, 24)
+            );
+            $package= strip_tags(trim($_GET['library'], FILTER_VALIDATE_INT));
+            $subject= strip_tags(trim((int)$_GET['subject'], FILTER_VALIDATE_INT));
+            if (isset($_GET['getall']) && $_GET['getall'] == true && isset($_GET['token']) && !isset($_GET['getcraft'])) {
+                if (is_numeric($_GET['library']) && is_numeric($_GET['subject']) ) {
+                    $page = isset($_GET['page']) ? $_GET['page'] : 1;
+                    $itemsPerPage = 30;
+                    $offset = ($page - 1) * $itemsPerPage;
+                    $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_by_category($formattedUid,$formattedUuid, $package, $subject, $offset, $itemsPerPage);
+                    $activate_bookcases_sidebar = true;
+                    if (!empty($get_bookshalvesinfo)) {
+                        $response['status']=http_response_code(200);
+                        $response['_items']=$get_bookshalvesinfo;
+                    }
+                
+                }
+            }elseif (isset($_GET['getbookcases']) && isset($_GET['library']) && isset($_GET['subject']) && isset($_GET['bookcases']) && !isset($_GET['bookshelves'])) {
+                $page = isset($_GET['page']) ? $_GET['page'] : 1;
+                $itemsPerPage = 40;
+                $offset = ($page - 1) * $itemsPerPage;
+                $category_as_bookcases=$_GET['bookcases'];
+                $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_journal_on_bookcase($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases, $offset, $itemsPerPage);
+                $activate_bookcases_sidebar = true;
+                if (!empty($get_bookshalvesinfo)) {
+                    $response['status']=http_response_code(200);
+                    $response['_items']=$get_bookshalvesinfo;
+                }
+            }
+            elseif (isset($_GET['getcraft']) && isset($_GET['bookcases']) && isset($_GET['bookshelves']) && $_GET['getcraft'] ==true && !isset($_GET['getall'])) {
+                $page = isset($_GET['page']) ? $_GET['page'] : 1;
+                $itemsPerPage = 40;
+                $offset = ($page - 1) * $itemsPerPage;
+                $bookshelvesid= $_GET['bookshelves'];
+                $category_as_bookcases=$_GET['bookcases'];
+                
+                $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_journal_on_bookshelves($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases, $bookshelvesid, $offset, $itemsPerPage);
+                $activate_bookcases_sidebar = true;
+                if (!empty($get_bookshalvesinfo)) {
+                    $response['status']=http_response_code(200);
+                    $response['_items']=$get_bookshalvesinfo;
+                }
+            }
         }else {
            $response['status']=http_response_code(301);
         }
