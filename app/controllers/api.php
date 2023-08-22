@@ -140,7 +140,7 @@ final class api extends Controller {
             if (isset($_GET['getall']) && $_GET['getall'] == true && isset($_GET['token']) && !isset($_GET['getcraft'])) {
                 if (is_numeric($_GET['library']) && is_numeric($_GET['subject']) ) {
                     $page = isset($_GET['page']) ? $_GET['page'] : 1;
-                    $itemsPerPage = 30;
+                    $itemsPerPage = 40;
                     $offset = ($page - 1) * $itemsPerPage;
                     $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_by_category($formattedUid,$formattedUuid, $package, $subject, $offset, $itemsPerPage);
                     $activate_bookcases_sidebar = true;

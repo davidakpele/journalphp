@@ -1,6 +1,8 @@
 var currentURL, url, protocol, hostname, port, pathname, search, hash, pathnameSegments, libraryPort, subjectPort, isLoading, currentPage, sidebar, content, checkPost_status, lib, sub, book, sh, csrf_token, data, read, response, pOSTurl, xhr, newData, obj;
 
 currentURL = window.location.href; url = new URL(currentURL); protocol = url.protocol; hostname = url.hostname; port = url.port; pathname = url.pathname; search = url.search; hash = url.hash;pathnameSegments = pathname.slice(1).split('/'); libraryPort = pathnameSegments[2]; subjectPort = pathnameSegments[4]; isLoading = false; currentPage = 1; sidebar = document.getElementById('Content_Sidebar');content = document.querySelector('.bookshelf');
+document.getElementById('spinnerLoad').style.display = 'block';
+document.getElementById('loadMoreButton').textContent = 'Loading...';
 document.getElementById('loading').style.display = 'block';
 xhr = new XMLHttpRequest();
 const get_journals =async () => {
@@ -52,14 +54,15 @@ const get_journals =async () => {
                         `);
                     });
                     
-                    (obj.rowCount >= 40 ? document.getElementById('loading').style.display = 'block' : document.getElementById('loading').style.display = "none");
+                    (obj.rowCount > 39 || obj.rowCount == 40 ? document.getElementById('loading').style.display = 'block' : $('#loading').remove());
+                    
                     isLoading = false;
                     currentPage++;
+                    document.getElementById('spinnerLoad').style.display = 'none';
                     document.getElementById('loadMoreButton').textContent = 'Load More';
                 }
             };
         xhr.send();
-            
         }
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -72,9 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
 function fetchMoreData() {
     if (isLoading) return;
     isLoading = true;
+    document.getElementById('spinnerLoad').style.display = 'block';
     document.getElementById('loadMoreButton').textContent = 'Loading...';
     document.getElementById('loading').style.display = 'block';
-
+   
     setTimeout(() => {
         if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
             lib = pathnameSegments[2]; sub = pathnameSegments[4];
@@ -99,6 +103,7 @@ function fetchMoreData() {
                 newData = xhr.responseText;
                 obj = JSON.parse(newData)._items;
                 document.getElementById('loading').style.display = 'none';
+                document.getElementById('spinnerLoad').style.display = 'none';
                 var dataContainer = document.querySelector('.bookshelf');
                 // ✅ Create element
                 var itemElement = document.createElement('li');
@@ -120,8 +125,8 @@ function fetchMoreData() {
                 });
                 isLoading = false;
                 currentPage++;
-                (obj.rowCount >= 40 ? document.getElementById('loading').style.display = 'block' : document.getElementById('loading').style.display = "none");
                 document.getElementById('loadMoreButton').textContent = 'Load More';
+                (obj.rowCount > 39 || obj.rowCount==40  ? document.getElementById('loading').style.display = 'block' : $('#loading').remove());
             }
         };
         xhr.send();
@@ -131,12 +136,13 @@ function fetchMoreData() {
 sidebar.addEventListener('scroll', function() {
     if (sidebar.scrollTop + sidebar.clientHeight >= content.scrollHeight) {
         document.getElementById('loading').style.display = 'block';
+        document.getElementById('spinnerLoad').style.display = 'none';
     }
 });
-
 window.addEventListener('scroll', function () {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         document.getElementById('loading').style.display = 'block';
+        document.getElementById('spinnerLoad').style.display = 'none';
     }
 });
 // Add a click event listener to the "Load More" button

@@ -148,6 +148,13 @@
                                 </ul>
                                 <div style="margin-bottom:60px">
                                     <div class="bookshelf-loading-indicator" id="loading" style="display: none;">
+                                        <div id="ember1952" class="__0d2b3 ember-view">
+                                            <div class="spinner align-center" style="display: none;" id="spinnerLoad">
+                                                <div class="bounce1"></div>
+                                                <div class="bounce2"></div>
+                                                <div class="bounce3"></div>
+                                            </div>
+                                        </div>
                                         <button  id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
                                     </div>
                                 </div>

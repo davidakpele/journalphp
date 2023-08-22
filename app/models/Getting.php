@@ -131,7 +131,7 @@
         INNER JOIN categories c ON c.subjectid=s.subjectid 
         INNER JOIN journals jn ON jn.categoryid= c.categoriesid
         WHERE p.packageid=:package AND c.categoriesid=:category_as_bookcases 
-        AND s.subjectid=:subject ORDER BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
+        AND s.subjectid=:subject GROUP BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
         $this->_connect_db->bind(':package', $package);
         $this->_connect_db->bind(':subject', $subject);
         $this->_connect_db->bind(':offset', $offset);
@@ -176,7 +176,7 @@
         $data = [];
         // set the default timezone to use.
         date_default_timezone_set('UTC');
-        $this->_connect_db->query("SELECT p.packageid,  s.subjectid, s.package_id,  c.subjectid, c.categoriesid,  bsh.categoriesid, bsh.bookshelvesid, jn.*  FROM package p INNER JOIN subjects s ON s.package_id=p.packageid INNER JOIN categories c ON c.subjectid=s.subjectid INNER JOIN bookshelves bsh ON bsh.categoriesid=c.categoriesid INNER JOIN journals jn ON jn.bookshelvesid= bsh.bookshelvesid WHERE jn.bookshelvesid =:bookshelvesid AND bsh.bookshelvesid=:bookshelvesid AND p.packageid=:package AND c.categoriesid=:category_as_bookcases AND s.subjectid=:subject ORDER BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
+        $this->_connect_db->query("SELECT p.packageid,  s.subjectid, s.package_id,  c.subjectid, c.categoriesid,  bsh.categoriesid, bsh.bookshelvesid, jn.*  FROM package p INNER JOIN subjects s ON s.package_id=p.packageid INNER JOIN categories c ON c.subjectid=s.subjectid INNER JOIN bookshelves bsh ON bsh.categoriesid=c.categoriesid INNER JOIN journals jn ON jn.bookshelvesid= bsh.bookshelvesid WHERE jn.bookshelvesid =:bookshelvesid AND bsh.bookshelvesid=:bookshelvesid AND p.packageid=:package AND c.categoriesid=:category_as_bookcases AND s.subjectid=:subject GROUP BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
         $this->_connect_db->bind(':package', $package);
         $this->_connect_db->bind(':subject', $subject);
         $this->_connect_db->bind(':category_as_bookcases', $category_as_bookcases);
