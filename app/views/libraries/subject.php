@@ -83,17 +83,15 @@
                                 </ul>
                             </div>
                         <?php endif;?>
-                        <div id="ember786" class="journals-container infinite-scroller ember-view">
+                        <div id="Content_Sidebar" class="journals-container infinite-scroller ember-view" >
                             <div class="controls-container" style="display:none" id="case1">
                                 <ul class="controls">
                                     <li tabindex="0" id="returnHome" class="back subject-back-button tabindex" data-ember-action="" data-ember-action-6914="6914">
                                         <span aria-hidden="true" class="icon flaticon solid left-2"></span> Back
                                     </li>
-
                                     <li tabindex="0" class="categories  tabindex" data-ember-action="" data-ember-action-6915="6915" id="view_mobile_toggle_subject">
                                         Refine <span aria-hidden="true" class="icon flaticon solid down-2"></span>
                                     </li>
-
                                     <li tabindex="0" class="sort  tabindex" data-ember-action="" data-ember-action-6916="6916" id="view_sort_toggle">
                                         Sort <span aria-hidden="true" class="icon flaticon solid down-2"></span>
                                     </li>
@@ -144,43 +142,26 @@
                                 </div>
                             </div>
                             <ul class="bookshelf">
-                            <?php if(!empty($data['j'])):?>
-                                <?php foreach ($data['j'] as $j):?> 
-                                    <?php if(isset($j['journalList'])):?>
-                                        <?php foreach ($j['journalList'] as $key):?>
-                                            <li class="bookshelf-journal-list-item">
-                                                <div id="ember8270" class="ember-view">
-                                                    <a href="/journals/libraries/search/267555?sort=title" id="ember8271" class="bookshelf-journal ember-view" tabindex="0">
-                                                        <div id="ember8272" class="journal-cover __771d8 ember-view">
-                                                            <div class="image-container">
-                                                                <img src="<?=ROOT.$key['imagedata']?>" alt="<?=$key['journal_name']?>" title="<?=$key['journal_name']?>">
-                                                            </div>
-                                                        </div>
-                                                        <div title="<?=$key['journal_name']?>" class="bookshelf-journal-title"><?=$key['journal_name']?></div>
-                                                    </a>
-                                                </div>
-                                            </li>
-                                        <?php endforeach;?>
-                                    <?php endif;?>
-                                <?php endforeach;?>
-                            <?php endif;?>
-                                    <li class="bookshelf-loading-indicator">
-                                        <button class="load-more-button" tabindex="0">Load More</button>
-                                    </li>
-                                </ul>
+                                <div id="Datacontent">
+                                    <!-- Existing content -->
+                                </div>
+                                <div class="bookshelf-loading-indicator" id="loading" style="display: none;">
+                                    <button  id="loadMoreButton">Load More</button>
+                                </div>
+                            </ul>
                             </div>
                         </main>
                     <div id="ember797" class="ember-view"></div>
                     <ul class="responsive-menu"></ul>
                 </div>
             </div>
-            <div class="flash-messages"></div>
         </div>
         <?php $this->view('./components/NavDrawe');?>
     </div>
         <script src="<?=ASSETS?>js/vendor.min.js"></script>
         <script src="<?=ASSETS?>js/pubs-ui.min.js"></script>
         <script src="<?=ASSETS?>js/script.js"></script>
+        <script src="<?=ASSETS?>js/el.js"></script>
     </body>
 
 </html>

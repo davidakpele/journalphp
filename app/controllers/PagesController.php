@@ -69,20 +69,13 @@ final class PagesController extends Controller {
 
 
     public function journals(){
-        //first check if user token has access to this journal
-        /**
-         * <?=ROOT?>libraries/{packeage user subscribe to}/journals/{journal id}/issues/current?sort=title
-         * example: <?=ROOT?>/libraries/603/journals/3537/issues/current?sort=title
-         */
+      
         $this->view("libraries/journal");
     }
 
 
     public function subject(){
         
-        
-        
-        //assuming found user
         $this->view("libraries/subject");
     }
 }

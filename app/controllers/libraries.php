@@ -19,6 +19,9 @@ final class libraries extends Controller
          if(!empty($urlParts[2])){
             if(((isset($urlParts[2]) && $urlParts[2]=='subjects'))){
                 if (isset($urlParts[3]) && !isset($urlParts[5]) && !isset($urlParts[7])) {
+                    if (isset($urlParts[3]) && !is_numeric($urlParts[3])) {
+                        echo "<script> window.location.replace('". ROOT ."');</script>";
+                    }
                     switch (@$urlParts[2]) {
                         case 'subjects':
                             $uid = Uuid::uuid1();
@@ -26,29 +29,29 @@ final class libraries extends Controller
                             $uidString = $uid->toString(); 
                             $uuidString = $uuid->toString(); // Get the UUID as a string
                             // Format the UUID in the desired pattern
-                                $formattedUid = sprintf(
-                                    '%08s-%04s-%04s-%04s-%012s',
-                                    substr($uidString, 0, 8),
-                                    substr($uidString, 9, 4),
-                                    substr($uidString, 14, 4),
-                                    substr($uidString, 19, 4),
-                                    substr($uidString, 24)
-                                );
-                                $formattedUuid = sprintf(
-                                    '%08s-%04s-%04s-%04s-%012s',
-                                    substr($uuidString, 0, 8),
-                                    substr($uuidString, 9, 4),
-                                    substr($uuidString, 14, 4),
-                                    substr($uuidString, 19, 4),
-                                    substr($uuidString, 24)
-                                );
-                                $package=strip_tags(trim(filter_var($urlParts[1], FILTER_SANITIZE_STRING)));
-                                $subject=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
-                                $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_by_category($formattedUid,$formattedUuid, $package, $subject);
-                                $activate_bookcases_sidebar = true;
-                                if (!empty($get_bookshalvesinfo)) {
-                                    $get_journals_reponses=$get_bookshalvesinfo;
-                                }
+                            $formattedUid = sprintf(
+                                '%08s-%04s-%04s-%04s-%012s',
+                                substr($uidString, 0, 8),
+                                substr($uidString, 9, 4),
+                                substr($uidString, 14, 4),
+                                substr($uidString, 19, 4),
+                                substr($uidString, 24)
+                            );
+                            $formattedUuid = sprintf(
+                                '%08s-%04s-%04s-%04s-%012s',
+                                substr($uuidString, 0, 8),
+                                substr($uuidString, 9, 4),
+                                substr($uuidString, 14, 4),
+                                substr($uuidString, 19, 4),
+                                substr($uuidString, 24)
+                            );
+                            $package=strip_tags(trim(filter_var($urlParts[1], FILTER_SANITIZE_STRING)));
+                            $subject=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
+                            $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_by_category($formattedUid,$formattedUuid, $package, $subject);
+                            $activate_bookcases_sidebar = true;
+                            if (!empty($get_bookshalvesinfo)) {
+                                $get_journals_reponses=$get_bookshalvesinfo;
+                            }
                             break;
                         
                         default:
@@ -59,9 +62,7 @@ final class libraries extends Controller
                 
                 //if the subject id is been tempered with and turn not the id is no longer numeric value, redirect the page, has to be numeric to process the page
                 if (isset($urlParts[3]) && !is_numeric($urlParts[3])) {
-                    echo "<script>
-                            window.location.replace('". ROOT ."');
-                        </script>";
+                    echo "<script>window.location.replace('". ROOT ."'); </script>";
                 }else {
                     $id=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
                     $get_subject_info = $this->_fetching_sql_model_data->get_subject_info($id);
@@ -74,30 +75,30 @@ final class libraries extends Controller
                                     $uidString = $uid->toString(); 
                                     $uuidString = $uuid->toString(); // Get the UUID as a string
                                     // Format the UUID in the desired pattern
-                                        $formattedUid = sprintf(
-                                            '%08s-%04s-%04s-%04s-%012s',
-                                            substr($uidString, 0, 8),
-                                            substr($uidString, 9, 4),
-                                            substr($uidString, 14, 4),
-                                            substr($uidString, 19, 4),
-                                            substr($uidString, 24)
-                                        );
-                                        $formattedUuid = sprintf(
-                                            '%08s-%04s-%04s-%04s-%012s',
-                                            substr($uuidString, 0, 8),
-                                            substr($uuidString, 9, 4),
-                                            substr($uuidString, 14, 4),
-                                            substr($uuidString, 19, 4),
-                                            substr($uuidString, 24)
-                                        );
-                                        $package=strip_tags(trim(filter_var($urlParts[1], FILTER_SANITIZE_STRING)));
-                                        $subject=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
-                                        $category_as_bookcases=strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
-                                        $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_on_bookcase_ref($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases);
-                                        $activate_bookcases_sidebar = true;
-                                        if (!empty($get_bookshalvesinfo)) {
-                                            $get_journals_reponses=$get_bookshalvesinfo;
-                                        }
+                                    $formattedUid = sprintf(
+                                        '%08s-%04s-%04s-%04s-%012s',
+                                        substr($uidString, 0, 8),
+                                        substr($uidString, 9, 4),
+                                        substr($uidString, 14, 4),
+                                        substr($uidString, 19, 4),
+                                        substr($uidString, 24)
+                                    );
+                                    $formattedUuid = sprintf(
+                                        '%08s-%04s-%04s-%04s-%012s',
+                                        substr($uuidString, 0, 8),
+                                        substr($uuidString, 9, 4),
+                                        substr($uuidString, 14, 4),
+                                        substr($uuidString, 19, 4),
+                                        substr($uuidString, 24)
+                                    ); 
+                                    $package=strip_tags(trim(filter_var($urlParts[1], FILTER_SANITIZE_STRING)));
+                                    $subject=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
+                                    $category_as_bookcases=strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
+                                    $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_on_bookcase_ref($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases);
+                                    $activate_bookcases_sidebar = true;
+                                    if (!empty($get_bookshalvesinfo)) {
+                                        $get_journals_reponses=$get_bookshalvesinfo;
+                                    }
                                     $id = strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
                                     $cat_id = strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
                                     $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_bookshalves_info($cat_id, $id);

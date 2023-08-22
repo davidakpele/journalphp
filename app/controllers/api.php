@@ -14,8 +14,7 @@ final class api extends Controller {
        @$this->_delete_sql_model_data = $this->loadModel('Delete');
     }
   
-  
-   
+
     public function csrf_token()
     {
         if(validata_api_request_header()){
@@ -111,4 +110,19 @@ final class api extends Controller {
         echo json_encode($response);
     }
 
+    public function apicontext()
+    { 
+        $response = [];
+        if (isset($_GET['page'])) {
+            $page = isset($_GET['page']) ? $_GET['page'] : 1;
+            $itemsPerPage = 40;
+            $offset = ($page - 1) * $itemsPerPage;
+            $response['_items']= $this->_fetching_sql_model_data->get_requested_journals($offset, $itemsPerPage);
+            $response['status']=http_response_code(200);
+        }else {
+           $response['status']=http_response_code(301);
+        }
+       
+        echo json_encode($response);
+    }
 }

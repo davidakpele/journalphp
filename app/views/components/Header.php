@@ -10,6 +10,7 @@
         <meta name="msapplication-TileColor" content="#2d89ef">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Security-Policy" content="">
         <meta name="description" content="This platform provides access to journals, books and databases from RSC Publishing, linking over 1 million chemical science articles and chapters. You can access the latest research of interest using the custom eAlerts, RSS feeds and blogs or you can explore content using the quick and advanced searches. Discover the highest quality integrated scientific research today - search faster, navigate smarter and connect more." />
         <meta name="fragment" content="!" />
         <title><?=((null !==(App_Title))?App_Title:'')?></title>
