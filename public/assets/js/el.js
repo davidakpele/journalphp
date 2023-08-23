@@ -53,17 +53,13 @@ const get_journals =async () => {
                         </li>
                         `);
                     });
-                    
                     isLoading = false;
                     currentPage++;
                     document.getElementById('spinnerLoad').style.display = 'none';
                     document.getElementById('loadMoreButton').textContent = 'Load More';
                     // Get the element with the class "message"
                     const messageElement = document.querySelector('.message');
-                    (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', messageElement.style.display = "none"] : obj.rowCount==0 ? [messageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
-                  
-                    
-                   
+                    (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', messageElement.style.display = "none"] : obj.rowCount==0 ? [messageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
                 }
             };
         xhr.send();

@@ -111,6 +111,9 @@ final class libraries extends Controller
                                     $page = isset($_GET['page']) ? $_GET['page'] : 1;
                                     $itemsPerPage = 40;
                                     $offset = ($page - 1) * $itemsPerPage;
+                                    $cid = $urlParts[5];
+                                    $bshid = $urlParts[7];
+                                    $geturlRelatives= $this->_fetching_sql_model_data->get_header_core($cid, $bshid);
                                     $get_requested_journals = $this->_fetching_sql_model_data->get_journal_on_bookshelves($formattedUid,$formattedUuid,$package, $subject, $category_as_bookcases, $bookshelvesid, $itemsPerPage, $offset);
                                     if (!empty($get_requested_journals)) {
                                        $get_journals_reponses=$get_requested_journals;
@@ -131,9 +134,16 @@ final class libraries extends Controller
                         }
                         
                     }
-                    $data = ['j'=>((isset($get_journals_reponses))?$get_journals_reponses:''),
-                        'activate_bookshalves'=>((isset($get_bookshalvesinfo) && (!empty($get_bookshalvesinfo))?$get_bookshalvesinfo:'')), 'sideline'=>$activate_bookcases_sidebar, 'data'=>$get_subject_info];
-                        $this->view("libraries/subject", $data);
+                    $data = 
+                    [
+                        'j'=>((isset($get_journals_reponses))?$get_journals_reponses:''),
+                        'activate_bookshalves'=>((isset($get_bookshalvesinfo) && (!empty($get_bookshalvesinfo))?$get_bookshalvesinfo:'')), 
+                        'sideline'=>$activate_bookcases_sidebar, 
+                        'data'=>$get_subject_info,
+                        'url'=>((isset($geturlRelatives))?$geturlRelatives:'')
+                    ];
+                     
+                    $this->view("libraries/subject", $data);
                 }
             }elseif ($urlParts[2] == 'journals') {
                

@@ -4,6 +4,10 @@
     <noscript>
         <iframe src="https://www.analytics.rsc.org/ns.html?id=GTM-56FZ7G" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
+    <?php 
+        $url=implode('',$_REQUEST);
+        $urlParts = explode('/', $url);
+    ?>
     <!-- End Google Tag Manager SST (noscript) -->
     <!-- Google Tag Manager (noscript) -->
     <noscript>
@@ -30,10 +34,6 @@
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
         <section id="shadow-host-companion"></section>
     </div>
-    <?php 
-        $url=implode('',$_REQUEST);
-        $urlParts = explode('/', $url);
-    ?>
     <div id="ember404" class="ember-view">
         <aside class="route-announcer">
             <div aria-live="polite" id="ember432" class="screen-reader ember-view">Loaded SkyBase Data</div>
@@ -62,7 +62,8 @@
                         </div>
                         <?php if($data['sideline']==true):?>
                             <div class="bookcase">
-                                <h3 tabindex="0" class="bookcase-name" style="font-size:22px"><?=((isset($data['activate_bookshalves']) && !empty($data['activate_bookshalves']))?$data['activate_bookshalves']['category']->categories_name:'')?></h3>
+                                <h3 tabindex="0" class="bookcase-name" style="font-size:22px">
+                                <?=((isset($data['activate_bookshalves']) && !empty($data['activate_bookshalves']))?$data['activate_bookshalves']['category']->categories_name:'')?></h3>
                                 <ul class="bookcase-bookshelf-list" >
                                     <li class="bookcase-bookshelf-list-item" style="font-size: 18px;color: #666;">
                                         <a href="<?php echo ROOT?>libraries/603/subjects/<?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjectid.'/bookcases/'.$urlParts[5].'/?sort=title&all=1';?>"  id="ember1115" class="<?=((isset($urlParts[3]) && isset($urlParts[5]) && !isset($urlParts[7]))? 'active': '')?> ember-view" tabindex="0"><span>All Journals</span></a>
@@ -84,7 +85,7 @@
                             </div>
                         <?php endif;?>
                         <div id="Content_Sidebar" class="journals-container infinite-scroller ember-view" >
-                            <div class="controls-container" style="display:none" id="case1">
+                            <div class="controls-container" id="case1">
                                 <ul class="controls">
                                     <li tabindex="0" id="returnHome" class="back subject-back-button tabindex" data-ember-action="" data-ember-action-6914="6914">
                                         <span aria-hidden="true" class="icon flaticon solid left-2"></span> Back
@@ -103,15 +104,15 @@
                                         </a>
                                         <span aria-hidden="true" class="icon flaticon solid down-2"></span>
                                     </li>
-                                    <?php if($data['data']['data'] !=null):?>
-                                        <?php foreach($data['data']['data'] as $categoriesList):?>
-                                            <li class="subject-bookcase-list-item <?=((isset($urlParts[3]) && isset($urlParts[5]) && $categoriesList['categoriesid']==$urlParts[5])? 'active': '')?>" data-ember-action="" data-ember-action-7340="7340">
-                                                <a tabindex="0" href="<?php echo ROOT?>libraries/603/subjects/<?php echo $data['data']['subject']->subjectid?>/bookcases/<?php echo $categoriesList['categoriesid'];?>/?sort=title" id="ember7341" class="ember-view">
-                                                    <div class="text"><?php echo $categoriesList['categories_name'];?></div>
-                                                </a> <span aria-hidden="true" class="icon flaticon solid down-2"></span>
-                                            </li>
-                                    <?php endforeach;?>
-                                <?php endif;?>
+                            <?php if($data['data']['data'] !=null):?>
+                                <?php foreach($data['data']['data'] as $categoriesList):?>
+                                    <li class="subject-bookcase-list-item <?=((isset($urlParts[3]) && isset($urlParts[5]) && $categoriesList['categoriesid']==$urlParts[5])? 'active': '')?>" data-ember-action="" data-ember-action-7340="7340">
+                                        <a tabindex="0" href="<?php echo ROOT?>libraries/603/subjects/<?php echo $data['data']['subject']->subjectid?>/bookcases/<?php echo $categoriesList['categoriesid'];?>/?sort=title" id="ember7341" class="ember-view">
+                                            <div class="text"><?php echo $categoriesList['categories_name'];?></div>
+                                        </a> <span aria-hidden="true" class="icon flaticon solid down-2"></span>
+                                    </li>
+                            <?php endforeach;?>
+                        <?php endif;?>
                                 </ul>
                                 <ul class="sort-controls" style="display:none" id="hidden_sort">
                                     <li id="ember8453" class="sort-control active ember-view">
@@ -127,8 +128,9 @@
                                         <span aria-hidden="true" class="icon flaticon solid"></span>
                                     </li>         
                                 </ul>
+                               
                                 <h1 tabindex="0" class="subject-name bookcase-name">
-                                    All Journals - <?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjects_name;?>
+                                    <?=(isset($urlParts[1]) && is_numeric($urlParts[1]) && isset($urlParts[2]) && !isset($urlParts[5]) ? 'All Journals- '.$data["data"]["subject"]->subjects_name : ((isset($urlParts[4]) && is_string($urlParts[4]) && isset($urlParts[5]) && is_numeric($urlParts[5]) && !isset($urlParts[7]) || !isset($urlParts[8])) ? 'All Journals- '.$data["activate_bookshalves"]["category"]->categories_name  : $data["url"]["url_bookshelves"]->bookshelves_name));?>
                                 </h1>
                             </div>
                             <div style="margin-right: 47.200000000000045px" id="ember791" class="sort-options-container __eccf5 ember-view">
@@ -142,9 +144,8 @@
                                 </div>
                             </div>
                                 <ul class="bookshelf">
-                                    <!-- Books -->
+                                    <!-- Books Container-->
                                     <div id="child_container"></div>
-                                    
                                 </ul>
                                 <div style="margin-bottom:60px">
                                     <div class="bookshelf-loading-indicator" id="loading" style="display: none;">

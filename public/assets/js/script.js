@@ -382,32 +382,6 @@ const toggleSort_controls = document.getElementById('view_sort_toggle');
 const hiddenDiv = document.getElementById('hidden_subject_list');
 const hiddenSortDiv = document.getElementById('hidden_sort');
 
-
-function widthChangeCallback() {
-  if(window.innerWidth > 1025) {
-    document.getElementById("locale-en-us").classList.remove('media-tablet');
-    document.getElementById("locale-en-us").classList.remove('media-mobile');
-    document.getElementById("locale-en-us").classList.add('media-desktop');
-  } else if (window.innerWidth <= 685 && window.innerWidth < 1025) {
-    $('.controls-container').show();
-    document.getElementById("locale-en-us").classList.remove('media-tablet');
-    document.getElementById("locale-en-us").classList.add('media-mobile');
-    document.getElementById("locale-en-us").classList.remove('media-desktop');
-  }
-  else {
-    $('.controls-container').show();
-    document.getElementById("locale-en-us").classList.remove('media-desktop');
-    document.getElementById("locale-en-us").classList.add('media-tablet');
-    document.getElementById("locale-en-us").classList.remove('media-mobile');
-   }
-}
-window.addEventListener('resize', widthChangeCallback);
-widthChangeCallback();
-
-
-
-
-
 toggleSubject.addEventListener('click', () => {
     if (hiddenDiv.style.display === 'none') {
         if (hiddenSortDiv.style.display === 'block') { 

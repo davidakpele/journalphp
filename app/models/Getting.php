@@ -125,13 +125,7 @@
         $data = [];
         // set the default timezone to use.
         date_default_timezone_set('UTC');
-        $this->_connect_db->query("SELECT p.packageid,  s.subjectid, s.package_id,  c.subjectid, c.categoriesid, jn.*  
-        FROM package p 
-        INNER JOIN subjects s ON s.package_id=p.packageid 
-        INNER JOIN categories c ON c.subjectid=s.subjectid 
-        INNER JOIN journals jn ON jn.categoryid= c.categoriesid
-        WHERE p.packageid=:package AND c.categoriesid=:category_as_bookcases 
-        AND s.subjectid=:subject GROUP BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
+        $this->_connect_db->query("SELECT p.packageid, s.subjectid, s.package_id, c.subjectid, c.categoriesid, jn.* FROM package p INNER JOIN subjects s ON s.package_id=p.packageid INNER JOIN categories c ON c.subjectid=s.subjectid INNER JOIN journals jn ON jn.categoryid= c.categoriesid WHERE p.packageid=:package AND c.categoriesid=:category_as_bookcases AND s.subjectid=:subject GROUP BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
         $this->_connect_db->bind(':package', $package);
         $this->_connect_db->bind(':subject', $subject);
         $this->_connect_db->bind(':offset', $offset);
@@ -176,16 +170,7 @@
         $data = [];
         // set the default timezone to use.
         date_default_timezone_set('UTC');
-        $this->_connect_db->query("SELECT p.packageid,  s.subjectid, s.package_id,  c.subjectid, c.categoriesid,  bsh.categoriesid, bsh.bookshelvesid, jn.*  
-        FROM package p 
-        INNER JOIN subjects s ON s.package_id=p.packageid 
-        INNER JOIN categories c ON c.subjectid=s.subjectid 
-        INNER JOIN bookshelves bsh ON bsh.categoriesid=c.categoriesid 
-        INNER JOIN journals jn ON jn.bookshelvesid= bsh.bookshelvesid 
-        WHERE jn.bookshelvesid =:bookshelvesid AND bsh.bookshelvesid=:bookshelvesid 
-        AND p.packageid=:package AND c.categoriesid=:category_as_bookcases 
-        AND s.subjectid=:subject 
-        GROUP BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
+        $this->_connect_db->query("SELECT p.packageid, s.subjectid, s.package_id, c.subjectid, c.categoriesid, bsh.categoriesid, bsh.bookshelvesid, jn.* FROM package p INNER JOIN subjects s ON s.package_id=p.packageid INNER JOIN categories c ON c.subjectid=s.subjectid INNER JOIN bookshelves bsh ON bsh.categoriesid=c.categoriesid INNER JOIN journals jn ON jn.bookshelvesid= bsh.bookshelvesid WHERE jn.bookshelvesid =:bookshelvesid AND bsh.bookshelvesid=:bookshelvesid AND p.packageid=:package AND c.categoriesid=:category_as_bookcases AND s.subjectid=:subject GROUP BY jn.journal_name ASC LIMIT :offset, :itemsPerPage");
         $this->_connect_db->bind(':package', $package);
         $this->_connect_db->bind(':subject', $subject);
         $this->_connect_db->bind(':category_as_bookcases', $category_as_bookcases);
@@ -301,8 +286,7 @@
             $oldid=$result->journalid;
             $id = $oldid+1;
         }
-        $this->_connect_db->query("INSERT INTO `journals`(`journalid`, `bookshelvesid`, `categoryid`, `journal_name`, `imagetype`, `imagedata`) 
-        VALUES (:id, :bookshelvesid, :categorieid, :journal_name, :imgType, :uploadPath)");
+        $this->_connect_db->query("INSERT INTO `journals`(`journalid`, `bookshelvesid`, `categoryid`, `journal_name`, `imagetype`, `imagedata`) VALUES (:id, :bookshelvesid, :categorieid, :journal_name, :imgType, :uploadPath)");
         $this->_connect_db->bind(':id', $id);
         $this->_connect_db->bind(':bookshelvesid', $bookshelvesid);
         $this->_connect_db->bind(':categorieid', $categorieid);
@@ -315,6 +299,22 @@
         }else {
             return false;
         }
+    }
+
+    public function get_header_core($cid, $bshid){
+        $responses= [];
+        $this->_connect_db->query("SELECT categoriesid, categories_name FROM categories WHERE categoriesid=:cid");
+        $this->_connect_db->bind(':cid', $cid);
+        $responses['url_category']= $this->_connect_db->single();
+
+     
+        $this->_connect_db->query("SELECT * FROM bookshelves WHERE categoriesid=:cid AND bookshelvesid=:bshid");
+        $this->_connect_db->bind(':bshid', $bshid);
+        $this->_connect_db->bind(':cid', $cid);
+        $responses['url_bookshelves']= $this->_connect_db->single();
+        
+        return $responses;
+
     }
 }
       

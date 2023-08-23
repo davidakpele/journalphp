@@ -280,7 +280,7 @@ button.invisible {
 .media-tablet .load-more-button {
     display: none
 }
-
+ 
 .journal-toc {
     width: 100%
 }
@@ -3654,16 +3654,7 @@ main.my-bookshelf .my-bookcase.move-in-progress .move-target {
     opacity: 0
 }
 
-.__884f2 .menu.showing,
-.__884f2 .menu:focus,
-.__884f2 .my-journal-delete-visible,
-.__884f2 .my-journal-menu-visible,
-.__884f2 a:focus .menu,
-.__884f2:hover .menu,
-.media-mobile main.my-bookshelf .my-bookcase .editable-element .show-edit-icon,
-.media-tablet main.my-bookshelf .my-bookcase .editable-element .show-edit-icon {
-    opacity: 1
-}
+
 
 .__991a0 {
     position: relative;
@@ -4794,12 +4785,12 @@ a {
     padding: 40px
 }
 
-.holdings-container .journals-container {
+.holdings-container #Content_Sidebar {
     width: 100%;
     overflow-y: scroll
 }
 
-.holdings-container .journals-container .controls-container {
+.holdings-container #Content_Sidebar .controls-container {
     display: none
 }
 
@@ -5025,14 +5016,7 @@ ul.bookshelf .bookshelf-loading-indicator {
     color: #227EA0
 }
 
-.media-mobile .header .search-pane .filter-container .search-field .magnifying-glass,
-.media-mobile .header .search-pane .search-field-container .search-field .magnifying-glass,
-.media-mobile .subjects-search-sub-head .search-for,
-.media-tablet .header .search-pane .filter-container .search-field .magnifying-glass,
-.media-tablet .header .search-pane .search-field-container .search-field .magnifying-glass,
-.media-tablet .subjects-search-sub-head .search-for {
-    display: none
-}
+
 
 #subjects-list>li:last-of-type .subjects-list-subject {
     border-bottom: none
@@ -5048,7 +5032,6 @@ a {
     cursor: pointer
 }
 
-
 .media-mobile #library-content .content .library-metadata,
 .media-tablet #library-content .content .library-metadata {
     margin-top: 5em
@@ -5059,25 +5042,9 @@ a {
     max-width: 100%
 }
 
-.media-mobile .subjects-library-name,
-.media-tablet .subjects-library-name {
-    font-size: 35px
-}
-
 .media-mobile .library-logo,
 .media-tablet .library-logo {
     max-width: 43%
-}
-
-.media-mobile .subjects-library-attribution,
-.media-tablet .subjects-library-attribution {
-    font-size: 10px
-}
-
-.media-mobile .subjects-search-container,
-.media-tablet .subjects-search-container {
-    padding: 0 6%;
-    height: 5.4em
 }
 
 .media-mobile .subjects-search-sub-head,
@@ -5085,10 +5052,6 @@ a {
     font-size: 9px
 }
 
-.media-mobile .subjects-list-subject-name,
-.media-tablet .subjects-list-subject-name {
-    font-size: 90%
-}
 
 .media-mobile input[type=color],
 .media-mobile input[type=date],
@@ -5254,10 +5217,7 @@ a {
     display: table
 }
 
-.media-mobile .holdings-container .bookcase,
-.media-mobile .holdings-container .journals-container .sort-options-container,
-.media-mobile .holdings-container .subject,
-.media-mobile .search-pane-container.subjects .filter-container .results-label-header,
+
 .media-tablet .holdings-container .bookcase,
 .media-tablet .holdings-container .journals-container .sort-options-container,
 .media-tablet .holdings-container .subject,
@@ -5279,486 +5239,6 @@ a {
     position: relative
 }
 
-.media-mobile .holdings-container .journals-container,
-.media-tablet .holdings-container .journals-container {
-    overflow-y: auto
-}
-
-.media-mobile .holdings-container .journals-container .controls-container,
-.media-tablet .holdings-container .journals-container .controls-container {
-    display: block
-}
-
-.media-mobile .holdings-container .journals-container .controls-container .bookcase-name,
-.media-tablet .holdings-container .journals-container .controls-container .bookcase-name {
-    padding: 0;
-    margin: 0
-}
-
-.media-mobile .holdings-container .journals-container .controls-container .subject-name,
-.media-tablet .holdings-container .journals-container .controls-container .subject-name {
-    border-bottom: 1px solid #ddd;
-    margin: 10px;
-    padding-bottom: 8px;
-    overflow: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 400;
-    font-size: 21px
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls {
-    display: table;
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li {
-    display: table-cell;
-    text-align: center;
-    padding: 15px 0 12px;
-    white-space: nowrap;
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li:last-child,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li:last-child {
-    border-right: none
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li .icon {
-    font-size: 20px;
-    vertical-align: middle
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.back,
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.categories,
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.sort,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.back,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.categories,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.sort {
-    font-family: "Gotham SSm A", "Gotham SSm B";
-    text-transform: uppercase;
-    color: #757575;
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 0
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li .subject-back-button,
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.back,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li .subject-back-button,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.back {
-    color: #EA0B12
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.categories.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.sort.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.categories.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.sort.active {
-    color: #333;
-    background: #f2f2f2
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.categories.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.controls li.sort.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.categories.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.controls li.sort.active .icon:before {
-    content: "\e1c0"
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list {
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item {
-    background: #f2f2f2;
-    padding: 6px 0;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-    display: table;
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active {
-    background: #f2f2f2;
-    border-left: 4px solid #EA0B12;
-    width: calc(100% - 4px)
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a:hover {
-    color: #333;
-    margin-left: calc(8% - 4px)
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon {
-    width: 11.8%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon:before {
-    content: "\e1c3";
-    color: #333
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active {
-    background: #f2f2f2;
-    border-left: none;
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a:hover {
-    color: #227EA0;
-    margin-left: 8%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon {
-    width: 11.5%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon:before {
-    content: "\e1c1";
-    color: #7e7e7e
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover {
-    color: #227EA0
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active {
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active a:hover {
-    color: #7e7e7e
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active .icon:before {
-    content: "\e1c0"
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a {
-    margin-left: 8%;
-    font-weight: 500;
-    letter-spacing: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a.active {
-    background: 0 0
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .text,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .text {
-    width: 100%;
-    display: table-cell
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .icon {
-    color: #7e7e7e;
-    font-size: 22px;
-    display: table-cell;
-    vertical-align: middle;
-    width: 11.5%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover {
-    color: #227EA0
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls {
-    display: block
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control {
-    background-color: #f2f2f2;
-    padding: 6px 0;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-    display: table;
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .text,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .text,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .text,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .text,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .text,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .text,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .text,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .text {
-    width: 100%;
-    display: table-cell
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .icon {
-    color: #7e7e7e;
-    font-size: 22px;
-    display: table-cell;
-    vertical-align: middle;
-    width: 11.5%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active {
-    width: calc(100% - 4px)
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active {
-    background-color: #f2f2f2;
-    border-left: 4px solid #EA0B12
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a:hover {
-    color: #333;
-    margin-left: calc(8% - 4px)
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon {
-    width: 11.8%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon:before {
-    content: "\e1c3";
-    color: #333
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active {
-    background-color: #f2f2f2;
-    border-left: none;
-    width: 100%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a:hover,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a:hover,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a:hover {
-    color: #227EA0;
-    margin-left: 8%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon {
-    width: 12.5%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon:before,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon:before,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon:before {
-    content: '';
-    color: #7e7e7e
-}
-
 .media-mobile .journal-toc aside ul.controls li.issues.active .icon:before,
 .media-mobile .journal-toc aside ul.controls li.related.active .icon:before,
 .media-mobile .journal-toc aside.my-articles ul.controls li.collections.active .icon:before,
@@ -5770,42 +5250,6 @@ a {
     content: "\e1c0"
 }
 
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item i.icon.shelf-2,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control i.icon.shelf-2,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item i.icon.shelf-2,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control i.icon.shelf-2,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item i.icon.shelf-2,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control i.icon.shelf-2,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item i.icon.shelf-2,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control i.icon.shelf-2 {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    margin-left: 7%
-}
-
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item a,
-.media-mobile .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item a,
-.media-mobile .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item a,
-.media-tablet .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item a,
-.media-tablet .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control a {
-    font-family: "Gotham SSm A", "Gotham SSm B";
-    font-size: 14px;
-    height: auto;
-    border: none;
-    display: block;
-    border-bottom: none;
-    background: 0 0;
-    font-weight: 500;
-    padding: 10px 20px 10px 0;
-    line-height: 24px;
-    margin-left: 8%;
-    color: #227EA0
-}
-
 .media-mobile .journal-toc header.sticky section.issue h2,
 .media-mobile .journal-toc header.sticky section.journal .details h1,
 .media-tablet .journal-toc header.sticky section.issue h2,
@@ -5813,30 +5257,7 @@ a {
     font-size: 16.5px
 }
 
-.media-mobile .holdings-container .journals-container ul.bookshelf,
-.media-tablet .holdings-container .journals-container ul.bookshelf {
-    padding: 0;
-    overflow: hidden
-}
 
-.media-mobile .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item,
-.media-tablet .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
-    padding-bottom: 10px;
-    width: 35%;
-    margin: 1% -1%
-}
-
-.media-mobile .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item .journal-cover img,
-.media-tablet .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item .journal-cover img {
-    max-height: 110px;
-    width: 85px
-}
-
-.media-mobile .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item .bookshelf-journal-title,
-.media-tablet .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item .bookshelf-journal-title {
-    margin-top: -12px;
-    height: 44px
-}
 
 .media-mobile .journal-toc,
 .media-tablet .journal-toc {
@@ -7204,7 +6625,7 @@ a {
     -webkit-font-smoothing: antialiased;
     letter-spacing: .8px;
     font-weight: 400;
-    font-color: #333
+    color: #333
 }
 
 .media-mobile main.my-bookshelf header h1,
@@ -7453,7 +6874,7 @@ a {
     width: inherit
 }
 
-.media-tablet .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+.media-tablet .holdings-container #Content_Sidebar ul.bookshelf li.bookshelf-journal-list-item {
     width: 18.5%
 }
 
@@ -8396,21 +7817,587 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
     justify-content: center
 }
 
-.splash-panel-message .button-bar button {
-    margin: 1em
-}
+    .splash-panel-message .button-bar button {
+        margin: 1em
+    }
 
-.route-announcer {
-    height: 0
-}
-.v2{
-    width: 100%;
-}
- .v2 .hide-header .content::before {
-     width: 100%;
- }
+    .route-announcer {
+        height: 0
+    }
+    .v2{
+        width: 100%;
+    }
+    .v2 .hide-header .content::before {
+        width: 100%;
+    }
+    #Content_Sidebar .controls-container{
+        display: block;
+    }
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls {
+       display: table;
+       width: 100%;
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.back {
+       color: #EA0B12;
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li .icon {
+       font-size: 20px;
+       vertical-align: middle;
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li {
+       display: table-cell;
+       text-align: center;
+       padding: 15px 0 12px;
+       white-space: nowrap;
+       border-top: 1px solid #ddd;
+       border-right: 1px solid #ddd;
+       border-bottom: 1px solid #ddd;
+       cursor: pointer
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container .bookcase-name,
+   #locale-en-us .holdings-container .journals-container .controls-container .bookcase-name {
+       padding: 0;
+       margin: 0
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container .subject-name,
+   #locale-en-us .holdings-container .journals-container .controls-container .subject-name {
+       border-bottom: 1px solid #ddd;
+       margin: 10px;
+       padding-bottom: 8px;
+       overflow: hidden;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+       font-weight: 400;
+       font-size: 21px
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li:last-child,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li:last-child {
+       border-right: none
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.categories.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.sort.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.categories.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.sort.active {
+       color: #333;
+       background: #f2f2f2
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.categories.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.sort.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.categories.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.sort.active .icon:before {
+       content: "\e1c0"
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item {
+       background: #f2f2f2;
+       padding: 6px 0;
+       border-bottom: 1px solid #ddd;
+       cursor: pointer;
+       display: table;
+       width: 100%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active {
+       background: #f2f2f2;
+       border-left: 4px solid #EA0B12;
+       width: calc(100% - 4px)
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active a:hover {
+       color: #333;
+       margin-left: calc(8% - 4px)
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon {
+       width: 11.8%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.active .icon:before {
+       content: "\e1c3";
+       color: #333
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active {
+       background: #f2f2f2;
+       border-left: none;
+       width: 100%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active a:hover {
+       color: #227EA0;
+       margin-left: 8%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon {
+       width: 11.5%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.disable-active.active .icon:before {
+       content: "\e1c1";
+       color: #7e7e7e
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover {
+       color: #227EA0
+   }
+
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active .icon:before {
+       content: "\e1c0"
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a {
+       margin-left: 8%;
+       font-weight: 500;
+       letter-spacing: normal;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a.active {
+       background: 0 0
+   }
+
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .icon {
+       color: #7e7e7e;
+       font-size: 22px;
+       display: table-cell;
+       vertical-align: middle;
+       width: 11.5%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item a:hover {
+       color: #227EA0
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls {
+       display: block
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control {
+       background-color: #f2f2f2;
+       padding: 6px 0;
+       border-bottom: 1px solid #ddd;
+       cursor: pointer;
+       display: table;
+       width: 100%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .text,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .text {
+       width: 100%;
+       display: table-cell
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control .icon {
+       color: #7e7e7e;
+       font-size: 22px;
+       display: table-cell;
+       vertical-align: middle;
+       width: 11.5%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active {
+       width: calc(100% - 4px)
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active {
+       background-color: #f2f2f2;
+       border-left: 4px solid #EA0B12
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active a:hover {
+       color: #333;
+       margin-left: calc(8% - 4px)
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon {
+       width: 11.8%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.active .icon:before {
+       content: "\e1c3";
+       color: #333
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active {
+       background-color: #f2f2f2;
+       border-left: none;
+       width: 100%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active a:hover,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active a:hover {
+       color: #227EA0;
+       margin-left: 8%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon {
+       width: 12.5%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.all-journals.disable-active.active .icon:before,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control.disable-active.active .icon:before {
+       content: '';
+       color: #7e7e7e
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item i.icon.shelf-2,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control i.icon.shelf-2 {
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 700;
+       margin-left: 7%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list {
+       width: 100%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active {
+       width: 100%
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item.active a:hover {
+       color: #7e7e7e
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.subject-bookcase-list li.subject-bookcase-list-item .text {
+       width: 100%;
+       display: table-cell
+   }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.bookcase-bookshelf-list-item a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.bookcase-bookshelf-list li.sort-control a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.bookcase-bookshelf-list-item a,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.sort-controls li.sort-control a {
+       font-family: "Gotham SSm A", "Gotham SSm B";
+       font-size: 14px;
+       height: auto;
+       border: none;
+       display: block;
+       border-bottom: none;
+       background: 0 0;
+       font-weight: 500;
+       padding: 10px 20px 10px 0;
+       line-height: 24px;
+       margin-left: 8%;
+       color: #227EA0
+   }
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.sort,
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.back{
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li{
+        display: table-cell;
+        text-align: center;
+        padding: 15px 0 12px;
+        white-space: nowrap;
+        border-top: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+   }
+   #locale-en-us .holdings-container .journals-container .controls-container ul.controls li.categories{
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        text-transform: uppercase;
+        color: #757575;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0;
+   }
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 1025px) {
+
+@media only screen and (max-width : 1130px) {
+    #locale-en-us .holdings-container .journals-container .controls-container {
+        display: block
+    }
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+        
+        width: 11.5%;
+    }
+    /* #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+       width: 19.5%; 
+    } */
+    #locale-en-us .header .search-pane .filter-container .search-field .magnifying-glass,
+    #locale-en-us .header .search-pane .search-field-container .search-field .magnifying-glass,
+    #locale-en-us .subjects-search-sub-head .search-for {
+        display: none
+    }
+    #locale-en-us .subjects-library-name {
+        font-size: 35px
+    }
+    #locale-en-us .subjects-library-attribution {
+        font-size: 10px
+    }
+    #locale-en-us .subjects-search-container {
+        padding: 0 6%;
+        height: 5.4em
+    }
+    .__884f2 .menu.showing,
+    .__884f2 .menu:focus,
+    .__884f2 .my-journal-delete-visible,
+    .__884f2 .my-journal-menu-visible,
+    .__884f2 a:focus .menu,
+    .__884f2:hover .menu,
+    #locale-en-us main.my-bookshelf .my-bookcase .editable-element .show-edit-icon {
+        opacity: 1
+    }
+    #locale-en-us .holdings-container .journals-container {
+        overflow-y: auto
+    }
+    #locale-en-us .holdings-container .journals-container ul.bookshelf,
+    #locale-en-us .holdings-container .journals-container ul.bookshelf {
+        padding: 0;
+        overflow: hidden
+    }
+        
+   
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item .journal-cover img {
+        max-height: 110px;
+        width: 85px
+    }
+
+    
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item .bookshelf-journal-title {
+        margin-top: -12px;
+        height: 44px
+    }
+    #locale-en-us .subjects-list-subject-name {
+        font-size: 90%
+    }
     #library-content .content {
         width: 100%;
         padding: 0;
@@ -8421,16 +8408,18 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
         width: 100% !important;
     }
     .subjects-container{
-        margin-top: 40px;
+        padding: 0;
+        margin-top: 6em;
+        margin-left: 6%;
+        margin-right: 6%;
     }
-
-        .clone_result .complete:after,
-        .clone_result .complete:before,
-        .clone_result .header .search-pane .exit,
-        .clone_result .search-pane-container.subjects .search-pane:after,
-        .clone_result .visibility-hidden {
-            display: none;
-        }
+    .clone_result .complete:after,
+    .clone_result .complete:before,
+    .clone_result .header .search-pane .exit,
+    .clone_result .search-pane-container.subjects .search-pane:after,
+    .clone_result .visibility-hidden {
+        display: none;
+    }
     .clone_result.subjects-search-container {
         padding: 0 6%;
         height: 5.4em;
@@ -8449,8 +8438,6 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
         padding-left: 0;
         padding-right: 0
     }
-
-
     .clone_result .search-pane-container.subjects .filter-container a,
     .clone_result .search-pane-container.subjects .no-results-container a,
     .clone_result .search-pane-container.subjects .result-container a {
@@ -8458,7 +8445,6 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
         padding-right: 0;
         height: auto
     }
-
     .clone_result .search-pane-container.subjects .result-container li:last-child {
         border-bottom: none
     }
@@ -8601,7 +8587,7 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
         display: table
     }
     .holdings-container .bookcase,
-    .holdings-container .journals-container .sort-options-container,
+    .holdings-container #Content_Sidebar .sort-options-container,
     .holdings-container .subject,
     .search-pane-container.subjects .filter-container .results-label-header {
         display: none
@@ -8614,7 +8600,7 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
     .holdings-container {
         position: relative
     }
-    .holdings-container .journals-container {
+    .holdings-container #Content_Sidebar {
         overflow-y: auto
     }
 
@@ -8685,7 +8671,32 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
     }
 
 }
+@media only screen and (max-width : 625px) {
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+        width: 20.5% !important;
+    }
+}
+@media only screen and (max-width : 525px) {
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+        width: 28.5% !important;
+    }
+}
+@media only screen and (max-width : 425px) {
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+        width: 40.5% !important;
+    }
+}
+@media only screen and (max-width : 300px) {
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+        width: 100.5% !important;
+    }
+}
 
+@media only screen and (max-width : 790px) {
+    #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
+        width: 13.5%;
+    }
+}
 .custom-loader {
     margin: 0px auto;
     --d: 22px;

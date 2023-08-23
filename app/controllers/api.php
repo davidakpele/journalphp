@@ -135,8 +135,8 @@ final class api extends Controller {
                 substr($uuidString, 19, 4),
                 substr($uuidString, 24)
             );
-            $package= strip_tags(trim($_GET['library'], FILTER_VALIDATE_INT));
-            $subject= strip_tags(trim((int)$_GET['subject'], FILTER_VALIDATE_INT));
+            $package= (trim((int)$_GET['library']));
+            $subject= (trim((int)$_GET['subject']));
             if (isset($_GET['getall']) && $_GET['getall'] == true && isset($_GET['token']) && !isset($_GET['getcraft'])) {
                 if (is_numeric($_GET['library']) && is_numeric($_GET['subject']) ) {
                     $page = isset($_GET['page']) ? $_GET['page'] : 1;
