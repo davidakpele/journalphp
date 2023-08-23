@@ -24,7 +24,7 @@
                 <select name="bookshelvesid" id="bookshelvesid" class="form-control">   
                     <option value="">-Select-</option> 
                     <?php foreach ($data['book'] as $key):?>
-                    <option  <?=((($key['bookshelvesid'] ==67))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
+                    <option  <?=((($key['bookshelvesid'] ==69))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="journal_name">Journal name</label>
