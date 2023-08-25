@@ -31,7 +31,7 @@ final class form extends Controller
                    return false;
                 }
                 // $allowed = array('jpg', 'jpeg', 'png');
-                $uploadName = md5(microtime()).'.'.$fileExt;
+                $uploadName = uniqid().'.'.$fileExt;
                 $uploadPath = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
                 $dbpath     = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName;
                 $folder = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING));

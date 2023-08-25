@@ -8683,7 +8683,7 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
 }
 @media only screen and (max-width : 425px) {
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
-        width: 40.5% !important;
+        width: 25.5% !important;
     }
 }
 @media only screen and (max-width : 300px) {

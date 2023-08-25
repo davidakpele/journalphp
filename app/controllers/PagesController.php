@@ -64,7 +64,7 @@ final class PagesController extends Controller {
 
     public function lookup(){
 
-        $this->view("lookup/Find_institute");
+        $this->view("en/Find_institute");
     }
 
 

@@ -7,8 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit40ff77ff45e74feafde3fc62d483173a
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+        ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
         'F' => 
@@ -18,6 +23,14 @@ class ComposerStaticInit40ff77ff45e74feafde3fc62d483173a
     );
 
     public static $prefixDirsPsr4 = array (
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
@@ -25,6 +38,16 @@ class ComposerStaticInit40ff77ff45e74feafde3fc62d483173a
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PayPal' => 
+            array (
+                0 => __DIR__ . '/..' . '/paypal/rest-api-sdk-php/lib',
+            ),
         ),
     );
 
@@ -37,6 +60,7 @@ class ComposerStaticInit40ff77ff45e74feafde3fc62d483173a
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit40ff77ff45e74feafde3fc62d483173a::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit40ff77ff45e74feafde3fc62d483173a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit40ff77ff45e74feafde3fc62d483173a::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit40ff77ff45e74feafde3fc62d483173a::$classMap;
 
         }, null, ClassLoader::class);

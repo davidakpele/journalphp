@@ -1,10 +1,27 @@
 var currentURL, url, protocol, hostname, port, pathname, search, hash, pathnameSegments, libraryPort, subjectPort, isLoading, currentPage, sidebar, content, checkPost_status, lib, sub, book, sh, csrf_token, data, read, response, pOSTurl, xhr, newData, obj;
-
+// Get the current timestamp
+const timestamp = new Date().getTime();
 currentURL = window.location.href; url = new URL(currentURL); protocol = url.protocol; hostname = url.hostname; port = url.port; pathname = url.pathname; search = url.search; hash = url.hash;pathnameSegments = pathname.slice(1).split('/'); libraryPort = pathnameSegments[2]; subjectPort = pathnameSegments[4]; isLoading = false; currentPage = 1; sidebar = document.getElementById('Content_Sidebar');content = document.querySelector('.bookshelf');
 document.getElementById('spinnerLoad').style.display = 'block';
 document.getElementById('loadMoreButton').textContent = 'Loading...';
 document.getElementById('loading').style.display = 'block';
 xhr = new XMLHttpRequest();
+function generateRandomString(length) {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        result += characters.charAt(randomIndex);
+    }
+    return result;
+}
+const randomString = generateRandomString(15);
+function generateToken(length) {
+    const array = new Uint8Array(length);
+    window.crypto.getRandomValues(array);
+    return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('');
+}
+const secureToken = generateToken(16);
 const get_journals =async () => {
     try {
         response = await fetch(root_url+"api/csrf_token");
@@ -30,8 +47,10 @@ const get_journals =async () => {
                     }
                 }
             }
+            
+
             pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
-            xhr.open('GET', root_url+'/api/apicontext?'+pOSTurl+'&page=' + currentPage, true);
+            xhr.open('GET', root_url+'/api/apicontext?'+pOSTurl+'&collect='+timestamp+'&page=' + currentPage+'&v=1&_v='+randomString+'&t=timing&en='+secureToken, true);
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     newData = xhr.responseText;
@@ -59,7 +78,8 @@ const get_journals =async () => {
                     document.getElementById('loadMoreButton').textContent = 'Load More';
                     // Get the element with the class "message"
                     const messageElement = document.querySelector('.message');
-                    (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', messageElement.style.display = "none"] : obj.rowCount==0 ? [messageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
+                    const ErrormessageElement = document.querySelector('.error-msg');
+                    (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount==0 ? [ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
                 }
             };
         xhr.send();
@@ -78,7 +98,11 @@ function fetchMoreData() {
     document.getElementById('spinnerLoad').style.display = 'block';
     document.getElementById('loadMoreButton').textContent = 'Loading...';
     document.getElementById('loading').style.display = 'block';
-   
+    document.querySelector('.error-msg').style.display = 'none';
+    var button=   document.getElementById('loadMoreButton');
+   if (button.classList.contains('primary')) {
+        button.classList.remove('primary');
+    } 
     setTimeout(() => {
         if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
             lib = pathnameSegments[2]; sub = pathnameSegments[4];
@@ -92,7 +116,7 @@ function fetchMoreData() {
                     lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6]; sh = pathnameSegments[8];                        
                     checkPost_status = 3;
                 }
-            }
+            } 
         }
         csrf_token = 'b24efe8e-40f5-11ee-aa1b-e442a6933c18';
         pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
@@ -126,9 +150,10 @@ function fetchMoreData() {
                 isLoading = false;
                 currentPage++;
                 document.getElementById('loadMoreButton').textContent = 'Load More';
-                // Get the element with the class "message"
+                // Get the element with the class "error-msg"
                 const messageElement = document.querySelector('.message');
-                (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', messageElement.style.display = "none"] : obj.rowCount==0 ? [messageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
+                const ErrormessageElement = document.querySelector('.error-msg');
+                (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount==0 ? [ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
                   
             }
         };

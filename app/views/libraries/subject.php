@@ -161,6 +161,9 @@
                                                 <p>An error occurred while contacting the Skybase database center.</p>
                                                 <p>Third Iron support has been notified.</p>
                                             </div>
+                                            <div class="error-msg" style="display:none">
+                                                <p>No journals found on this or related to this subject.!</p>
+                                            </div>
                                         </div>
                                         
                                         <button class="button " id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>

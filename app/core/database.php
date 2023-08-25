@@ -5,13 +5,13 @@ Class Database{
 	private $USER = DB_USER;
 	private $PASSWORD = DB_PASS;
 	private $DbNAME = DB_NAME;
-
+	private $charset = DB_CHARSET; 
 	private $statement;
 	private $dbHandler;
 	private $error;
 
 	public function __construct(){
-		$conn = 'mysql:host=' .$this->HOST . ';dbname=' .$this->DbNAME;
+		$conn = 'mysql:host=' .$this->HOST . ';dbname=' .$this->DbNAME . ';charset=' .$this->charset;
 		$options = array(
 			PDO::ATTR_PERSISTENT => true,
 			PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
