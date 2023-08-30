@@ -142,7 +142,7 @@ final class libraries extends Controller
                         'data'=>$get_subject_info,
                         'url'=>((isset($geturlRelatives))?$geturlRelatives:'')
                     ];
-                     
+                
                     $this->view("libraries/subject", $data);
                 }
             }elseif ($urlParts[2] == 'journals') {

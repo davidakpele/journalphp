@@ -18,9 +18,6 @@
             $this->_connect_db->query("SELECT a.*, b.subjectid, b.categoriesid,  c.subjectid, c.package_id,  e.packageid  FROM bookshelves a  INNER JOIN categories b  ON a.categoriesid= b.categoriesid  INNER JOIN subjects c   ON c.subjectid = b.subjectid  INNER JOIN package e  ON e.packageid=c.package_id  WHERE bookshelves_name   LIKE '%$data_request%'   OR bookshelves_name   LIKE '%$data_request'   OR bookshelves_name   LIKE '$data_request%'  OR bookshelves_name  LIKE '_$data_request%'  OR bookshelves_name  LIKE '$data_request _%' GROUP BY bookshelves_name ORDER BY RAND()");
             $data[]['bookshelves']= $this->_connect_db->resultSet();
 
-            // $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");
-            // $data[]['categories']= $this->_connect_db->resultSet();
-            
             if (!empty($data)) {
                 $mergin_Array_result= array_merge($data[0]['subjects'], $data[1]['journals'], $data[2]['bookshelves']);
                 if ($mergin_Array_result !=null) {
@@ -51,12 +48,6 @@
             $data =[];
             $this->_connect_db->query("SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' OR journal_name LIKE '%$data_request' OR journal_name LIKE '$data_request%' OR journal_name LIKE '_$data_request%' OR journal_name LIKE '$data_request _%'  GROUP BY journal_name ORDER BY RAND()");
             $data[]['journals']= $this->_connect_db->resultSet();
-
-            // $this->_connect_db->query("SELECT *  FROM bookshelves WHERE bookshelves_name LIKE '%$data_request%' OR bookshelves_name LIKE '%$data_request' OR bookshelves_name LIKE '$data_request%' OR bookshelves_name LIKE '_$data_request%' OR bookshelves_name LIKE '$data_request _%' ORDER BY RAND() ");
-            // $data[]['bookshelves']= $this->_connect_db->resultSet();
-
-            // $this->_connect_db->query(" SELECT *  FROM categories WHERE categories_name LIKE '%$data_request%' ORDER BY RAND()");
-            // $data[]['categories']= $this->_connect_db->resultSet();
 
             if (!empty($data)) {
                 return $data;
@@ -107,11 +98,12 @@
 
     public function get_bookshalves_info($cat_id, $id){
         $data =[];
+        
         $this->_connect_db->query("SELECT * FROM `categories` WHERE categoriesid =:cat_id");
         $this->_connect_db->bind(':cat_id', $cat_id);
         $data['category']= $this->_connect_db->single();
 
-        $this->_connect_db->query("SELECT a.*, b.subjectid,b.categoriesid, c.subjectid FROM bookshelves a INNER JOIN categories b  ON a.categoriesid=b.categoriesid INNER JOIN subjects c ON c.subjectid =b.subjectid WHERE b.categoriesid =:id");
+        $this->_connect_db->query("SELECT a.*, b.subjectid,b.categoriesid, c.subjectid, c.package_id FROM bookshelves a INNER JOIN categories b  ON a.categoriesid=b.categoriesid INNER JOIN subjects c ON c.subjectid =b.subjectid WHERE b.categoriesid =:id");
         $this->_connect_db->bind(':id', $id);
         $data['bookcases']= $this->_connect_db->resultSet();
         if (!empty($data)) {
@@ -306,7 +298,6 @@
         $this->_connect_db->query("SELECT categoriesid, categories_name FROM categories WHERE categoriesid=:cid");
         $this->_connect_db->bind(':cid', $cid);
         $responses['url_category']= $this->_connect_db->single();
-
      
         $this->_connect_db->query("SELECT * FROM bookshelves WHERE categoriesid=:cid AND bookshelvesid=:bshid");
         $this->_connect_db->bind(':bshid', $bshid);

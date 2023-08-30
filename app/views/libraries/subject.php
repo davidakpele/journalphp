@@ -1,31 +1,21 @@
 <?php $this->view('./components/Header');?>
-<body id="pagetop" class="oxy-ui pubs-ui hp-page">
-    <!-- Google Tag Manager SST (noscript) -->
-    <noscript>
-        <iframe src="https://www.analytics.rsc.org/ns.html?id=GTM-56FZ7G" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
+<body id="pagetop" class="oxy-ui pubs-ui hp-page hidden">
+    
     <?php 
         $url=implode('',$_REQUEST);
         $urlParts = explode('/', $url);
     ?>
-    <!-- End Google Tag Manager SST (noscript) -->
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-56FZ7G" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
         <div data-id="pnlAccSkipLinks" class="skipto-control">
         <a href="#maincontent" class="skipto__link">
             <div class="viewport r-gutter">
-                Jump to main content <img src="./oxygen/assets/icons/arrow-right-o-light.png"
+                Jump to main content <img src="<?=ASSETS?>images/arrow-right-o-light.png"
                     width="24" class="ver-m" alt="">
             </div>
         </a>
         <a href="#SearchText" class="skipto__link">
             <div class="viewport r-gutter">
                 Jump to site search 
-                <img src="./oxygen/assets/icons/arrow-right-o-light.png"  width="24" class="ver-m" alt="">
+                <img src="<?=ASSETS?>images/arrow-right-o-light.png"  width="24" class="ver-m" alt="">
             </div>
         </a>
     </div>
@@ -34,41 +24,48 @@
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
         <section id="shadow-host-companion"></section>
     </div>
+    
     <div id="ember404" class="ember-view">
         <aside class="route-announcer">
             <div aria-live="polite" id="ember432" class="screen-reader ember-view">Loaded SkyBase Data</div>
         </aside>
         <div class="media-desktop locale-en-us" style="margin-top:20px" id="locale-en-us">
             <div class="canvas">
+                 <!-- <span class="body_loader"></span> -->
                 <div id="library-content" class="container ">
                     <main class="holdings-container">
                         <div class="subject">
                             <a href="<?=ROOT?>" id="ember1122" class="subject-back-button ember-view"> 
                                 <img src="<?=ASSETS?>images/change-subject-chevron-b0613c2c2576dc880a792874777e52b3.png" alt="Change Subject"> 
                                 Change Subject
-                            </a>
-                            <h1 tabindex="0" class="subject-name"><?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjects_name;?></h1>
+                            </a> 
+                           
+                            <h1 tabindex="0" class="subject-name category-name"></h1>
                             <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
-                            <ul class="subject-bookcase-list">
-                                <li class="subject-bookcase-list-item">
+                            <ul class="subject-bookcase-list"> 
+                                <li class="subject-bookcase-list-item categoryList">
                                     <a href="<?php echo ROOT?>libraries/603/subjects/<?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjectid.'/?sort=title&all=1';?>" id="ember1123" class="<?=((isset($urlParts[3]) && !isset($urlParts[5]) && isset($_REQUEST['all']))? 'active': '')?> ember-view"> All Journals</a></li>
-                                    <?php if($data['data']['data'] !=null):?>
+                                    <div class="category_list">
+                                          <?php if($data['data']['data'] !=null):?>
                                         <?php foreach($data['data']['data'] as $categoriesList):?>
                                         <li class="subject-bookcase-list-item"> 
-                                        <a href="<?php echo ROOT?>libraries/603/subjects/<?php echo $data['data']['subject']->subjectid?>/bookcases/<?php echo $categoriesList['categoriesid'];?>/?sort=title" id="ember1124" class="<?=((isset($urlParts[3]) && isset($urlParts[5]) && $categoriesList['categoriesid']==$urlParts[5])? 'active': '')?> ember-view"><?php echo $categoriesList['categories_name'];?></a> </li>
+                                            <a href="<?php echo ROOT?>libraries/603/subjects/<?php echo $data['data']['subject']->subjectid?>/bookcases/<?php echo $categoriesList['categoriesid'];?>/?sort=title" id="ember1124" 
+                                            class="<?=((isset($urlParts[3]) && isset($urlParts[5]) && $categoriesList['categoriesid']==$urlParts[5])? 'active': '')?> ember-view"><?php echo $categoriesList['categories_name'];?></a> 
+                                        </li>
                                     <?php endforeach;?>
                                 <?php endif;?>
+                                    </div>
                             </ul>
                         </div>
                         <?php if($data['sideline']==true):?>
                             <div class="bookcase">
-                                <h3 tabindex="0" class="bookcase-name" style="font-size:22px">
-                                <?=((isset($data['activate_bookshalves']) && !empty($data['activate_bookshalves']))?$data['activate_bookshalves']['category']->categories_name:'')?></h3>
+                                <h3 tabindex="0" class="bookcase-name bookcaseHeaderName" style="font-size:22px"></h3>
                                 <ul class="bookcase-bookshelf-list" >
                                     <li class="bookcase-bookshelf-list-item" style="font-size: 18px;color: #666;">
                                         <a href="<?php echo ROOT?>libraries/603/subjects/<?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjectid.'/bookcases/'.$urlParts[5].'/?sort=title&all=1';?>"  id="ember1115" class="<?=((isset($urlParts[3]) && isset($urlParts[5]) && !isset($urlParts[7]))? 'active': '')?> ember-view" tabindex="0"><span>All Journals</span></a>
                                     </li>
-                                    <?php if(isset($data['activate_bookshalves'])) :?>
+                                    <div class="bookcaseList">
+                                        <?php if(isset($data['activate_bookshalves'])) :?>
                                         <?php if($data['activate_bookshalves']['bookcases'] !=null):?>
                                             <?php foreach($data['activate_bookshalves']['bookcases'] as $bookcasesList):?>
                                                 <li class="bookcase-bookshelf-list-item" >
@@ -81,6 +78,7 @@
                                             <?php endforeach;?>
                                         <?php endif;?>
                                     <?php endif;?>
+                                    </div>
                                 </ul>
                             </div>
                         <?php endif;?>
@@ -136,10 +134,10 @@
                             <div style="margin-right: 47.200000000000045px" id="ember791" class="sort-options-container __eccf5 ember-view">
                                 <div class="sort-options">
                                     <span class="active">
-                                        <a aria-label="A-Z" href="/libraries/603/subjects/57?sort=title" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Sort <span class="show-underline">A-Z</span></a> 
+                                        <a aria-label="A-Z" href="javascript:void(0)" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Reload <span class="show-underline">Database</span></a> 
                                     </span>
                                     <span>
-                                        <a aria-label="Journal Rank" href="/libraries/603/subjects/57?sort=rank" id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">Journal Rank</a> 
+                                        <a aria-label="Journal Rank" href="javascript:void(0)" id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">1-40</a> 
                                     </span>
                                 </div>
                             </div>
@@ -165,8 +163,10 @@
                                                 <p>No journals found on this or related to this subject.!</p>
                                             </div>
                                         </div>
+                                        <div class="mt-5" style="margin-top:15px">
+                                            <button class="button " id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
+                                        </div>
                                         
-                                        <button class="button " id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
                                     </div>
                                 </div>
                             </div>

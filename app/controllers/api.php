@@ -175,10 +175,54 @@ final class api extends Controller {
                     $response['_items']=$get_bookshalvesinfo;
                 }
             }
-        }else {
+        }elseif (isset($_GET['getCategoryList']) && isset($_GET['library']) && isset($_GET['subject'])) {
+            $lib = $_GET['library'];
+            $id=strip_tags(trim(filter_var($_GET['subject'], FILTER_SANITIZE_STRING)));
+            $get_categories_List_Result = $this->_fetching_sql_model_data->get_subject_info($id);
+            if (!empty($get_categories_List_Result)) {
+                $response['data'] = $get_categories_List_Result;
+                $response['status']= http_response_code(200);
+            }else {
+                $response['status']= http_response_code(403);
+            }
+            
+        }elseif (isset($_GET['getbookcaseList']) && isset($_GET['library']) && isset($_GET['subject']) && isset($_GET['bookcases'])) {
+            $id = strip_tags(trim(filter_var($_GET['bookcases'], FILTER_SANITIZE_STRING)));
+            $cat_id = strip_tags(trim(filter_var($_GET['bookcases'], FILTER_SANITIZE_STRING)));
+            $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_bookshalves_info($cat_id, $id);
+            if (!empty($get_bookshalvesinfo)) {
+                $response['data'] = $get_bookshalvesinfo;
+                $response['status']= http_response_code(200);
+            }else {
+                $response['status']= http_response_code(403);
+            }
+            
+        }
+        
+        else {
            $response['status']=http_response_code(301);
         }
        
         echo json_encode($response);
     }
+
+    public function collect(){
+        if(validata_api_request_header()){
+            ob_start();
+            $jsonString = file_get_contents("php://input");
+            $response = array();
+            $phpObject = json_decode($jsonString);
+            $id=$_GET['gtm'];
+            $newJsonString = json_encode($phpObject);
+            $response['status']=http_response_code(200);
+            $response['categoryList'] = $this->_fetching_sql_model_data->get_subject_info($id);
+        }else {
+            $response['status']=http_response_code(301);
+            $response['msg']=error_log_auth();
+        }
+        ob_end_clean();
+        echo json_encode($response);
+    }
+
+
 }

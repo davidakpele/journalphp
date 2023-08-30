@@ -14,6 +14,7 @@ final class PagesController extends Controller {
     }
     
     public function index(){
+        
         $_token = new Http\sanctum();
         $token = $_token->getToken();
         $_get_avaliable_subject= $this->_fetching_sql_model_data->get_user_subcribed_subjects();

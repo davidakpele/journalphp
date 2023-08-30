@@ -17,14 +17,14 @@
                 <select name="categorieid" id="categorieid" class="form-control">
                     <option value="">-Select-</option>
                     <?php foreach ($data['cat'] as $key):?>
-                    <option <?=($key['categoriesid'] ==12) ? 'selected' : ''?> value="<?=$key['categoriesid']?>"><?=$key['categories_name']?></option>
+                    <option <?=($key['categoriesid'] ==14) ? 'selected' : ''?> value="<?=$key['categoriesid']?>"><?=$key['categories_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="bookshelvesid">Bookshelves</label>
                 <select name="bookshelvesid" id="bookshelvesid" class="form-control">   
                     <option value="">-Select-</option> 
                     <?php foreach ($data['book'] as $key):?>
-                    <option  <?=((($key['bookshelvesid'] ==80))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
+                    <option  <?=((($key['bookshelvesid'] ==96))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="journal_name">Journal name</label>

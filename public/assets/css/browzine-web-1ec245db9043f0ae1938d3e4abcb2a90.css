@@ -6522,22 +6522,7 @@ a {
     margin: 25px 0 0
 }
 
-.media-mobile .journal-toc .collection-modal-create,
-.media-tablet .journal-toc .collection-modal-create {
-    -webkit-transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    transform: none;
-    margin: 0 auto;
-    top: 20%;
-    left: 0;
-    right: 0
-}
 
-.media-mobile .journal-toc .citation-modal .bz-modal-content,
-.media-tablet .journal-toc .citation-modal .bz-modal-content {
-    max-height: 195px
-}
 
 #library-content .media-mobile .app-promotion,
 #library-content .media-tablet .app-promotion,
@@ -8345,12 +8330,24 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
         display: block
     }
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
-        
         width: 11.5%;
     }
-    /* #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
-       width: 19.5%; 
-    } */
+    .media-mobile .journal-toc .collection-modal-create,
+    .media-tablet .journal-toc .collection-modal-create {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        transform: none;
+        margin: 0 auto;
+        top: 20%;
+        left: 0;
+        right: 0
+    }
+
+    .media-mobile .journal-toc .citation-modal .bz-modal-content,
+    .media-tablet .journal-toc .citation-modal .bz-modal-content {
+        max-height: 195px
+    }
     #locale-en-us .header .search-pane .filter-container .search-field .magnifying-glass,
     #locale-en-us .header .search-pane .search-field-container .search-field .magnifying-glass,
     #locale-en-us .subjects-search-sub-head .search-for {
@@ -8724,3 +8721,4 @@ main.my-bookshelf .my-bookcase .my-bookshelf.full .move-target {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     color: #666666;
 } 
+
