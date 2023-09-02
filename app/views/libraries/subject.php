@@ -134,10 +134,10 @@
                             <div style="margin-right: 47.200000000000045px" id="ember791" class="sort-options-container __eccf5 ember-view">
                                 <div class="sort-options">
                                     <span class="active">
-                                        <a aria-label="A-Z" href="javascript:void(0)" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> Reload <span class="show-underline">Database</span></a> 
+                                        <a aria-label="A-Z" href="javascript:void(0)" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> SORT <span class="show-underline">A-Z /</span></a>
                                     </span>
                                     <span>
-                                        <a aria-label="Journal Rank" href="javascript:void(0)" id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">1-40</a> 
+                                        <a aria-label="Journal Rank" href="javascript:void(0)" id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">JOURNAL RANK</a>
                                     </span>
                                 </div>
                             </div>

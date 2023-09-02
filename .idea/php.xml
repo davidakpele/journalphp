@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/app/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/app/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/app/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/app/helpers/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/app/helpers/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/app/helpers/vendor/paypal/rest-api-sdk-php" />
+      <path value="$PROJECT_DIR$/app/helpers/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/app/helpers/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/app/helpers/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>

@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <body style="padding-top:60px;background-color:gray" id="app" >
+    <body style="padding-top:60px;background-color:rgb(128,128,128)" id="app" >
     <div class="container" id="page">
         <div class="row">
              <form class="form-group" name="frmImage" enctype="multipart/form-data"method="post" autocomplete="off">
@@ -16,22 +16,23 @@
                 <label for="categorieid">Categories</label>
                 <select name="categorieid" id="categorieid" class="form-control">
                     <option value="">-Select-</option>
-                    <?php foreach ($data['cat'] as $key):?>
-                    <option <?=($key['categoriesid'] ==14) ? 'selected' : ''?> value="<?=$key['categoriesid']?>"><?=$key['categories_name']?></option>
+                    <?php
+                    foreach ($data['cat'] as $key):?>
+                    <option <?=($key['categoriesid'] ==18) ? 'selected' : ''?> value="<?=$key['categoriesid']?>"><?=$key['categories_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="bookshelvesid">Bookshelves</label>
                 <select name="bookshelvesid" id="bookshelvesid" class="form-control">   
                     <option value="">-Select-</option> 
                     <?php foreach ($data['book'] as $key):?>
-                    <option  <?=((($key['bookshelvesid'] ==96))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
+                    <option  <?=((($key['bookshelvesid'] ==112))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="journal_name">Journal name</label>
                 <input type="text" name="journal_name" id="journal_name" class="form-control"/><br/><br/>
                     <label>Upload Image File:</label>
                     <div class="row">
-                        <input name="file" type="file" class="full-width" class="form-control"/>
+                        <input name="file" type="file" class="full-width frm-control"/>
                     </div>
                     <div class="row">
                         <input type="submit" value="Submit" name="submit" class="btn btn-primary mt-4"/>

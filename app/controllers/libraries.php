@@ -45,7 +45,7 @@ final class libraries extends Controller
                     }
                     switch (@$urlParts[2]) {
                         case 'subjects':
-                            $page = isset($_GET['page']) ? $_GET['page'] : 1;
+                            $page = $_GET['page'] ?? 1;
                             $itemsPerPage = 30; // Adjust this based on your needs
                             // Calculate the starting point for your query
                             $offset = ($page - 1) * $itemsPerPage;
@@ -74,7 +74,7 @@ final class libraries extends Controller
                         switch (@$urlParts[4]){
                             case'bookcases':
                                 if(isset($urlParts[5]) && is_numeric($urlParts[5])){
-                                    $page = isset($_GET['page']) ? $_GET['page'] : 1;
+                                    $page = $_GET['page'] ?? 1;
                                     $itemsPerPage = 40;
                                     $offset = ($page - 1) * $itemsPerPage;
                                     $package=strip_tags(trim(filter_var($urlParts[1], FILTER_SANITIZE_STRING)));
@@ -108,7 +108,7 @@ final class libraries extends Controller
                                     $subject=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
                                     $category_as_bookcases=strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
                                     $bookshelvesid = strip_tags(trim(filter_var($urlParts[7], FILTER_SANITIZE_STRING)));
-                                    $page = isset($_GET['page']) ? $_GET['page'] : 1;
+                                    $page = $_GET['page'] ?? 1;
                                     $itemsPerPage = 40;
                                     $offset = ($page - 1) * $itemsPerPage;
                                     $cid = $urlParts[5];
@@ -137,8 +137,8 @@ final class libraries extends Controller
                     $data = 
                     [
                         'j'=>((isset($get_journals_reponses))?$get_journals_reponses:''),
-                        'activate_bookshalves'=>((isset($get_bookshalvesinfo) && (!empty($get_bookshalvesinfo))?$get_bookshalvesinfo:'')), 
-                        'sideline'=>$activate_bookcases_sidebar, 
+                        'activate_bookshalves'=>(((!empty($get_bookshalvesinfo)) ?$get_bookshalvesinfo:'')),
+                        'sideline'=>($activate_bookcases_sidebar ?? ''),
                         'data'=>$get_subject_info,
                         'url'=>((isset($geturlRelatives))?$geturlRelatives:'')
                     ];
@@ -146,12 +146,23 @@ final class libraries extends Controller
                     $this->view("libraries/subject", $data);
                 }
             }elseif ($urlParts[2] == 'journals') {
-               
-                    $id= trim($urlParts[3], FILTER_SANITIZE_STRING && FILTER_SANITIZE_SPECIAL_CHARS && FILTER_SANITIZE_NUMBER_INT);
-                    $data = ['sideline'=>false];
-                    $this->view("libraries/journal", $data);
+                    if (isset($urlParts[3]) && is_numeric($urlParts[3])) {
+                        $id = strip_tags($urlParts[3], FILTER_SANITIZE_STRING && FILTER_SANITIZE_SPECIAL_CHARS && FILTER_SANITIZE_NUMBER_INT);
+                        $get_journal_request = $this->_fetching_sql_model_data->get_single_journal_on_Request($id);
+                        $data =
+                            [
+                                'sideline' => false,
+                                'render_journal' => (!empty($get_journal_request) ? $get_journal_request : ''),
+                            ];
+                        $this->view("libraries/journal", $data);
+                    }else{
+                        echo "<script>
+                               window.location.replace('". ROOT ."');
+                           </script>";
+                    }
             }elseif ($urlParts[2] == 'search') {
-                
+             if (isset($_GE['q']) && isset($_GET['search']))
+                $search_input = $_GET['q'];
             }else {
                 //if user sent a request to view subject or read a journal, if the url is misspel, it redirect them to home page
                  echo "<script>

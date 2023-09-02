@@ -1,64 +1,52 @@
 <?php $this->view('./components/Header');?>
 <body id="pagetop" class="oxy-ui pubs-ui hp-page hidden">
-    
     <?php 
         $url=implode('',$_REQUEST);
         $urlParts = explode('/', $url);
     ?>
     <?php $this->view("./components/Nav"); ?>
-
     <div id="library-content" class="container ">
         <section aria-label="Journal" class="journal-toc">
             <header class="sticky" style="visibility: hidden;">
                 <section class="journal">
                     <div id="ember4000" class="journal-cover __771d8 ember-view">
                         <div class="image-container">
-                            <img src="https://assets.thirdiron.com/images/covers/2379-1683.png"
-                                alt="Cover of Annals of K-Theory" title="Annals of K-Theory">
-
+                            <img src="<?=(isset($data['render_journal']['results']) ? ROOT.$data['render_journal']['results']->imagedata : '')?>"
+                                alt="<?=(isset($data['render_journal']['results']) ? ROOT.$data['render_journal']['results']->journal_name : '')?>" title="<?=(isset($data['render_journal']['results']) ? ROOT.$data['render_journal']['results']->journal_name : '')?>">
                         </div>
                     </div>
-
                     <div class="details">
-                        <h1>Annals of K-Theory</h1>
+                        <h1><?=(isset($data['render_journal']['results']) ? ROOT.$data['render_journal']['results']->journal_name : '')?></h1>
                         <a target="_new" href="http://www.scimagojr.com/journalsearch.php?q=2379-1683&amp;tip=iss"
                             id="ember4001" class="scimago-rank ember-view" tabindex="0">SJR: <span>1.021</span>
                         </a>
                     </div>
                 </section>
-
                 <section class="issue">
                     <h2>Vol. 8 Issue 2</h2>
                     <span class="selected-issue-year">2023</span>
                 </section>
             </header>
-
             <aside>
-                <section aria-label="Annals of K-Theory" class="journal">
-                    <div class="backdrop">
-
-                    </div>
-
+                <section aria-label="<?=(isset($data['render_journal']['results']) ? ROOT.$data['render_journal']['results']->journal_name : '')?>" class="journal">
+                    <div class="backdrop"></div>
                     <section aria-label="Journal Header" class="rest">
                         <div id="ember4002" class="journal-cover __771d8 ember-view">
                             <div class="image-container">
-                                <img src="https://assets.thirdiron.com/images/covers/2379-1683.png"
-                                    alt="Cover of Annals of K-Theory" title="Annals of K-Theory">
+                                <img src="<?=(isset($data['render_journal']['results']) ? ROOT.$data['render_journal']['results']->imagedata : '')?>"
+                                    alt="<?=(isset($data['render_journal']['results']) ? $data['render_journal']['results']->journal_name : '')?>"
+                                     title="<?=(isset($data['render_journal']['results']) ? $data['render_journal']['results']->journal_name : '')?>">
                                 <div class="back-button back" data-ember-action="" data-ember-action-4273="4273">
-                                    <a href="#" tabindex="0"><span class="left-2 flaticon stroke"></span>Back to
+                                    <a href="javascript:void(0);" tabindex="0"><span class="left-2 flaticon stroke"></span>Back to
                                         Journals</a>
                                 </div>
-
                                 <a target="_new"
                                     href="http://www.scimagojr.com/journalsearch.php?q=2379-1683&amp;tip=iss"
                                     id="ember4274" class="scimago-rank ember-view">SJR: <span>1.021</span>
                                 </a>
-
-                                <!---->
                             </div>
                         </div>
-                        <h1 tabindex="0" class="journal-title">Annals of K-Theory</h1>
-
+                        <h1 tabindex="0" class="journal-title"><?=(isset($data['render_journal']['results']) ? $data['render_journal']['results']->journal_name : '')?></h1>
                         <button aria-label="Add to my bookshelf" tabindex="0"
                             class="my-bookshelf button outline tabindex">
                             <span class="icon-and-text">
@@ -71,8 +59,6 @@
                         <!---->
                     </section>
                 </section>
-
-                <!---->
                 <div id="ember4276" class="__fc988 ember-view"><!---->
                     <section aria-label="Journal Issues" class="back-issues issues ">
                         <div class="header-container">
@@ -135,9 +121,6 @@
                                             data-ember-action-4288="4288">Vol 8 Issue 2</span>
 
                                         <div class="accessories">
-                                            <!---->
-                                            <!---->
-                                            <!---->
                                             <span class="icon arrow flaticon solid right-2"></span>
                                         </div>
                                     </a></div>
@@ -145,11 +128,7 @@
                                         href="/libraries/603/journals/40729/issues/517048870?sort=title" id="ember4290"
                                         class="ember-view"> <span class="label" data-ember-action=""
                                             data-ember-action-4291="4291">Vol 8 Issue 1</span>
-
                                         <div class="accessories">
-                                            <!---->
-                                            <!---->
-                                            <!---->
                                             <span class="icon arrow flaticon solid right-2"></span>
                                         </div>
                                     </a></div>
@@ -157,8 +136,6 @@
                         </div>
                     </section>
                 </div>
-
-
                 <section aria-label="Browse Related Subjects" class="related-bookshelves">
                     <header tabindex="0">Browse Related Subjects</header>
                     <div id="ember4292" class="ember-view">
@@ -181,37 +158,21 @@
                     </div>
                 </section>
             </aside>
-
             <main>
-                <!---->
                 <header id="main-content" class="issue  no-unread-articles">
                     <div class="issue-info">
-                        <h4 class="date">
-                            2023
-                        </h4>
-
+                        <h4 class="date">2023</h4>
                         <h3 tabindex="0" class="title">Vol. 8 Issue 2</h3>
                     </div>
-
-                    <div class="issue-buttons">
-                        <!---->
-                    </div>
+                    <div class="issue-buttons"></div>
                 </header>
-
-                <!---->
-                <!---->
                 <div id="ember4041" class="article-list __1c09d ember-view">
                     <div id="ember4042" class="infinite-scroller ember-view">
                         <div id="ember4044" class="article-list-item __6ba9e ember-view">
                             <article aria-label="Topological equivariant coarse K-homology"
                                 class="564562044   no-unread-articles  ">
-                                <!---->
-                                <!---->
-                                <!---->
                                 <table class="article-split-container">
                                     <tr>
-                                        <!---->
-                                        <!---->
                                         <td class="metadata-container">
                                             <section aria-label="Metadata for Topological equivariant coarse K-homology"
                                                 class="article-list-item-content-block ">
@@ -1554,6 +1515,7 @@
         <script src="<?=ASSETS?>js/vendor.min.js"></script>
         <script src="<?=ASSETS?>js/pubs-ui.min.js"></script>
         <script src="<?=ASSETS?>js/script.js"></script>
+        <script src="<?=ASSETS?>js/ev.js"></script>
     </body>
 
 </html>

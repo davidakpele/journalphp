@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/paypal/rest-api-sdk-php" />
+      <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/stripe/stripe-php" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/polyfill-php81" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
