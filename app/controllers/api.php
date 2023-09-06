@@ -1,5 +1,5 @@
 <?php
-use Http\{sanctum}; 
+//use Http\{sanctum};
 use Ramsey\Uuid\Uuid;
 final class api extends Controller {
     
@@ -46,7 +46,7 @@ final class api extends Controller {
 
             $newobjt = json_encode($phpObject);
             $search_requested_in_data=$this->_fetching_sql_model_data->get_search($search_data);
-            if($search_requested_in_data == true){
+            if($search_requested_in_data){
                 $response['inc']=true;
                 $response['data']= $search_data;
                 $response['status'] = http_response_code(200);
@@ -63,12 +63,14 @@ final class api extends Controller {
 
     public function returning_page($response)
     {
-        if($response['inc'] == false){
-            echo json_encode($response);
-        }else{
-            $data=['result'=>$response];
-            echo json_encode($response);
+        switch ($response['inc']) {
+            case false:
+                break;
+            default:
+                $data = ['result' => $response];
+                break;
         }
+        echo json_encode($response);
     }
 
 
@@ -81,9 +83,9 @@ final class api extends Controller {
         }
     }
 
-    public function _is_connected()
+    public function _is_connected(): bool
     { 
-        return isset($_SESSION["user"]) ? TRUE : FALSE ;
+        return isset($_SESSION["user"]);
     }
 
     public function items()
@@ -105,7 +107,7 @@ final class api extends Controller {
             $response['_items']= $this->_fetching_sql_model_data->get_user_subcribed_subjects();
             $response['status']=http_response_code(200);
         }else {
-           $response['error']= error_log_auth();
+           $response = ['error' => error_log_auth()];
         }
         echo json_encode($response);
     }
@@ -137,7 +139,7 @@ final class api extends Controller {
             );
             $package= (trim((int)$_GET['library']));
             $subject= (trim((int)$_GET['subject']));
-            if (isset($_GET['getall']) && $_GET['getall'] == true && isset($_GET['token']) && !isset($_GET['getcraft'])) {
+            if (isset($_GET['getall']) && $_GET['getall'] && isset($_GET['token']) && !isset($_GET['getcraft'])) {
                 if (is_numeric($_GET['library']) && is_numeric($_GET['subject']) ) {
                     $page = isset($_GET['page']) ? $_GET['page'] : 1;
                     $itemsPerPage = 40;

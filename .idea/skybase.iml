@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/app/Http" isTestSource="false" packagePrefix="mail" />
+      <sourceFolder url="file://$MODULE_DIR$/app/bootstrap" isTestSource="false" packagePrefix="Http" />
+      <sourceFolder url="file://$MODULE_DIR$/app/security" isTestSource="false" packagePrefix="SecurityService" />
       <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/app/helpers/vendor/paypal/rest-api-sdk-php" />

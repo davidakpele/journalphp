@@ -9,14 +9,23 @@ namespace SecurityService;
     }
 
     // Generate a random CSRF token and store it in the session
-    public function generateToken() {
+
+     /**
+      * @throws \Exception
+      */
+     public function generateToken(): string
+    {
         $csrfToken = bin2hex(random_bytes(32));
         $_SESSION['csrf_token'] = $csrfToken;
         return $csrfToken;
     }
 
     // Get the CSRF token from the session or generate a new one if not set
-    public function getToken() {
+
+     /**
+      * @throws \Exception
+      */
+     public function getToken() {
         if (!isset($_SESSION['csrf_token'])) {
             $_SESSION['csrf_token'] = $this->generateToken();
         }
@@ -24,7 +33,12 @@ namespace SecurityService;
     }
 
     // Validate the CSRF token against the one stored in the session
-    public function validateToken($userToken) {
+
+     /**
+      * @throws \Exception
+      */
+     public function validateToken($userToken): bool
+     {
         $storedToken = $this->getToken();
         if ($userToken === $storedToken) {
             return true;
@@ -33,7 +47,12 @@ namespace SecurityService;
     }
 
     // Generate the HTML hidden input field with the CSRF token
-    public function generateTokenField() {
+
+     /**
+      * @throws \Exception
+      */
+     public function generateTokenField(): string
+    {
         $csrfToken = $this->getToken();
         return '<input type="hidden" name="csrf_token" value="' . $csrfToken . '">';
     }
