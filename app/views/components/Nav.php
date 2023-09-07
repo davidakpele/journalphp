@@ -87,15 +87,28 @@
                 </div>
             </div>
         </div>
+         <div class="auth-header" data-id="pnlAuthHeader">
+             <div data-id="pnlSignIn"></div>
+             <div class="viewport_header">
+                 <div class="auth-header__institute-access">
+                     <div class="auth-header__institute-messaging">
+                         <?php if (auth() == true):?>
+                             <span id="divWelcomeUser"></span>
+                         <?php else:?>
+                             <div class="login-institute" id="instite_auth">
+                                 <div class="auth-package">
+                                     <div class="oc-auth-button">
+                                         <i class="fa fa-home" aria-hidden="true"></i>
+                                         <strong>Log in through your library</strong>
+                                         <span>to access more features.</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         <?php endif;?>
+                     </div>
+                 </div>
+             </div>
+         </div>
 
-        <div class="auth-header" data-id="pnlAuthHeader">
-            <div data-id="pnlSignIn"></div>
-            <div class="viewport">
-                <div class="auth-header__institute-access">
-                    <div class="auth-header__institute-messaging">
-                        <span id="divWelcomeUser"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </header>

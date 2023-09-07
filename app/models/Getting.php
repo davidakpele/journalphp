@@ -113,6 +113,7 @@
             return false;
         }
     }
+
    /** @noinspection PhpVoidFunctionResultUsedInspection */
     public function get_journal_on_bookcase($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases, $offset, $itemsPerPage){
         $data = [];
@@ -137,7 +138,6 @@
         $data['ScriptType']= 'PRODUCTION';
         $data['Version']= date('l');
         $data['RuleSet'][]['id']=$formattedUid;
-        $data['GeolocationUrl']= "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location";
         $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
         $data['BannerPushesDown']='false';
         $data['Default']='true';

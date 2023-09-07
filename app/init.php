@@ -16,4 +16,5 @@ require_once "../app/helpers/HTTPRoute.php";
 require_once "../app/security/SecurityService.php";
 require_once "../app/Http/MailService.php";
 require_once "../app/bootstrap/sanctum.php";
+require_once "../app/auth/Authentication.php";
 require '../app/vendor/autoload.php';

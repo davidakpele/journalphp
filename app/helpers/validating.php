@@ -1,4 +1,5 @@
-<?php 
+<?php
+use  Auth\authentication;
 /**
  *
  * @return boolean 
@@ -109,3 +110,13 @@ function countriesList(){
 	return $k;
 
 }
+
+function auth(){
+    $authClass= new Auth\authentication;
+    $authenticateUser = $authClass->auth_check();
+    $data =
+        [
+            'auth'=>($authenticateUser ?? ''),
+        ];
+}
+

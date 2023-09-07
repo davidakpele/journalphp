@@ -56,6 +56,7 @@ final class libraries extends Controller
                             if (!empty($get_bookshalvesinfo)) {
                                 $get_journals_reponses=$get_bookshalvesinfo;
                             }
+                         
                             break;
                         
                         default:
@@ -132,17 +133,24 @@ final class libraries extends Controller
                             default:
                                 break;
                         }
-                        
                     }
-                    $data = 
+                    
+                    if (isset($get_subject_info['subject']) && !empty($get_subject_info['subject']->categories_name) && isset($urlParts[3]) && !isset($urlParts[5]) || isset($urlParts[5]) ==null && !isset($urlParts[8])){
+                        $title_name=$get_subject_info['subject']->subjects_name;
+                    }elseif (isset($get_bookshalvesinfo['category']) && !empty($get_bookshalvesinfo['category']->categories_name) && isset($urlParts[5]) && !isset($urlParts[8])){
+                        $title_name=$get_bookshalvesinfo['category']->categories_name;
+                    }elseif (isset($geturlRelatives['url_bookshelves']) && !empty($geturlRelatives['url_bookshelves']->bookshelves_name) && isset($urlParts[5]) && isset($urlParts[8])){
+                        $title_name= $geturlRelatives['url_bookshelves']->bookshelves_name;
+                    }
+                    $data =
                     [
+                        'page_title'=>(empty($title_name) ? '' : $title_name),
                         'j'=>((isset($get_journals_reponses))?$get_journals_reponses:''),
                         'activate_bookshalves'=>(((!empty($get_bookshalvesinfo)) ?$get_bookshalvesinfo:'')),
                         'sideline'=>($activate_bookcases_sidebar ?? ''),
                         'data'=>$get_subject_info,
                         'url'=>((isset($geturlRelatives))?$geturlRelatives:'')
                     ];
-                
                     $this->view("libraries/subject", $data);
                 }
             }elseif ($urlParts[2] == 'journals') {

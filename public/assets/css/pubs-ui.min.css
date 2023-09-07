@@ -2230,29 +2230,29 @@ figure {
     }
 }
 
-.oxy-ui .fixpad--xs {
-    padding: 4px
-}
+    .oxy-ui .fixpad--xs {
+        padding: 4px
+    }
 
-.oxy-ui .fixpad--s {
-    padding: 8px
-}
+    .oxy-ui .fixpad--s {
+        padding: 8px
+    }
 
-.oxy-ui .fixpad--m {
-    padding: 12px
-}
+    .oxy-ui .fixpad--m {
+        padding: 12px
+    }
 
-.oxy-ui .fixpad--l {
-    padding: 16px
-}
+    .oxy-ui .fixpad--l {
+        padding: 16px
+    }
 
-.oxy-ui .fixpad--xl {
-    padding: 20px
-}
+    .oxy-ui .fixpad--xl {
+        padding: 20px
+    }
 
-.oxy-ui .fixpad--xxl {
-    padding: 24px
-}
+    .oxy-ui .fixpad--xxl {
+        padding: 24px
+    }
 
 .oxy-ui .fixpadh--xs {
     padding-left: 4px;
@@ -3648,10 +3648,9 @@ figure {
     padding: 0;
     width: 100%
 }
-
-
-
-
+.viewport_header{
+    margin-left: 2px;
+}
 @media only screen and (min-width:1168px) {
     body.pubs-ui .viewport {
         max-width: 1168px;

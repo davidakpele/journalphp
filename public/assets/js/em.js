@@ -35,9 +35,10 @@ setTimeout(() => {
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(getData, 2000); // 5000 milliseconds = 5 seconds
 });
-
-
-
+document.querySelector('.login-institute').addEventListener('click',function (e){
+    e.preventDefault();
+    window.location.href=root_url+'auth/login'
+})
 
 
 

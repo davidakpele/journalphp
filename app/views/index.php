@@ -1,8 +1,10 @@
-<?php $this->view("./components/Header"); ?>
+<?php $this->view("./components/Header");?>
 <style>
-
 .error-search:after {position: fixed;left: 600px;top: 0;bottom: 0;width: 30rem;background: rgba(255,255,255,.25);box-sizing: border-box;z-index: -1;content: '';}
 </style>
+    <script>
+        const _route="<?=$data['_token']?>"
+    </script>
     <body id="pagetop" class="oxy-ui pubs-ui hp-page">
      <!-- Google Tag Manager SST (noscript) -->
     <noscript>
