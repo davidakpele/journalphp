@@ -102,20 +102,6 @@
         $url=implode('',$_REQUEST);
         $urlParts = explode('/', $url);
     ?>
-        <div data-id="pnlAccSkipLinks" class="skipto-control">
-        <a href="#maincontent" class="skipto__link">
-            <div class="viewport r-gutter">
-                Jump to main content <img src="<?=ASSETS?>images/arrow-right-o-light.png"
-                    width="24" class="ver-m" alt="">
-            </div>
-        </a>
-        <a href="#SearchText" class="skipto__link">
-            <div class="viewport r-gutter">
-                Jump to site search 
-                <img src="<?=ASSETS?>images/arrow-right-o-light.png"  width="24" class="ver-m" alt="">
-            </div>
-        </a>
-    </div>
     <?php $this->view('./components/Nav'); ?>
     <div id="ember-basic-dropdown-wormhole"></div>
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
@@ -179,7 +165,7 @@
                                 </ul>
                             </div>
                         <?php endif;?>
-                        <div id="Content_Sidebar" class="journals-container infinite-scroller ember-view" >
+                        <div id="Content_Sidebar" class="journals-container infinite-scroller ember-view" style="margin-top:40px">
                             <div class="controls-container" id="case1">
                                 <ul class="controls">
                                     <li tabindex="0" id="returnHome" class="back subject-back-button tabindex" data-ember-action="" data-ember-action-6914="6914">
@@ -244,6 +230,7 @@
                                 </ul>
                                 <div style="margin-bottom:60px">
                                     <div class="bookshelf-loading-indicator" id="loading" style="display: none;">
+                                        
                                         <div id="ember1952" class="__0d2b3 ember-view">
                                             <div class="spinner align-center" style="display: none;" id="spinnerLoad">
                                                 <div class="bounce1"></div>

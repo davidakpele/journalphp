@@ -239,7 +239,7 @@ window.addEventListener('scroll', function () {
     }
 });
 // Add a click event listener to the "Load More" button
-document.getElementById('loading').addEventListener('click', fetchMoreData);
+document.getElementById('loadMoreButton').addEventListener('click', fetchMoreData);
 document.querySelector('.login-institute').addEventListener('click',function (e){
     e.preventDefault();
     window.location.href= root_url+'auth/login'

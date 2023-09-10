@@ -1,17 +1,5 @@
 
-    <div data-id="pnlAccSkipLinks" class="skipto-control">
-        <a href="#maincontent" class="skipto__link">
-            <div class="viewport r-gutter">
-                Jump to main content 
-                <img src="<?=ASSETS?>icons/arrow-right-o-light.png" width="24" class="ver-m" alt="">
-            </div>
-        </a>
-        <a href="#SearchText" class="skipto__link">
-            <div class="viewport r-gutter">
-                Jump to site search <img src="<?=ASSETS?>icons/arrow-right-o-light.png" width="24" class="ver-m" alt="">
-            </div>
-        </a>
-    </div>
+   
      <header role="banner" data-id="pnlGlobalHeader" class="pubs-header">
         <div class="viewport" style="display:flex">
             <div class="pubs-header__wrapper">

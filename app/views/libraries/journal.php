@@ -1,11 +1,12 @@
 <?php $this->view('./components/Header');?>
-<body id="pagetop" class="oxy-ui pubs-ui hp-page hidden">
+<body id="pagetop" class="oxy-ui pubs-ui hp-page">
     <?php 
         $url=implode('',$_REQUEST);
         $urlParts = explode('/', $url);
     ?>
     <?php $this->view("./components/Nav"); ?>
-    <div id="library-content" class="container ">
+    <div id="library-content" class="container " style="margin-top:40px">
+        <br/>
         <section aria-label="Journal" class="journal-toc">
             <header class="sticky" style="visibility: hidden;">
                 <section class="journal">
@@ -54,9 +55,6 @@
                                 <span class="label">Add to my bookshelf</span>
                             </span>
                         </button>
-
-                        <!---->
-                        <!---->
                     </section>
                 </section>
                 <div id="ember4276" class="__fc988 ember-view"><!---->

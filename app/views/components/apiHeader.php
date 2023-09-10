@@ -1,4 +1,4 @@
-<li class="filter-container" style="margin-top:20px">
+<li class="filter-container" style="margin-top:40px !important">
     <span class=" results-label-header">Results</span>
     <div class="filters">
         <div aria-label="See all Subjects and Journals" tabindex="0" class="filter all active tabindex" onclick="view_All_Search()" id="default_active">
@@ -41,7 +41,7 @@
                                 foreach ($key['subjects'] as $subjectsValues):?>
                                     <li class="result subject ">
                                         <div id="ember1942" class="ember-view">
-                                            <a tabindex="0" href="<?=ROOT?>libraries/<?=$subjectsValues['package_id']?>/subjects/<?=$subjectsValues['subjectid']?>/sort=title&all=1" id="ember1943" class="ember-view">
+                                            <a tabindex="0" href="<?=ROOT?>libraries/<?=$subjectsValues['package_id']?>/subjects/<?=$subjectsValues['subjectid']?>/?sort=title&all=1" id="ember1943" class="ember-view">
                                                 <div title="<?php echo $subjectsValues['subjects_name']?>" class="text">
                                                    View All Journals Under - <?php echo $subjectsValues['subjects_name']?>
                                                 </div>

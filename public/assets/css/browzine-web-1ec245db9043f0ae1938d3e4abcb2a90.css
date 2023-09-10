@@ -4047,7 +4047,7 @@
 
     .__bd7a3.subjects .search-pane .no-results-container {
         display: none;
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .__bd7a3.subjects .search-pane .result-container {
@@ -8659,7 +8659,7 @@
         font-size:larger;
     }
     #library-content {
-        margin-top: 80px;
+        margin-top: 30px;
     }
     .holdings-container .subject {
         display: none !important;

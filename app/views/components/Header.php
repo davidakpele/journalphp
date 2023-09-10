@@ -28,8 +28,16 @@
         <link rel="stylesheet" href="<?=ASSETS?>css/sentinel-semibold-cc063e6c2f3b67c5ebdf05c2ce4e0f2c.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/fonts.min.css" type="text/css" />
         <link rel="stylesheet" href="<?=ASSETS?>css/pubs-ui.min.css" type="text/css" />
+        
+            <link rel="stylesheet" href="<?=ASSETS?>css/all.min.css" />
+    <link rel="stylesheet" href="<?=ASSETS?>css/all.min.css" />
+    <script src="<?=ASSETS?>js/jquery.min.js"></script>
+    <link rel="stylesheet" href="<?=ASSETS?>css/wk-icons-all-open.min.css" />
+    <link rel="stylesheet" href="<?=ASSETS?>css/wk-icons-all-filled.min.css" />
+    <link rel="stylesheet" href="<?=ASSETS?>css/oce-main.css" />
         <script src="<?=ASSETS?>js/vendor-55566347b8eb7cb5a2e40b5c0177bc16.js"></script>
         <script async="" src="<?=ASSETS?>js/analytics.js"></script>
+        
         <script>
             const root_url="<?=ROOT?>";
         </script>

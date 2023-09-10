@@ -29,7 +29,6 @@ function isPatch(){
 	return $this->getRequestMethod() === 'PATCH';
 }
 	
-
 function crypto_rand_secure($min, $max){
 	$range = $max - $min;
 	if ($range < 1) return $min; // not so random...
@@ -115,8 +114,8 @@ function auth(){
     $authClass= new Auth\authentication;
     $authenticateUser = $authClass->auth_check();
     $data =
-        [
-            'auth'=>($authenticateUser ?? ''),
-        ];
+	[
+		'auth'=>($authenticateUser ?? ''),
+	];
 }
 
