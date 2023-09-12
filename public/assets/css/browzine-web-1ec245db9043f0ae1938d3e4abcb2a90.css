@@ -8324,8 +8324,13 @@
         letter-spacing: 0;
    }
 /* Custom, iPhone Retina */
-
+    .bd_sklsdl{
+        overflow: hidden;
+    }
 @media only screen and (max-width : 1130px) {
+    .bd_sklsdl {
+        overflow: visible;
+    }
     .auth-header {
         display: none;
     }

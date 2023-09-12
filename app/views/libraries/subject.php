@@ -96,7 +96,7 @@
             @font-face {font-weight: 700;font-style: normal;font-family: circular;src: url('<?=ASSETS?>fonts/CircularXXWeb-Bold.woff2') format('woff2');}
         </style>
     </head>
-<body id="pagetop" class="oxy-ui pubs-ui hp-page hidden">
+<body id="pagetop" class="oxy-ui pubs-ui hp-page hidden bd_sklsdl">
     
     <?php 
         $url=implode('',$_REQUEST);

@@ -8,6 +8,11 @@
     <title>Document</title>
 </head>
 <body>
+    <?php  
+    $p = "1300000.00";
+    echo "Balance: $" . number_format($p, 2);
+    
+    ?>
     <body style="padding-top:60px;background-color:rgb(128,128,128)" id="app" >
     <div class="container" id="page">
         <div class="row">
@@ -25,7 +30,7 @@
                 <select name="bookshelvesid" id="bookshelvesid" class="form-control">   
                     <option value="">-Select-</option> 
                     <?php foreach ($data['book'] as $key):?>
-                    <option  <?=((($key['bookshelvesid'] ==151))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
+                    <option  <?=((($key['bookshelvesid'] ==153))?'selected':'')?> value="<?=$key['bookshelvesid']?>"><?=$key['bookshelves_name']?></option>
                     <?php endforeach;?>
                 </select><br/><br/>
                 <label for="journal_name">Journal name</label>
