@@ -110,12 +110,4 @@ function countriesList(){
 
 }
 
-function auth(){
-    $authClass= new Auth\authentication;
-    $authenticateUser = $authClass->auth_check();
-    $data =
-	[
-		'auth'=>($authenticateUser ?? ''),
-	];
-}
 

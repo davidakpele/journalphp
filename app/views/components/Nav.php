@@ -38,10 +38,15 @@
                         </form>
                     </div>
                 </div>
-                <div class="pubs-header__cell pubs-header__cell--login">
-                    <a href="<?=ROOT?>auth/login" class="pubs-header__btn" aria-label="Log in or register">
-                    <i class="fa fa-user" aria-hidden="true" id="userIcon"></i></a>
-                </div>
+                 <?php 
+                    $authClass= new Auth\authentication;
+                    $authenticateUser = $authClass->auth_check();
+                    if($authenticateUser == false || $authenticateUser == ''):?>
+                    <div class="pubs-header__cell pubs-header__cell--login">
+                        <a href="<?=ROOT?>auth/login" class="pubs-header__btn" aria-label="Log in or register">
+                        <i class="fa fa-user" aria-hidden="true" id="userIcon"></i></a>
+                    </div>
+                    <?php endif;?>
                 <div class="pubs-header__cell pubs-header__cell--trolley">
                     <a href="<?=ROOT?>" class="pubs-header__btn" aria-label="View your basket">
                     <i class="fa fa-cart-arrow-down" aria-hidden="true" id="trolleyIcon"></i></a>
@@ -75,15 +80,23 @@
                 </div>
             </div>
         </div>
-         <div class="auth-header" data-id="pnlAuthHeader">
+         <?php 
+            $authClass= new Auth\authentication;
+            $authenticateUser = $authClass->auth_check();
+            if($authenticateUser == false):
+        ?>
+        <div class="auth-header" data-id="pnlAuthHeader">
              <div data-id="pnlSignIn"></div>
              <div class="viewport_header">
                  <div class="auth-header__institute-access">
                      <div class="auth-header__institute-messaging">
-                         <?php if (auth() == true):?>
+                        <?php 
+                        $authClass= new Auth\authentication;
+                        $authenticateUser = $authClass->auth_check();
+                        if($authenticateUser == true):?>
                              <span id="divWelcomeUser"></span>
                          <?php else:?>
-                             <div class="login-institute" id="instite_auth">
+                             <div class="login-institute auth_user_" id="instite_auth">
                                  <div class="auth-package">
                                      <div class="oc-auth-button">
                                          <i class="fa fa-home" aria-hidden="true"></i>
@@ -97,6 +110,6 @@
                  </div>
              </div>
          </div>
-
+        <?php endif;?>
 
     </header>

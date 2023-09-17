@@ -85,6 +85,7 @@
                 } I(); t(Q, Ue); C(J); return true
             }
             wayfinderHosted.succeeded = wayfinderHosted();
+            <?php $this->view("./token/Bearer");?>
             </script>
         <script>
             const eCommerceGetOrderItemCountUrl = 'https://www.rsc.org/basket/shoppingcart/getorderitemcount';
@@ -264,8 +265,8 @@
     </div>
         <script src="<?=ASSETS?>js/vendor.min.js"></script>
         <script src="<?=ASSETS?>js/pubs-ui.min.js"></script>
-        <script src="<?=ASSETS?>js/script.js"></script>
-        <script src="<?=ASSETS?>js/el.js"></script>
+        <script type="module" src="<?=ASSETS?>js/script.js"></script>
+        <script type="module" src="<?=ASSETS?>js/el.js"></script>
     </body>
 
 </html>

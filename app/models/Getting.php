@@ -317,6 +317,34 @@
         $responses['results']= $this->_connect_db->single();
         return $responses;
     }
+
+    public function isVerifyAuthUser($Bearer_token){
+        $this->_connect_db->query('SELECT * FROM `user_subscription` WHERE user_token=:Bearer_token');
+        // Bind the values
+        $this->_connect_db->bind(':Bearer_token', $Bearer_token);
+        $row = $this->_connect_db->single();
+        if (!empty($row)) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+    public function LoginAuth($email, $password){
+        $this->_connect_db->query('SELECT a.*, b.* FROM users a inner join user_subscription b on a.user_id = b.user_id WHERE institution_email = :email');
+        // Bind the values
+        $this->_connect_db->bind(':email', $email);
+        $row = $this->_connect_db->single();
+        if(!empty($row)){
+            $hashedPassword = $row->password;
+            if(password_verify($password, $hashedPassword)){
+                return $row;
+            }else {
+                return false;
+            }
+        }else {
+            return false;
+        }
+    }
 }
       
                                        

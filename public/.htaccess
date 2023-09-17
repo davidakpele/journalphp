@@ -5,7 +5,7 @@
         Options +MultiViews
         Options +FollowSymLinks
     </IfModule>
-   
+  
     RewriteEngine On
     
     RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
@@ -16,9 +16,8 @@
     RewriteRule ^(.*)$ index.php [F,L]
 
     #Handle Authorization Header
-    RewriteCond %{HTTP:Authorization} .
-    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
-
+    RewriteCond %{HTTP:Authorization} .+
+    RewriteRule ^ - [E=HTTP_AUTHORIZATION:%0]
     #Removing Public From The Url
     RewriteBase /skybase/public
 

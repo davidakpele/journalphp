@@ -74,12 +74,7 @@ function search(input) {
                 async: true,
                 crossDomain: true,
                 headers: {
-                    'Access-Control-Allow-Methods': '*',
-                    "Access-Control-Allow-Credentials": true,
-                    "Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type, Accept, Authorization",
-                    "Access-Control-Allow-Origin": "*",
-                    "Control-Allow-Origin": "*",
-                    "cache-control": "no-cache",
+                    'Authorization': 'Bearer '+tsrpc+'',
                     'Content-Type': 'application/json'
                 },
             }).then((response) => {
@@ -90,9 +85,9 @@ function search(input) {
                     const Http = new XMLHttpRequest();
                     const postData = { "data": response._token, "_data": input.value }
                     Http.open("POST", root_url+'api/getsearch', true);
-                    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8", this.withCredentials = true);
+                    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
                     Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
-                    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+                    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
                     Http.send(JSON.stringify(postData));
                     Http.onreadystatechange = function (e) {
                     if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
@@ -109,6 +104,9 @@ function search(input) {
                                 async: true,
                                 cache: false,
                                 processData: true,
+                                headers: {
+                                    'Authorization': 'Bearer '+tsrpc+'',
+                                }
                             }).then((data) => {
                                 const subject_span = document.getElementById('subj_holder');
                                 if(window.innerWidth > 1025) {
@@ -155,7 +153,7 @@ function search(input) {
     }
 }
 
-view_All_Search = () => {
+function view_All_Search(){
     $.ajax({
         type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
         dataType: 'JSON',
@@ -168,12 +166,7 @@ view_All_Search = () => {
         async: true,
         crossDomain: true,
         headers: {
-            'Access-Control-Allow-Methods': '*',
-            "Access-Control-Allow-Credentials": true,
-            "Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type, Accept, Authorization",
-            "Access-Control-Allow-Origin": "*",
-            "Control-Allow-Origin": "*",
-            "cache-control": "no-cache",
+            'Authorization': 'Bearer '+tsrpc+'',
             'Content-Type': 'application/json'
         },
     }).then((response) => {
@@ -185,9 +178,9 @@ view_All_Search = () => {
             const Http = new XMLHttpRequest();
             const postData = { "data": response._token, "_data": input }
             Http.open("POST", root_url+'api/getsearch', true);
-            Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8", this.withCredentials = true);
+            Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
-            Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+            Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
             Http.send(JSON.stringify(postData));
             Http.onreadystatechange = function (e) {
                 if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
@@ -204,6 +197,9 @@ view_All_Search = () => {
                             async: true,
                             cache: false,
                             processData: true,
+                            headers: {
+                                'Authorization': 'Bearer '+tsrpc+'',
+                            }
                         }).then((data) => {
                             const subject_span = document.getElementById('subj_holder');
                             if(window.innerWidth > 1025) {
@@ -241,7 +237,7 @@ view_All_Search = () => {
     });
 }
 
-view_Only_Subjects = () => {
+function view_Only_Subjects () {
     
     const input = $('#ember650').val();
     const Http = new XMLHttpRequest();
@@ -249,7 +245,7 @@ view_Only_Subjects = () => {
     Http.open("POST", root_url + 'api/csrf_token', true);
     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
     Http.send(JSON.stringify(data));
     Http.onreadystatechange = function (e) {
         if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
@@ -282,14 +278,14 @@ view_Only_Subjects = () => {
 }
 
 
-view_Only_Jounals = () => {
+function view_Only_Jounals() {
     const input = $('#ember650').val();
     const Http = new XMLHttpRequest();
     const data = { "data": 'encrypted', "_data": input }
     Http.open("POST", root_url + 'api/csrf_token', true);
     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
     Http.send(JSON.stringify(data));
     Http.onreadystatechange = function (e) {
         if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
@@ -321,7 +317,7 @@ view_Only_Jounals = () => {
     }
 }
 
-is_journal = (id) => {
+function is_journal (id){
     //requestion connection links
     const input = $('#ember650').val();
     const Http = new XMLHttpRequest();
@@ -329,7 +325,7 @@ is_journal = (id) => {
     Http.open("POST", root_url+'api/csrf_token', true);
     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
     Http.send(JSON.stringify(data));
     Http.onreadystatechange = function (e) {
         if (Http.readyState == 4 && Http.status == 200 && Http.responseText) { 
@@ -350,13 +346,13 @@ is_journal = (id) => {
     }
 }
 
-is_subject = (id) => {
+function is_subject(id) {
     const Http = new XMLHttpRequest();
     const data = { "data": 'encrypted' }
     Http.open("POST", root_url+'api/csrf_token', true);
     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
+    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
     Http.send(JSON.stringify(data));
     Http.onreadystatechange = function (e) {
         if (Http.readyState == 4 && Http.status == 200 && Http.responseText) { 
@@ -382,38 +378,42 @@ const toggleSort_controls = document.getElementById('view_sort_toggle');
 const hiddenDiv = document.getElementById('hidden_subject_list');
 const hiddenSortDiv = document.getElementById('hidden_sort');
 
-toggleSubject.addEventListener('click', () => {
-    if (hiddenDiv.style.display === 'none') {
-        if (hiddenSortDiv.style.display === 'block') { 
-            hiddenSortDiv.style.display = 'none';
-        }
-        if (toggleSort_controls.classList.contains('active')) {
-            toggleSort_controls.classList.remove('active');
-            toggleSubject.classList.add('active');
+$('document').ready(function (e) {
+    $(toggleSubject).click(function () {
+        if (hiddenDiv.style.display === 'none') {
+            if (hiddenSortDiv.style.display === 'block') {
+                hiddenSortDiv.style.display = 'none';
+            }
+            if (toggleSort_controls.classList.contains('active')) {
+                toggleSort_controls.classList.remove('active');
+                toggleSubject.classList.add('active');
+            } else {
+                toggleSubject.classList.add('active');
+            }
+            hiddenDiv.style.display = 'block';
         } else {
-            toggleSubject.classList.add('active');
-        }
-        hiddenDiv.style.display = 'block';
-    } else {
-        document.getElementById("view_mobile_toggle_subject").classList.remove('active');
-        hiddenDiv.style.display = 'none';
-    }
-});
-
-toggleSort_controls.addEventListener('click', () => {
-    if (hiddenSortDiv.style.display === 'none') {
-      if (hiddenDiv.style.display === 'block') { 
+            document.getElementById("view_mobile_toggle_subject").classList.remove('active');
             hiddenDiv.style.display = 'none';
         }
-        if (toggleSubject.classList.contains('active')) {
-            toggleSubject.classList.remove('active');
-            toggleSort_controls.classList.add('active');
+    });
+
+    // 
+    $(toggleSort_controls).click(function () { 
+        if (hiddenSortDiv.style.display === 'none') {
+            if (hiddenDiv.style.display === 'block') { 
+                hiddenDiv.style.display = 'none';
+            }
+            if (toggleSubject.classList.contains('active')) {
+                toggleSubject.classList.remove('active');
+                toggleSort_controls.classList.add('active');
+            } else {
+                toggleSort_controls.classList.add('active');
+            }
+            hiddenSortDiv.style.display = 'block';
         } else {
-            toggleSort_controls.classList.add('active');
+            toggleSort_controls.classList.remove('active');
+            hiddenSortDiv.style.display = 'none';
         }
-        hiddenSortDiv.style.display = 'block';
-    } else {
-        toggleSort_controls.classList.remove('active');
-        hiddenSortDiv.style.display = 'none';
-    }
+    })
 });
+

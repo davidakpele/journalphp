@@ -56,35 +56,27 @@
                         </li>
                     </ul>
                 </div>
+                
                 <div class="pubs-nav__list autopad--h">
                     <h2 class="pubs-nav__heading">More</h2>
                     <ul class="pubs-nav__ul">
                         <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)"class="pubs-nav__link" tabindex="-1">For Members</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
                             <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">For Librarians</a>
                         </li>
+                    </ul>
+                </div>
+                <div class="pubs-nav__list autopad--h">
+                    <h2 class="pubs-nav__heading">Dashboard</h2> 
+                    <ul class="pubs-nav__ul">
                         <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Subscribe</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)d" class="pubs-nav__link" tabindex="-1">RSSFeeds</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a  href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Blogs</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link"tabindex="-1">Chemistry World</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Education in Chemistry</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Open Access</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Historical Collection</a>
+                            <?php 
+                            $authClass= new Auth\authentication;
+                            $authenticateUser = $authClass->auth_check();
+                            if (!$authenticateUser):?>
+                                <a href="javascript:void(0)" class="pubs-nav__link" id="login_institute" tabindex="-1">Login</a>
+                            <?php else:?>
+                               <a href="javascript:void(0)" class="pubs-nav__link" id="logout_user" tabindex="-1">Logout</a>
+                            <?php endif; ?>
                         </li>
                     </ul>
                 </div>

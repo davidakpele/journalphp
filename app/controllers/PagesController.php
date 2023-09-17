@@ -15,16 +15,22 @@ final class PagesController extends Controller {
     }
 
     public function index(){
-        $_token = new Http\sanctum();
-        $token = $_token->getToken();
-        $_get_avaliable_subject= $this->_fetching_sql_model_data->get_user_subcribed_subjects();
-        $data =
-        [
-            'auth'=>($authenticateUser ?? ''),
-            '_token'=>$token,
-            'data'=> $_get_avaliable_subject,
-        ];
-        $this->view("index", $data);
+        $authClass= new Auth\authentication;
+        $authenticateUser = $authClass->auth_check();
+        if (!$authenticateUser) {
+            redirect('auth/login');
+        }else{
+            $_token = new Http\sanctum();
+            $token = $_token->getToken();
+            $_get_avaliable_subject= $this->_fetching_sql_model_data->get_user_subcribed_subjects();
+            $data =
+            [
+                'auth'=>($authenticateUser ?? ''),
+                '_token'=>$token,
+                'data'=> $_get_avaliable_subject,
+            ];
+            $this->view("index", $data); 
+        }       
     }
 
     public function clone(){
@@ -57,18 +63,9 @@ final class PagesController extends Controller {
         }
     }
 
-
-    public function Login(){
-
-        $this->view("auth/Login");
-    }
-
-
     public function lookup(){
-
         $this->view("en/Find_institute");
     }
-
 
     public function journals(){
 

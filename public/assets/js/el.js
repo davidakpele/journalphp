@@ -1,77 +1,27 @@
-var subjectSideBar = '', currentURL, url, dataList, headerName, protocol, hostname, port, pathname, search, hash, pathnameSegments, libraryPort, subjectPort, isLoading, currentPage, sidebar, content, checkPost_status, lib, sub, book, sh, csrf_token, data, read, response, pOSTurl, xhr, newData, obj;
+import auth from './class/validate';
+
+var subjectSideBar = '', myAuthObject, headers, obj, get_category, currentURL, url, dataList, headerName, protocol, hostname, port, pathname, search, hash, pathnameSegments, libraryPort, subjectPort, isLoading, currentPage, sidebar, content, checkPost_status, lib, sub, book, sh, csrf_token, data, read, response, pOSTurl, xhr, newData, obj;
 // Get the current timestamp
 const timestamp = new Date().getTime();
 currentURL = window.location.href; url = new URL(currentURL); protocol = url.protocol; hostname = url.hostname; port = url.port; pathname = url.pathname; search = url.search; hash = url.hash;pathnameSegments = pathname.slice(1).split('/'); libraryPort = pathnameSegments[2]; subjectPort = pathnameSegments[4]; isLoading = false; currentPage = 1; sidebar = document.getElementById('Content_Sidebar');content = document.querySelector('.bookshelf');
 document.getElementById('spinnerLoad').style.display = 'block';
 document.getElementById('loadMoreButton').textContent = 'Loading...';
 document.getElementById('loading').style.display = 'block';
-xhr = new XMLHttpRequest();
+var xhr = new XMLHttpRequest();
+function generateRandomToken() {
+  // Generate a random token using the crypto API
+  const randomBytes = new Uint8Array(16);
+  crypto.getRandomValues(randomBytes);
 
-function load_categories() {
-    //fetch sidebar categories
-    pOSTurl = "getCategoryList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4];
-    xhr.open('GET', root_url + 'api/apicontext?'+pOSTurl);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            get_category = xhr.response;
-            obj = JSON.parse(get_category).data;
-            headerName = obj.subject;
-            dataList = obj.data;
-            document.querySelector('.category-name').innerHTML = headerName.subjects_name;
-            $('.category_list').empty();
-            dataList.forEach(function (res) {
-                $('.category_list').append(`
-                    <li class="subject-bookcase-list-item"> 
-                        <a href="${root_url}libraries/${headerName.package_id}/subjects/${headerName.subjectid}/bookcases/${res.categoriesid}/?sort=title" id="ember1124" 
-                        class="${pathnameSegments[4] !=null && pathnameSegments[6] !=null  && res.categoriesid === pathnameSegments[6] ? "active":""} ember-view">${res.categories_name}</a> 
-                    </li>
-                `)
-            });
-        }
-    }
-    xhr.send();
+  // Convert the random bytes to a hexadecimal string
+  const token = Array.from(randomBytes)
+    .map(byte => byte.toString(16).padStart(2, '0'))
+    .join('');
+
+  // Insert dashes at specific positions to match the desired format
+  return `${token.substr(0, 8)}-${token.substr(8, 4)}-${token.substr(12, 4)}-${token.substr(12, 4)}-${token.substr(20)}`;
 }
-
-function load_bookcases() {
-    //fetch bookcases
-    pOSTurl = "getbookcaseList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4]+'&bookcases='+pathnameSegments[6];
-    xhr.open('GET', root_url + 'api/apicontext?'+pOSTurl);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            get_bookcases = xhr.response;
-            obj = JSON.parse(get_bookcases).data;
-            headerName = obj.category;
-            document.querySelector('.bookcaseHeaderName').innerHTML = headerName.categories_name;
-            $('.bookcaseList').empty();
-            dataList = obj.bookcases;
-            dataList.forEach(function (res) {
-                $('.bookcaseList').append(`
-                 <li class="bookcase-bookshelf-list-item">
-                    <a href="${root_url}libraries/${res.package_id}/subjects/${res.subjectid}/bookcases/${res.categoriesid}/bookshelves/${res.bookshelvesid}/?sort=title" id="ember1119" 
-                    class="${pathnameSegments[4] !=null && pathnameSegments[6] !=null  && res.bookshelvesid === pathnameSegments[8] ? "active":""} ember-view" tabindex="0" style="font-size:18px;color: #666;">
-                        <span>${res.bookshelves_name}</span>
-                    </a>
-                    <div id="ember1126" class="ember-view"></div>
-                </li>
-                `)
-            });
-        }
-    }
-    xhr.send();
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    //Uncomment this section if you want to use javascript to load sidebar on subject page, [categories and bookcases]
-    // if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
-    //     load_categories();
-    // } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] !=null && pathnameSegments[1] !=null && pathnameSegments[3] =="subjects" && pathnameSegments[7] =="" || pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
-    //     load_categories();
-    //     setTimeout(load_bookcases, 1000); 
-    // } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] != null && pathnameSegments[1] != null && pathnameSegments[3] == "subjects" && pathnameSegments[7] != null || pathnameSegments[7] != "" && pathnameSegments[7] == "bookshelves" && pathnameSegments[8] != null || pathnameSegments[8] !="") {
-    //     load_categories();
-    //     setTimeout(load_bookcases, 1000); 
-    // }
-});
+var Bearer = generateRandomToken();
 function generateRandomString(length) {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';
@@ -89,9 +39,82 @@ function generateToken(length) {
 }
 const secureToken = generateToken(16);
 
-const get_journals =async () => {
+
+function load_categories() {
+    //fetch sidebar categories
+    pOSTurl = "getCategoryList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4];
+    xhr.open('GET', root_url + 'api/apicontext?' + pOSTurl);
+    xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            get_category = xhr.response;
+            obj = JSON.parse(get_category).data;
+            headerName = obj.subject;
+            dataList = obj.data;
+            // document.querySelector('.category-name').innerHTML = headerName.subjects_name;
+            // $('.category_list').empty();
+            // dataList.forEach(function (res) {
+            //     $('.category_list').append(`
+            //         <li class="subject-bookcase-list-item"> 
+            //             <a href="${root_url}libraries/${headerName.package_id}/subjects/${headerName.subjectid}/bookcases/${res.categoriesid}/?sort=title" id="ember1124" 
+            //             class="${pathnameSegments[4] !=null && pathnameSegments[6] !=null  && res.categoriesid === pathnameSegments[6] ? "active":""} ember-view">${res.categories_name}</a> 
+            //         </li>
+            //     `)
+            // });
+        }
+    }
+    xhr.send();
+}
+
+function load_bookcases() {
+    //fetch bookcases
+    pOSTurl = "getbookcaseList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4]+'&bookcases='+pathnameSegments[6];
+    xhr.open('GET', root_url + 'api/apicontext?' + pOSTurl);
+    xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            get_bookcases = xhr.response;
+            obj = JSON.parse(get_bookcases).data;
+            headerName = obj.category;
+            // document.querySelector('.bookcaseHeaderName').innerHTML = headerName.categories_name;
+            // $('.bookcaseList').empty();
+            // dataList = obj.bookcases;
+            // dataList.forEach(function (res) {
+            //     $('.bookcaseList').append(`
+            //      <li class="bookcase-bookshelf-list-item">
+            //         <a href="${root_url}libraries/${res.package_id}/subjects/${res.subjectid}/bookcases/${res.categoriesid}/bookshelves/${res.bookshelvesid}/?sort=title" id="ember1119" 
+            //         class="${pathnameSegments[4] !=null && pathnameSegments[6] !=null  && res.bookshelvesid === pathnameSegments[8] ? "active":""} ember-view" tabindex="0" style="font-size:18px;color: #666;">
+            //             <span>${res.bookshelves_name}</span>
+            //         </a>
+            //         <div id="ember1126" class="ember-view"></div>
+            //     </li>
+            //     `)
+            // });
+        }
+    }
+    xhr.send();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    //Uncomment this section if you want to use javascript to load sidebar on subject page, [categories and bookcases]
+    if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
+        load_categories();
+    } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] !=null && pathnameSegments[1] !=null && pathnameSegments[3] =="subjects" && pathnameSegments[7] =="" || pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
+        load_categories();
+        setTimeout(load_bookcases, 1000); 
+    } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] != null && pathnameSegments[1] != null && pathnameSegments[3] == "subjects" && pathnameSegments[7] != null || pathnameSegments[7] != "" && pathnameSegments[7] == "bookshelves" && pathnameSegments[8] != null || pathnameSegments[8] !="") {
+        load_categories();
+        setTimeout(load_bookcases, 1000); 
+    }
+});
+
+const get_journals = async () => {
     try {
-        response = await fetch(root_url+"api/csrf_token");
+        headers = new Headers();
+        myAuthObject = new auth();
+        headers.append('Authorization', 'Bearer '+tsrpc+'');
+        // Fetch data from the PHP script
+        response = await fetch(root_url+"api/csrf_token", {headers: headers});
         // Check if the response status is OK
         if (!response.ok) {
             throw new Error(`Network response was not OK: ${response.status}`);
@@ -117,6 +140,8 @@ const get_journals =async () => {
             
             pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
             xhr.open('GET', root_url+'api/apicontext?'+pOSTurl+'&collect='+timestamp+'&page=' + currentPage+'&v=1&_v='+randomString+'&t=timing&en='+secureToken, true);
+            // Set the 'Authorization' header
+            xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     newData = xhr.responseText;
@@ -184,10 +209,11 @@ function fetchMoreData() {
                 }
             } 
         }
-        csrf_token = 'b24efe8e-40f5-11ee-aa1b-e442a6933c18';
+        csrf_token = Bearer;
         pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
         // Make an AJAX request to fetch new data from the server
-        xhr.open('GET', root_url+'api/apicontext?'+pOSTurl+'&page=' + currentPage, true);
+        xhr.open('GET', root_url + 'api/apicontext?' + pOSTurl + '&page=' + currentPage, true);
+        xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status == 200) {
                 newData = xhr.responseText;
@@ -240,7 +266,9 @@ window.addEventListener('scroll', function () {
 });
 // Add a click event listener to the "Load More" button
 document.getElementById('loadMoreButton').addEventListener('click', fetchMoreData);
-document.querySelector('.login-institute').addEventListener('click',function (e){
-    e.preventDefault();
-    window.location.href= root_url+'auth/login'
+$('document').ready(function () {
+    $('.auth_user_').click(function (e) {
+        e.preventDefault();
+        window.location.href= root_url+'auth/login'
+    })
 })

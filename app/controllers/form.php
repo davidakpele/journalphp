@@ -7,7 +7,9 @@ final class form extends Controller
     }
     public function index(){
         if (isset($_POST['submit'])) {
-            
+            $_SESSION['registered_institution_token']='8779898';
+            $_SESSION['userId']="300";
+            $_SESSION['packageId']='603';
            $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
            if (is_uploaded_file($_FILES['file']['tmp_name'])){
             if (isset($_FILES['file']['name']) != ''){
