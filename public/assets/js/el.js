@@ -39,7 +39,21 @@ function generateToken(length) {
 }
 const secureToken = generateToken(16);
 
-
+function logout() {
+    xhr.open('POST', root_url + 'auth/logout');
+    xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            get_init = xhr.response;
+            obj = JSON.parse(get_init).data;
+            if (obj.status == 200) {
+               window.location = root_url; 
+            }
+            return false;
+        }
+    }
+    xhr.send();
+}
 function load_categories() {
     //fetch sidebar categories
     pOSTurl = "getCategoryList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4];
@@ -266,9 +280,11 @@ window.addEventListener('scroll', function () {
 });
 // Add a click event listener to the "Load More" button
 document.getElementById('loadMoreButton').addEventListener('click', fetchMoreData);
+
 $('document').ready(function () {
-    $('.auth_user_').click(function (e) {
+    $('#logout_user').click(function (e) {
+        myAuthObject = new auth();
         e.preventDefault();
-        window.location.href= root_url+'auth/login'
+        myAuthObject.logout();
     })
 })

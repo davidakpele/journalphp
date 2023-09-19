@@ -1,7 +1,7 @@
 <li class="filter-container" style="margin-top:-10px !important">
     <span class=" results-label-header">Results</span>
     <div class="filters">
-        <div aria-label="See all Subjects and Journals" tabindex="0" class="filter all active tabindex" onclick="view_All_Search()" id="default_active">
+        <div aria-label="See all Subjects and Journals" tabindex="0" onclick="view_All_Search()" class="filter all active tabindex view_All_Search" id="default_active">
             <div class="label icon flaticon solid article-2"> All Results</div>
         </div>
         <div aria-label="See all Subjects only" tabindex="0" class="filter subjects tabindex " onclick="view_Only_Subjects()" id="subject_active">

@@ -1,13 +1,13 @@
-
+@font-face {font-weight: 400;font-style: normal;font-family: circular;src: url('../fonts/CircularXXWeb-Book.woff2') format('woff2');}
 .login-widget-g {
     position: relative;
     max-width: 450px;
     margin: 0 auto;
     border-radius: 8px;
     border: 1px solid #dadce0;
-    padding: auto;
     padding: 25px 25px 25px 25px;
     height: 505px;
+    background-image: url(../);
 }
 .mini-container{
     margin-top: 150px;
@@ -204,4 +204,39 @@ a:hover {
     .errorMsg1, .errorMsg2 {
         font-size: 10px;
     }
+}
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-right: 15px;
+    margin-top: -32px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.error-search:after {
+    position: fixed;
+    left: 600px;
+    top: 0;
+    bottom: 0;
+    width: 30rem;
+    background: rgba(255, 255, 255, .25);
+    box-sizing: border-box;
+    z-index: -1;
+    content: '';
+}
+label{
+    max-width: 100%;
+    font-weight: 700;
+}
+.group-inputs label {
+    font-size: 13px;
+    position: absolute;
+    height: 19px;
+    padding: 4px 7px;
+    top: -14px;
+    left: 10px;
+    color: #a2a2a2;
+    background-color: white;
 }

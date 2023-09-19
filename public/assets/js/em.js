@@ -1,6 +1,6 @@
 import auth from './class/validate';
 var xhr, get_init, read, data, csrf_token, headers, getdata, items, _items, obj, myAuthObject, response;
-var xhr = new XMLHttpRequest();
+xhr = new XMLHttpRequest();
 // Asynchronous function to fetch data
 const getData = async () => {
     try {
@@ -42,30 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(getData, 2000); // 5000 milliseconds = 5 seconds
 });
 
-
-function logout() {
-    xhr.open('POST', root_url + 'auth/logout');
-    xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            get_init = xhr.response;
-            obj = JSON.parse(get_init).data;
-            if (obj.status == 200) {
-               window.location = root_url; 
-            }
-            return false;
-        }
-    }
-    xhr.send();
-}
-$('document').ready(function (e) {
-    $('#logout_user').click(function () {
-        logout()
-    })
-   $('document').ready(function () {
-        $('.auth_user_').click(function (e) {
-            e.preventDefault();
-            window.location.href= root_url+'auth/login'
-        })
+$('document').ready(function () {
+    $('#logout_user').click(function (e) {
+        myAuthObject = new auth();
+        e.preventDefault();
+        myAuthObject.logout();
     })
 })
