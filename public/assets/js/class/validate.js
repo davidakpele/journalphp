@@ -36,7 +36,7 @@ class auth {
           get_init = xhr.response;
           obj = JSON.parse(get_init).data;
           if (obj.status === 200) {
-              window.location = root_url; 
+              window.location = root_url+'/auth/login/';  
           }
           return false;
         }

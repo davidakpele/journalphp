@@ -13,14 +13,11 @@ function generateRandomToken() {
   // Generate a random token using the crypto API
   const randomBytes = new Uint8Array(16);
   crypto.getRandomValues(randomBytes);
-
-  // Convert the random bytes to a hexadecimal string
   const token = Array.from(randomBytes)
     .map(byte => byte.toString(16).padStart(2, '0'))
     .join('');
+  return `${token.substr(0, 6)}-${token.substr(8, 8)}-${token.substr(12, 4)}-${token.substr(12, 6)}-${token.substr(20)}`;
 
-  // Insert dashes at specific positions to match the desired format
-  return `${token.substr(0, 8)}-${token.substr(8, 4)}-${token.substr(12, 4)}-${token.substr(12, 4)}-${token.substr(20)}`;
 }
 var Bearer = generateRandomToken();
 function generateRandomString(length) {
@@ -32,6 +29,7 @@ function generateRandomString(length) {
     }
     return result;
 }
+console.log(Bearer);
 const randomString = generateRandomString(25);
 function generateToken(length) {
     const array = new Uint8Array(length);
@@ -39,7 +37,7 @@ function generateToken(length) {
     return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('');
 }
 const secureToken = generateToken(16);
-
+;
 function logout() {
     xhr.open('POST', root_url + 'auth/logout');
     xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
@@ -48,7 +46,7 @@ function logout() {
             get_init = xhr.response;
             obj = JSON.parse(get_init).data;
             if (obj.status == 200) {
-               window.location = root_url; 
+               window.location = root_url+'/auth/login/'; 
             }
             return false;
         }
@@ -142,7 +140,6 @@ const get_journals = async () => {
                     }
                     "getbookcases=true&library=603&subject=101&bookcases=1&token=jdDi4w1/al9W1k=QJej7I+M1A62+2idJcaJ0Lzp5Ftc65x9WmiIg0wYl1sc2JmYl4w9+cY1pJRDAYUYD232w0YclxY6AwaW8YoWng/d5fwmt7Mct4jY0/cMjYDDMadmtm9jsPAPaA79Wj7Y2FkaAj8xlphNAaJ6RMIMs83tte018L6w5LAojPvtRDoBAY2dR56095+SFsn9enOmiLF3MNcIwLcJACCYi7vhAAbbDs7ty13fAAN6U9wcUbm0+ncCY4b+nvenBzyjWqDlxwNkl1NwqAF1eIYFt57nbAe5banFN77+MfU4Lfw6wt92PwzOFM6ML9MpIhtaf2maM2MonWxoSWIW1WtnbwsjFS8eaxbWV2RA7cAZiXmhqRAAakfmnAx5oNFIlPg0IY5fwkDp3=8MI9MI+vWajJ4F2F1kd2lIwfqU6FRCWilRIIa+kABZ0hU7+Yl5wY7wzhIoWiDliw2eabJLRzbXj4k2d27B=5wxdhqo6eimt="
                     pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
-                    console.log([pOSTurl]);
                     xhr.open('GET', root_url + 'api/collect?iat=sort&action=true&target=dataContext&' + pOSTurl + '&collect=' + timestamp + '&page=' + currentPage + '&v=1&_v=' + randomString + '&t=timing&en=' + secureToken, true);
                     xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
                     xhr.onreadystatechange = function () {

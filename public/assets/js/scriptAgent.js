@@ -132,6 +132,7 @@ $('document').ready(function () {
                         async: true,
                         cache: false,
                         processData: true,
+                        headers: {'Authorization': 'Bearer ' + userDetailsToken + ''}
                     }).then((data) => {
                         $('#ember1178').hide();
                         $('.clearer').show();
@@ -175,6 +176,7 @@ $('document').ready(function () {
                         async: true,
                         cache: false,
                         processData: true,
+                        headers: {'Authorization': 'Bearer ' + userDetailsToken + ''}
                     }).then((data) => {
                         $('#ember1178').hide();
                         $('.clearer').show();

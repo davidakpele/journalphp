@@ -34,8 +34,6 @@ final class PagesController extends Controller {
         }       
     }
 
-
-
     public function lookup(){
         $this->view("en/Find_institute");
     }
@@ -49,7 +47,6 @@ final class PagesController extends Controller {
             $this->view("libraries/journal");
         }
     }
-
 
     public function subject(){
         $authClass= new Auth\authentication;
