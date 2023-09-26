@@ -70,7 +70,7 @@
     /** @noinspection PhpVoidFunctionResultUsedInspection */
     public function get_user_subcribed_subjects(){
         $user_subcribed_package_id='603';
-        $this->_connect_db->query(/** @lang text */"SELECT * FROM `subjects` WHERE package_id=:user_subcribed_package_id");
+        $this->_connect_db->query(/** @lang text */"SELECT subjectid,package_id,subjects_name FROM `subjects` WHERE package_id=:user_subcribed_package_id");
         $this->_connect_db->bind(':user_subcribed_package_id', $user_subcribed_package_id);
         $data = $this->_connect_db->resultSet();
         if (!empty($data)) {
@@ -115,7 +115,7 @@
     }
 
    /** @noinspection PhpVoidFunctionResultUsedInspection */
-    public function get_journal_on_bookcase($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases, $offset, $itemsPerPage){
+    public function get_journal_on_bookcase($package, $subject, $category_as_bookcases, $offset, $itemsPerPage){
         $data = [];
         // set the default timezone to use.
         date_default_timezone_set('UTC');
@@ -126,32 +126,6 @@
         $this->_connect_db->bind(':itemsPerPage', $itemsPerPage);
         $this->_connect_db->bind(':category_as_bookcases', $category_as_bookcases);
         $data['data']['journalList']= $this->_connect_db->resultSet();
-        $data["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];
-        $data["States"][]=array("ct", "ca", "va","co", "ut");
-        $data["LanguageSwitcherPlaceholder"]= ["hi"=>"hi","ps"=>"ps","pt"=>"pt","hr"=>"hr","hu"=>"hu","yi"=>"yi","hy"=>"hy","yo"=>"yo","id"=>"id","af"=>"af","is"=>"is","it"=>"it","am"=>"am","zh"=>"zh","ar"=>"ar","ja"=>"ja","az"=>"az","zu"=>"zu","ro"=>"ro","ru"=>"ru","be"=>"be","bg"=>"bg","jv"=>"jv","bn"=>"bn","sd"=>"sd","bs"=>"bs","deflt"=> "en","si"=>"si","ka"=>"ka","sk"=>"sk","sl"=>"sl","sm"=>"sm","sn"=>"sn","so"=>"so","ca"=>"ca","sq"=>"sq","sr"=>"sr","kk"=>"kk","st"=>"st","kl"=>"kl","su"=>"su","km"=>"km","sv"=>"sv","kn"=>"kn","sw"=>"sw","ko"=>"ko","kr"=>"kr","ku"=>"ku","co"=>"co","ta"=>"ta","ky"=>"ky","cs"=>"cs","te"=>"te","tg"=>"tg","th"=>"th","cy"=>"cy","lb"=>"lb","tl"=>"tl","da"=>"da","tr"=>"tr","tt"=>"tt","de"=>"de","lo"=>"lo","lt"=>"lt","lv"=>"lv","uk"=>"uk","me"=>"me","mg"=>"mg","mi"=>"mi","ur"=>"ur","mk"=>"mk","ml"=>"ml","mn"=>"mn","uz"=>"uz","mr"=>"mr","ms"=>"ms","mt"=>"mt","el"=>"el","eo"=>"eo","my"=>"my","es"=>"es","et"=>"et","eu"=>"eu","vi"=>"vi","ne"=>"ne","fa"=>"fa","nl"=>"nl","no"=>"no","fi"=>"fi","fr"=>"fr","ga"=>"ga","gd"=>"gd","gl"=>"gl","gu"=>"gu","xh"=>"xh","pa"=>"pa","ha"=>"ha","pl"=>"pl","he"=>"he"];
-        $data['CookieSPAEnabled']= 'false';
-        $data['CookieSameSiteNoneEnabled']= 'false';
-        $data['CookieV2CSPEnabled']= 'false';
-        $data['UseV2']= 'true';
-        $data['MobileSDK']= 'false';
-        $data['SkipGeolocation']= 'false';
-        $data['ScriptType']= 'PRODUCTION';
-        $data['Version']= date('l');
-        $data['RuleSet'][]['id']=$formattedUid;
-        $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
-        $data['BannerPushesDown']='false';
-        $data['Default']='true';
-        $data['Global']='false';
-        $data['Type']='true';
-        $data['OptanonDataJSON']= $formattedUuid;
-        $data['UseGoogleVendors']='false';
-        $data['VariantEnabled']='false';
-        $data['TestEndTime']='null';
-        $data['Variants']=[];
-        $data['TemplateName']="General Opt-In Template";
-        $data['Conditions']=[];
-        $data['GCEnable']='false';
-        $data['IsGPPEnabled']="false";
         $data['rowCount']=$this->_connect_db->rowCount();
         if (!empty($data)) {
            return $data;
@@ -160,7 +134,7 @@
         }
     }
     /** @noinspection PhpVoidFunctionResultUsedInspection */
-    public function get_journal_on_bookshelves($formattedUid,$formattedUuid, $package, $subject, $category_as_bookcases, $bookshelvesid, $offset, $itemsPerPage){
+    public function get_journal_on_bookshelves($package, $subject, $category_as_bookcases, $bookshelvesid, $offset, $itemsPerPage){
         $data = [];
         // set the default timezone to use.
         date_default_timezone_set('UTC');
@@ -172,33 +146,6 @@
         $this->_connect_db->bind(':offset', $offset);
         $this->_connect_db->bind(':itemsPerPage', $itemsPerPage);
         $data['data']['journalList']= $this->_connect_db->resultSet();
-        $data["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];
-        $data["States"][]=array("ct", "ca", "va","co", "ut");
-        $data["LanguageSwitcherPlaceholder"]= ["hi"=>"hi","ps"=>"ps","pt"=>"pt","hr"=>"hr","hu"=>"hu","yi"=>"yi","hy"=>"hy","yo"=>"yo","id"=>"id","af"=>"af","is"=>"is","it"=>"it","am"=>"am","zh"=>"zh","ar"=>"ar","ja"=>"ja","az"=>"az","zu"=>"zu","ro"=>"ro","ru"=>"ru","be"=>"be","bg"=>"bg","jv"=>"jv","bn"=>"bn","sd"=>"sd","bs"=>"bs","deflt"=> "en","si"=>"si","ka"=>"ka","sk"=>"sk","sl"=>"sl","sm"=>"sm","sn"=>"sn","so"=>"so","ca"=>"ca","sq"=>"sq","sr"=>"sr","kk"=>"kk","st"=>"st","kl"=>"kl","su"=>"su","km"=>"km","sv"=>"sv","kn"=>"kn","sw"=>"sw","ko"=>"ko","kr"=>"kr","ku"=>"ku","co"=>"co","ta"=>"ta","ky"=>"ky","cs"=>"cs","te"=>"te","tg"=>"tg","th"=>"th","cy"=>"cy","lb"=>"lb","tl"=>"tl","da"=>"da","tr"=>"tr","tt"=>"tt","de"=>"de","lo"=>"lo","lt"=>"lt","lv"=>"lv","uk"=>"uk","me"=>"me","mg"=>"mg","mi"=>"mi","ur"=>"ur","mk"=>"mk","ml"=>"ml","mn"=>"mn","uz"=>"uz","mr"=>"mr","ms"=>"ms","mt"=>"mt","el"=>"el","eo"=>"eo","my"=>"my","es"=>"es","et"=>"et","eu"=>"eu","vi"=>"vi","ne"=>"ne","fa"=>"fa","nl"=>"nl","no"=>"no","fi"=>"fi","fr"=>"fr","ga"=>"ga","gd"=>"gd","gl"=>"gl","gu"=>"gu","xh"=>"xh","pa"=>"pa","ha"=>"ha","pl"=>"pl","he"=>"he"];
-        $data['CookieSPAEnabled']= 'false';
-        $data['CookieSameSiteNoneEnabled']= 'false';
-        $data['CookieV2CSPEnabled']= 'false';
-        $data['UseV2']= 'true';
-        $data['MobileSDK']= 'false';
-        $data['SkipGeolocation']= 'false';
-        $data['ScriptType']= 'PRODUCTION';
-        $data['Version']= date('l');
-        $data['RuleSet'][]['id']=$formattedUid;
-        $data['GeolocationUrl']= "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location";
-        $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
-        $data['BannerPushesDown']='false';
-        $data['Default']='true';
-        $data['Global']='false';
-        $data['Type']='true';
-        $data['OptanonDataJSON']= $formattedUuid;
-        $data['UseGoogleVendors']='false';
-        $data['VariantEnabled']='false';
-        $data['TestEndTime']='null';
-        $data['Variants']=[];
-        $data['TemplateName']="General Opt-In Template";
-        $data['Conditions']=[];
-        $data['GCEnable']='false';
-        $data['IsGPPEnabled']="false";
         $data['rowCount']=$this->_connect_db->rowCount();
         if (!empty($data)) {
            return $data;
@@ -207,7 +154,7 @@
         }
     }
     /** @noinspection PhpVoidFunctionResultUsedInspection */
-    public function get_all_journal_by_category($formattedUid, $formattedUuid, $package, $subject, $offset, $itemsPerPage){
+    public function get_all_journal_by_category($package, $subject, $offset, $itemsPerPage){
         $data = [];
         // set the default timezone to use.
         date_default_timezone_set('UTC');
@@ -217,33 +164,6 @@
         $this->_connect_db->bind(':offset', $offset);
         $this->_connect_db->bind(':itemsPerPage', $itemsPerPage);
         $data['data']['journalList']= $this->_connect_db->resultSet();
-        $data["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];
-        $data["States"][]=array("ct", "ca", "va","co", "ut");
-        $data["LanguageSwitcherPlaceholder"]= ["hi"=>"hi","ps"=>"ps","pt"=>"pt","hr"=>"hr","hu"=>"hu","yi"=>"yi","hy"=>"hy","yo"=>"yo","id"=>"id","af"=>"af","is"=>"is","it"=>"it","am"=>"am","zh"=>"zh","ar"=>"ar","ja"=>"ja","az"=>"az","zu"=>"zu","ro"=>"ro","ru"=>"ru","be"=>"be","bg"=>"bg","jv"=>"jv","bn"=>"bn","sd"=>"sd","bs"=>"bs","deflt"=> "en","si"=>"si","ka"=>"ka","sk"=>"sk","sl"=>"sl","sm"=>"sm","sn"=>"sn","so"=>"so","ca"=>"ca","sq"=>"sq","sr"=>"sr","kk"=>"kk","st"=>"st","kl"=>"kl","su"=>"su","km"=>"km","sv"=>"sv","kn"=>"kn","sw"=>"sw","ko"=>"ko","kr"=>"kr","ku"=>"ku","co"=>"co","ta"=>"ta","ky"=>"ky","cs"=>"cs","te"=>"te","tg"=>"tg","th"=>"th","cy"=>"cy","lb"=>"lb","tl"=>"tl","da"=>"da","tr"=>"tr","tt"=>"tt","de"=>"de","lo"=>"lo","lt"=>"lt","lv"=>"lv","uk"=>"uk","me"=>"me","mg"=>"mg","mi"=>"mi","ur"=>"ur","mk"=>"mk","ml"=>"ml","mn"=>"mn","uz"=>"uz","mr"=>"mr","ms"=>"ms","mt"=>"mt","el"=>"el","eo"=>"eo","my"=>"my","es"=>"es","et"=>"et","eu"=>"eu","vi"=>"vi","ne"=>"ne","fa"=>"fa","nl"=>"nl","no"=>"no","fi"=>"fi","fr"=>"fr","ga"=>"ga","gd"=>"gd","gl"=>"gl","gu"=>"gu","xh"=>"xh","pa"=>"pa","ha"=>"ha","pl"=>"pl","he"=>"he"];
-        $data['CookieSPAEnabled']= 'false';
-        $data['CookieSameSiteNoneEnabled']= 'false';
-        $data['CookieV2CSPEnabled']= 'false';
-        $data['UseV2']= 'true';
-        $data['MobileSDK']= 'false';
-        $data['SkipGeolocation']= 'false';
-        $data['ScriptType']= 'PRODUCTION';
-        $data['Version']= date('l');
-        $data['RuleSet'][]['id']=$formattedUid;
-        $data['GeolocationUrl']= "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location";
-        $data['BulkDomainCheckUrl']= "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck";
-        $data['BannerPushesDown']='false';
-        $data['Default']='true';
-        $data['Global']='false';
-        $data['Type']='true';
-        $data['OptanonDataJSON']= $formattedUuid;
-        $data['UseGoogleVendors']='false';
-        $data['VariantEnabled']='false';
-        $data['TestEndTime']='null';
-        $data['Variants']=[];
-        $data['TemplateName']="General Opt-In Template";
-        $data['Conditions']=[];
-        $data['GCEnable']='false';
-        $data['IsGPPEnabled']="false";
         $data['rowCount']=$this->_connect_db->rowCount();
         if (!empty($data)) {
            return $data;
@@ -318,10 +238,13 @@
         return $responses;
     }
 
-    public function isVerifyAuthUser($Bearer_token){
-        $this->_connect_db->query('SELECT * FROM `user_subscription` WHERE user_token=:Bearer_token');
+    public function isVerifyAuthUser($iss, $aud, $iat){
+        $this->_connect_db->query('SELECT a.institution_email, a.user_id, b.* FROM users a inner join user_subscription b 
+        on a.user_id = b.user_id WHERE a.institution_email = :iss AND b.package_id=:aud AND b.user_token=:iat');
         // Bind the values
-        $this->_connect_db->bind(':Bearer_token', $Bearer_token);
+        $this->_connect_db->bind(':iss', $iss);
+        $this->_connect_db->bind(':aud', $aud);
+        $this->_connect_db->bind(':iat', $iat);
         $row = $this->_connect_db->single();
         if (!empty($row)) {
             return true;

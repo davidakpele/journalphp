@@ -8368,7 +8368,7 @@
         font-size: 10px
     }
     #locale-en-us .subjects-search-container {
-        padding: 0 6%;
+        padding: 0 6% 6px;
         height: 5.4em
     }
     .__884f2 .menu.showing,
@@ -8426,7 +8426,7 @@
         display: none;
     }
     .clone_result.subjects-search-container {
-        padding: 0 6%;
+        padding: 0 6% 6px;
         height: 5.4em;
     }
     .clone_result.search-pane-container.subjects .filter-container {
@@ -8474,7 +8474,7 @@
         font-size: 10px
     }
     .subjects-search-container {
-        padding: 0 6%;
+        padding: 0 6% 6px;
         height: 5.4em
     }
     .subjects-search-sub-head {
@@ -8620,7 +8620,7 @@
     }
    
     .subjects-search-container {
-        padding: 0 6%;
+        padding: 0 6% 6px;
         height: 5.4em;
     }
     .subjects-search-sub-head {

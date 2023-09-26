@@ -31,9 +31,8 @@
         <link rel="stylesheet" type="text/css" href="<?=ASSETS?>css/style.css">
         <script src="<?=ASSETS?>js/vendor-55566347b8eb7cb5a2e40b5c0177bc16.js"></script>
         <script async="" src="<?=ASSETS?>js/analytics.js"></script>
-        <script async="" src="<?=ASSETS?>js/scriptAgent.js"></script>
         <script>
             const root_url="<?=ROOT?>";
-            <?php $this->view("./token/Bearer");?>
+            let brandingBarUrl ="";
         </script>
     </head>

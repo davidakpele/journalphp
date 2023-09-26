@@ -55,23 +55,17 @@ function validata_api_request_header(){
     header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
     if ($_SERVER['REQUEST_METHOD']=='OPTIONS') {
-		$response=
-		[
-			"status"=> http_response_code(401),
-			"title"=> "Authentication Error",
-			"detail"=> "Something went wrong with authentication to your SkyBase library.",
-			"code"=> "generic_authentication_error"
-		];
-        echo json_encode(error_log_auth());
-        return false;
+		header('HTTP/1.1 401 Unauthorized');
+        error_log_auth();
     }else{
         return true;
     }
 }
 
 function error_log_auth(){
+	header('HTTP/1.1 401 Unauthorized');
 	$response=
-	[
+	[ 
 		"status"=> http_response_code(401),
 		"title"=> "Authentication Error",
 		"detail"=> "Something went wrong with authentication to your SkyBase library.",

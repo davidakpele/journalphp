@@ -1,4 +1,5 @@
 import auth from './class/validate';
+import chain from './class/SecurityFilterChain'; 
 
 var subjectSideBar = '', myAuthObject, headers, obj, get_category, currentURL, url, dataList, headerName, protocol, hostname, port, pathname, search, hash, pathnameSegments, libraryPort, subjectPort, isLoading, currentPage, sidebar, content, checkPost_status, lib, sub, book, sh, csrf_token, data, read, response, pOSTurl, xhr, newData, obj;
 // Get the current timestamp
@@ -54,59 +55,44 @@ function logout() {
     }
     xhr.send();
 }
+ 
 function load_categories() {
     //fetch sidebar categories
-    pOSTurl = "getCategoryList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4];
-    xhr.open('GET', root_url + 'api/apicontext?' + pOSTurl);
-    xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            get_category = xhr.response;
-            obj = JSON.parse(get_category).data;
-            headerName = obj.subject;
-            dataList = obj.data;
-            // document.querySelector('.category-name').innerHTML = headerName.subjects_name;
-            // $('.category_list').empty();
-            // dataList.forEach(function (res) {
-            //     $('.category_list').append(`
-            //         <li class="subject-bookcase-list-item"> 
-            //             <a href="${root_url}libraries/${headerName.package_id}/subjects/${headerName.subjectid}/bookcases/${res.categoriesid}/?sort=title" id="ember1124" 
-            //             class="${pathnameSegments[4] !=null && pathnameSegments[6] !=null  && res.categoriesid === pathnameSegments[6] ? "active":""} ember-view">${res.categories_name}</a> 
-            //         </li>
-            //     `)
-            // });
+    var tokenChain = new chain();
+    tokenChain.getHeader().then((e) => {
+      var  userDetailsToken = e.v;
+        pOSTurl = "iat=sort&action=true&target=getCategoryListOnparent&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4]+'&getCategoryList=true';
+        xhr.open('GET', root_url + 'api/collect?' + pOSTurl);
+        xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                get_category = xhr.response;
+                obj = JSON.parse(get_category).data;
+                headerName = obj.subject;
+                dataList = obj.data;
+            }
         }
-    }
-    xhr.send();
+        xhr.send();
+    });
 }
 
 function load_bookcases() {
     //fetch bookcases
-    pOSTurl = "getbookcaseList=true&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4]+'&bookcases='+pathnameSegments[6];
-    xhr.open('GET', root_url + 'api/apicontext?' + pOSTurl);
-    xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            get_bookcases = xhr.response;
-            obj = JSON.parse(get_bookcases).data;
-            headerName = obj.category;
-            // document.querySelector('.bookcaseHeaderName').innerHTML = headerName.categories_name;
-            // $('.bookcaseList').empty();
-            // dataList = obj.bookcases;
-            // dataList.forEach(function (res) {
-            //     $('.bookcaseList').append(`
-            //      <li class="bookcase-bookshelf-list-item">
-            //         <a href="${root_url}libraries/${res.package_id}/subjects/${res.subjectid}/bookcases/${res.categoriesid}/bookshelves/${res.bookshelvesid}/?sort=title" id="ember1119" 
-            //         class="${pathnameSegments[4] !=null && pathnameSegments[6] !=null  && res.bookshelvesid === pathnameSegments[8] ? "active":""} ember-view" tabindex="0" style="font-size:18px;color: #666;">
-            //             <span>${res.bookshelves_name}</span>
-            //         </a>
-            //         <div id="ember1126" class="ember-view"></div>
-            //     </li>
-            //     `)
-            // });
+    var tokenChain = new chain();
+    tokenChain.getHeader().then((e) => {
+        var userDetailsToken = e.v;
+        pOSTurl = "iat=sort&action=true&target=getCategoryListOnparentChild&library=" + pathnameSegments[2] + "&subject=" + pathnameSegments[4] + '&bookcases=' + pathnameSegments[6] +'&getbookcaseList=true';
+        xhr.open('GET', root_url + 'api/collect?' + pOSTurl);
+        xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var  get_bookcases = xhr.response;
+                obj = JSON.parse(get_bookcases).data;
+                headerName = obj.category;
+            }
         }
-    }
-    xhr.send();
+        xhr.send();
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -124,19 +110,101 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const get_journals = async () => {
     try {
-        headers = new Headers();
-        myAuthObject = new auth();
-        headers.append('Authorization', 'Bearer '+tsrpc+'');
-        // Fetch data from the PHP script
-        response = await fetch(root_url+"api/csrf_token", {headers: headers});
-        // Check if the response status is OK
-        if (!response.ok) {
-            throw new Error(`Network response was not OK: ${response.status}`);
-        } else {
-            // Parse the response as text
-            data = await response.text();
-            read= JSON.parse(data);
-            csrf_token = read._token;
+        var tokenChain = new chain();
+        tokenChain.getHeader().then((e) => {
+            var userDetailsToken = e.v;
+            const crsf_token_fetch = async() => {
+                headers = new Headers();
+                myAuthObject = new auth();
+                headers.append('Authorization', 'Bearer '+userDetailsToken+'');
+                response = await fetch(root_url + "api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT", { headers: headers });
+                 // Check if the response status is OK
+                if (!response.ok) {
+                    throw new Error(`Network response was not OK: ${response.status}`);
+                } else {
+                    // Parse the response as text
+                    data = await response.text();
+                    read= JSON.parse(data);
+                    csrf_token = read._token;
+                    if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
+                        lib = pathnameSegments[2]; sub = pathnameSegments[4];
+                        checkPost_status = 1;
+                    } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] !=null && pathnameSegments[1] !=null && pathnameSegments[3] =="subjects" && pathnameSegments[7] =="" || pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
+                        lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6];                      
+                        checkPost_status = 2;
+                    } else {
+                        if (pathnameSegments[6] !== "") {
+                            if (pathnameSegments[5] =="bookcases" && pathnameSegments[7] =="bookshelves" && pathnameSegments[5] !=null && pathnameSegments[7] !=null) {
+                                lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6]; sh = pathnameSegments[8];                        
+                                checkPost_status = 3;
+                            }
+                        }
+                    }
+                    "getbookcases=true&library=603&subject=101&bookcases=1&token=jdDi4w1/al9W1k=QJej7I+M1A62+2idJcaJ0Lzp5Ftc65x9WmiIg0wYl1sc2JmYl4w9+cY1pJRDAYUYD232w0YclxY6AwaW8YoWng/d5fwmt7Mct4jY0/cMjYDDMadmtm9jsPAPaA79Wj7Y2FkaAj8xlphNAaJ6RMIMs83tte018L6w5LAojPvtRDoBAY2dR56095+SFsn9enOmiLF3MNcIwLcJACCYi7vhAAbbDs7ty13fAAN6U9wcUbm0+ncCY4b+nvenBzyjWqDlxwNkl1NwqAF1eIYFt57nbAe5banFN77+MfU4Lfw6wt92PwzOFM6ML9MpIhtaf2maM2MonWxoSWIW1WtnbwsjFS8eaxbWV2RA7cAZiXmhqRAAakfmnAx5oNFIlPg0IY5fwkDp3=8MI9MI+vWajJ4F2F1kd2lIwfqU6FRCWilRIIa+kABZ0hU7+Yl5wY7wzhIoWiDliw2eabJLRzbXj4k2d27B=5wxdhqo6eimt="
+                    pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
+                    console.log([pOSTurl]);
+                    xhr.open('GET', root_url + 'api/collect?iat=sort&action=true&target=dataContext&' + pOSTurl + '&collect=' + timestamp + '&page=' + currentPage + '&v=1&_v=' + randomString + '&t=timing&en=' + secureToken, true);
+                    xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState == 4 && xhr.status == 200) {
+                            newData = xhr.responseText;
+                            obj = JSON.parse(newData)._items;
+                            $('.bookshelf').empty();
+                            obj.data.journalList.forEach(function (CallRecieve) {
+                                $('.bookshelf').append(`
+                                <li class="bookshelf-journal-list-item">
+                                    <div id="ember8270" class="ember-view">
+                                        <a href="${root_url}libraries/${libraryPort}/journals/${CallRecieve.journalid}/?sort=title" id="ember8271" class="bookshelf-journal ember-view" tabindex="0">
+                                            <div id="ember8272" class="journal-cover __771d8 ember-view">
+                                                <div class="image-container">
+                                                    <img src="${root_url}${CallRecieve.imagedata}" alt="${CallRecieve.journal_name}" title="${CallRecieve.journal_name}">
+                                                </div>
+                                            </div>
+                                            <div title="${CallRecieve.journal_name}" class="bookshelf-journal-title">${CallRecieve.journal_name}</div>
+                                        </a>
+                                    </div>
+                                </li>
+                                `);
+                            });
+                            isLoading = false;
+                            currentPage++;
+                            document.getElementById('spinnerLoad').style.display = 'none';
+                            document.getElementById('loadMoreButton').textContent = 'Load More';
+                            // Get the element with the class "message"
+                            const messageElement = document.querySelector('.message');
+                            const ErrormessageElement = document.querySelector('.error-msg');
+                            (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
+                        }
+                    };
+                xhr.send();
+                }
+            }
+            crsf_token_fetch();
+        });
+   
+    } catch (error) {
+        throw new Error(`Network response was not OK: ${error}`);
+    }
+}
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(get_journals, 2000); // 3000 milliseconds = 3 seconds
+});
+
+function fetchMoreData() {
+    var tokenChain = new chain();
+    tokenChain.getHeader().then((e) => {
+        var userDetailsToken = e.v;
+        if (isLoading) return;
+        isLoading = true;
+        document.getElementById('spinnerLoad').style.display = 'block';
+        document.getElementById('loadMoreButton').textContent = 'Loading...';
+        document.getElementById('loading').style.display = 'block';
+        document.querySelector('.error-msg').style.display = 'none';
+        var button=   document.getElementById('loadMoreButton');
+        if (button.classList.contains('primary')) {
+            button.classList.remove('primary');
+        }
+        setTimeout(() => {
             if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
                 lib = pathnameSegments[2]; sub = pathnameSegments[4];
                 checkPost_status = 1;
@@ -149,85 +217,13 @@ const get_journals = async () => {
                         lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6]; sh = pathnameSegments[8];                        
                         checkPost_status = 3;
                     }
-                }
+                } 
             }
-            
-            pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
-            xhr.open('GET', root_url+'api/apicontext?'+pOSTurl+'&collect='+timestamp+'&page=' + currentPage+'&v=1&_v='+randomString+'&t=timing&en='+secureToken, true);
-            // Set the 'Authorization' header
-            xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    newData = xhr.responseText;
-                    obj = JSON.parse(newData)._items;
-                    $('.bookshelf').empty();
-                    obj.data.journalList.forEach(function (CallRecieve) {
-                        $('.bookshelf').append(`
-                        <li class="bookshelf-journal-list-item">
-                            <div id="ember8270" class="ember-view">
-                                <a href="${root_url}libraries/${libraryPort}/journals/${CallRecieve.journalid}/?sort=title" id="ember8271" class="bookshelf-journal ember-view" tabindex="0">
-                                    <div id="ember8272" class="journal-cover __771d8 ember-view">
-                                        <div class="image-container">
-                                            <img src="${root_url}${CallRecieve.imagedata}" alt="${CallRecieve.journal_name}" title="${CallRecieve.journal_name}">
-                                        </div>
-                                    </div>
-                                    <div title="${CallRecieve.journal_name}" class="bookshelf-journal-title">${CallRecieve.journal_name}</div>
-                                </a>
-                            </div>
-                        </li>
-                        `);
-                    });
-                    isLoading = false;
-                    currentPage++;
-                    document.getElementById('spinnerLoad').style.display = 'none';
-                    document.getElementById('loadMoreButton').textContent = 'Load More';
-                    // Get the element with the class "message"
-                    const messageElement = document.querySelector('.message');
-                    const ErrormessageElement = document.querySelector('.error-msg');
-                    (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
-                }
-            };
-        xhr.send();
-        }
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
-}
-document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(get_journals, 2000); // 3000 milliseconds = 3 seconds
-});
-
-function fetchMoreData() {
-    if (isLoading) return;
-    isLoading = true;
-    document.getElementById('spinnerLoad').style.display = 'block';
-    document.getElementById('loadMoreButton').textContent = 'Loading...';
-    document.getElementById('loading').style.display = 'block';
-    document.querySelector('.error-msg').style.display = 'none';
-    var button=   document.getElementById('loadMoreButton');
-   if (button.classList.contains('primary')) {
-        button.classList.remove('primary');
-    } 
-    setTimeout(() => {
-        if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
-            lib = pathnameSegments[2]; sub = pathnameSegments[4];
-            checkPost_status = 1;
-        } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] !=null && pathnameSegments[1] !=null && pathnameSegments[3] =="subjects" && pathnameSegments[7] =="" || pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
-            lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6];                      
-            checkPost_status = 2;
-        }else {
-            if (pathnameSegments[6] !== "") {
-                if (pathnameSegments[5] =="bookcases" && pathnameSegments[7] =="bookshelves" && pathnameSegments[5] !=null && pathnameSegments[7] !=null) {
-                    lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6]; sh = pathnameSegments[8];                        
-                    checkPost_status = 3;
-                }
-            } 
-        }
         csrf_token = Bearer;
         pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
         // Make an AJAX request to fetch new data from the server
-        xhr.open('GET', root_url + 'api/apicontext?' + pOSTurl + '&page=' + currentPage, true);
-        xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
+        xhr.open('GET', root_url + 'api/collect?iat=sort&action=true&target=getAllJournal&' + pOSTurl + '&page=' + currentPage, true);
+        xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status == 200) {
                 newData = xhr.responseText;
@@ -264,6 +260,7 @@ function fetchMoreData() {
         };
         xhr.send();
     }, 1000);
+    });
 }
 // Add a scroll event listener to trigger fetching new data when the user scrolls to the bottom
 sidebar.addEventListener('scroll', function() {
@@ -272,12 +269,12 @@ sidebar.addEventListener('scroll', function() {
         document.getElementById('spinnerLoad').style.display = 'none';
     }
 });
-window.addEventListener('scroll', function () {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-        document.getElementById('loading').style.display = 'block';
-        document.getElementById('spinnerLoad').style.display = 'none';
-    }
-});
+// window.addEventListener('scroll', function () {
+//     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+//         document.getElementById('loading').style.display = 'block';
+//         document.getElementById('spinnerLoad').style.display = 'none';
+//     }
+// });
 // Add a click event listener to the "Load More" button
 document.getElementById('loadMoreButton').addEventListener('click', fetchMoreData);
 

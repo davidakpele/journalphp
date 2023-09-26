@@ -10,6 +10,7 @@ final class auth extends Controller
     }
 
     public function index(){
+        
         $authClass= new Auth\authentication;
         $authenticateUser = $authClass->auth_check();
         if (!$authenticateUser) {
@@ -19,7 +20,7 @@ final class auth extends Controller
             ];
             $this->view("auth/Login", $data);
         }else{
-            redirect('Default/');
+            redirect('Default/libraries/'.$_SESSION['packageId'].'/subjects?sort=title');
         }
     }
     public function loginuser(){
@@ -50,6 +51,7 @@ final class auth extends Controller
                     $_SESSION['userId']=$getinfo->user_id;
                     $_SESSION['packageId']=$getinfo->package_id;
                     $_SESSION['session_token']=$getinfo->user_token;
+                    $_SESSION['institution_email']=$getinfo->institution_email;
                     $response['status']= http_response_code(200);
                 }
             }else {

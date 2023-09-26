@@ -1,165 +1,194 @@
-function view_All_Search(){
-    $.ajax({
-        type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
-        dataType: 'JSON',
-        contentType: "application/json; charset=utf-8",
-        data: 'encrypted', // our data object
-        url: root_url+'api/csrf_token', // the url where we want to POST
-        processData: false,
-        encode: true,
-        crossOrigin: true,
-        async: true,
-        crossDomain: true,
-        headers: {
-            'Authorization': 'Bearer '+tsrpc+'',
-            'Content-Type': 'application/json'
-        },
-    }).then((response) => {
-        const input = $('#ember650').val();
-        if (response.status === 200) {
-            if (input =="") {
-                return false;
-            }
+getHeader = async () => {
+    var response, data, readText;
+    var headers = new Headers();
+    headers.append('Authorization', 'Bearer M1iZ89-lx84jO24-e3fW-sQ9u3-kq012A');
+    response = await fetch(root_url + "api/collect?iat=sort&action=true&target=central&v2=rgstr", { headers: headers });
+    if (!response.ok) {
+        throw new Error(`Network response was not OK: ${response.status}`);
+    } else {
+        // Parse the response as text
+        data = await response.text();
+        readText = JSON.parse(data);
+        return (readText);
+    }
+}
+$('document').ready(function () {
+    $('.view_All_Search').click(function (e) {
+        e.preventDefault();
+        getHeader().then((e) => {
+            var userDetailsToken = e.v;
+            $.ajax({
+                type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
+                dataType: 'JSON',
+                contentType: "application/json; charset=utf-8",
+                data: '[object object]', // our data object
+                url: root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', // the url where we want to POST
+                processData: false,
+                encode: true,
+                crossOrigin: true,
+                async: true,
+                crossDomain: true,
+                headers: {
+                    'Authorization': 'Bearer ' + userDetailsToken + '',
+                    'Content-Type': 'application/json'
+                },
+            }).then((response) => {
+                const input = $('#ember650').val();
+                if (response.status === 200) {
+                    if (input == "") {
+                        return false;
+                    }
+                    const Http = new XMLHttpRequest();
+                    const postData = { "data": response._token, "_data": input }
+                    Http.open("POST", root_url + 'api/collect?iat=sort&action=true&target=search&requestField='+postData+'', true);
+                    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                    Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
+                    Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+                    Http.send(JSON.stringify(postData));
+                    Http.onreadystatechange = function (e) {
+                        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
+                            var result = JSON.parse(Http.responseText);
+                            const strjson = { "data": result.data, "encrypted": response._token };
+                            if (result.inc == true) {
+                                $.ajax({
+                                    url: root_url + 'api/collect?iat=sort&action=true&target=renderresults',
+                                    type: "GET",
+                                    data: strjson,
+                                    crossDomain: true,
+                                    dataType: 'html',
+                                    crossOrigin: true,
+                                    async: true,
+                                    cache: false,
+                                    processData: true,
+                                    headers: {
+                                        'Authorization': 'Bearer ' + userDetailsToken + '',
+                                    }
+                                }).then((data) => {
+                                    const subject_span = document.getElementById('subj_holder');
+                                    if (window.innerWidth > 1025) {
+                                        if (subject_span.classList.contains('visibility-hidden')) {
+                                            subject_span.classList.remove('visibility-hidden');
+                                            //$('#browser_hf').show();
+                                        }
+                                    }
+                                    else {
+                                        if (!subject_span.classList.contains('visibility-hidden')) {
+                                            subject_span.classList.add('visibility-hidden');
+                                            //$('#browser_hf').hide();
+                                        }
+                                    }
+                                    $('#ember1178').hide();
+                                    $('.clearer').show();
+                                    $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                                    $('#search_result').empty();
+                                    $('#search_result').append(data);
+                                })
+                            } else {
+                                $('#ember1178').hide();
+                                $('.clearer').show();
+                                $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                                $('#search_result').empty();
+                                $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “' + input.value + '”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
+                            }
+                        }
+                    }
+                } else {
+                    return false;
+                }
+            }).fail((xhr, error) => {
+                console.log(error);
+            });
+        });
+
+    })
+    $('#subject_active').click(function (p) {
+        p.preventDefault();
+        getHeader().then((e) => {
+            var userDetailsToken = e.v;
+            const input = $('#ember650').val();
             const Http = new XMLHttpRequest();
-            const postData = { "data": response._token, "_data": input }
-            Http.open("POST", root_url+'api/getsearch', true);
+            const data = { "data": '[object object]', "_data": input }
+            Http.open("POST", root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', true);
             Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-            Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
-            Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-            Http.send(JSON.stringify(postData));
+            Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
+            Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+            Http.send(JSON.stringify(data));
             Http.onreadystatechange = function (e) {
-                if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
+                if (Http.readyState === 4 && Http.status === 200 && Http.responseText) {
                     var result = JSON.parse(Http.responseText);
-                    const strjson = { "data": result.data, "encrypted": response._token };
-                    if (result.inc == true) {
-                        $.ajax({
-                            url: root_url+'PagesController/clone',
-                            type: "GET",
-                            data: strjson,
-                            crossDomain: true,
-                            dataType: 'html',
-                            crossOrigin: true,
-                            async: true,
-                            cache: false,
-                            processData: true,
-                            headers: {
-                                'Authorization': 'Bearer '+tsrpc+'',
-                            }
-                        }).then((data) => {
-                            const subject_span = document.getElementById('subj_holder');
-                            if(window.innerWidth > 1025) {
-                                if (subject_span.classList.contains('visibility-hidden')) {
-                                    subject_span.classList.remove('visibility-hidden');
-                                    //$('#browser_hf').show();
-                                }
-                            }
-                            else {
-                                if (!subject_span.classList.contains('visibility-hidden')) {
-                                    subject_span.classList.add('visibility-hidden');
-                                    //$('#browser_hf').hide();
-                                }
-                            }
-                            $('#ember1178').hide();
-                            $('.clearer').show();
-                            $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                            $('#search_result').empty();
-                            $('#search_result').append(data);
-                        })
-                    } else {
+                    const token = result._token;
+                    const input = $('#ember650').val();
+                    if (input === "") {
+                        return false;
+                    }
+                    const postData = { "encrypted": token, "data": input }
+                    $.ajax({
+                        url: root_url + 'api/collect?iat=sort&action=true&target=subjects&filter=subjectsOnly',
+                        type: "POST",
+                        data: postData,
+                        crossDomain: true,
+                        dataType: 'html',
+                        crossOrigin: true,
+                        async: true,
+                        cache: false,
+                        processData: true,
+                    }).then((data) => {
                         $('#ember1178').hide();
                         $('.clearer').show();
                         $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
                         $('#search_result').empty();
-                        $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
-                    }
+                        $('#search_result').append(data);
+                    })
                 }
             }
-        } else {
-            return false;
-        }
-    }).fail((xhr, error) => {
-        console.log(error);
+        });
+
+    })
+    $('#journal_active').click(function (p) {
+        p.preventDefault();
+        getHeader().then((e) => {
+            var userDetailsToken = e.v;
+            const input = $('#ember650').val();
+            const Http = new XMLHttpRequest();
+            const data = { "data": '[object object]', "_data": input }
+            Http.open("POST", root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', true);
+            Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
+            Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+            Http.send(JSON.stringify(data));
+            Http.onreadystatechange = function (e) {
+                if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
+                    var result = JSON.parse(Http.responseText);
+                    const token = result._token;
+                    const input = $('#ember650').val();
+                    if (input == "") {
+                        return false;
+                    }
+                    const postData = { "encrypted": token, "data": input }
+                    $.ajax({
+                        url: root_url + 'api/collect?iat=sort&action=true&target=journals&filter=journalsOnly',
+                        type: "POST",
+                        data: postData,
+                        crossDomain: true,
+                        dataType: 'html',
+                        crossOrigin: true,
+                        async: true,
+                        cache: false,
+                        processData: true,
+                    }).then((data) => {
+                        $('#ember1178').hide();
+                        $('.clearer').show();
+                        $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                        $('#search_result').empty();
+                        $('#search_result').append(data);
+                    })
+                }
+            }
+        });
     });
-}
+});
 
-function view_Only_Subjects () {
 
-    const input = $('#ember650').val();
-    const Http = new XMLHttpRequest();
-    const data = { "data": 'encrypted', "_data": input }
-    Http.open("POST", root_url + 'api/csrf_token', true);
-    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    Http.send(JSON.stringify(data));
-    Http.onreadystatechange = function (e) {
-        if (Http.readyState === 4 && Http.status === 200 && Http.responseText) {
-            var result = JSON.parse(Http.responseText);
-            const token = result._token;
-            const input = $('#ember650').val();
-            if (input ==="") {
-                return false;
-            }
-            const postData = { "encrypted": token, "data": input }
-            $.ajax({
-                url: root_url+'PagesController/getsubjects',
-                type: "POST",
-                data: postData,
-                crossDomain: true,
-                dataType: 'html',
-                crossOrigin: true,
-                async: true,
-                cache: false,
-                processData: true,
-            }).then((data) => {
-                $('#ember1178').hide();
-                $('.clearer').show();
-                $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                $('#search_result').empty();
-                $('#search_result').append(data);
-            })
-        }
-    }
-}
-
-function view_Only_Jounals() {
-    const input = $('#ember650').val();
-    const Http = new XMLHttpRequest();
-    const data = { "data": 'encrypted', "_data": input }
-    Http.open("POST", root_url + 'api/csrf_token', true);
-    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
-    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-    Http.send(JSON.stringify(data));
-    Http.onreadystatechange = function (e) {
-        if (Http.readyState == 4 && Http.status == 200 && Http.responseText) {
-            var result = JSON.parse(Http.responseText);
-            const token = result._token;
-            const input = $('#ember650').val();
-            if (input =="") {
-                return false;
-            }
-            const postData = { "encrypted": token, "data": input }
-            $.ajax({
-                url: root_url+'PagesController/getjournals',
-                type: "POST",
-                data: postData,
-                crossDomain: true,
-                dataType: 'html',
-                crossOrigin: true,
-                async: true,
-                cache: false,
-                processData: true,
-            }).then((data) => {
-                $('#ember1178').hide();
-                $('.clearer').show();
-                $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                $('#search_result').empty();
-                $('#search_result').append(data);
-            })
-        }
-    }
-}
 
 
 function wayfinderHosted() {
@@ -205,11 +234,58 @@ function wayfinderHosted() {
         sd = 'ar_AR', td = '47FD4E1A34BCE9138FDA77C949A2A80A', ud = 'pt', vd = '494C94A4E8E172DB90776F75580E7BCC',
         wd = '4CCD4B5F525674621B9A9E9877839812', xd = 'es', yd = '4DB50B29D740A57B623DA7D8AA6B8615',
         zd = '4ECB34D48318D606D5C147FD543CC9FB', Ad = 'zh_CN', Bd = '5F4C7A417FDF2309429C5C5DBD1AD2BA',
-        Cd = '61C001CB12281CA2CDB030DE5970CB6F', Dd = '61FFBFF256DC3E7E20AA0A4C040F4446', Ed = '627FB5D352841A5289907FB1C8CCED94', Fd = '65D0A7E4E7D912F70977F293FAC22B99', Gd = '66279C53DB218C47D0488E47956B266A', Hd = '675C829C1A394A7E42DB4A6567A34C38', Id = 'en_US', Jd = '681E8F80D4E1787CB291E440CFCF07B9', Kd = '682022400F9428C4A29558BE30D8E571', Ld = '69CFB892D64B91A2DA7EAA637FD71701', Md = '6B035E3A0EE23BB1CA994EE3C28A52FA', Nd = '6BB24C571804159BFDF7B8A00249F682', Od = 'it', Pd = '6E5123512AB1F9E521EF7D6A3315C6EB', Qd = 'es_ES', Rd = '72068FFD95F86EBF634777D2235CA1EB', Sd = '7C4CC32AB563BB01F5DEC8488618044E', Td = 'fr_FR', Ud = '7EE182441FBA806E00772889D0213F0E', Vd = '81761D264DE13110E2059C1021D09FBD', Wd = '81AF0C99722C42AC4F24660E1C940243', Xd = '82CA9331EA0823FD00AC52F6B0678F2B', Yd = '8A6A6421E9C3CF65B501A262F845C020', Zd = '8AE5388B466BE20CF210931ABDDD0C83', $d = '8B0C30AE1AD2D2F9954DE63C5835867D', _d = '8B7BDFE83B74995A941539BCFD029CB2', ae = '8F71C02251741217A3EFBCBA45FE40D8', be = '9310ED88AD5624CB6ACD1A948BAC8B1D', ce = 'tl', de = 'A35FA15108A1A5F1494E30A70C542EA9', ee = 'tl_PH', fe = 'A720C651C330738C24C8438FCACF7629', ge = 'AA693F9D8CB93031E86856D34EE1784A', he = 'AAF8F2EDA3970CD5AF40B84750D22955', ie = 'AC4A89946CB123ED9D567AAB409007E4', je = 'ADDAB3AC5C095E4A19D0F91F69C58D68', ke = 'fr', le = 'B0D41B7657756E685CBCD0E2F59F69E0', me = 'B1503CBD92EBB55E4733616AE1964A31', ne = 'de_DE', oe = 'B55EFDC3C13C788728EFAF1E6B69A287', pe = 'B5A9BBB7926736A9E312186FD0541378', qe = 'B64D2FE0615E11BCD1FCA3EE5C375663', re = 'B9E7CE40A60D6EAEC1B843A4D6038A94', se = 'BB55032974F5F01F881AD0E508261C89', te = 'BC4E6911CDC682D83AC64CEBD24F53FF', ue = 'BE2569C3C6D71B149046E7E0AE3320BF', ve = 'CA803D4A4DC9304652E6E55F8CE8BE47', we = 'CE293F5B50650E06935E8C1B9EBEEDE4', xe = 'CF092C03D7F352E7C114234E5D2F9C6E', ye = 'D5F6F0932F7EDAED6A525FD91ECEEA32', ze = 'D6F01D78A1F633D10D92BD520FB8F90C', Ae = 'DA3E01A50432C6AFE509C5CB65EC0589', Be = 'DCDF18A01073318CA8CADBDE5F4FE807', Ce = 'DD575A3B270BAA3F456854D2BCEC3D49', De = 'DF0D7D187801A3ADBDAF5C21332CF19F', Ee = 'E03E0D8059195E1C154CF764EE40EF0B', Fe = 'E22430FEA6A7215B2C237A5C7193EEEC', Ge = 'E7405574A62C4D065D25381387B9110F', He = 'E836A2B88F2FBD0DAE40EF285E8C4F1F', Ie = 'EBD1831BF32794C541D770AEC61C16A6', Je = 'ED9738FFB28E34B88AC5ED35ABF68C05', Ke = 'EF5FE0CA1C20BC573B84EB0003EF9C8A', Le = 'F2F682A0BC2675BCD1520B084AE84813', Me = 'F314B64B6A3386B0E70ADCE27BB9CCF7', Ne = 'F54E6942501C49069058405FAFCFFCD3', Oe = 'FA47486721753E599C714FC0245FC402', Pe = 'FDEEC03A7930D5699FF35AB83E8A5385', Qe = 'FFE8EC8D07653B3B93F57B343C7736B8', Re = ':',
-        Se = '.cache.js', Te = 'loadExternalRefs', Ue = 'end', Ve = 'http:', We = 'file:', Xe = '_gwt_dummy_', Ye = '__gwtDevModeHook:wayfinderHosted', Ze = 'Ignoring non-whitelisted Dev Mode URL: ', $e = ':moduleBase'; var q = window; var r = document; t(Q, R); function s() { var a = q.location.search; return a.indexOf(S) != -1 || a.indexOf(T) != -1 }
-    function t(a, b) { if (q.__gwtStatsEvent) { q.__gwtStatsEvent({ moduleName: U, sessionId: q.__gwtStatsSessionId, subSystem: V, evtGroup: a, millis: (new Date).getTime(), type: b }) } }
-    wayfinderHosted.__sendStats = t; wayfinderHosted.__moduleName = U; wayfinderHosted.__errFn = null; wayfinderHosted.__moduleBase = W; wayfinderHosted.__softPermutationId = X; wayfinderHosted.__computePropValue = null; wayfinderHosted.__getPropMap = null; wayfinderHosted.__installRunAsyncCode = function () { }; wayfinderHosted.__gwtStartLoadingFragment = function () { return null }; wayfinderHosted.__gwt_isKnownPropertyValue = function () { return false }; wayfinderHosted.__gwt_getMetaProperty = function () { return null }; var u = null; var v = q.__gwt_activeModules = q.__gwt_activeModules || {}; v[U] = { moduleName: U }; wayfinderHosted.__moduleStartupDone = function (e) { var f = v[U].bindings; v[U].bindings = function () { var a = f ? f() : {}; var b = e[wayfinderHosted.__softPermutationId]; for (var c = X; c < b.length; c++) { var d = b[c]; a[d[X]] = d[Y] } return a } }; var w; function A() { B(); return w }
-    function B() { if (w) { return } var a = r.createElement(Z); a.id = U; a.style.cssText = $ + _; a.setAttribute(ab, bb); a.title = cb; a.tabIndex = -1; r.body.appendChild(a); w = a.contentWindow.document; w.open(); var b = document.compatMode == db ? eb : fb; w.write(b + gb); w.close() }
+        Cd = '61C001CB12281CA2CDB030DE5970CB6F', Dd = '61FFBFF256DC3E7E20AA0A4C040F4446',
+        Ed = '627FB5D352841A5289907FB1C8CCED94', Fd = '65D0A7E4E7D912F70977F293FAC22B99',
+        Gd = '66279C53DB218C47D0488E47956B266A', Hd = '675C829C1A394A7E42DB4A6567A34C38',
+        Id = 'en_US', Jd = '681E8F80D4E1787CB291E440CFCF07B9', Kd = '682022400F9428C4A29558BE30D8E571',
+        Ld = '69CFB892D64B91A2DA7EAA637FD71701', Md = '6B035E3A0EE23BB1CA994EE3C28A52FA',
+        Nd = '6BB24C571804159BFDF7B8A00249F682', Od = 'it', Pd = '6E5123512AB1F9E521EF7D6A3315C6EB',
+        Qd = 'es_ES', Rd = '72068FFD95F86EBF634777D2235CA1EB', Sd = '7C4CC32AB563BB01F5DEC8488618044E',
+        Td = 'fr_FR', Ud = '7EE182441FBA806E00772889D0213F0E', Vd = '',
+        Wd = '81AF0C99722C42AC4F24660E1C940243', Xd = '82CA9331EA0823FD00AC52F6B0678F2B',
+        Yd = '8A6A6421E9C3CF65B501A262F845C020', Zd = '8AE5388B466BE20CF210931ABDDD0C83',
+        $d = '8B0C30AE1AD2D2F9954DE63C5835867D', _d = '8B7BDFE83B74995A941539BCFD029CB2',
+        ae = '8F71C02251741217A3EFBCBA45FE40D8', be = '9310ED88AD5624CB6ACD1A948BAC8B1D', ce = 'tl',
+        de = 'A35FA15108A1A5F1494E30A70C542EA9', ee = 'tl_PH', fe = 'A720C651C330738C24C8438FCACF7629',
+        ge = 'AA693F9D8CB93031E86856D34EE1784A', he = 'AAF8F2EDA3970CD5AF40B84750D22955',
+        ie = 'AC4A89946CB123ED9D567AAB409007E4', je = 'ADDAB3AC5C095E4A19D0F91F69C58D68',
+        ke = 'fr', le = 'B0D41B7657756E685CBCD0E2F59F69E0', me = 'B1503CBD92EBB55E4733616AE1964A31',
+        ne = 'de_DE', oe = 'B55EFDC3C13C788728EFAF1E6B69A287', pe = 'B5A9BBB7926736A9E312186FD0541378',
+        qe = 'B64D2FE0615E11BCD1FCA3EE5C375663', re = 'B9E7CE40A60D6EAEC1B843A4D6038A94', se = 'BB55032974F5F01F881AD0E508261C89',
+        te = 'BC4E6911CDC682D83AC64CEBD24F53FF', ue = 'BE2569C3C6D71B149046E7E0AE3320BF', ve = 'CA803D4A4DC9304652E6E55F8CE8BE47',
+        we = 'CE293F5B50650E06935E8C1B9EBEEDE4', xe = 'CF092C03D7F352E7C114234E5D2F9C6E', ye = 'D5F6F0932F7EDAED6A525FD91ECEEA32',
+        ze = 'D6F01D78A1F633D10D92BD520FB8F90C', Ae = 'DA3E01A50432C6AFE509C5CB65EC0589', Be = 'DCDF18A01073318CA8CADBDE5F4FE807',
+        Ce = 'DD575A3B270BAA3F456854D2BCEC3D49', De = 'DF0D7D187801A3ADBDAF5C21332CF19F', Ee = 'E03E0D8059195E1C154CF764EE40EF0B',
+        Fe = 'E22430FEA6A7215B2C237A5C7193EEEC', Ge = 'E7405574A62C4D065D25381387B9110F', He = 'E836A2B88F2FBD0DAE40EF285E8C4F1F',
+        Ie = 'EBD1831BF32794C541D770AEC61C16A6', Je = 'ED9738FFB28E34B88AC5ED35ABF68C05', Ke = 'EF5FE0CA1C20BC573B84EB0003EF9C8A',
+        Le = 'F2F682A0BC2675BCD1520B084AE84813', Me = 'F314B64B6A3386B0E70ADCE27BB9CCF7',
+        Ne = 'F54E6942501C49069058405FAFCFFCD3', Oe = 'FA47486721753E599C714FC0245FC402', Pe = 'FDEEC03A7930D5699FF35AB83E8A5385',
+        Qe = 'FFE8EC8D07653B3B93F57B343C7736B8', Re = ':',
+        Se = root_url+'public/assets/js/cache.js', Te = 'loadExternalRefs', Ue = 'end', Ve = 'http:', We = 'file:', Xe = '_gwt_dummy_', Ye = '__gwtDevModeHook:wayfinderHosted',
+        Ze = 'Ignoring non-whitelisted Dev Mode URL: ', $e = ':moduleBase'; var q = window; var r = document; t(Q, R); function s() {
+            var a = q.location.search;
+            return a.indexOf(S) != -1 || a.indexOf(T) != -1
+        }
+    function t(a, b) {
+        if (q.__gwtStatsEvent) {
+            q.__gwtStatsEvent({ moduleName: U, sessionId: q.__gwtStatsSessionId, subSystem: V, evtGroup: a, millis: (new Date).getTime(), type: b })
+        }
+    }
+    wayfinderHosted.__sendStats = t; wayfinderHosted.__moduleName = U; wayfinderHosted.__errFn = null; wayfinderHosted.__moduleBase = W;
+    wayfinderHosted.__softPermutationId = X; wayfinderHosted.__computePropValue = null; wayfinderHosted.__getPropMap = null;
+    wayfinderHosted.__installRunAsyncCode = function () { }; wayfinderHosted.__gwtStartLoadingFragment = function () { return null };
+    wayfinderHosted.__gwt_isKnownPropertyValue = function () { return false }; wayfinderHosted.__gwt_getMetaProperty = function () { return null };
+    var u = null; var v = q.__gwt_activeModules = q.__gwt_activeModules || {}; v[U] = { moduleName: U };
+    wayfinderHosted.__moduleStartupDone = function (e) {
+        var f = v[U].bindings; v[U].bindings = function () {
+            var a = f ? f() : {};
+            var b = e[wayfinderHosted.__softPermutationId]; for (var c = X; c < b.length; c++) { var d = b[c]; a[d[X]] = d[Y] } return a
+        }
+    }; var w; function A() { B(); return w }
+    function B() {
+        if (w) { return } var a = r.createElement(Z); a.id = U; a.style.cssText = $ + _; a.setAttribute(ab, bb); a.title = cb; a.tabIndex = -1;
+        r.body.appendChild(a); w = a.contentWindow.document; w.open(); var b = document.compatMode == db ? eb : fb; w.write(b + gb); w.close()
+    }
     function C(k) {
         function l(a) {
             function b() { if (typeof r.readyState == hb) { return typeof r.body != hb && r.body != null } return /loaded|complete/.test(r.readyState) }
@@ -218,11 +294,40 @@ function wayfinderHosted() {
         }
         function m(c) {
             function d(a, b) { a.removeChild(b) }
-            var e = A(); var f = e.body; var g; if (navigator.userAgent.indexOf(kb) > -1 && window.JSON) { var h = e.createDocumentFragment(); h.appendChild(e.createTextNode(lb)); for (var i = X; i < c.length; i++) { var j = window.JSON.stringify(c[i]); h.appendChild(e.createTextNode(j.substring(Y, j.length - Y))) } h.appendChild(e.createTextNode(mb)); g = e.createElement(nb); g.language = ob; g.appendChild(h); f.appendChild(g); d(f, g) } else { for (var i = X; i < c.length; i++) { g = e.createElement(nb); g.language = ob; g.text = c[i]; f.appendChild(g); d(f, g) } }
+            var e = A(); var f = e.body; var g; if (navigator.userAgent.indexOf(kb) > -1 && window.JSON) {
+                var h = e.createDocumentFragment();
+                h.appendChild(e.createTextNode(lb)); for (var i = X; i < c.length; i++) {
+                    var j = window.JSON.stringify(c[i]);
+                    h.appendChild(e.createTextNode(j.substring(Y, j.length - Y)))
+                } h.appendChild(e.createTextNode(mb)); g = e.createElement(nb); g.language = ob; g.appendChild(h);
+                f.appendChild(g); d(f, g)
+            } else {
+                for (var i = X; i < c.length; i++) {
+                    g = e.createElement(nb); g.language = ob; g.text = c[i];
+                    f.appendChild(g); d(f, g)
+                }
+            }
         }
-        wayfinderHosted.onScriptDownloaded = function (a) { l(function () { m(a) }) }; t(pb, qb); var n = r.createElement(nb); n.src = k; if (wayfinderHosted.__errFn) { n.onerror = function () { wayfinderHosted.__errFn(U, new Error(rb + code)) } } r.getElementsByTagName(sb)[X].appendChild(n)
+        wayfinderHosted.onScriptDownloaded = function (a) { l(function () { m(a) }) }; t(pb, qb);
+        var n = r.createElement(nb); n.src = k; if (wayfinderHosted.__errFn) { n.onerror = function () { wayfinderHosted.__errFn(U, new Error(rb + code)) } } r.getElementsByTagName(sb)[X].appendChild(n)
     }
-    wayfinderHosted.__startLoadingFragment = function (a) { return G(a) }; wayfinderHosted.__installRunAsyncCode = function (a) { var b = A(); var c = b.body; var d = b.createElement(nb); d.language = ob; d.text = a; c.appendChild(d); c.removeChild(d) }; function D() { var c = {}; var d; var e; var f = r.getElementsByTagName(tb); for (var g = X, h = f.length; g < h; ++g) { var i = f[g], j = i.getAttribute(ub), k; if (j) { j = j.replace(vb, fb); if (j.indexOf(wb) >= X) { continue } if (j == xb) { k = i.getAttribute(yb); if (k) { var l, m = k.indexOf(zb); if (m >= X) { j = k.substring(X, m); l = k.substring(m + Y) } else { j = k; l = fb } c[j] = l } } else if (j == Ab) { k = i.getAttribute(yb); if (k) { try { d = eval(k) } catch (a) { alert(Bb + k + Cb) } } } else if (j == Db) { k = i.getAttribute(yb); if (k) { try { e = eval(k) } catch (a) { alert(Bb + k + Eb) } } } } } __gwt_getMetaProperty = function (a) { var b = c[a]; return b == null ? null : b }; u = d; wayfinderHosted.__errFn = e }
+    wayfinderHosted.__startLoadingFragment = function (a) { return G(a) }; wayfinderHosted.__installRunAsyncCode = function (a) {
+        var b = A(); var c = b.body; var d = b.createElement(nb); d.language = ob;
+        d.text = a; c.appendChild(d); c.removeChild(d)
+    }; function D() {
+        var c = {}; var d; var e; var f = r.getElementsByTagName(tb);
+        for (var g = X, h = f.length; g < h; ++g) {
+            var i = f[g], j = i.getAttribute(ub), k; if (j) {
+                j = j.replace(vb, fb);
+                if (j.indexOf(wb) >= X) { continue } if (j == xb) {
+                    k = i.getAttribute(yb); if (k) {
+                        var l, m = k.indexOf(zb); if (m >= X) { j = k.substring(X, m); l = k.substring(m + Y) }
+                        else { j = k; l = fb } c[j] = l
+                    }
+                } else if (j == Ab) { k = i.getAttribute(yb); if (k) { try { d = eval(k) } catch (a) { alert(Bb + k + Cb) } } } else if (j == Db) { k = i.getAttribute(yb); if (k) { try { e = eval(k) } catch (a) { alert(Bb + k + Eb) } } }
+            }
+        } __gwt_getMetaProperty = function (a) { var b = c[a]; return b == null ? null : b }; u = d; wayfinderHosted.__errFn = e
+    }
     function F() {
         function e(a) { var b = a.lastIndexOf(Fb); if (b === -1) { b = a.length } var c = a.indexOf(Gb); if (c == -1) { c = a.length } var d = a.lastIndexOf(Hb, Math.min(c, b)); return d >= X ? a.substring(X, d + Y) : fb }
         function f(a) { if (a.match(/^\w+:\/\//)) { } else { var b = r.createElement(Ib); b.src = a + Jb; a = e(b.src) } return a }
@@ -233,11 +338,55 @@ function wayfinderHosted() {
         var k = g(); if (k === fb) { k = h() } if (k === fb) { k = i() } if (k == fb && j()) { k = e(r.location.href) } k = f(k); return k
     }
     function G(a) { if (a.match(/^\//)) { return a } if (a.match(/^[a-zA-Z]+:\/\//)) { return a } return wayfinderHosted.__moduleBase + a }
-    function H() {var i = []; var j = X; function k(a, b) { var c = i; for (var d = X, e = a.length - Y; d < e; ++d) { c = c[a[d]] || (c[a[d]] = []) } c[a[e]] = b }var l = []; var m = []; function n(a) { var b = m[a](), c = l[a]; if (b in c) { return b } var d = []; for (var e in c) { d[c[e]] = e } if (u) { u(a, d, b) } throw null }m[Ob] = function () { var b = null; var c = Pb; try { if (!b) { var d = location.search; var e = d.indexOf(Qb); if (e >= X) { var f = d.substring(e + Rb); var g = d.indexOf(Sb, e); if (g < X) { g = d.length } b = d.substring(e + Rb, g) } } if (!b) { b = __gwt_getMetaProperty(Ob) } if (!b) { b = q[Tb] } if (b) { c = b } while (b && !__gwt_isKnownPropertyValue(Ob, b)) { var h = b.lastIndexOf(Ub); if (h < X) { b = null; break } b = b.substring(X, h) } } catch (a) { alert(Vb + a) } q[Tb] = c; return b || Pb }; l[Ob] = { 'ar': X, 'ar_AR': Y, 'bg': Wb, 'bg_BG': Xb, 'de': Yb, 'de_DE': Zb, 'default': $b, 'en': Rb, 'en_GB': _b, 'en_US': ac, 'es': jb, 'es_ES': bc, 'fr': cc, 'fr_FR': dc, 'it': ec, 'it_IT': fc, 'nl': gc, 'nl_NL': hc, 'pl': ic, 'pl_PL': jc, 'pt': kc, 'pt_BR': lc, 'pt_PT': mc, 'ru': nc, 'ru_RU': oc, 'tl': pc, 'tl_PH': qc, 'zh': rc, 'zh_CN': sc, 'zh_TW': tc }; m[uc] = function () { var a = navigator.userAgent.toLowerCase(); var b = r.documentMode; if (function () { return a.indexOf(vc) != -1 }()) return wc; if (function () { return a.indexOf(xc) != -1 && (b >= jb && b < bc) }()) return yc; if (function () { return a.indexOf(xc) != -1 && (b >= ac && b < bc) }()) return zc; if (function () { return a.indexOf(xc) != -1 && (b >= _b && b < bc) }()) return Ac; if (function () { return a.indexOf(Bc) != -1 || b >= bc }()) return Cc; return fb }; l[uc] = { 'gecko1_8': X, 'ie10': Y, 'ie8': Wb, 'ie9': Xb, 'safari': Yb }; __gwt_isKnownPropertyValue = function (a, b) { return b in l[a] }; wayfinderHosted.__getPropMap = function () { var a = {}; for (var b in l) { if (l.hasOwnProperty(b)) { a[b] = n(b) } } return a }; wayfinderHosted.__computePropValue = n; q.__gwt_activeModules[U].bindings = wayfinderHosted.__getPropMap; t(Q, Dc); if (s()) { return G(Ec) } var o; try { k([Fc, Cc], Gc); k([Hc, wc], Ic); k([Jc, wc], Kc); k([Lc, wc], Mc); k([Nc, Cc], Oc); k([Pc, yc], Qc); k([Pb, yc], Rc); k([Sc, yc], Tc); k([Uc, yc], Vc); k([Wc, wc], Xc); k([Yc, wc], Zc); k([$c, Cc], _c); k([Pc, Cc], ad); k([bd, Cc], cd); k([dd, wc], ed); k([Yc, Cc], fd); k([gd, yc], hd); k([jd, wc], kd); k([Lc, yc], ld); k([md, yc], nd); k([od, Cc], pd); k([od, yc], qd); k([Fc, yc], rd); k([sd, Cc], td); k([ud, wc], vd); k([bd, wc], wd); k([xd, wc], yd); k([Yc, yc], zd); k([Ad, yc], Bd); k([Sc, wc], Cd); k([Hc, yc], Dd); k([od, wc], Ed); k([Jc, Cc], Fd); k([Nc, wc], Gd); k([Lc, Cc], Hd); k([Id, Cc], Jd); k([ud, Cc], Kd); k([Wc, yc], Ld); k([Pc, wc], Md); k([gd, Cc], Nd); k([Od, yc], Pd); k([Qd, yc], Rd); k([sd, wc], Sd); k([Td, wc], Ud); k([Pb, wc], Vd); k([Nc, yc], Wd); k([$c, wc], Xd); k([jd, Cc], Yd); k([Jc, yc], Zd); k([xd, yc], $d); k([bd, yc], _d); k([Uc, wc], ae); k([Pb, Cc], be); k([ce, wc], de); k([ee, Cc], fe); k([Hc, Cc], ge); k([Td, Cc], he); k([gd, wc], ie); k([Qd, Cc], je); k([ke, wc], le); k([Wc, Cc], me); k([ne, yc], oe); k([Ad, Cc], pe); k([Od, Cc], qe); k([ud, yc], re); k([ee, wc], se); k([Id, yc], te); k([jd, yc], ue); k([ne, Cc], ve); k([ce, yc], we); k([Qd, wc], xe); k([Ad, wc], ye); k([ce, Cc], ze); k([ke, Cc], Ae); k([$c, yc], Be); k([md, wc], Ce); k([Id, wc], De); k([Td, yc], Ee); k([dd, Cc], Fe); k([xd, Cc], Ge); k([ee, yc], He); k([ne, wc], Ie); k([md, Cc], Je); k([Sc, Cc], Ke); k([Od, wc], Le); k([dd, yc], Me); k([ke, yc], Ne); k([Fc, wc], Oe); k([sd, yc], Pe); k([Uc, Cc], Qe); o = i[n(Ob)][n(uc)]; var p = o.indexOf(Re); if (p != -1) { j = parseInt(o.substring(p + Y), jb); o = o.substring(X, p) } } catch (a) { } wayfinderHosted.__softPermutationId = j; return G(o + Se)}
+    function H() {
+        var i = []; var j = X; function k(a, b) { var c = i; for (var d = X, e = a.length - Y; d < e; ++d) { c = c[a[d]] || (c[a[d]] = []) } c[a[e]] = b }
+        var l = []; var m = []; function n(a) { var b = m[a](), c = l[a]; if (b in c) { return b } var d = []; for (var e in c) { d[c[e]] = e } if (u) { u(a, d, b) } throw null } m[Ob] = function () {
+            var b = null; var c = Pb; try {
+                if (!b) {
+                    var d = location.search; var e = d.indexOf(Qb); if (e >= X) {
+                        var f = d.substring(e + Rb); var g = d.indexOf(Sb, e); if (g < X) { g = d.length }
+                        b = d.substring(e + Rb, g)
+                    }
+                } if (!b) { b = __gwt_getMetaProperty(Ob) } if (!b) { b = q[Tb] } if (b) { c = b } while (b && !__gwt_isKnownPropertyValue(Ob, b)) {
+                    var h = b.lastIndexOf(Ub); if (h < X) { b = null; break }
+                    b = b.substring(X, h)
+                }
+            } catch (a) { alert(Vb + a) } q[Tb] = c; return b || Pb
+        }; l[Ob] = {
+            'ar': X, 'ar_AR': Y, 'bg': Wb, 'bg_BG': Xb, 'de': Yb, 'de_DE': Zb, 'default': $b, 'en': Rb, 'en_GB': _b, 'en_US': ac, 'es': jb, 'es_ES': bc, 'fr': cc, 'fr_FR': dc, 'it': ec, 'it_IT': fc, 'nl': gc, 'nl_NL': hc,
+            'pl': ic, 'pl_PL': jc, 'pt': kc, 'pt_BR': lc, 'pt_PT': mc, 'ru': nc, 'ru_RU': oc, 'tl': pc, 'tl_PH': qc, 'zh': rc, 'zh_CN': sc, 'zh_TW': tc
+        }; m[uc] = function () {
+            var a = navigator.userAgent.toLowerCase(); var b = r.documentMode;
+            if (function () { return a.indexOf(vc) != -1 }()) return wc; if (function () { return a.indexOf(xc) != -1 && (b >= jb && b < bc) }()) return yc;
+            if (function () { return a.indexOf(xc) != -1 && (b >= ac && b < bc) }()) return zc;
+            if (function () { return a.indexOf(xc) != -1 && (b >= _b && b < bc) }()) return Ac;
+            if (function () { return a.indexOf(Bc) != -1 || b >= bc }()) return Cc; return fb
+        }; l[uc] = { 'gecko1_8': X, 'ie10': Y, 'ie8': Wb, 'ie9': Xb, 'safari': Yb }; __gwt_isKnownPropertyValue = function (a, b) { return b in l[a] }; wayfinderHosted.__getPropMap = function () {
+            var a = {}; for (var b in l) {
+                if (l.hasOwnProperty(b)) { a[b] = n(b) }
+            } return a
+        }; wayfinderHosted.__computePropValue = n;
+        q.__gwt_activeModules[U].bindings = wayfinderHosted.__getPropMap; t(Q, Dc); if (s()) { return G(Ec) } var o; try {
+            k([Fc, Cc], Gc); k([Hc, wc], Ic); k([Jc, wc], Kc); k([Lc, wc], Mc); k([Nc, Cc], Oc); k([Pc, yc], Qc); k([Pb, yc], Rc); k([Sc, yc], Tc); k([Uc, yc], Vc); k([Wc, wc], Xc); k([Yc, wc], Zc); k([$c, Cc], _c); k([Pc, Cc], ad);
+            k([bd, Cc], cd); k([dd, wc], ed); k([Yc, Cc], fd); k([gd, yc], hd); k([jd, wc], kd); k([Lc, yc], ld); k([md, yc], nd); k([od, Cc], pd); k([od, yc], qd); k([Fc, yc], rd); k([sd, Cc], td); k([ud, wc], vd); k([bd, wc], wd);
+            k([xd, wc], yd); k([Yc, yc], zd); k([Ad, yc], Bd); k([Sc, wc], Cd); k([Hc, yc], Dd); k([od, wc], Ed); k([Jc, Cc], Fd); k([Nc, wc], Gd); k([Lc, Cc], Hd); k([Id, Cc], Jd); k([ud, Cc], Kd); k([Wc, yc], Ld); k([Pc, wc], Md);
+            k([gd, Cc], Nd); k([Od, yc], Pd); k([Qd, yc], Rd); k([sd, wc], Sd); k([Td, wc], Ud); k([Pb, wc], Vd); k([Nc, yc], Wd); k([$c, wc], Xd); k([jd, Cc], Yd); k([Jc, yc], Zd); k([xd, yc], $d); k([bd, yc], _d); k([Uc, wc], ae);
+            k([Pb, Cc], be); k([ce, wc], de); k([ee, Cc], fe); k([Hc, Cc], ge); k([Td, Cc], he); k([gd, wc], ie); k([Qd, Cc], je); k([ke, wc], le); k([Wc, Cc], me); k([ne, yc], oe); k([Ad, Cc], pe); k([Od, Cc], qe); k([ud, yc], re);
+            k([ee, wc], se); k([Id, yc], te); k([jd, yc], ue); k([ne, Cc], ve); k([ce, yc], we); k([Qd, wc], xe); k([Ad, wc], ye); k([ce, Cc], ze); k([ke, Cc], Ae); k([$c, yc], Be); k([md, wc], Ce); k([Id, wc], De); k([Td, yc], Ee);
+            k([dd, Cc], Fe); k([xd, Cc], Ge);
+            k([ee, yc], He); k([ne, wc], Ie); k([md, Cc], Je); k([Sc, Cc], Ke); k([Od, wc], Le); k([dd, yc], Me); k([ke, yc], Ne); k([Fc, wc], Oe); k([sd, yc], Pe); k([Uc, Cc], Qe); o = i[n(Ob)][n(uc)]; var p = o.indexOf(Re);
+            if (p != -1) { j = parseInt(o.substring(p + Y), jb); o = o.substring(X, p) }
+        } catch (a) { } wayfinderHosted.__softPermutationId = j; return G(o + Se)
+    }
     function I() { if (!q.__gwt_stylesLoaded) { q.__gwt_stylesLoaded = {} } t(Te, R); t(Te, Ue) }
     D(); wayfinderHosted.__moduleBase = F(); v[U].moduleBase = wayfinderHosted.__moduleBase; var J = H(); if (q) {
         var K = !!(q.location.protocol === Ve || q.location.protocol === We); q.__gwt_activeModules[U].canRedirect = K; function L() { var b = Xe; try { q.sessionStorage.setItem(b, b); q.sessionStorage.removeItem(b); return true } catch (a) { return false } }
-        if (K && L()) { var M = Ye; var N = q.sessionStorage[M]; if (!/^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/.*$/.test(N)) { if (N && (window.console && console.log)) { console.log(Ze + N) } N = fb } if (N && !q[M]) { q[M] = true; q[M + $e] = F(); var O = r.createElement(nb); O.src = N; var P = r.getElementsByTagName(sb)[X]; P.insertBefore(O, P.firstElementChild || P.children[X]); return false } }
+        if (K && L()) {
+            var M = Ye; var N = q.sessionStorage[M]; if (!/^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/.*$/.test(N)) { if (N && (window.console && console.log)) { console.log(Ze + N) } N = fb } if (N && !q[M]) {
+                q[M] = true; q[M + $e] = F(); var O =
+                    r.createElement(nb); O.src = N; var P = r.getElementsByTagName(sb)[X]; P.insertBefore(O, P.firstElementChild || P.children[X]); return false
+            }
+        }
     } I(); t(Q, Ue); C(J); return true
 }
 wayfinderHosted.succeeded = wayfinderHosted();

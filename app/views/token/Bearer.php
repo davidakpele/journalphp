@@ -1,1 +1,0 @@
-var tsrpc= '<?=((!empty($_SESSION['session_token'])) ? "{$_SESSION['session_token']}" : '' )?>'

@@ -1,3 +1,4 @@
+import chain from './class/SecurityFilterChain'; 
 const Http = new XMLHttpRequest();
 $("document").ready(function (e) {
     $('#returnHome').click(function () {
@@ -65,100 +66,104 @@ function logKeyPress() {
     }
 }
 function search(input) {
-    const now = new Date().getTime();
-    const lastTime = input._keyPressedAt;
-    if ((now - lastTime) > interval) {
-        if (input.value !== filterValue) {
-            filterValue = input.value;
-            //trigger a post here
-            $.ajax({
-                type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
-                dataType: 'JSON',
-                contentType: "application/json; charset=utf-8",
-                data: 'encrypted', // our data object
-                url: root_url+'api/csrf_token', // the url where we want to POST
-                processData: false,
-                encode: true,
-                crossOrigin: true,
-                async: true,
-                crossDomain: true,
-                headers: {
-                    'Authorization': 'Bearer '+tsrpc+'',
-                    'Content-Type': 'application/json'
-                },
-            }).then((response) => {
-                if (response.status === 200) {
-                    if (input.value ==="") {
-                        return false;
-                    }
+    var tokenChain = new chain();
+    tokenChain.getHeader().then((e) => {
+        var userDetailsToken = e.v;
+        const now = new Date().getTime();
+        const lastTime = input._keyPressedAt;
+        if ((now - lastTime) > interval) {
+            if (input.value !== filterValue) {
+                filterValue = input.value;
+                //trigger a post here
+                $.ajax({
+                    type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
+                    dataType: 'JSON',
+                    contentType: "application/json; charset=utf-8",
+                    data: 'encrypted', // our data object
+                    url: root_url+'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', // the url where we want to POST
+                    processData: false,
+                    encode: true,
+                    crossOrigin: true,
+                    async: true,
+                    crossDomain: true,
+                    headers: {
+                        'Authorization': 'Bearer '+userDetailsToken+'',
+                        'Content-Type': 'application/json'
+                    },
+                }).then((response) => {
+                    if (response.status === 200) {
+                        if (input.value ==="") {
+                            return false;
+                        }
 
-                    const postData = { "data": response._token, "_data": input.value }
-                    Http.open("POST", root_url+'api/getsearch', true);
-                    Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-                    Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
-                    Http.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
-                    Http.send(JSON.stringify(postData));
-                    Http.onreadystatechange = function (e) {
-                    if (Http.readyState === 4 && Http.status === 200 && Http.responseText) {
-                        const result = JSON.parse(Http.responseText);
-                        const strjson = { "data": result.data, "encrypted": response._token };
-                        if (result.inc === true) {
-                            $.ajax({
-                                url: root_url+'PagesController/clone',
-                                type: "GET",
-                                data: strjson,
-                                crossDomain: true,
-                                dataType: 'html',
-                                crossOrigin: true,
-                                async: true,
-                                cache: false,
-                                processData: true,
-                                headers: {
-                                    'Authorization': 'Bearer '+tsrpc+'',
-                                }
-                            }).then((data) => {
-                                const subject_span = document.getElementById('subj_holder');
-                                if(window.innerWidth > 1025) {
-                                if (subject_span.classList.contains('visibility-hidden')) {
-                                        subject_span.classList.remove('visibility-hidden');
-                                        //$('#browser_hf').show();
-                                    } 
-                                } 
-                                else {
-                                    if (!subject_span.classList.contains('visibility-hidden')) {
-                                        subject_span.classList.add('visibility-hidden');
+                        const postData = { "data": response._token, "_data": input.value }
+                        Http.open("POST", root_url+'api/collect?iat=sort&action=true&target=search&requestField='+postData+'', true);
+                        Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                        Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
+                        Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
+                        Http.send(JSON.stringify(postData));
+                        Http.onreadystatechange = function (e) {
+                        if (Http.readyState === 4 && Http.status === 200 && Http.responseText) {
+                            const result = JSON.parse(Http.responseText);
+                            const strjson = { "data": result.data, "encrypted": response._token };
+                            if (result.inc === true) {
+                                $.ajax({
+                                    url: root_url+'api/collect?iat=sort&action=true&target=renderresults',
+                                    type: "GET",
+                                    data: strjson,
+                                    crossDomain: true,
+                                    dataType: 'html',
+                                    crossOrigin: true,
+                                    async: true,
+                                    cache: false,
+                                    processData: true,
+                                    headers: {
+                                        'Authorization': 'Bearer '+userDetailsToken+'',
                                     }
-                                }
+                                }).then((data) => {
+                                    const subject_span = document.getElementById('subj_holder');
+                                    if(window.innerWidth > 1025) {
+                                    if (subject_span.classList.contains('visibility-hidden')) {
+                                            subject_span.classList.remove('visibility-hidden');
+                                            //$('#browser_hf').show();
+                                        } 
+                                    } 
+                                    else {
+                                        if (!subject_span.classList.contains('visibility-hidden')) {
+                                            subject_span.classList.add('visibility-hidden');
+                                        }
+                                    }
+                                    $('#ember1178').hide();
+                                    $('.clearer').show();
+                                    $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
+                                    $('#search_result').empty();
+                                    $('#search_result').append(data);
+                                })
+                            } else {
                                 $('#ember1178').hide();
                                 $('.clearer').show();
                                 $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
                                 $('#search_result').empty();
-                                $('#search_result').append(data);
-                            })
-                        } else {
-                            $('#ember1178').hide();
-                            $('.clearer').show();
-                            $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
-                            $('#search_result').empty();
-                            $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
-                        }
-                    } 
-                }
-                } else {
-                    return false;
-                }
-            }).fail((xhr, error) => {
-                console.log(error);
-            });
+                                $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
+                            }
+                        } 
+                    }
+                    } else {
+                        return false;
+                    }
+                }).fail((xhr, error) => {
+                    console.log(error);
+                });
+            }
+            input._monitoringSearch = false;
+        }else {
+            window.setTimeout(
+                function () {
+                    search(input);
+                }, 0);
         }
-        input._monitoringSearch = false;
-    }
-    else {
-        window.setTimeout(
-            function () {
-                search(input);
-            }, 0);
-    }
+    });
+    
 }
 
 function is_journal (id){

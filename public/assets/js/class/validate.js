@@ -1,3 +1,4 @@
+import chain from './SecurityFilterChain'; 
 
 class auth {
   
@@ -23,10 +24,13 @@ class auth {
   }
 
   logout() {
-    let xhr, get_init, obj;
-    xhr = new XMLHttpRequest();
+    let xhr, get_init, obj, userDetailsToken;
+    var tokenChain = new chain();
+    tokenChain.getHeader().then((e) => {
+      userDetailsToken = e.v;
+      xhr = new XMLHttpRequest();
       xhr.open('POST', root_url + 'auth/logout');
-      xhr.setRequestHeader('Authorization', 'Bearer ' + tsrpc);
+      xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
       xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
           get_init = xhr.response;
@@ -37,7 +41,8 @@ class auth {
           return false;
         }
       }
-    xhr.send();
+      xhr.send();
+    });
   }
 
   regex = () =>{

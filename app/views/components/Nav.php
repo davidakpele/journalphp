@@ -8,7 +8,7 @@
                     <i class="fa fa-bars" aria-hidden="true"></i></a>
                 </div>
                 <div class="pubs-header__cell pubs-header__cell--home">
-                    <a href="<?=ROOT?>" class="pubs-header__link pubs-header__link--home" title="Publishing home page" aria-label="Publishing home page">SkyBase</a>
+                    <a href="<?=(((isset($_SESSION['packageId'])) ? ROOT .'Default/libraries/'.$_SESSION['packageId'].'/subjects?sort=title' : 'javascript:void(0)' ))?>" class="pubs-header__link pubs-header__link--home" title="Publishing home page" aria-label="Publishing home page">SkyBase</a>
                 </div>
                 <div class="pubs-header__cell pubs-header__cell--nav">
                     <nav class="pubs-header__nav">
@@ -53,7 +53,7 @@
                     <span class="badge badge--count" style="display: none;"></span>
                 </div>
                 <div class="pubs-header__cell pubs-header__cell--logo">
-                    <a href="<?=ROOT?>" class="">
+                    <a href="<?=(((isset($_SESSION['packageId'])) ? ROOT .'Default/libraries/'.$_SESSION['packageId'].'/subjects?sort=title' : 'javascript:void(0)' ))?>" class="">
                         <img src="<?=ASSETS?>images/rsc-logo-rev-pubs.svg" height="40" alt="Royal Society of Chemistry homepage">
                     </a>
                 </div>

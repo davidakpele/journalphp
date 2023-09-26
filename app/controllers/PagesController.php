@@ -1,6 +1,7 @@
 <?php
 use Http\{sanctum}; 
 use Ramsey\Uuid\Uuid;
+use Firebase\JWT\JWT;
 use Auth\{authentication};
 final class PagesController extends Controller {
 
@@ -33,53 +34,7 @@ final class PagesController extends Controller {
         }       
     }
 
-    public function clone(){
-        $authClass= new Auth\authentication;
-        $authenticateUser = $authClass->auth_check();
-        if (!$authenticateUser) {
-            redirect('auth/login');
-        }else{
-            $_token = $_GET['encrypted'];
-            $data_request = strip_tags(trim(filter_var($_GET['data'], FILTER_SANITIZE_STRING)));
-            $search_post_data = $this->_fetching_sql_model_data->get_search($data_request);
-            if($search_post_data != ""){
-                $data = ['data'=>$search_post_data];
-                $this->view("components/apiHeader", $data);
-            }
-        }
-    }
 
-    public function getsubjects(){
-        $authClass= new Auth\authentication;
-        $authenticateUser = $authClass->auth_check();
-        if (!$authenticateUser) {
-            redirect('auth/login');
-        }else{
-            $_token = $_POST['encrypted'];
-            $data_request = strip_tags(trim(filter_var($_POST['data'], FILTER_SANITIZE_STRING)));
-            $search_post_data = $this->_fetching_sql_model_data->getsubjects($data_request);
-            if($search_post_data != ""){
-                $data = ['data'=>$search_post_data];
-                $this->view("components/apiHeader", $data);
-            }
-        }
-    }
-
-    public function getjournals(){
-        $authClass= new Auth\authentication;
-        $authenticateUser = $authClass->auth_check();
-        if (!$authenticateUser) {
-            redirect('auth/login');
-        }else{
-            $_token = $_POST['encrypted'];
-            $data_request = strip_tags(trim(filter_var($_POST['data'], FILTER_SANITIZE_STRING)));
-            $search_post_data = $this->_fetching_sql_model_data->getjournals($data_request);
-            if($search_post_data != ""){
-                $data = ['data'=>$search_post_data];
-                $this->view("components/apiHeader", $data);
-            }
-        }
-    }
 
     public function lookup(){
         $this->view("en/Find_institute");
