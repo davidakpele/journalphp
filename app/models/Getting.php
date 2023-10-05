@@ -9,7 +9,9 @@
          
         public function get_search($data_request){
             $data =[];
-            $this->_connect_db->query(/** @lang text */"SELECT a.*, b.packageid  FROM subjects a INNER JOIN package b ON b.packageid=a.package_id WHERE a.package_id='603' AND subjects_name LIKE '%$data_request%' OR subjects_name LIKE  '%$data_request' OR subjects_name LIKE '$data_request%' OR subjects_name LIKE '_$data_request%' OR subjects_name LIKE '$data_request _%' GROUP BY subjects_name ORDER BY RAND()");
+            $user_subcribed_package_id = $_SESSION['packageId'];
+            $this->_connect_db->query(/** @lang text */"SELECT a.*, b.packageid  FROM subjects a INNER JOIN package b ON b.packageid=a.package_id WHERE a.package_id=:user_subcribed_package_id AND subjects_name LIKE '%$data_request%' OR subjects_name LIKE  '%$data_request' OR subjects_name LIKE '$data_request%' OR subjects_name LIKE '_$data_request%' OR subjects_name LIKE '$data_request _%' GROUP BY subjects_name ORDER BY RAND()");
+            $this->_connect_db->bind(":user_subcribed_package_id", $user_subcribed_package_id);
             $data[]['subjects']= $this->_connect_db->resultSet();
             
             $this->_connect_db->query(/** @lang text */"SELECT * FROM journals WHERE journal_name LIKE '%$data_request%' OR journal_name LIKE '%$data_request' OR journal_name LIKE '$data_request%' OR journal_name LIKE '_$data_request%' OR journal_name LIKE '$data_request _%' GROUP BY journal_name  ORDER BY RAND()");
@@ -69,7 +71,7 @@
     }
     /** @noinspection PhpVoidFunctionResultUsedInspection */
     public function get_user_subcribed_subjects(){
-        $user_subcribed_package_id='603';
+        $user_subcribed_package_id = $_SESSION['packageId'];
         $this->_connect_db->query(/** @lang text */"SELECT subjectid,package_id,subjects_name FROM `subjects` WHERE package_id=:user_subcribed_package_id");
         $this->_connect_db->bind(':user_subcribed_package_id', $user_subcribed_package_id);
         $data = $this->_connect_db->resultSet();

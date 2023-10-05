@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="group-inputs">
                                     <label for="username" >Email Address</label>
-                                    <input type="text" class="____userEmail" name="____email" id="username" />
+                                    <input type="text" class="____userEmail" name="____email" id="username" autocomplete="off"/>
                                 </div>
                                 <div class="mt-2 mb-4">
                                     <svg style="color: #d93025;display:none;" aria-hidden="true" class="stUf5b qpSchb" fill="currentColor" focusable="false" width="16px" height="16px" viewBox="0 0 24 24" xmlns="">
@@ -38,7 +38,7 @@
                                 <div class="flex-container element-btn ">
                                     <div class="pull-left action-c">
                                         <div class="">
-                                            <span><a href="javascript:void(0)" class="link-c">Create account</a></span>
+                                            <span><a href="<?=ROOT?>en/lookup" class="link-c">Login Using Institute Name</a></span>
                                         </div>
                                     </div>
                                     <div class="pull-right">
@@ -51,13 +51,13 @@
                                     <h1 class="ahT6S " data-a11y-title-piece="" id="headingText" jsname="r4nke">
                                         <span jsslot="">Welcome</span>
                                     </h1>
-                                    <div class="Y4dIwd" data-a11y-title-piece="" id="headingSubtext" jsname="VdSJob">
-                                        <span class="__issetUserName"></span>
+                                    <div class="Y4dIwd" data-a11y-title-piece="" id="headingSubtext" jsname="VdSJob" >
+                                        <span class="__issetUserName" style="padding:1px; background-color:#ccc; color:#fff;border:1px solid #ccc"></span>
                                     </div>
                                 </div>
                                 <div class="group-inputs passwordContainer">
-                                    <label for="____userPassword" >Enter your password</label>
-                                    <input type="password" class="____userPassword" name="____userPassword" value=""/>
+                                    <label for="userPassword">Enter your password</label>
+                                    <input type="password" class="____userPassword" id="userPassword" name="____userPassword" value="" autocomplete="off"/>
                                     <i class="fa fa-eye field-icon" id="clearPasswordText" aria-hidden="true"></i>
                                 </div>
                                 <div class="mt-4 mb-4">

@@ -29,7 +29,6 @@ function generateRandomString(length) {
     }
     return result;
 }
-console.log(Bearer);
 const randomString = generateRandomString(25);
 function generateToken(length) {
     const array = new Uint8Array(length);
@@ -46,7 +45,7 @@ function logout() {
             get_init = xhr.response;
             obj = JSON.parse(get_init).data;
             if (obj.status == 200) {
-               window.location = root_url+'/auth/login/'; 
+               window.location = root_url+'auth/login/'; 
             }
             return false;
         }
@@ -170,7 +169,7 @@ const get_journals = async () => {
                             // Get the element with the class "message"
                             const messageElement = document.querySelector('.message');
                             const ErrormessageElement = document.querySelector('.error-msg');
-                            (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
+                            (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
                         }
                     };
                 xhr.send();
@@ -252,7 +251,7 @@ function fetchMoreData() {
                 // Get the element with the class "error-msg"
                 const messageElement = document.querySelector('.message');
                 const ErrormessageElement = document.querySelector('.error-msg');
-                (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount==0 ? [currentPage=1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'No Data Found..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
+                (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount==0 ? [currentPage=1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
             }
         };
         xhr.send();

@@ -13,6 +13,7 @@ final class form extends Controller
            $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
            if (is_uploaded_file($_FILES['file']['tmp_name'])){
             if (isset($_FILES['file']['name']) != ''){
+               
                 $photo = $_FILES['file'];
                 $name = $photo['name'];
                 $nameArray = explode('.', $name);
@@ -34,9 +35,9 @@ final class form extends Controller
                 }
                 // $allowed = array('jpg', 'jpeg', 'png');
                 $uploadName = uniqid().'.'.$fileExt;
-                $uploadPath = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
-                $dbpath     = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName;
-                $folder = 'assets/images/jn/art/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING));
+                $uploadPath = 'assets/images/journals/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName; 
+                $dbpath     = 'assets/images/journals/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING)).'/'.$uploadName;
+                $folder = 'assets/images/journals/'.trim(filter_var(date("d-m-Y"), FILTER_SANITIZE_STRING));
                 if ($fileSize > 90000000000000) {
                     $response['status'] = 300;
                     $response['errormsg'] = '<b>ERROR:</b>Your file was larger than 50kb in file size.';
@@ -44,22 +45,20 @@ final class form extends Controller
                     if(!file_exists($folder)){
                         mkdir($folder,077,true);
                     }
-                       
-                      
-                        move_uploaded_file($tmpLoc,$dbpath);
-                        if ($this->_fetching_sql_model_data->__saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$uploadPath)) {
-                            echo 'Uploaded Successfully';
-                        } 
-                    }
+                    move_uploaded_file($tmpLoc,$dbpath);
+                    if ($this->_fetching_sql_model_data->__saveLogoChanges($bookshelvesid,$categorieid,$journal_name,$imgType,$uploadPath)) {
+                        echo 'Uploaded Successfully';
+                    } 
                 }
-           }else{
-            echo "Please select a valid image.";
-            die();
-           }
+            }
+        }else{
+        echo "Please select a valid image.";
+        die();
         }
-         $getcategories = $this->_fetching_sql_model_data->_selectCategories();
-         $getbookshalves = $this->_fetching_sql_model_data->_selectBookshelves();
-         $data=['cat'=>$getcategories, 'book'=>$getbookshalves];
-        $this->view("form", $data);
+    }
+        $getcategories = $this->_fetching_sql_model_data->_selectCategories();
+        $getbookshalves = $this->_fetching_sql_model_data->_selectBookshelves();
+        $data=['cat'=>$getcategories, 'book'=>$getbookshalves];
+    $this->view("form", $data);
     }
 }

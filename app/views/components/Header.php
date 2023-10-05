@@ -34,5 +34,5 @@
         <script>
             const root_url="<?=ROOT?>";
             let brandingBarUrl ="";
-        </script>
+        </script> 
     </head>

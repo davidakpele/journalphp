@@ -73,6 +73,30 @@ function error_log_auth(){
 	];
 	echo json_encode($response);
 }
+function error_inValidRequestNOTFromWebApplication(){
+	header('HTTP/1.1 401 Unauthorized');
+	$response=
+	[ 
+		"status"=> http_response_code(401),
+		"title"=> "Authentication Error",
+		"headlines"=> "Something went wrong with authentication to your SkyBase library. ",
+		"details"=> "This request has been marked suspect & can not be process.",
+		"code"=> "generic_authentication_error"
+	];
+	echo json_encode($response);
+}
+function error_IsNOTUserAgentValid(){
+	header('HTTP/1.1 401 Unauthorized');
+	$response=
+	[ 
+		"status"=> http_response_code(401),
+		"title"=> "Authentication Error",
+		"headlines"=> "Something went wrong with authentication to your SkyBase library.",
+		"details"=>"User-Agent header is not set.",
+		"code"=> "generic_authentication_error"
+	];
+	echo json_encode($response);
+}
 function countriesList(){
 	$k=[];
 	$k["Countries"]= ["rs","hk","ru","jp","br","sg","mc","me","sm","id","ca","mk","gg","gi","ad","il","uy","kp","ch","za","cn","co","au","ph","vn","ng","tr"];

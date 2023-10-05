@@ -144,7 +144,7 @@ function search(input) {
                                 $('.clearer').show();
                                 $('.clone_result').removeClass('subjects-search-container').addClass("subjects-search-container complete")
                                 $('#search_result').empty();
-                                $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for “'+input.value+'”. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
+                                $('#search_result').append('<div class="error-search"><li tabindex="0" class="no-results-container in-progress" style="display:block"><span class="label">No matches for <span id="noFoundString">“'+input.value+'”</span>. Title may not be SkyBase Data Center enabled at this time, but still available at your library. <br/><a tabindex="0" href="javascript:void(0)" target="_new">Please click here to search for your title again at your library</a></span></li></div>');
                             }
                         } 
                     }

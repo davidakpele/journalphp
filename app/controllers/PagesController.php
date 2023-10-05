@@ -34,10 +34,6 @@ final class PagesController extends Controller {
         }       
     }
 
-    public function lookup(){
-        $this->view("en/Find_institute");
-    }
-
     public function journals(){
         $authClass= new Auth\authentication;
         $authenticateUser = $authClass->auth_check();
@@ -57,4 +53,9 @@ final class PagesController extends Controller {
             $this->view("libraries/subject");
         }
     }
+    
+    public function lookup(){
+        $this->view("en/Find_institute");
+    }
+
 }

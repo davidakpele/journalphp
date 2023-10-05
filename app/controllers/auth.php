@@ -1,5 +1,8 @@
 <?php 
+
 use Auth\{authentication};
+
+use Api\api;
 
 final class auth extends Controller
 {
@@ -62,6 +65,7 @@ final class auth extends Controller
     }
     public function logout(){
         $_authClass = new Auth\authentication();
+    
         $responses = array();
         if ($_authClass->close_session()) {
            $responses['message']='Logout successfully.!';

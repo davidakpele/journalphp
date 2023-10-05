@@ -4047,7 +4047,10 @@
 
     .__bd7a3.subjects .search-pane .no-results-container {
         display: none;
-        margin-top: 45px;
+        margin-top: -18px;
+    }
+    .__bd7a3.subjects .search-pane .no-results-container #noFoundString {
+        color:rgba(214, 5, 5, 0.756);
     }
 
     .__bd7a3.subjects .search-pane .result-container {
