@@ -6,6 +6,20 @@ class auth {
     this.UserEmail = UserEmail;
   }
 
+  generateRandomString = (length)=> {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        result += characters.charAt(randomIndex);
+    }
+    return result;
+  }
+  generateToken= (length)=> {
+    const array = new Uint8Array(length);
+    window.crypto.getRandomValues(array);
+    return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('');
+  }
   generateRandomToken() {
     // Generate a random token using the crypto API
     const randomBytes = new Uint8Array(16);
@@ -59,9 +73,93 @@ class auth {
 
 
 
-
-
-
+  reloadJournalContainer = async () => {
+    var tokenChain = new chain();
+    tokenChain.getHeader().then((e) => { 
+      var userDetailsToken = e.v;
+      var subjectSideBar = '',currentURL, url, dataList, headerName, protocol, hostname, port, pathname, search, hash, pathnameSegments, libraryPort, subjectPort, isLoading, currentPage, sidebar, content, checkPost_status, lib, sub, book, sh, csrf_token, data, read, response, pOSTurl, xhr, newData, obj;
+      const crsf_token_fetch = async () => {
+        const timestamp = new Date().getTime();
+        currentURL = window.location.href; url = new URL(currentURL); protocol = url.protocol; hostname = url.hostname; port = url.port; pathname = url.pathname; search = url.search; hash = url.hash;pathnameSegments = pathname.slice(1).split('/'); libraryPort = pathnameSegments[2]; subjectPort = pathnameSegments[4]; isLoading = false; currentPage = 1; sidebar = document.getElementById('Content_Sidebar');content = document.querySelector('.bookshelf');
+        const randomString = this.generateRandomString(25);
+        const secureToken = this.generateToken(16);
+        sidebar = document.getElementById('Content_Sidebar'); content = document.querySelector('.bookshelf');
+        var headers = new Headers();
+        headers.append("Content-Type", "application/json");
+        headers.append("Accept", "application/json");
+        headers.append("X-CSRF-TOKEN", userDetailsToken);
+        headers.append('Authorization', 'Bearer ' + userDetailsToken + '');
+        var response = await fetch(root_url + "api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT", { headers: headers });
+        // Check if the response status is OK
+        if (!response.ok) {
+          throw new Error(`Network response was not OK: ${response.status}`);
+        } else {
+          // Parse the response as text
+          var data = await response.text();
+          var read = JSON.parse(data);
+          var csrf_token = read._token;
+          if (pathnameSegments[1] =="libraries" && pathnameSegments[1] !="" && pathnameSegments[3] =="subjects" && pathnameSegments[5] == "" || pathnameSegments[5] ==null && pathnameSegments[6] ==null && pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
+            lib = pathnameSegments[2]; sub = pathnameSegments[4];
+            checkPost_status = 1;
+          } else if (pathnameSegments[5] == "bookcases" && pathnameSegments[6] !=null && pathnameSegments[1] !=null && pathnameSegments[3] =="subjects" && pathnameSegments[7] =="" || pathnameSegments[7] ==null && pathnameSegments[8] ==null) {
+              lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6];                      
+              checkPost_status = 2;
+          } else {
+              if (pathnameSegments[6] !== "") {
+                  if (pathnameSegments[5] =="bookcases" && pathnameSegments[7] =="bookshelves" && pathnameSegments[5] !=null && pathnameSegments[7] !=null) {
+                      lib = pathnameSegments[2]; sub = pathnameSegments[4]; book = pathnameSegments[6]; sh = pathnameSegments[8];                        
+                      checkPost_status = 3;
+                  }
+              }
+          }
+          headers.append("X-CSRF-TOKEN", csrf_token);
+          pOSTurl =(checkPost_status ==1 ? "getall=true&library=" + lib + "&subject=" + sub + "&token=" + csrf_token + "" : (checkPost_status ==2) ? "getbookcases=true&library="+lib+"&subject="+sub+"&bookcases="+book+"&token=" + csrf_token +"" : "getcraft=true&library=" + lib + "&subject=" + sub + "&bookcases=" + book + "&bookshelves=" + sh + "&token=" + csrf_token + "");
+          var getFinalLoad = await fetch(root_url + 'api/collect?iat=sort&action=true&target=dataContext&' + pOSTurl + '&collect=' + timestamp + '&page=' + currentPage + '&v=1&_v=' + randomString + '&t=timing&en=' + secureToken, { headers: headers });
+          if (!getFinalLoad.ok) {
+            throw new Error(`Network response was not OK: ${response.status}`);
+          } else {
+            // Parse the response as text
+            data = await getFinalLoad.text();
+            obj = JSON.parse(data)._items;
+            console.log(obj);
+            $('.bookshelf').empty();
+            obj.data.journalList.forEach(function (CallRecieve) {
+                $('.bookshelf').append(`
+                <li class="bookshelf-journal-list-item">
+                    <div id="ember8270" class="ember-view">
+                        <a href="${root_url}libraries/${libraryPort}/journals/${CallRecieve.journalid}/?sort=title" id="ember8271" class="bookshelf-journal ember-view" tabindex="0">
+                            <div id="ember8272" class="journal-cover __771d8 ember-view">
+                                <div class="image-container">
+                                  <img src="${root_url}${CallRecieve.imagedata}" alt="${CallRecieve.journal_name}" title="${CallRecieve.journal_name}">
+                                </div>
+                            </div>
+                            <div title="${CallRecieve.journal_name}" class="bookshelf-journal-title">${CallRecieve.journal_name}</div>
+                        </a>
+                    </div>
+                </li>
+                `);
+            });
+            if (obj.rowCount == '40' || obj >= '40') {
+              isLoading = false;
+              currentPage++;
+              document.getElementById('loading').style.display = 'block';
+              document.getElementById('loadMoreButton').textContent = 'Load More';
+              // Get the element with the class "message"
+              const messageElement = document.querySelector('.message');
+              const ErrormessageElement = document.querySelector('.error-msg');
+              (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: document.getElementById('loading').style.display = 'none');  
+            } else {
+              currentPage = 1;
+              $('#loading').remove()
+            }
+                    
+          }
+        }
+    
+      }
+      crsf_token_fetch();
+    })
+  }
 
 }
 

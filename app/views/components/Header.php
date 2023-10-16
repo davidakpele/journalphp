@@ -27,9 +27,9 @@
         <link rel="stylesheet" href="<?=ASSETS?>css/sentinel-medium-67b2d56ea8d4b43369e0fa853963633b.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/sentinel-semibold-cc063e6c2f3b67c5ebdf05c2ce4e0f2c.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/fonts.min.css" type="text/css" />
+        <link rel="stylesheet" href="<?=ASSETS?>fontawesome/css/all.min.css" type="text/css" />
         <link rel="stylesheet" href="<?=ASSETS?>css/pubs-ui.min.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="<?=ASSETS?>css/style.css">
-        <script src="<?=ASSETS?>js/vendor-55566347b8eb7cb5a2e40b5c0177bc16.js"></script>
         <script async="" src="<?=ASSETS?>js/analytics.js"></script>
         <script>
             const root_url="<?=ROOT?>";

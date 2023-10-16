@@ -23,7 +23,9 @@ final class PagesController extends Controller {
         }else{
             $_token = new Http\sanctum();
             $token = $_token->getToken();
-            $_get_avaliable_subject= $this->_fetching_sql_model_data->get_user_subcribed_subjects();
+            //get 'user subscription id'
+            $id= $_SESSION['packageId'];
+            $_get_avaliable_subject= $this->_fetching_sql_model_data->get_user_subcribed_subjects($id);
             $data =
             [
                 'auth'=>($authenticateUser ?? ''),

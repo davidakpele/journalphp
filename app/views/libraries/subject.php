@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="<?=ASSETS?>css/sentinel-medium-67b2d56ea8d4b43369e0fa853963633b.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/sentinel-semibold-cc063e6c2f3b67c5ebdf05c2ce4e0f2c.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/fonts.min.css" type="text/css" />
+         <link rel="stylesheet" href="<?=ASSETS?>fontawesome/css/all.min.css" type="text/css" />
         <link rel="stylesheet" href="<?=ASSETS?>css/pubs-ui.min.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="<?=ASSETS?>css/style.css">
         <script src="<?=ASSETS?>js/vendor-55566347b8eb7cb5a2e40b5c0177bc16.js"></script>
@@ -148,15 +149,38 @@
                                         <span aria-hidden="true" class="icon flaticon solid"></span>
                                     </li>         
                                 </ul>
-                               
-                                <h1 tabindex="0" class="subject-name bookcase-name">
-                                    <?=(isset($urlParts[1]) && is_numeric($urlParts[1]) && isset($urlParts[2]) && !isset($urlParts[5]) ? 'All Journals- '.$data["data"]["subject"]->subjects_name : ((isset($urlParts[4]) && is_string($urlParts[4]) && isset($urlParts[5]) && is_numeric($urlParts[5]) && !isset($urlParts[7]) || !isset($urlParts[8])) ? 'All Journals- '.$data["activate_bookshalves"]["category"]->categories_name  : $data["url"]["url_bookshelves"]->bookshelves_name));?>
-                                </h1>
+                                <div class="d-flex">
+                                    <div class="mobile-header">
+                                         <h1 tabindex="0" class="subject-name bookcase-name">
+                                            <?=(isset($urlParts[1]) && is_numeric($urlParts[1]) && isset($urlParts[2]) && !isset($urlParts[5]) ? 'All Journals- '.$data["data"]["subject"]->subjects_name : ((isset($urlParts[4]) && is_string($urlParts[4]) && isset($urlParts[5]) && is_numeric($urlParts[5]) && !isset($urlParts[7]) || !isset($urlParts[8])) ? 'All Journals- '.$data["activate_bookshalves"]["category"]->categories_name  : $data["url"]["url_bookshelves"]->bookshelves_name));?>
+                                        </h1>
+                                    </div>
+                                    <?php if (isset($urlParts[6]) && isset($urlParts[7]) && is_numeric($urlParts[7]) && $urlParts[6] =='bookshelves'):?>
+                                    <!-- <div class="pull-right">
+                                        <div class="reload-journal-container">
+                                            <button type="button" class="refresh-Journal-Container">
+                                                <span> </span> &nbsp;<i class="fa fa-refresh fa-spin"></i>
+                                            </button>
+                                        </div>
+                                    </div>  -->
+                                    <?php endif; ?>
+                               </div>
                             </div>
                             <div style="margin-right: 47.200000000000045px" id="ember791" class="sort-options-container __eccf5 ember-view">
                                 <div class="sort-options">
-                                    <span class="active">
-                                        <a aria-label="A-Z" href="javascript:void(0)" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> SORT <span class="show-underline">A-Z /</span></a>
+                                   <?php if (isset($urlParts[6]) && isset($urlParts[7]) && is_numeric($urlParts[7]) && $urlParts[6] =='bookshelves'):?>
+                                    <!-- <div class="pull-left">
+                                        <div class="reload-journal-container">
+                                            <button type="button" class="refresh-Journal-Container">
+                                                <span>Reload </span> &nbsp;<i class="fa fa-refresh fa-spin"></i>
+                                            </button>
+                                        </div>
+                                    </div> -->
+                                    <?php endif; ?>
+                                    <span class="active"> 
+                                        <a aria-label="A-Z" href="javascript:void(0)" id="ember792" class="sort-control sort-by-title hide-underline active ember-view" tabindex="0"> 
+                                            SORT <span class="show-underline">A-Z /</span>
+                                        </span>
                                     </span>
                                     <span>
                                         <a aria-label="Journal Rank" href="javascript:void(0)" id="ember793" class="sort-control sort-by-scimago ember-view" tabindex="0">JOURNAL RANK</a>
@@ -169,7 +193,6 @@
                                 </ul>
                                 <div style="margin-bottom:60px">
                                     <div class="bookshelf-loading-indicator" id="loading" style="display: none;">
-                                        
                                         <div id="ember1952" class="__0d2b3 ember-view">
                                             <div class="spinner align-center" style="display: none;" id="spinnerLoad">
                                                 <div class="bounce1"></div>
@@ -189,7 +212,6 @@
                                         <div class="mt-5" style="margin-top:15px">
                                             <button class="button " id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
                                         </div>
-                                        
                                     </div>
                                 </div>
                             </div>

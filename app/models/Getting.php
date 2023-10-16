@@ -70,10 +70,9 @@
         }
     }
     /** @noinspection PhpVoidFunctionResultUsedInspection */
-    public function get_user_subcribed_subjects(){
-        $user_subcribed_package_id = $_SESSION['packageId'];
-        $this->_connect_db->query(/** @lang text */"SELECT subjectid,package_id,subjects_name FROM `subjects` WHERE package_id=:user_subcribed_package_id");
-        $this->_connect_db->bind(':user_subcribed_package_id', $user_subcribed_package_id);
+    public function get_user_subcribed_subjects($id){
+        $this->_connect_db->query(/** @lang text */"SELECT subjectid, package_id,subjects_name FROM `subjects` WHERE package_id=:id");
+        $this->_connect_db->bind(':id', $id);
         $data = $this->_connect_db->resultSet();
         if (!empty($data)) {
             return $data;
@@ -150,7 +149,59 @@
         $data['data']['journalList']= $this->_connect_db->resultSet();
         $data['rowCount']=$this->_connect_db->rowCount();
         if (!empty($data)) {
-           return $data;
+           $attributes = ["title"=> "Translational Neuroscience","simplifiedTitle"=> "translational neuroscience","scimagoRank"=> 0.391,"homePageAtPublisherSite"=> null,"available"=> true,"scimagoURL"=> "http://www.scimagojr.com/journalsearch.php?q=2081-3856&tip=iss","aToZListUrl"=> "","externalSearchLocation"=> "https://idiscover.lib.cam.ac.uk/primo-explore/search?query=any,exact,2081-3856,OR&query=any,exact,(2081-6936),AND&pfilter=pfilter,exact,journals,AND&tab=cam_lib_coll&search_scope=SCOP_CAM_ALL&sortby=rank&vid=44CAM_PROD&mode=advanced&offset=0","accessedThroughAggregator"=> false,"externalSearchLinkMessage"=> "","articlesInPressAvailabilityMessage"=> "","embargoDescription"=> "","proxyRequired"=> true,"issn"=> "2081-3856","SkybaseWebJournalLink"=> ROOT."libraries/603/journals/7581/?sort=title",
+            "context-Relation"=>[
+                'relationships'=>[
+                    'library'=>[
+                        'links'=>[
+                            'related'=>'/v2/libraries/603'
+                        ],
+                    ],
+                ],
+                'currentIssue'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/issues/current'
+                    ],
+                ],
+                'latestFullTextIssue'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/issues/latest-full-text'
+                    ],
+                ],
+                'issues'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/issues'
+                    ],
+                ],
+                'publicationYears'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/publication-years'
+                    ],
+                ],
+                'subjects'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/subjects'
+                    ],
+                ],
+                'bookshelves'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/bookshelves'
+                    ],
+                ],
+                'articlesInPress'=>[
+                    'links'=>[
+                        'related'=>'/v2/libraries/603/journals/33707/articles-in-press'
+                    ],
+                ],
+            ],
+            ];
+            foreach ($data['data']['journalList'] as &$item) {
+                $item["attributes"] = $attributes;
+            }
+            $data['meta']= [
+                'cursor'=>array()
+            ];
+           return($data);
         }else {
             return false;
         }
@@ -241,7 +292,7 @@
     }
 
     public function isVerifyAuthUser($iss, $aud, $iat){
-        $this->_connect_db->query('SELECT a.institution_email, a.user_id, b.* FROM users a inner join user_subscription b 
+        $this->_connect_db->query(/** @lang text */ 'SELECT a.institution_email, a.user_id, b.* FROM users a inner join user_subscription b 
         on a.user_id = b.user_id WHERE a.institution_email = :iss AND b.package_id=:aud AND b.user_token=:iat');
         // Bind the values
         $this->_connect_db->bind(':iss', $iss);
@@ -255,7 +306,7 @@
         }
     }
     public function LoginAuth($email, $password){
-        $this->_connect_db->query('SELECT a.*, b.* FROM users a inner join user_subscription b on a.user_id = b.user_id WHERE institution_email = :email');
+        $this->_connect_db->query(/** @lang text */ 'SELECT a.*, b.* FROM users a inner join user_subscription b on a.user_id = b.user_id WHERE institution_email = :email');
         // Bind the values
         $this->_connect_db->bind(':email', $email);
         $row = $this->_connect_db->single();

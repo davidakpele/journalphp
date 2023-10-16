@@ -154,7 +154,8 @@ const get_journals = async () => {
                                             <div id="ember8272" class="journal-cover __771d8 ember-view">
                                                 <div class="image-container">
                                                     <img src="${root_url}${CallRecieve.imagedata}" alt="${CallRecieve.journal_name}" title="${CallRecieve.journal_name}">
-                                                </div>
+                                                    <!--<a target="_new" href="http://www.scimagojr.com/journalsearch.php?q=1548-7091&amp;tip=iss" id="ember950" class="scimago-rank ember-view">SJR: <span>14.358</span></a>-->
+                                                    </div>
                                             </div>
                                             <div title="${CallRecieve.journal_name}" class="bookshelf-journal-title">${CallRecieve.journal_name}</div>
                                         </a>
@@ -279,5 +280,9 @@ $('document').ready(function () {
         myAuthObject = new auth();
         e.preventDefault();
         myAuthObject.logout();
-    })
+    });
+    $('.refresh-Journal-Container').click(function () {
+        const loader = new auth();
+        loader.reloadJournalContainer();
+    });
 })

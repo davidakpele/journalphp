@@ -1,7 +1,5 @@
 <?php $this->view("./components/Header");?>
-    <script>
-        const _route="<?=$data['_token']?>"
-    </script>
+
     <body id="pagetop" class="oxy-ui pubs-ui hp-page">
         <?php $this->view("./components/Nav"); ?>
         <div class="media-desktop locale-en-us" id="locale-en-us">

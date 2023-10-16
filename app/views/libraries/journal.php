@@ -5,7 +5,7 @@
         $urlParts = explode('/', $url);
     ?>
     <?php $this->view("./components/Nav"); ?>
-    <div id="library-content" class="container " style="margin-top:40px">
+    <div id="library-content" class="container " style="margin-top:-20px">
         <br/>
         <section aria-label="Journal" class="journal-toc">
             <header class="sticky" style="visibility: hidden;">
@@ -1512,7 +1512,7 @@
     </div>
         <script src="<?=ASSETS?>js/vendor.min.js"></script>
         <script src="<?=ASSETS?>js/pubs-ui.min.js"></script>
-        <script src="<?=ASSETS?>js/script.js"></script>
+        <script  type="module" src="<?=ASSETS?>js/script.js"></script>
         <script src="<?=ASSETS?>js/ev.js"></script>
     </body>
 

@@ -4856,7 +4856,6 @@
         display: block;
         margin: 0;
         padding: 30px;
-        border-bottom: 1px solid #ddd
     }
 
     .bookcase-bookshelf-list-item>a,
@@ -5289,10 +5288,7 @@
         border-right: none
     }
 
-    .media-mobile .journal-toc aside .rest,
-    .media-tablet .journal-toc aside .rest {
-        padding: 1.1rem 5% 1rem
-    }
+   
 
     .media-mobile .journal-toc aside .rest .my-bookshelf.button,
     .media-tablet .journal-toc aside .rest .my-bookshelf.button {
@@ -7854,7 +7850,6 @@
 
    #locale-en-us .holdings-container .journals-container .controls-container .subject-name,
    #locale-en-us .holdings-container .journals-container .controls-container .subject-name {
-       border-bottom: 1px solid #ddd;
        margin: 10px;
        padding-bottom: 8px;
        overflow: hidden;
@@ -8330,6 +8325,33 @@
     .bd_sklsdl{
         overflow: hidden;
     }
+    .sort-options .reload-journal-container > button{
+       margin-top: 0px;
+       margin-left: 10px;
+       margin-bottom: -10px;
+       padding: 10px;
+       border-radius: 5px;
+    }
+    .sort-options .reload-journal-container > button .fa-refresh{
+       font-size: 10px;
+    }
+    .sort-options .reload-journal-container > button span{
+       font-size: 8px;
+    }
+    .d-flex .pull-right{
+        margin: auto;
+    }
+    .d-flex .reload-journal-container>button {
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .d-flex{
+        display: flex;
+        border-bottom: 1px solid #ddd;   
+    }
 @media only screen and (max-width : 1130px) {
     .bd_sklsdl {
         overflow: visible;
@@ -8676,6 +8698,9 @@
         font-size: 15px;
     }
 
+    .journal-toc aside .journal .rest {
+        padding: 1.1rem 5% 1rem
+    }
 }
 @media only screen and (max-width : 625px) {
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
@@ -8688,6 +8713,7 @@
     }
 }
 @media only screen and (max-width : 425px) {
+  
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
         width: 25.5% !important;
     }

@@ -92,6 +92,7 @@ final class api extends Controller {
                             $authClass= new Auth\authentication;
                             $authenticateUser = $authClass->auth_check();
                             if (!$authenticateUser) {
+                                $response['authencation']=http_response_code(401);
                                 redirect('auth/login');
                             }else{
                                 if (isset($_SERVER['HTTP_AUTHORIZATION']) || !empty($_SERVER['HTTP_AUTHORIZATION'])) {
@@ -126,7 +127,9 @@ final class api extends Controller {
                         } elseif ($action =='items') {
                             if ($this->isValidUserToken()) {
                                 $response = [];
-                                $response['_items']= $this->_fetching_sql_model_data->get_user_subcribed_subjects();
+                                //get 'user subscription id'
+                                $id= $_SESSION['packageId'];
+                                $response['_items']= $this->_fetching_sql_model_data->get_user_subcribed_subjects($id);
                                 echo json_encode($response);
                             }
                         } elseif ($action == 'search') {
