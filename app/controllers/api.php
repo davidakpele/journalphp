@@ -1,5 +1,5 @@
 <?php
-//use Http\{sanctum};
+
 use Ramsey\Uuid\Uuid;
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
@@ -96,11 +96,29 @@ final class api extends Controller {
                                 redirect('auth/login');
                             }else{
                                 if (isset($_SERVER['HTTP_AUTHORIZATION']) || !empty($_SERVER['HTTP_AUTHORIZATION'])) {
-                                    try{
+                                    try{ 
                                         $response=[];
                                         $authClass= new JwtHttp\jwtUtil;
+                                        $headers = array();
                                         $getJwtToken = $authClass::createTokenByUserDetails();
                                         $response['v'] = json_decode($getJwtToken)->token;
+                                        $response['data'] = [
+                                            'cursor'=>'', 
+                                            'api'=>[
+                                                'aot'=>[
+                                                    'imprint'=>'micro-lock-down', 
+                                                    'syphine'=>[
+                                                        '64-bit-encryption'
+                                                    ], 
+                                                    'access'=>[
+                                                        'Open-window 182.562.32.0.1 -Alpha#Bravo2romio?cell49'
+                                                        ]
+                                                        ]
+                                                    ], 
+                                                    'asyc'=>strlen('http.headers'), 
+                                                    'post_add'=>getmypid(), 
+                                                    '_apd'=>ip2long($_SERVER['SERVER_ADDR'])
+                                                ];
                                         echo json_encode($response);
                                     }catch(e){
                                         error_log_auth();
@@ -109,7 +127,7 @@ final class api extends Controller {
                                     error_log_auth();
                                 }
                             }
-                        }elseif ($action =='csrf' && isset($_GET['tokenType']) && $_GET['tokenType']=='MIT') {
+                        }elseif ($action =='csrf' && isset($_GET['tokenType']) && $_GET['tokenType']=='micro') {
                             if ($this->isValidUserToken()) {
                                 ob_start();
                                 $jsonString = file_get_contents("php://input");
@@ -247,7 +265,7 @@ final class api extends Controller {
                                     $package= (trim((int)$_GET['library']));
                                     $subject= (trim((int)$_GET['subject']));
                                     $page = isset($_GET['page']) ? $_GET['page'] : 1;
-                                    $itemsPerPage = 40;
+                                    $itemsPerPage = 50;
                                     $offset = ($page - 1) * $itemsPerPage;
                                     $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_by_category($package, $subject, $offset, $itemsPerPage);
                                     $activate_bookcases_sidebar = true;
@@ -263,7 +281,7 @@ final class api extends Controller {
                                 $package= (trim((int)$_GET['library']));
                                 $subject= (trim((int)$_GET['subject']));
                                 $page = isset($_GET['page']) ? $_GET['page'] : 1;
-                                $itemsPerPage = 40;
+                                $itemsPerPage = 50;
                                 $offset = ($page - 1) * $itemsPerPage;
                                 $category_as_bookcases=$_GET['bookcases'];
                                 $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_journal_on_bookcase($package, $subject, $category_as_bookcases, $offset, $itemsPerPage);
@@ -277,7 +295,7 @@ final class api extends Controller {
                         }elseif (isset($_GET['getcraft']) && isset($_GET['bookcases']) && isset($_GET['bookshelves']) && $_GET['getcraft'] ==true && !isset($_GET['getall'])) {
                             if ($this->isValidUserToken()) {
                                 $page = isset($_GET['page']) ? $_GET['page'] : 1;
-                                $itemsPerPage = 40;
+                                $itemsPerPage = 50;
                                 $package= (trim((int)$_GET['library']));
                                 $subject= (trim((int)$_GET['subject']));
                                 $offset = ($page - 1) * $itemsPerPage;
@@ -295,7 +313,7 @@ final class api extends Controller {
                             if ($this->isValidUserToken()) {
                                 if (is_numeric($_GET['library']) && is_numeric($_GET['subject']) ) {
                                     $page = isset($_GET['page']) ? $_GET['page'] : 1;
-                                    $itemsPerPage = 40;
+                                    $itemsPerPage = 50;
                                     $offset = ($page - 1) * $itemsPerPage;
                                     $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_all_journal_by_category($formattedUid,$formattedUuid, $package, $subject, $offset, $itemsPerPage);
                                     $activate_bookcases_sidebar = true;
@@ -319,5 +337,5 @@ final class api extends Controller {
             // The User-Agent header is not set, which is unusual for web requests
             error_IsNOTUserAgentValid();
         }       
-   }
+    }
 }

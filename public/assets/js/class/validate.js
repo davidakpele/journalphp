@@ -70,9 +70,7 @@ class auth {
       return 200;
     }
   }
-
-
-
+  
   reloadJournalContainer = async () => {
     var tokenChain = new chain();
     tokenChain.getHeader().then((e) => { 
@@ -89,7 +87,7 @@ class auth {
         headers.append("Accept", "application/json");
         headers.append("X-CSRF-TOKEN", userDetailsToken);
         headers.append('Authorization', 'Bearer ' + userDetailsToken + '');
-        var response = await fetch(root_url + "api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT", { headers: headers });
+        var response = await fetch(root_url + "api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=micro", { headers: headers });
         // Check if the response status is OK
         if (!response.ok) {
           throw new Error(`Network response was not OK: ${response.status}`);
@@ -121,7 +119,6 @@ class auth {
             // Parse the response as text
             data = await getFinalLoad.text();
             obj = JSON.parse(data)._items;
-            console.log(obj);
             $('.bookshelf').empty();
             obj.data.journalList.forEach(function (CallRecieve) {
                 $('.bookshelf').append(`
@@ -139,15 +136,14 @@ class auth {
                 </li>
                 `);
             });
-            if (obj.rowCount == '40' || obj >= '40') {
+            if (obj.rowCount == '50' || obj >= '50') {
               isLoading = false;
               currentPage++;
-              document.getElementById('loading').style.display = 'block';
-              document.getElementById('loadMoreButton').textContent = 'Load More';
-              // Get the element with the class "message"
+              $('#loadMoreButton').hide();
+              document.getElementById('invisibleButton').style.display = 'block';
               const messageElement = document.querySelector('.message');
               const ErrormessageElement = document.querySelector('.error-msg');
-              (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: document.getElementById('loading').style.display = 'none');  
+              (obj.rowCount > 49 || obj.rowCount == 50 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: document.getElementById('loading').style.display = 'none');  
             } else {
               currentPage = 1;
               $('#loading').remove()
@@ -161,6 +157,16 @@ class auth {
     })
   }
 
+  loadermorejournal = async () => {
+    var currentPage = 1;
+    if (currentPage ==1) {
+      console.log(currentPage++);
+    } else {
+      console.log("currentPage is 1");
+    }
+    
+  }
+  
 }
 
 

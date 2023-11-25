@@ -11,7 +11,7 @@ const getData = async () => {
         tokenChain = new chain();
         tokenChain.getHeader().then((e)=>{
             userDetailsToken = e.v;
-            xhr.open('GET', root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT');
+            xhr.open('GET', root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=micro');
             xhr.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4 && xhr.status == 200) {

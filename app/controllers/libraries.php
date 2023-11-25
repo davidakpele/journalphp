@@ -86,6 +86,7 @@ final class libraries extends Controller
                                         $subject=strip_tags(trim(filter_var($urlParts[3], FILTER_SANITIZE_STRING)));
                                         $category_as_bookcases=strip_tags(trim(filter_var($urlParts[5], FILTER_SANITIZE_STRING)));
                                         $get_bookshalvesinfo = $this->_fetching_sql_model_data->get_journal_on_bookcase($package, $subject, $category_as_bookcases, $itemsPerPage, $itemsPerPage);
+                                        
                                         $activate_bookcases_sidebar = true;
                                         if (!empty($get_bookshalvesinfo)) {
                                             $get_journals_reponses=$get_bookshalvesinfo;
@@ -145,6 +146,8 @@ final class libraries extends Controller
                         }elseif (isset($geturlRelatives['url_bookshelves']) && !empty($geturlRelatives['url_bookshelves']->bookshelves_name) && isset($urlParts[5]) && isset($urlParts[8])){
                             $title_name= $geturlRelatives['url_bookshelves']->bookshelves_name.' ~ '.$get_bookshalvesinfo['category']->categories_name;
                         }
+                        
+                        
                         $data =
                         [
                             'page_title'=>(empty($title_name) ? '' : $title_name),
@@ -152,6 +155,7 @@ final class libraries extends Controller
                             'activate_bookshalves'=>(((!empty($get_bookshalvesinfo)) ?$get_bookshalvesinfo:'')),
                             'sideline'=>($activate_bookcases_sidebar ?? ''),
                             'data'=>$get_subject_info,
+                            'header_'=>(isset($urlParts[4]) && $urlParts[4]=='bookcases' && $urlParts[5] !==null && is_numeric($urlParts[5])) ? ($get_bookshalvesinfo['category'] != null ? $get_bookshalvesinfo['category']->categories_name : "") : "",
                             'url'=>((isset($geturlRelatives))?$geturlRelatives:'')
                         ];
                         $this->view("libraries/subject", $data);

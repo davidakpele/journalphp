@@ -218,6 +218,7 @@
         $this->_connect_db->bind(':itemsPerPage', $itemsPerPage);
         $data['data']['journalList']= $this->_connect_db->resultSet();
         $data['rowCount']=$this->_connect_db->rowCount();
+        $data['itemsTotal']= ((($offset == '0') ? '50' : $offset+50 ));
         if (!empty($data)) {
            return $data;
         }else {

@@ -4,7 +4,7 @@ $("document").ready(function (e) {
     $('#returnHome').click(function () {
         window.location.replace(root_url);
     });
-
+   
     $(".clearer").hide();
     $('.clearer').click(function () {
         const subject_span = document.getElementById('subj_holder');
@@ -80,7 +80,7 @@ function search(input) {
                     dataType: 'JSON',
                     contentType: "application/json; charset=utf-8",
                     data: 'encrypted', // our data object
-                    url: root_url+'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', // the url where we want to POST
+                    url: root_url+'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=micro', // the url where we want to POST
                     processData: false,
                     encode: true,
                     crossOrigin: true,
@@ -99,6 +99,8 @@ function search(input) {
                         const postData = { "data": response._token, "_data": input.value }
                         Http.open("POST", root_url+'api/collect?iat=sort&action=true&target=search&requestField='+postData+'', true);
                         Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                        Http.setRequestHeader("Access-Control-Allow-Credentials", true);
+                        Http.setRequestHeader("cache-control", "no-cache");
                         Http.setRequestHeader("X-Requested-With",'xmlhttprequest');
                         Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
                         Http.send(JSON.stringify(postData));
@@ -219,7 +221,7 @@ function is_subject(id) {
         }
     }
 }
-
+ 
 const toggleSubject = document.getElementById('view_mobile_toggle_subject');
 const toggleSort_controls = document.getElementById('view_sort_toggle');
 const hiddenDiv = document.getElementById('hidden_subject_list');

@@ -16,8 +16,8 @@
         <meta name="fragment" content="!" />
         <title><?php if(isset($data['page_title'])){echo $data['page_title'];}else{echo App_Title;}?></title>
         <link integrity="" rel="stylesheet" href="<?=ASSETS?>css/vendor-ad5216ee7b612b341da6d25cd4b0fc69.css">
-        <link integrity="" rel="stylesheet" href="<?=ASSETS?>css/browzine-web-1ec245db9043f0ae1938d3e4abcb2a90.css">
-        <link rel="alternate stylesheet" href="<?=ASSETS?>css/browzine-web-high-contrast-380097702ca4d8d0e824f22fb3260c83.css" title="High contrast">
+        <link integrity="" rel="stylesheet" href="<?=ASSETS?>css/skybaseStyles.css">
+        <link rel="alternate stylesheet" href="<?=ASSETS?>css/skybaseStyles-web-high-contrast.css" title="High contrast">
         <link rel="stylesheet" href="<?=ASSETS?>css/solid-5eee6c7e389b3c4c3158e39527c96df0.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/stroke-a84c5e9e7b0557f4f01f25f6c80d4dd0.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/font-awesome-pro-a7aae632ca5638e21daf1bae4d8fc816.css">

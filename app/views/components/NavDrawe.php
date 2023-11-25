@@ -26,16 +26,10 @@
                     <h2 class="pubs-nav__heading">Books</h2>
                     <ul class="pubs-nav__ul">
                         <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Browse Books</a>
+                            <a href="<?=ROOT?>en/ebooks/" class="pubs-nav__link" tabindex="-1">e-Books</a>
                         </li>
                         <li class="pubs-nav__item pubs-nav__indent">
                             <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">Series</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">For Authors and Editors</a>
-                        </li>
-                        <li class="pubs-nav__item pubs-nav__indent">
-                            <a href="javascript:void(0)" class="pubs-nav__link" tabindex="-1">About</a>
                         </li>
                     </ul>
                 </div>

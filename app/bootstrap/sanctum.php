@@ -4,7 +4,7 @@ namespace Http;
 class sanctum
 {
    public function getToken(){
-        $length = 500;
+        $length = 250;
         $token = "";
         $encrypted  = "A41wt2Lsq30A9Ox/WehogvJckPI4aY9RoSxhb8FMtVnqaUle1AtI6Yf7Wk+7";
         $encrypted .= "joxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==";

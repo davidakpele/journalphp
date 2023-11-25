@@ -1,17 +1,58 @@
-    .auth-form,
-    .auth-form section.reversed {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox;
-        -webkit-box-orient: vertical
-    }
+.auth-form,
+.auth-form section.reversed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical
+}
+.journal-toc .article-list .__6ba9e article .title a{
+    display: inline-block;
+    color: #2f3440 !important;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.journal-toc .article-list .__6ba9e article .title a:hover{
+    text-decoration: underline;
+}
+.journal-toc .__6ba9e .tooltip::before {
+    z-index: 200;
+    position: absolute;
+    pointer-events: none;
+    width: 100px;
+    padding: .65rem;
+    top: -44px;
+    left: -45px;
+    background-color: #2B222A;
+    border-radius: 8px;
+    content: attr(aria-label);
+    color: #fff;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-size: 11px;
+    text-transform: none;
+    text-align: center;
+    font-weight: 400
+}
 
-    .__b2efe .header,
-    .auth-form,
-    .items .settings .lines {
-        -webkit-box-direction: normal
-    }
+.journal-toc .__6ba9e .tooltip::after {
+    z-index: 100;
+    position: absolute;
+    top: -10.5px;
+    left: 20px;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-top: 7.5px solid #2B222A;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    margin-left: -10px;
+    width: 0
+}
+.__b2efe .header,
+.auth-form,
+.items .settings .lines {
+    -webkit-box-direction: normal
+}
 
     .auth-form .dual-label,
     .auth-form input,
@@ -388,7 +429,8 @@
 
     .journal-toc aside .journal .rest {
         position: relative;
-        padding: 1rem 2rem
+        padding: 1rem 2rem;
+        margin-top: 10px;
     }
 
     .journal-toc aside .journal .rest .journal-cover {
@@ -517,7 +559,7 @@
 
     .journal-toc aside .journal .rest .mark-all-issues-read .mark-all-read.icon .dot {
         display: inline-block;
-        float: left;
+        /* float: left; */
         margin-left: 7px;
         position: relative;
         background: linear-gradient(rgba(255, 255, 255, .67), transparent)
@@ -1066,7 +1108,10 @@
         border-bottom: 15px solid #f2f2f2;
         margin: 30px 0 0 -27px
     }
-
+    .journal-toc aside ul.controls{
+        display: none;
+        visibility: hidden;
+    }
     .media-mobile ul.mobile-header,
     .media-tablet ul.mobile-header {
         display: table
@@ -1243,39 +1288,7 @@
         -webkit-tap-highlight-color: transparent
     }
 
-    .__6ba9e .tooltip::before {
-        z-index: 200;
-        position: absolute;
-        pointer-events: none;
-        width: 100px;
-        padding: .65rem;
-        top: -44px;
-        left: -45px;
-        background-color: #2B222A;
-        border-radius: 8px;
-        content: attr(aria-label);
-        color: #fff;
-        font-family: "Gotham SSm A", "Gotham SSm B";
-        font-size: 11px;
-        text-transform: none;
-        text-align: center;
-        font-weight: 400
-    }
-
-    .__6ba9e .tooltip::after {
-        z-index: 100;
-        position: absolute;
-        top: -10.5px;
-        left: 20px;
-        border-left: 7.5px solid transparent;
-        border-right: 7.5px solid transparent;
-        border-top: 7.5px solid #2B222A;
-        content: " ";
-        font-size: 0;
-        line-height: 0;
-        margin-left: -10px;
-        width: 0
-    }
+    
 
     .__6ba9e .tooltip::after,
     .__6ba9e .tooltip::before {
@@ -1675,6 +1688,7 @@
     }
 
     .__6ba9e article .tools {
+        color: #545454;
         margin-bottom: -.4em;
         display: -webkit-box;
         display: -webkit-flex;
@@ -1688,7 +1702,7 @@
         justify-content: space-between
     }
 
-    .__6ba9e article .tools .buttons {
+    .__6ba9e article .tools >* {
         display: -webkit-box;
         display: -webkit-flex;
         display: -moz-flex;
@@ -1697,12 +1711,12 @@
         margin: 0 0 -.5px -10px
     }
 
-    .__6ba9e article .tools .buttons .button {
+    .__6ba9e article .tools a {
         margin-right: 6px;
         color: #757575
     }
 
-    .__6ba9e article .tools .buttons .button a {
+    .__6ba9e article .tools a {
         padding: 10px
     }
 
@@ -1929,7 +1943,7 @@
 
     .__b2efe .body .auth-fail {
         color: #89060b;
-        text-size: 15px
+        font-size: 15px
     }
 
     .__b2efe .body .ill-button {
@@ -2474,7 +2488,7 @@
     #library-content,
     .__dc525 .customization-settings-container .row,
     .__e75c1 {
-        -webkit-flex-direction: row;
+        /* -webkit-flex-direction: row; */
         -webkit-box-orient: horizontal
     }
 
@@ -4447,10 +4461,10 @@
         border: none;
         display: inline-block;
         line-height: inherit;
-        -webkit-appearance: none;
+        /* -webkit-appearance: none; */
         outline: 0;
         padding: 0;
-        float: left;
+        /* float: left; */
         background-color: transparent;
         text-indent: 2px
     }
@@ -6865,14 +6879,16 @@
     .media-tablet main.my-bookshelf .my-bookcase .my-bookshelf ul.bookshelf li.bookshelf-journal-list-item .bookshelf-journal .bookshelf-journal-title {
         display: block
     }
-
+    .media-desktop .js{
+        margin-top: -20px;
+    }
     @media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3),
     (device-width:360px) and (device-height:740px) and (-webkit-device-pixel-ratio:3),
     (device-width:414px) and (device-height:732px) and (-webkit-device-pixel-ratio:3) {
         .media-mobile main.my-bookshelf .my-bookcase .my-bookshelf ul.bookshelf li.bookshelf-journal-list-item .bookshelf-journal .journal-cover .image-container {
             max-height: 15vmax
         }
-
+    
         .media-mobile main.my-bookshelf .my-bookcase .my-bookshelf ul.bookshelf li.bookshelf-journal-list-item .bookshelf-journal .journal-cover img {
             max-width: 11vmax;
             min-height: 14.5vmax;
@@ -8353,6 +8369,58 @@
         border-bottom: 1px solid #ddd;   
     }
 @media only screen and (max-width : 1130px) {
+    .deactive_hidden.visible{
+        visibility: visible;
+        display: block;
+    }
+    .SelectDeactive_hidden.visible{
+        visibility: visible;
+        display: block;
+    }
+    .journal-toc aside ul.controls li.activateBorder{
+     background-color: #f2f2f2; 
+     color: #fff;  
+    }
+    .journal-toc header.sticky{
+        visibility: visible;
+        display: block;
+        margin-top:25px;
+    }
+    .journal-toc header.sticky section.journal{
+       
+        display: block;
+    }
+    .journal-toc aside .journal .rest .journal-cover .back-button {
+        display: none;
+        visibility: hidden;
+    }
+    .journal-toc aside .journal {
+        margin-top: 20px;
+    }
+    #library-content header.sticky .__771d8 img {
+        max-height: 130px;
+        width: 105px;
+        height: auto;
+        box-shadow: 1px 1px 3px rgba(47, 52, 64, .72);
+        transition: box-shadow .3s;
+    }
+    .journal-toc section.jct012{
+        display: none;
+        visibility: hidden;
+    }
+    .journal-toc aside .journal .rest .button,
+    .journal-toc aside .journal .rest .create-new-collection,
+    .journal-toc aside .journal .rest .my-bookshelf {
+        margin-top: 40px;
+    }
+    .journal-toc aside .journal .journal-cover .image-container .article-meta-data {
+        display: table-cell;
+        vertical-align: top;
+        padding-left: 0.85em;
+    }
+    .journal-toc aside .journal #ember1901, h1.journal-title {
+        display: none;
+    }
     .bd_sklsdl {
         overflow: visible;
     }
@@ -8664,6 +8732,11 @@
    .subject-bookcase-list{
         display: none;
     }
+    .journal-toc main {
+        padding: 0;
+        max-width: 100%;
+        margin: 0 3%;
+    }
     .header-container .subject, .bookcase{
         display: none;
     }
@@ -8697,30 +8770,162 @@
     .subjects-list-subject {
         font-size: 15px;
     }
-
-    .journal-toc aside .journal .rest {
+  
+    .media-desktop #library-content .journal-toc aside .journal .rest {
         padding: 1.1rem 5% 1rem
+    }
+    .journal-toc aside .journal .rest {
+        position: relative;
+        padding: 1rem 2rem;
+    }
+    #library-content .journal-toc aside {
+        position: relative;
+        width: 100%;
+        border-right: none;
+    }
+    #library-content .journal-toc aside .journal .journal-cover .image-container .article-meta-data h1{
+        margin: 0 0 10px 10px;
+        color: #fff;
+        font-size: 163%;
+        text-align: center;
+    }
+    .journal-toc aside .journal .journal-cover .image-container .article-meta-data {
+        display: table-cell;
+        vertical-align: top;
+        padding-left: .85em;
+        margin-bottom: 60px;
+        text-align: justify;
+        align-items: center;
+    }
+    .journal-toc aside ul.controls{
+        display: block;
+        visibility: visible;
+    }
+    .journal-toc aside ul.controls li.back {
+        padding-right: 10px;
+    }
+    .journal-toc aside ul.controls li.back{
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        text-transform: uppercase;
+        color: #757575;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .journal-toc aside ul.controls li {
+        display: table-cell;
+        text-align: center;
+        padding: 15px 0 12px;
+        white-space: nowrap;
+        border-top: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+    }
+    .journal-toc aside ul.controls {
+        display: table;
+        width: 100%;
+    }
+    .journal-toc aside ul.controls li.related {
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        text-transform: uppercase;
+        color: #757575;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .journal-toc aside section.years {
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        font-family: "Gotham SSm A", "Gotham SSm B";
+        color: #227EA0;
+        background-color: #fff;
+        padding: 20px;
+        float: none;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: normal;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .journal-toc aside section.years ul li.year {
+        padding: 0;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .journal-toc aside .sidebar_yearlisting{
+        display: none;
+        visibility: hidden;
+    }
+    .journal-toc aside section.years ul {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .journal-toc aside section.years ul li.year.selected {
+        color: #333;
+    }
+}
+@media only screen and (max-width : 1055px) {
+    .journal-toc aside .journal .journal-cover .image-container .article-meta-data {
+        margin-bottom: 30px;
+        text-align: justify;
+        align-items: center;
+    }
+}
+@media only screen and (max-width : 955px) {
+    .journal-toc aside .journal .journal-cover .image-container .article-meta-data {
+        margin-bottom: 20px;
+        text-align: justify;
+        align-items: center;
     }
 }
 @media only screen and (max-width : 625px) {
+    .journal-toc aside .journal .journal-cover .image-container .article-meta-data {
+        margin-bottom: 10px;
+        text-align: justify;
+        align-items: center;
+    }
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
         width: 20.5% !important;
+    }
+    #library-content .journal-toc aside .journal .journal-cover .image-container .article-meta-data h1{
+        margin: 0 0 10px;
+        color: #fff;
+        font-size: 150%;
     }
 }
 @media only screen and (max-width : 525px) {
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
         width: 28.5% !important;
     }
+    #library-content .journal-toc aside .journal .journal-cover .image-container .article-meta-data h1{
+        margin: 0 0 10px;
+        color: #fff;
+        font-size: 140%;
+    }
 }
 @media only screen and (max-width : 425px) {
-  
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
         width: 25.5% !important;
+    }
+    #library-content .journal-toc aside .journal .journal-cover .image-container .article-meta-data h1{
+        margin: 0 0 10px;
+        color: #fff;
+        font-size: 100%;
     }
 }
 @media only screen and (max-width : 300px) {
     #locale-en-us .holdings-container .journals-container ul.bookshelf li.bookshelf-journal-list-item {
         width: 100.5% !important;
+    }
+    #library-content .journal-toc aside .journal .journal-cover .image-container .article-meta-data h1{
+        margin: 0 0 10px;
+        color: #fff;
+        font-size: 98%;
     }
 }
 
@@ -8771,6 +8976,74 @@
 }
 .login-institute .auth-package{
     display: flex;
+}
+
+.journal-toc aside section.issues{
+    background-color: #f2f2f2;
+    display: inherit;
+    float: none;
+    font-size: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+}
+.journal-toc aside ul.controls li.related.active .icon:before,
+.journal-toc aside ul.controls li.issues.active .icon:before{
+    content: "\e1c0";
+}
+.__fc988 .articles-in-press .header-container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+}
+.journal-toc aside section.issues header{
+    display: none;
+}
+.journal-toc aside .articles-in-press header{
+    font-size: 68.75%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #757575;
+}
+.journal-toc aside section.issues .issue{
+    line-height: 24px;
+    margin: 0;
+    padding: 8px 0 6px;   
+}
+
+.__fc988 .articles-in-press .issue{
+    padding-top: 0.5rem;
+    line-height: 20px;
+    color: #227EA0;
+}
+.__fc988 .articles-in-press .issue a{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.active_hidden, 
+.deactive_hidden, 
+.Selectactive_hidden, 
+.SelectDeactive_hidden{
+    visibility: hidden;
+    display: none;
 }
 
 

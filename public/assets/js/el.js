@@ -114,7 +114,7 @@ const get_journals = async () => {
                 headers = new Headers();
                 myAuthObject = new auth();
                 headers.append('Authorization', 'Bearer '+userDetailsToken+'');
-                response = await fetch(root_url + "api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT", { headers: headers });
+                response = await fetch(root_url + "api/collect?v=1&_v=j101&a=1181389570&t=timing&_s=179&ul=en-us&de=UTF-8&dge=Skybase&sd=64-bit&sr=658x672&vp=658x672&utc=LibrariesJournalsLoad&tid=NG-3929811&_gid=5812927128.9739810251&iat=sort&action=true&target=csrf&v=1&tokenType=micro", { headers: headers });
                  // Check if the response status is OK
                 if (!response.ok) {
                     throw new Error(`Network response was not OK: ${response.status}`);
@@ -170,7 +170,7 @@ const get_journals = async () => {
                             // Get the element with the class "message"
                             const messageElement = document.querySelector('.message');
                             const ErrormessageElement = document.querySelector('.error-msg');
-                            (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
+                            (obj.rowCount > 49 || obj.rowCount == 50 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount == 0 ? [currentPage = 1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());  
                         }
                     };
                 xhr.send();
@@ -252,7 +252,7 @@ function fetchMoreData() {
                 // Get the element with the class "error-msg"
                 const messageElement = document.querySelector('.message');
                 const ErrormessageElement = document.querySelector('.error-msg');
-                (obj.rowCount > 39 || obj.rowCount == 40 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount==0 ? [currentPage=1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
+                (obj.rowCount > 49 || obj.rowCount == 50 ? [document.getElementById('loading').style.display = 'block', ErrormessageElement.style.display = "none"] : obj.rowCount==0 ? [currentPage=1, ErrormessageElement.style.display = "block", document.getElementById('loadMoreButton').classList.add('primary'), document.getElementById('loadMoreButton').textContent = 'Try Again..!', document.getElementById('loading').style.display = 'block']: $('#loading').remove());
             }
         };
         xhr.send();

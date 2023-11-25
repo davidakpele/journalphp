@@ -3782,7 +3782,7 @@ body.pubs-ui,
 }
 
 .pubs-ui .pubs-header {
-    background-color: #252729;
+    background-color: #2f3440;
     box-sizing: border-box;
     display: table;
     height: 56px;
@@ -3925,7 +3925,7 @@ body.pubs-ui,
 
 .pubs-ui .pubs-search-control {
     background-color: transparent;
-    background-color: #383b3d;
+    background-color: #494c4d;
     border-radius: 2px;
     box-sizing: border-box;
     height: 32px;
@@ -4120,7 +4120,7 @@ body.pubs-ui,
 }
 
 .pubs-ui .pubs-nav-drawer {
-    background-color: #252729;
+    background-color: #2f3440;
     border-right: 1px solid rgba(255, 255, 255, .2);
     box-sizing: border-box;
     height: 100%;
@@ -4142,7 +4142,7 @@ body.pubs-ui,
 }
 
 .pubs-ui .pubs-nav__body {
-    background-color: #252729;
+    background-color: #2f3440;
     height: 100%;
     height: calc(100% - 57px);
     overflow-x: hidden;

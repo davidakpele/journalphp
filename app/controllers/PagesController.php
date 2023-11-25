@@ -60,4 +60,7 @@ final class PagesController extends Controller {
         $this->view("en/Find_institute");
     }
 
+    public function ebooks(){
+        $this->view("en/e-Books");
+    }
 }

@@ -16,8 +16,8 @@
         <meta name="fragment" content="!" />
         <title><?php if(isset($data['page_title'])){echo $data['page_title'];}else{echo App_Title;}?></title>
         <link integrity="" rel="stylesheet" href="<?=ASSETS?>css/vendor-ad5216ee7b612b341da6d25cd4b0fc69.css">
-        <link integrity="" rel="stylesheet" href="<?=ASSETS?>css/browzine-web-1ec245db9043f0ae1938d3e4abcb2a90.css">
-        <link rel="alternate stylesheet" href="<?=ASSETS?>css/browzine-web-high-contrast-380097702ca4d8d0e824f22fb3260c83.css" title="High contrast">
+        <link integrity="" rel="stylesheet" href="<?=ASSETS?>css/skybaseStyles.css">
+        <link rel="alternate stylesheet" href="<?=ASSETS?>css/skybaseStyles-web-high-contrast.css" title="High contrast">
         <link rel="stylesheet" href="<?=ASSETS?>css/solid-5eee6c7e389b3c4c3158e39527c96df0.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/stroke-a84c5e9e7b0557f4f01f25f6c80d4dd0.css">
         <link rel="stylesheet" href="<?=ASSETS?>css/font-awesome-pro-a7aae632ca5638e21daf1bae4d8fc816.css">
@@ -38,7 +38,6 @@
         </script> 
     </head>
 <body id="pagetop" class="oxy-ui pubs-ui hp-page hidden bd_sklsdl">
-    
     <?php 
         $url=implode('',$_REQUEST);
         $urlParts = explode('/', $url);
@@ -48,11 +47,10 @@
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
         <section id="shadow-host-companion"></section>
     </div>
-    
     <div id="ember404" class="ember-view">
         <aside class="route-announcer">
             <div aria-live="polite" id="ember432" class="screen-reader ember-view">Loaded SkyBase Data</div>
-        </aside>
+        </aside> 
         <div class="media-desktop locale-en-us" style="margin-top:-20px" id="locale-en-us">
             <div class="canvas">
                 <div id="library-content" class="container ">
@@ -62,7 +60,6 @@
                                 <img src="<?=ASSETS?>images/change-subject-chevron-b0613c2c2576dc880a792874777e52b3.png" alt="Change Subject"> 
                                 Change Subject
                             </a> 
-                           
                             <h1 tabindex="0" class="subject-name category-name"><?=(isset($data['data']['subject'])?$data['data']['subject']->subjects_name:'')?></h1>
                             <h4 tabindex="0" class="subject-bookcase-list-header">Categories</h4>
                             <ul class="subject-bookcase-list"> 
@@ -82,7 +79,7 @@
                         </div>
                         <?php if($data['sideline']==true):?>
                             <div class="bookcase">
-                                <h3 tabindex="0" class="bookcase-name bookcaseHeaderName" style="font-size:22px"></h3>
+                                <h3 tabindex="0" class="bookcase-name"><?=(($data['header_'] !=null) ? $data['header_'] : '')?></h3>
                                 <ul class="bookcase-bookshelf-list" >
                                     <li class="bookcase-bookshelf-list-item" style="font-size: 18px;color: #666;">
                                         <a href="<?php echo ROOT?>libraries/603/subjects/<?php if(!empty($data['data']['subject']))echo $data['data']['subject']->subjectid.'/bookcases/'.$urlParts[5].'/?sort=title&all=1';?>"  id="ember1115" class="<?=((isset($urlParts[3]) && isset($urlParts[5]) && !isset($urlParts[7]))? 'active': '')?> ember-view" tabindex="0"><span>All Journals</span></a>
@@ -102,7 +99,7 @@
                                         <?php endif;?>
                                     <?php endif;?>
                                     </div>
-                                </ul>
+                                </ul> 
                             </div>
                         <?php endif;?>
                         <div id="Content_Sidebar" class="journals-container infinite-scroller ember-view" style="margin-top:40px">
@@ -151,12 +148,12 @@
                                 </ul>
                                 <div class="d-flex">
                                     <div class="mobile-header">
-                                         <h1 tabindex="0" class="subject-name bookcase-name">
+                                         <h1 tabindex="0" class="subject-name bookcase-name" style="font-size:15px">
                                             <?=(isset($urlParts[1]) && is_numeric($urlParts[1]) && isset($urlParts[2]) && !isset($urlParts[5]) ? 'All Journals- '.$data["data"]["subject"]->subjects_name : ((isset($urlParts[4]) && is_string($urlParts[4]) && isset($urlParts[5]) && is_numeric($urlParts[5]) && !isset($urlParts[7]) || !isset($urlParts[8])) ? 'All Journals- '.$data["activate_bookshalves"]["category"]->categories_name  : $data["url"]["url_bookshelves"]->bookshelves_name));?>
                                         </h1>
                                     </div>
                                     <?php if (isset($urlParts[6]) && isset($urlParts[7]) && is_numeric($urlParts[7]) && $urlParts[6] =='bookshelves'):?>
-                                    <!-- <div class="pull-right">
+                                    <!-- <div class="pull-right" style="margin-right:12px">
                                         <div class="reload-journal-container">
                                             <button type="button" class="refresh-Journal-Container">
                                                 <span> </span> &nbsp;<i class="fa fa-refresh fa-spin"></i>
@@ -210,7 +207,7 @@
                                             </div>
                                         </div>
                                         <div class="mt-5" style="margin-top:15px">
-                                            <button class="button " id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
+                                            <button class="button" id="loadMoreButton" style="place-items: center;display: grid;margin: 0 auto;">Load More</button>
                                         </div>
                                     </div>
                                 </div>

@@ -22,7 +22,7 @@ $('document').ready(function () {
                 dataType: 'JSON',
                 contentType: "application/json; charset=utf-8",
                 data: '[object object]', // our data object
-                url: root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', // the url where we want to POST
+                url: root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=micro', // the url where we want to POST
                 processData: false,
                 encode: true,
                 crossOrigin: true,
@@ -108,7 +108,7 @@ $('document').ready(function () {
             const input = $('#ember650').val();
             const Http = new XMLHttpRequest();
             const data = { "data": '[object object]', "_data": input }
-            Http.open("POST", root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', true);
+            Http.open("GET", root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=micro', true);
             Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
             Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
@@ -152,7 +152,7 @@ $('document').ready(function () {
             const input = $('#ember650').val();
             const Http = new XMLHttpRequest();
             const data = { "data": '[object object]', "_data": input }
-            Http.open("POST", root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=MIT', true);
+            Http.open("GET", root_url + 'api/collect?iat=sort&action=true&target=csrf&v=1&tokenType=micro', true);
             Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             Http.setRequestHeader("X-Requested-With", 'xmlhttprequest');
             Http.setRequestHeader('Authorization', 'Bearer ' + userDetailsToken);
@@ -165,6 +165,7 @@ $('document').ready(function () {
                     if (input == "") {
                         return false;
                     }
+                   
                     const postData = { "encrypted": token, "data": input }
                     $.ajax({
                         url: root_url + 'api/collect?iat=sort&action=true&target=journals&filter=journalsOnly',
