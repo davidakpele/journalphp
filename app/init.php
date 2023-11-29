@@ -16,5 +16,6 @@ require_once "../app/security/SecurityService.php";
 require_once "../app/bootstrap/sanctum.php";
 require_once "../app/bootstrap/jwtUtil.php";
 require_once "../app/auth/Authentication.php";
+require_once "../app/security/SecurityFilterChain/UrlFilterChain.php";
 require '../app/vendor/autoload.php';
 require '../vendor/autoload.php';

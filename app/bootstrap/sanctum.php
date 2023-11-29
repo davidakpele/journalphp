@@ -1,5 +1,9 @@
 <?php
 namespace Http;
+use Auth\{authentication};
+use JwtHttp\{jwtUtil};
+use SecurityFilterChainBlock\UrlFilterChain;
+use \UserAuthentication\auth;
 
 class sanctum
 {
@@ -17,5 +21,12 @@ class sanctum
             $tokenCore .= $encrypted[crypto_rand_secure(0, $max-1)];
         }
         return $tokenCore.'=';
-    } 
+    }
+    
+    public function collections(){
+        $authClass= new jwtUtil;
+        $initiate_new_authentication_token = new authentication();
+        $getTokenRefresh = $initiate_new_authentication_token->refreshToken();
+        return $getTokenRefresh;
+    }
 }

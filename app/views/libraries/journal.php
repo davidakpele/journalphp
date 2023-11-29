@@ -254,8 +254,8 @@
                                 <span class="label">Food Technology/Biotechnology</span>
                               </a>            
                             </div>
-                          </div>      
-                        </section>
+                                </div>      
+                                </section>
                      
                         </aside>
 

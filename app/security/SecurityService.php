@@ -51,7 +51,7 @@ namespace SecurityService;
      /**
       * @throws \Exception
       */
-     public function generateTokenField(): string
+    public function generateTokenField(): string
     {
         $csrfToken = $this->getToken();
         return '<input type="hidden" name="csrf_token" value="' . $csrfToken . '">';

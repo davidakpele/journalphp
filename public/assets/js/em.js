@@ -35,6 +35,26 @@ const getData = async () => {
                     } catch (error) {
                        throw new Error(`Error: ${error}`); 
                     }
+                } else if (xhr.readyState == 4 && xhr.status == 401) {
+                    $.ajax({
+                        type: 'GET',
+                        dataType: 'JSON',
+                        contentType: "application/json; charset=utf-8",
+                        url: root_url + 'auth/refreshToken/', 
+                        processData: false,
+                        encode: true,
+                        crossOrigin: true,
+                        async: true,
+                        crossDomain: true,
+                    }).then((rep) => { 
+                        if (rep.status == 200) {
+                            window.location.reload('/');
+                        } else {
+                            window.location.replace(root_url)
+                        }
+                    }).fail((xhr, error) => {
+                        console.log(error);
+                    });
                 }
             }
             xhr.send();

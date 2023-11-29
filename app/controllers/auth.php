@@ -1,8 +1,9 @@
 <?php 
 
 use Auth\{authentication};
-
+use JwtHttp\{jwtUtil};
 use Api\api;
+use \SecurityFilterChainBlock\UrlFilterChain;
 
 final class auth extends Controller
 {
@@ -13,7 +14,6 @@ final class auth extends Controller
     }
 
     public function index(){
-        
         $authClass= new Auth\authentication;
         $authenticateUser = $authClass->auth_check();
         if (!$authenticateUser) {
@@ -26,6 +26,8 @@ final class auth extends Controller
             redirect('Default/libraries/'.$_SESSION['packageId'].'/subjects?sort=title');
         }
     }
+
+
     public function loginuser(){
         $responses = [];
         if(!validata_api_request_header()){
@@ -49,12 +51,14 @@ final class auth extends Controller
                    $response['message']='Invalid credentials provided..!';
                    $response['status']= 203;
                 }else{
-                    
+                    $authClass= new JwtHttp\jwtUtil;
                     $_SESSION['registered_institution_token']=$getinfo->user_token;
                     $_SESSION['userId']=$getinfo->user_id;
                     $_SESSION['packageId']=$getinfo->package_id;
                     $_SESSION['session_token']=$getinfo->user_token;
                     $_SESSION['institution_email']=$getinfo->institution_email;
+                    $getJwtToken = $authClass::createTokenByUserDetails();
+                    $_SESSION['jwtauth']= json_decode($getJwtToken)->token; 
                     $response['status']= http_response_code(200);
                 }
             }else {
@@ -63,17 +67,23 @@ final class auth extends Controller
         }
         echo json_encode($response);
     }
+
     public function logout(){
-        $_authClass = new Auth\authentication();
-    
-        $responses = array();
-        if ($_authClass->close_session()) {
-           $responses['message']='Logout successfully.!';
-           $responses['status']= http_response_code(200);
+     $authClass= new Auth\authentication;
+        $authenticateUser = $authClass->auth_check();
+        if (!$authenticateUser) {
+            $data=['isInLoginMethod'=> true];
+            $this->view("auth/Login", $data);
         }else{
-            $responses['message']='Something went wrong.!';
-            $responses['status']= http_response_code(201);
+            $responses = array();
+            if ($_authClass->close_session()) {
+            $responses['message']='Logout successfully.!';
+            $responses['status']= http_response_code(200);
+            }else{
+                $responses['message']='Something went wrong.!';
+                $responses['status']= http_response_code(201);
+            }
+            echo json_encode(['data'=>$responses]);
         }
-        echo json_encode(['data'=>$responses]);
     }
 }

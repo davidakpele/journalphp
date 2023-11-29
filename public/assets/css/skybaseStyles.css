@@ -8376,6 +8376,7 @@
     .SelectDeactive_hidden.visible{
         visibility: visible;
         display: block;
+        margin-bottom: 130px;
     }
     .journal-toc aside ul.controls li.activateBorder{
      background-color: #f2f2f2; 
@@ -8782,6 +8783,7 @@
         position: relative;
         width: 100%;
         border-right: none;
+        margin-bottom: -135px;
     }
     #library-content .journal-toc aside .journal .journal-cover .image-container .article-meta-data h1{
         margin: 0 0 10px 10px;
